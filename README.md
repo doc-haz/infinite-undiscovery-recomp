@@ -1,45 +1,45 @@
 # Infinite Undiscovery Recomp
 
-Preliminary PoC 0.1 de recompilación de Infinite Undiscovery con ReXGlue 0.10.0. La configuración de referencia es Windows x64 Release / Direct3D 12.
+Preliminary PoC 0.1 for recompiling Infinite Undiscovery with ReXGlue 0.10.0. The reference configuration is Windows x64 Release / Direct3D 12.
 
-El usuario confirmó manualmente el arranque por doble clic, el icono embebido, la resolución de assets y el funcionamiento de Graad Prison con el frame pacing experimental. Esto no cubre el juego completo, otros equipos ni otras plataformas. El hash del ejecutable de referencia figura en `BUILD_INFO_POC_0.1.txt`.
+The user manually verified launching by double-clicking, the embedded icon, game asset discovery, and Graad Prison running with experimental frame pacing. This validation does not cover the full game, other computers, or other platforms. The reference executable hash is recorded in `BUILD_INFO_POC_0.1.txt`.
 
-## Datos del juego
+## Game assets
 
-Los game assets no están incluidos. Cada usuario debe aportar los archivos de su propia copia obtenida legalmente. Tampoco se incluyen código generado a partir del juego, SDK, herramientas locales ni binarios.
+Game assets are not included. Each user must supply the files from their own legally obtained copy of the game. Game-generated code, the SDK, local tools, and binaries are also excluded.
 
-La configuración actual de codegen utiliza el `default.xex` PAL identificado por SHA-256 en `functions.toml`. No se afirma compatibilidad con otras versiones.
+The current code generation configuration targets the PAL `default.xex` identified by its SHA-256 hash in `functions.toml`. Compatibility with other versions is not claimed.
 
-Para ejecutar, reunir el EXE compilado, `rexruntime.dll`, `rexgpu-xenos.dll` y una carpeta `assets/` con `default.xex`, `ud1.bin` y `ud2.bin`. Sin ruta explícita, las fuentes buscan `assets/` junto al EXE y después en la raíz del proyecto cuando se ejecuta desde `out/build/win-amd64-release/`. La selección explícita conserva prioridad:
+To run the project, place the compiled EXE, `rexruntime.dll`, and `rexgpu-xenos.dll` alongside an `assets/` folder containing `default.xex`, `ud1.bin`, and `ud2.bin`. When no explicit path is provided, the code looks for `assets/` next to the EXE, then in the project root when running from `out/build/win-amd64-release/`. An explicitly supplied path takes priority:
 
 ```powershell
-.\infinite_undiscovery.exe --game_data_root "<ruta a assets>"
+.\infinite_undiscovery.exe --game_data_root "<path to assets>"
 ```
 
-No se incluye todavía un Asset Setup Wizard.
+An Asset Setup Wizard is not yet included.
 
-## Generar y compilar
+## Code generation and build
 
-Se requiere ReXGlue SDK y CLI 0.10.0, CMake 3.25 o posterior, Ninja, Clang y el entorno de MSVC/Windows SDK. Los presets de otras plataformas están presentes, pero esta PoC solo se describe como validada en Windows x64.
+ReXGlue SDK and CLI 0.10.0, CMake 3.25 or later, Ninja, Clang, and the MSVC/Windows SDK environment are required. Presets for other platforms are present, but this PoC is described as validated only on Windows x64.
 
-1. Colocar los archivos propios del juego en `assets/` y el CLI en `tools/rexglue/rexglue.exe`.
-2. Instalar el SDK de ReXGlue y preparar un entorno con Clang, Ninja y MSVC/Windows SDK disponibles.
-3. Desde la raíz del proyecto, sustituir el marcador del SDK y ejecutar:
+1. Place your own game files in `assets/` and the CLI at `tools/rexglue/rexglue.exe`.
+2. Install the ReXGlue SDK and prepare an environment with Clang, Ninja, and MSVC/Windows SDK available.
+3. From the project root, replace the SDK path placeholder and run:
 
 ```powershell
 .\run-codegen.ps1
-cmake --preset win-amd64-release -DCMAKE_PREFIX_PATH="<ruta al SDK instalado>"
+cmake --preset win-amd64-release -DCMAKE_PREFIX_PATH="<path to installed SDK>"
 cmake --build --preset win-amd64-release
 ```
 
-El script genera `generated/` a partir del manifest y `functions.toml`; revisar su código de salida antes de continuar. `-Diagnostic` fuerza el análisis y se reserva para diagnóstico. CMake necesita el archivo generado `generated/rexglue.cmake` y la configuración de paquete del SDK. La salida de compilación se encuentra en `out/build/win-amd64-release/`; aportar las DLL de runtime correspondientes si no se encuentran allí.
+The script generates `generated/` from the manifest and `functions.toml`; check its exit code before proceeding. `-Diagnostic` forces analysis and is reserved for diagnostics. CMake requires the generated `generated/rexglue.cmake` file and the SDK package configuration. Build output is located in `out/build/win-amd64-release/`; supply the corresponding runtime DLLs if they are not already there.
 
-Estas instrucciones reflejan la configuración local inspeccionada; no se realizó una compilación desde un clon limpio durante esta preparación.
+These instructions reflect the inspected local configuration. A build from a clean clone was not performed while preparing this documentation.
 
-## Frame pacing experimental
+## Experimental frame pacing
 
-Las fuentes habilitan por defecto DXGI Frame Latency Waitable Object. `IU_EXPERIMENT_WAITABLE=0` permite desactivarlo para comparar. Las trazas opcionales usan `IU_PERF_TRACE_PATH` e `IU_DIAG_TRACE_PATH`.
+The code enables the DXGI Frame Latency Waitable Object by default. Set `IU_EXPERIMENT_WAITABLE=0` to disable it for comparison. Optional traces use `IU_PERF_TRACE_PATH` and `IU_DIAG_TRACE_PATH`.
 
-## Licencia
+## License
 
-BSD-3-Clause para el código del proyecto; véase `LICENSE`. Los archivos del juego y las dependencias externas conservan sus respectivos derechos y licencias. La licencia del proyecto no concede derechos sobre esos materiales.
+The project code is licensed under BSD-3-Clause; see `LICENSE`. Game files and external dependencies retain their respective rights and licenses. The project license grants no rights to those materials.
