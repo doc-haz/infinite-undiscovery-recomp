@@ -1,0 +1,34 @@
+INFINITE UNDISCOVERY RECOMP — Preliminary PoC 0.1
+
+Inspeccion del ejecutable de referencia: 2026-10-01 (America/Mexico_City).
+Configuracion de referencia: Windows x64 Release / Direct3D 12.
+Ruta relativa: out/build/win-amd64-release/infinite_undiscovery.exe
+SHA-256 comprobado del EXE actual:
+D98367793112B72A4336E0F7A4E39B9CEB751A00D34EF7F27F14EE59144EE8B9
+
+Este hash coincide con el registrado en la conversacion de validacion manual.
+El EXE no se incluye en Git.
+
+Validacion reportada por el usuario:
+- Arranque directo mediante doble clic.
+- Icono embebido correcto.
+- Resolucion de assets correcta.
+- Graad Prison funciona bien con el frame pacing experimental.
+
+Inspeccion de fuentes en esta preparacion:
+- Sin game_data_root explicito: busca assets junto al EXE y luego el
+  fallback relativo a la raiz del proyecto desde la carpeta de build.
+- Una ruta explicita conserva prioridad.
+- DXGI Frame Latency Waitable Object habilitado por defecto;
+  IU_EXPERIMENT_WAITABLE=0 permite desactivarlo.
+- Trazas opcionales: IU_PERF_TRACE_PATH e IU_DIAG_TRACE_PATH.
+
+Dependencias locales: ReXGlue SDK / CLI 0.10.0 y DLL de runtime
+rexruntime.dll y rexgpu-xenos.dll, mas los archivos propios del juego.
+No se distribuyen assets, herramientas, codigo generado ni binarios.
+
+Limites:
+No se recompilo ni se ejecuto el juego durante esta preparacion.
+No se verifico una compilacion desde clon limpio ni una matriz de overrides.
+La validacion manual no implica cobertura del juego completo u otros equipos.
+No se certifica correspondencia reproducible entre estas fuentes y el EXE.

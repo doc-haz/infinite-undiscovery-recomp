@@ -1,0 +1,83 @@
+# Juego y archivos generados
+/assets/
+/generated/
+
+# Compilaciones y resultados
+/out/
+/build/
+/outputs/
+/CMakeFiles/
+/CMakeCache.txt
+/CMakeUserPresets.json
+
+# Herramientas locales
+/tools/
+
+# Analisis, respaldos y evidencias
+/analysis-*/
+/build-evidence-*/
+/RESULTADO.md
+/Run_*_Test.bat
+/fiber-validation-trace.txt
+/switch-context.txt
+/writer-context.txt
+/trace*.txt
+*.exit.txt
+*.log
+
+# Binarios, assets y volcados
+*.exe
+*.dll
+*.pdb
+*.obj
+*.o
+*.lib
+*.a
+*.xex
+*.iso
+*.bin
+*.dmp
+
+# Paquetes y copias temporales
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.bak
+*.backup-*
+*.tmp
+*.old
+*~
+
+# Configuracion local y privada
+/.vs/
+/.vscode/
+/.codex/
+/.agents/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+__pycache__/
+*.pyc
+Thumbs.db
+.DS_Store
+
+# Recursos compilados, trazas y datos privados adicionales
+*.res
+*.ilk
+*.exp
+*.pch
+*.trace
+*.etl
+/logs/
+/traces/
+/evidence/
+/analysis/
+/work/
+*.pfx
+*.p12
+/credentials*
+/secrets*

@@ -1,0 +1,33 @@
+# PAL default.xex SHA-256:
+# 22893bb8d96a1440ecbdbcae543baeaf89d26588c89c99a2c96fecf611475325
+# Six binary-backed entry points. Ends are exclusive; no instruction patches.
+
+[functions]
+# Wrapper 0x824B5CF8 tail-calls this bounds check and forwarding routine.
+0x824B6E60 = { end = 0x824B6E78 }
+# Null check followed by virtual tail-call through vtable offset 0x14.
+0x82207EC8 = { end = 0x82207EF0 }
+# Adjustment thunk 0x82938460 forwards to this leaf routine.
+0x82938D68 = { end = 0x82938D90 }
+# Leaf increment-and-return routine, reached via thunk 0x82938D58.
+0x82938468 = { end = 0x8293847C }
+# Adjustment thunk: r3 += 4; tail-call 0x829393A8.
+0x82940E18 = { end = 0x82940E20 }
+# Context save/restore entry after the preceding KeBugCheck call.
+# Ends with a tail branch to 0x829685EC, before padding at 0x827E1E5C.
+0x827E1A50 = { end = 0x827E1E5C }
+# Stop the preceding fatal-error path at its KeBugCheck call, preventing
+# its old inferred range from also containing the context-switch routine.
+0x827E1A40 = { end = 0x827E1A50 }
+0x82944868 = { end = 0x82944880 }
+# Index-check wrapper, referenced by five pointer tables; virtual tail-call via slot 0x10.
+0x829581C8 = { end = 0x82958210 }
+0x8222F7E0 = { end = 0x8222F808 }
+0x821F2360 = { end = 0x821F237C }
+0x829411C0 = { end = 0x829411C8 }
+0x82212870 = { end = 0x822128A0 }
+0x82958210 = { end = 0x82958248 }
+0x8221D9F0 = { end = 0x8221DB90 }
+0x82222D08 = { end = 0x82222D20 }
+0x82222D20 = { end = 0x82222D38 }
+0x821DB3C0 = { end = 0x821DB560 }
