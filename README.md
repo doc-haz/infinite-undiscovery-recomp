@@ -41,6 +41,7 @@ The recomp can currently:
 - keep saves, shaders, cache, logs and configuration local to the portable folder
 - reuse an existing validated setup on later launches
 - use English or Spanish in the setup UI
+- official portable save editing companion available through IU Save Bridge
 
 The current public release is still under active gameplay validation.
 
@@ -178,6 +179,48 @@ PAL and NTSC-U saves remain separate.
 The project does not automatically import saves from older development builds, emulator directories or previous runtime locations.
 
 This is intentional.
+
+## Official Save Companion
+
+**IU Save Bridge** is the official portable save editor companion for Infinite Undiscovery Recomp.
+
+It is designed specifically for the portable save layout used by this recomp and supports both PAL and NTSC-U installations.
+
+Repository:
+
+https://github.com/doc-haz/iu-save-bridge
+
+Latest release:
+
+https://github.com/doc-haz/iu-save-bridge/releases/latest
+
+Current features include:
+
+- direct save editing
+- Fol editing
+- character stats editing
+- inventory editing for 1,023 items
+- automatic save discovery
+- PAL / NTSC-U support
+- automatic backups before writing
+- manual backup support
+- safe backup restore
+- dual CRC32 recalculation
+- English / Spanish interface
+- fully portable operation
+- no installer
+- no AppData, Documents or Registry dependency
+
+IU Save Bridge works directly with the portable save structure used by Infinite Undiscovery Recomp:
+
+    NTSC-U\saves\
+    PAL\saves\
+
+The editor keeps its own backups and validates save data before replacing the active file.
+
+Equipment, skills, story flags and other unverified save structures are intentionally not exposed for editing yet.
+
+Download the current Windows x64 build from the IU Save Bridge Releases page.
 
 ## Validation
 
