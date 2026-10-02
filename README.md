@@ -91,7 +91,7 @@ Example:
         ├─ logs\
         └─ config.json
 
-The recomp does not intentionally use Documents, AppData, Saved Games or previous development directories for normal runtime state.
+The recomp does not use Documents, AppData, Saved Games or previous development directories for normal runtime state.
 
 Moving the complete portable folder moves the installation with it.
 
@@ -119,9 +119,23 @@ The wizard handles:
 
 Disc 1 is required.
 
-Disc 2 is supported and recommended, but live Disc 1 → Disc 2 switching during an actual playthrough still requires full gameplay validation.
+Disc 2 setup is supported and recommended so the files are already available for future gameplay testing.
 
 English is the default setup language. Spanish can be selected from the wizard.
+
+## Multi-disc status
+
+Infinite Undiscovery is a two-disc game.
+
+The setup system can currently detect, validate and import both Disc 1 and Disc 2, and it keeps their assets separated correctly.
+
+However, actual gameplay has not yet been tested up to the point where the original game requests Disc 2.
+
+This means that Disc 2 asset preparation is validated, but the real in-game Disc 1 → Disc 2 transition is not.
+
+At this time, it is not known how the current runtime will behave when the game reaches the disc-change point. It may work, require additional handling, or fail until explicit disc-switch support is implemented and tested.
+
+Disc 2 can be prepared successfully, but successful in-game disc switching should not be assumed yet.
 
 ## DLC
 
@@ -193,12 +207,17 @@ The automated setup tests are developer validation tools and do not replace a co
 The following are still being validated:
 
 - full-game completion
-- live Disc 1 → Disc 2 switching during an actual playthrough
+- gameplay progression up to the original Disc 2 change point
+- actual in-game Disc 1 → Disc 2 transition behavior
 - complete Disc 2 gameplay
 - complete in-game verification of the A Voucher and B Voucher effects
 - runtime issues that may only appear later in the game
 
-Please do not assume a feature is fully validated simply because the setup system can prepare the required files.
+Disc 2 can be imported successfully, but this does not mean the game has been proven to transition to Disc 2 correctly during gameplay.
+
+No complete playthrough reaching the Disc 2 request has been performed yet.
+
+Asset preparation does not imply full gameplay validation.
 
 ## Building from source
 
@@ -240,7 +259,7 @@ Special thanks to:
 - **Magna** — for major help with development, testing, portability, the Asset Setup Wizard, localization and preparing the portable build.
 - **Premium** — for development help and support throughout the project.
 - **[vs-sr-dev / pc-infiniteundiscovery](https://github.com/vs-sr-dev/pc-infiniteundiscovery)** — for extensive reverse-engineering research, documentation and analysis tools for Infinite Undiscovery and the ASKA engine.
-- **[freefrank / LostOdysseyRecomp](https://github.com/freefrank/LostOdysseyRecomp)** — for the Lost Odyssey native PC recompilation project, whose importer, portable workflow and user-facing structure served as useful references during development.
+- **[freefrank / LostOdysseyRecomp](https://github.com/freefrank/LostOdysseyRecomp)** — for the Lost Odyssey native PC recompilation project and its importer and portable workflow, which were useful references during development.
 - **ReXGlue / XenonRecomp contributors** — for the tooling and groundwork that make projects like this possible.
 
 ## Legal
