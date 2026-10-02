@@ -266,8 +266,8 @@ Special thanks to:
 
 - **Magna** — for major help with development, testing, portability, the Asset Setup Wizard, localization and getting the portable build into a usable state.
 - **Premium** — for development help and support throughout the project.
-- **ASKA research repository** — for research and technical reference used during development.
-- **freefrank** — for the work on Lost Odyssey Recomp and XenonRecomp, which were major references for how I wanted the project to work.
+- **vs-sr-dev / pc-infiniteundiscovery** — for research and technical reference used during development.
+- **freefrank / LostOdysseyRecomp** — for the Lost Odyssey native PC recompilation project, whose importer, portable workflow and overall user-facing structure were major references during development.
 - **ReXGlue / XenonRecomp contributors** — for the tooling and groundwork that make projects like this possible.
 
 More exact repository links and acknowledgements will be added as the project documentation is finalized.
