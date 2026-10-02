@@ -266,11 +266,9 @@ Special thanks to:
 
 - **Magna** — for major help with development, testing, portability, the Asset Setup Wizard, localization and getting the portable build into a usable state.
 - **Premium** — for development help and support throughout the project.
-- **vs-sr-dev / pc-infiniteundiscovery** — for research and technical reference used during development.
-- **freefrank / LostOdysseyRecomp** — for the Lost Odyssey native PC recompilation project, whose importer, portable workflow and overall user-facing structure were major references during development.
+- **[vs-sr-dev / pc-infiniteundiscovery](https://github.com/vs-sr-dev/pc-infiniteundiscovery)** — for the extensive reverse-engineering research, documentation and analysis tools for Infinite Undiscovery and the ASKA engine that served as technical reference during development.
+- **[freefrank / LostOdysseyRecomp](https://github.com/freefrank/LostOdysseyRecomp)** — for the Lost Odyssey native PC recompilation project, whose importer, portable workflow and overall user-facing structure were major references during development.
 - **ReXGlue / XenonRecomp contributors** — for the tooling and groundwork that make projects like this possible.
-
-More exact repository links and acknowledgements will be added as the project documentation is finalized.
 
 ---
 
