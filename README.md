@@ -1,6 +1,12 @@
-# Infinite Undiscovery Recomp
+<p align="center">
+  <img src="docs/images/banner.png" alt="Infinite Undiscovery Recomp banner" width="100%">
+</p>
 
-Native PC recompilation of **Infinite Undiscovery** for Windows x64.
+<h1 align="center">Infinite Undiscovery Recomp</h1>
+
+<p align="center">
+  Native Windows x64 recompilation with portable asset setup.
+</p>
 
 The current build uses ReXGlue / XenonRecomp and includes a native setup wizard for importing game data from a legally obtained copy of the game.
 
