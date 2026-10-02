@@ -1,8 +1,8 @@
-# Juego y archivos generados
+# Game files and generated content
 /assets/
 /generated/
 
-# Compilaciones y resultados
+# Builds and outputs
 /out/
 /build/
 /outputs/
@@ -10,10 +10,10 @@
 /CMakeCache.txt
 /CMakeUserPresets.json
 
-# Herramientas locales
+# Local tools
 /tools/
 
-# Analisis, respaldos y evidencias
+# Analysis, backups and evidence
 /analysis-*/
 /build-evidence-*/
 /RESULTADO.md
@@ -25,7 +25,7 @@
 *.exit.txt
 *.log
 
-# Binarios, assets y volcados
+# Binaries, assets and dumps
 *.exe
 *.dll
 *.pdb
@@ -38,7 +38,7 @@
 *.bin
 *.dmp
 
-# Paquetes y copias temporales
+# Archives and temporary copies
 *.zip
 *.7z
 *.rar
@@ -50,7 +50,7 @@
 *.old
 *~
 
-# Configuracion local y privada
+# Local and private configuration
 /.vs/
 /.vscode/
 /.codex/
@@ -65,7 +65,7 @@ __pycache__/
 Thumbs.db
 .DS_Store
 
-# Recursos compilados, trazas y datos privados adicionales
+# Compiled resources, traces and additional private data
 *.res
 *.ilk
 *.exp
@@ -81,3 +81,9 @@ Thumbs.db
 *.p12
 /credentials*
 /secrets*
+
+# Portable runtime data by region and local test runs
+/NTSC-U/
+/PAL/
+setup.json
+/test_*/

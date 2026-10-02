@@ -1,0 +1,64 @@
+Infinite Undiscovery Recomp - Portable Asset Setup Build
+Local verification date: 2026-10-01
+Configuration: Windows x64 Release, ReXGlue SDK 0.10.0, Clang 20.1.8
+
+EXE: InfiniteUndiscoveryRecomp.exe
+Size: 56944128 bytes
+SHA-256: e923cc76542ec759cb97ed5bf4854d94c084de53f10a99c5a962b608bf403961
+
+Test executable: iu_asset_setup_tests.exe
+Size: 610816 bytes
+SHA-256: 17e6d0cf1e89135d90afa48c457b4dd6a7437e6a9614e5925f3d7ad65a95db3c
+
+Runtime DLL SHA-256:
+e359209fb2b0570e693c966d4c1d99a82465d36ef70d033833fae56adb2f1b7a
+
+GPU DLL SHA-256:
+0c23cfa23fc4fa5638dc8a3dc0de87b1041d97705d4677774083f1f350cd8d89
+
+Build summary:
+- Native EXE-integrated Asset Setup Wizard
+- Native XDVDFS/XEX media inspection and extraction
+- PAL and NTSC-U automatic detection
+- Separate Disc 1 / Disc 2 asset handling
+- Optional STFS DLC validation and SDK installation
+- Portable runtime layout relative to the EXE
+- Region-separated saves, shaders, cache, logs and configuration
+- English default UI with Spanish selection
+- No installer required
+- No game or DLC assets included
+- Runtime DLLs required
+- External extraction scripts are not required for normal users
+
+Validated:
+- Disc 1 PAL startup
+- Disc 1 NTSC-U startup
+- Complete PAL and NTSC-U Disc 1 / Disc 2 asset extraction validated
+- Disc 1 / Disc 2 separation
+- PAL / NTSC-U detection
+- PAL Disc 1 + PAL Disc 2 pairing validated with authentic PAL Disc 2 ISO
+- Mixed-region rejection
+- Swapped-disc rejection
+- Invalid/truncated/foreign XEX rejection
+- A Voucher validation
+- B Voucher validation
+- DLC SDK installation
+- DLC enumeration
+- DLC license masks
+- DLC idempotence on subsequent launches
+- Portable configuration reuse
+- Wizard cancellation
+- Portable execution outside the original development directory
+
+Not yet claimed:
+- Full-game completion
+- Live Disc 1 to Disc 2 switching during an actual playthrough
+- Complete Disc 2 gameplay validation
+- Complete in-game verification of A Voucher and B Voucher effects
+
+Details and developer validation notes:
+ASSET_SETUP.md
+
+Historical PoC 0.1 executable/build record remains preserved separately.
+
+No proprietary game assets, ISOs or DLC are included in this build record.

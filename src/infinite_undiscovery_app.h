@@ -12,6 +12,11 @@
 #endif
 #include "vblank_diag.h"
 #include "pso_diag.h"
+#include "asset_setup.h"
+#include "asset_dlc.h"
+#include "portable_setup.h"
+
+REXCVAR_DECLARE(bool, asset_setup);
 
 class InfiniteUndiscoveryApp : public rex::ReXApp {
  public:
@@ -86,17 +91,54 @@ class InfiniteUndiscoveryApp : public rex::ReXApp {
   void OnShutdown() override {
     pso_diag::shutdown();
   }
+  std::filesystem::path portable_root_;
+  bool SetupEnvironment() override {
+    try {
+      const auto exe=rex::filesystem::GetExecutableFolder();
+      iu::portable::Initialize(exe);
+      auto selected=iu::portable::Select(exe, REXCVAR_GET(asset_setup));
+      if(!selected) return false;
+      portable_root_=*selected;
+      const auto layout=iu::portable::Layout(exe,portable_root_.filename().string());
+      // Pin before base SetupEnvironment: no user-profile default or legacy config.
+      rex::cvar::SetFlagByName("user_data_root",layout.saves.string());
+      rex::cvar::SetFlagByName("game_data_root",(layout.assets/"disc1").string());
+      rex::cvar::SetFlagByName("cache_root",layout.shaders.string());
+      rex::cvar::SetFlagByName("log_file",(layout.logs/"runtime.log").string());
+      // Existing diagnostics remain unchanged; optional output is local too.
+      if(std::getenv("IU_DIAG_TRACE_PATH")) _putenv_s("IU_DIAG_TRACE_PATH",(layout.logs/"diagnostic.log").string().c_str());
+      if(std::getenv("IU_PERF_TRACE_PATH")) _putenv_s("IU_PERF_TRACE_PATH",(layout.logs/"performance.log").string().c_str());
+      return rex::ReXApp::SetupEnvironment();
+    } catch(const std::exception& e) {iu::portable::Error(e.what());return false;}
+  }
   void OnConfigurePaths(rex::PathConfig& paths) override {
-    if (paths.game_data_root.empty()) {
-      const auto exe_dir = rex::filesystem::GetExecutableFolder();
-      const auto local_assets = (exe_dir / "assets").lexically_normal();
-      const auto dev_assets = (exe_dir / ".." / ".." / ".." / "assets").lexically_normal();
-      if (std::filesystem::is_directory(local_assets)) {
-        paths.game_data_root = local_assets;
-      } else if (std::filesystem::is_directory(dev_assets)) {
-        paths.game_data_root = dev_assets;
-      } else {
-        paths.game_data_root = local_assets;
+    paths.game_data_root=portable_root_/"assets"/"disc1";
+    paths.user_data_root=portable_root_/"saves";
+    paths.update_data_root=portable_root_/"assets"/"updates";
+    paths.cache_root=portable_root_/"shaders";
+    paths.metadata_root=portable_root_/"cache"/"metadata";
+    paths.config_path=portable_root_/"cache"/"runtime.toml";
+  }
+  std::optional<rex::PathConfig> OnFinalizePaths(const rex::PathConfig& defaults,
+      std::function<void(rex::PathConfig)>) override {return defaults;}
+
+  bool ConstructRuntime(const rex::PathConfig& paths) override {
+    if (!rex::ReXApp::ConstructRuntime(paths)) return false;
+    // Original setup/diagnostic hooks run unchanged in the base construction.
+    // The XEX and title are now loaded, but no guest thread has been launched.
+    const auto packages = paths.game_data_root.parent_path() / "dlc";
+    if (paths.game_data_root.filename() != "disc1" || !std::filesystem::is_directory(packages)) return true;
+    for (;;) {
+      try {
+        iu::dlc::InstallPending(packages, runtime()->kernel_state(), paths.user_data_root);
+        REXLOG_INFO("[AssetSetup] DLC validated and installed before guest launch");
+        return true;
+      } catch (const std::exception& error) {
+        REXLOG_ERROR("[AssetSetup] DLC installation stopped: {}", error.what());
+        int choice=iu::portable::Dialog(L"DLC",iu::portable::Wide(error.what()),
+          {{IDABORT,L"Cerrar"},{IDRETRY,L"Reintentar"},{IDIGNORE,L"Continuar sin DLC"}});
+        if (choice == IDIGNORE) return true;
+        if (choice != IDRETRY) return false;
       }
     }
   }
