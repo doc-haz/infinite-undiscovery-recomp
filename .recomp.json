@@ -1,0 +1,36 @@
+{
+  "$schema": "https://recomp.fyi/schema/v1.json",
+  "game": "Infinite Undiscovery",
+  "system": "Xbox 360",
+  "type": "recomp",
+  "project": "Infinite Undiscovery Recomp",
+  "status": "released",
+  "targets": [
+    "Windows"
+  ],
+  "toolchain": "ReXGlue / XenonRecomp",
+  "approach": "Native Windows x64 recompilation with integrated portable asset setup for supported PAL and NTSC-U game media.",
+  "maintainers": [
+    {
+      "name": "doc-haz",
+      "link": "https://github.com/doc-haz"
+    }
+  ],
+  "links": [
+    {
+      "label": "Repository",
+      "url": "https://github.com/doc-haz/infinite-undiscovery-recomp"
+    },
+    {
+      "label": "Latest release",
+      "url": "https://github.com/doc-haz/infinite-undiscovery-recomp/releases/latest"
+    }
+  ],
+  "help": [
+    "Full-game testing",
+    "PAL and NTSC-U testing",
+    "Later-game progression",
+    "Disc 1 to Disc 2 transition testing"
+  ],
+  "notes": "Public v1.0.0 release. PAL and NTSC-U asset setup, Disc 1 and Disc 2 import, portable runtime paths, saves, and optional DLC installation are implemented. A complete playthrough has not yet been performed, and the real in-game Disc 1 to Disc 2 transition remains untested."
+}
