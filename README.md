@@ -1,276 +1,247 @@
 # Infinite Undiscovery Recomp
 
-A native PC recompilation project for **Infinite Undiscovery**.
+Native PC recompilation of **Infinite Undiscovery** for Windows x64.
 
-The goal is pretty simple: extract the portable release, run it, point the setup wizard at your own game media, and let the EXE handle the rest.
+The current build uses ReXGlue / XenonRecomp and includes a native setup wizard for importing game data from a legally obtained copy of the game.
 
-No installer. No manual extraction scripts. No game files included.
-
----
-
-## Current status
-
-The project is now at the point where the game can be launched through a portable EXE with an integrated Asset Setup Wizard.
-
-The wizard can currently:
-
-- detect Infinite Undiscovery media
-- detect NTSC-U / PAL automatically
-- detect Disc 1 / Disc 2
-- extract the required game data
-- keep both discs separated correctly
-- validate and install the A / B DLC vouchers
-- store everything locally next to the EXE
-- keep saves, shaders, cache and configuration portable
-- skip setup on later launches when the assets are already configured
-- switch between English and Spanish
-
-The project does **not** include any copyrighted game files.
-
-You must provide your own legally obtained game media and DLC.
-
----
+No game files, DLC, ISOs or other copyrighted assets are distributed with this project.
 
 ## Download
 
-Download the latest portable ZIP from the GitHub Releases page.
+The latest portable build is available from:
 
-Then:
+https://github.com/doc-haz/infinite-undiscovery-recomp/releases/latest
 
-1. Extract the ZIP anywhere you want.
-2. Run the EXE.
-3. Select your game media when the wizard asks for it.
-4. Let the setup finish.
-5. Play.
+Extract the ZIP to a writable folder and run:
 
-That's it.
+`InfiniteUndiscoveryRecomp.exe`
 
-The release is intentionally portable.
+On first launch, the Asset Setup Wizard will ask for your game media and prepare the required files.
 
-There is no installer and there are no plans to require one.
+The Windows release is portable. No installer is required.
 
----
+## Current status
 
-## Portable by design
+The recomp can currently:
 
-Infinite Undiscovery Recomp keeps its runtime data inside the same folder where the EXE is located.
+- launch Infinite Undiscovery as a native Windows executable
+- import supported PAL and NTSC-U game media
+- detect Disc 1 and Disc 2 automatically
+- read supported XDVDFS ISO images or extracted disc folders
+- keep Disc 1 and Disc 2 assets separate
+- validate known game revisions before installation
+- import the supported A Voucher and B Voucher DLC packages
+- install DLC through the ReXGlue content system
+- keep saves, shaders, cache, logs and configuration local to the portable folder
+- reuse an existing validated setup on later launches
+- use English or Spanish in the setup UI
 
-Depending on the detected version of the game, the program creates a local region folder such as:
+The current public release is still under active gameplay validation.
 
-```text
-NTSC-U\
-```
+## Game files
 
-or:
+You must provide your own legally obtained copy of Infinite Undiscovery.
 
-```text
-PAL\
-```
+For each disc, the setup system expects the required game data:
 
-Each region keeps its own data separately.
+    default.xex
+    ud1.bin
+    ud2.bin
+
+The wizard identifies the game from the media itself. Folder names are not used to determine region or disc number.
+
+Supported regions:
+
+- NTSC-U
+- PAL
+
+Both regions may exist in the same portable directory without sharing assets or saves.
+
+## Portable layout
+
+Runtime data is stored relative to the directory containing the EXE.
 
 Example:
 
-```text
-InfiniteUndiscoveryRecomp\
-├─ InfiniteUndiscoveryRecomp.exe
-├─ rexruntime.dll
-├─ rexgpu-xenos.dll
-│
-├─ NTSC-U\
-│   ├─ assets\
-│   ├─ saves\
-│   ├─ shaders\
-│   ├─ cache\
-│   ├─ logs\
-│   └─ config.json
-│
-└─ PAL\
-    ├─ assets\
-    ├─ saves\
-    ├─ shaders\
-    ├─ cache\
-    ├─ logs\
-    └─ config.json
-```
+    InfiniteUndiscoveryRecomp\
+    ├─ InfiniteUndiscoveryRecomp.exe
+    ├─ rexruntime.dll
+    ├─ rexgpu-xenos.dll
+    ├─ setup.json
+    │
+    ├─ NTSC-U\
+    │   ├─ assets\
+    │   │   ├─ disc1\
+    │   │   ├─ disc2\
+    │   │   └─ dlc\
+    │   ├─ saves\
+    │   ├─ shaders\
+    │   ├─ cache\
+    │   ├─ logs\
+    │   └─ config.json
+    │
+    └─ PAL\
+        ├─ assets\
+        │   ├─ disc1\
+        │   ├─ disc2\
+        │   └─ dlc\
+        ├─ saves\
+        ├─ shaders\
+        ├─ cache\
+        ├─ logs\
+        └─ config.json
 
-The recomp does not rely on Documents, AppData, Saved Games or old project save paths.
+The recomp does not intentionally use Documents, AppData, Saved Games or previous development directories for normal runtime state.
 
-If you move the whole folder, your local setup moves with it.
-
----
+Moving the complete portable folder moves the installation with it.
 
 ## Asset Setup Wizard
 
-The Asset Setup Wizard is integrated directly into the EXE.
+The Asset Setup Wizard is integrated into `InfiniteUndiscoveryRecomp.exe`.
 
-You do not need to run:
+Normal users do not need to run:
 
-- Python scripts
+- Python extraction scripts
 - BAT files
 - PowerShell setup scripts
-- xdvdfs.py
-- xex.py
-- external extraction tools
+- `xdvdfs.py`
+- `xex.py`
+- external extraction utilities
 
-The wizard handles the setup flow for normal users.
+The wizard handles:
 
-It currently supports:
+1. Disc 1 selection and validation
+2. optional Disc 2 selection
+3. optional DLC selection
+4. media verification
+5. asset installation
+6. portable configuration
 
-- Disc 1
-- Disc 2
-- NTSC-U
-- PAL
-- optional DLC
-- English
-- Español
+Disc 1 is required.
 
-English is the default language.
+Disc 2 is supported and recommended, but live Disc 1 → Disc 2 switching during an actual playthrough still requires full gameplay validation.
 
----
-
-## Supported game versions
-
-The current project supports:
-
-- **NTSC-U**
-- **PAL**
-
-The region is detected automatically from the selected media.
-
-You do not need to choose the region manually.
-
-NTSC-U and PAL can coexist in the same portable installation without sharing saves or assets.
-
----
-
-## Multi-disc support
-
-Infinite Undiscovery is a two-disc game.
-
-The setup system keeps Disc 1 and Disc 2 assets separated correctly.
-
-Both discs can be prepared and stored in the portable installation.
-
-### Important
-
-Live disc switching during an actual playthrough still needs full gameplay validation.
-
-The project does not claim that in-game disc swapping is fully solved until it has been tested from start to finish in real gameplay.
-
----
+English is the default setup language. Spanish can be selected from the wizard.
 
 ## DLC
 
-The game has two supported Marketplace Content packages:
+Two Infinite Undiscovery Marketplace Content packages are currently supported:
 
 - A Voucher
 - B Voucher
 
-The wizard validates the DLC before installing it.
+Title ID:
 
-The DLC belongs to Infinite Undiscovery Title ID:
+    535107DB
 
-```text
-535107DB
-```
+The packages are validated before installation and remain separate.
 
-Already-installed valid DLC is reused on later launches instead of being reinstalled every time.
+DLC installation uses the ReXGlue content system rather than a custom content layout.
 
-Invalid, foreign or conflicting DLC should still be rejected.
+Already installed valid DLC is reused on later launches.
 
-The project does not distribute DLC files.
+Different, damaged, incomplete or conflicting DLC is rejected instead of being silently overwritten.
 
-You must provide your own copy.
-
----
+The project does not distribute DLC packages.
 
 ## Saves
 
-Saves are local to the portable installation.
+Save data is local to the portable installation.
 
-The project does not automatically load or migrate saves from older development builds, emulator folders or previous runtime paths.
+Examples:
 
-For example:
+    NTSC-U\saves\
+    PAL\saves\
 
-```text
-NTSC-U\saves\
-```
+PAL and NTSC-U saves remain separate.
 
-and:
-
-```text
-PAL\saves\
-```
-
-remain independent.
+The project does not automatically import saves from older development builds, emulator directories or previous runtime locations.
 
 This is intentional.
 
----
+## Validation
+
+The current Asset Setup implementation has been tested with:
+
+- PAL Disc 1
+- PAL Disc 2
+- NTSC-U Disc 1
+- NTSC-U Disc 2
+- PAL / NTSC-U detection
+- Disc 1 / Disc 2 detection
+- mixed-region rejection
+- swapped-disc rejection
+- invalid and truncated media
+- modified XEX rejection
+- foreign Title ID rejection
+- A Voucher validation
+- B Voucher validation
+- duplicate DLC rejection
+- corrupt DLC rejection
+- foreign DLC rejection
+- DLC installation through ReXGlue
+- DLC reuse on subsequent launches
+- conflicting installed DLC preservation
+- setup cancellation and staging cleanup
+- portable execution outside the development directory
+- startup with a working directory different from the EXE directory
+
+The automated setup tests are developer validation tools and do not replace a complete gameplay test.
 
 ## Known limitations
 
-The project is still under active development.
+The following are still being validated:
 
-Current limitations include:
+- full-game completion
+- live Disc 1 → Disc 2 switching during an actual playthrough
+- complete Disc 2 gameplay
+- complete in-game verification of the A Voucher and B Voucher effects
+- runtime issues that may only appear later in the game
 
-- full-game validation is still ongoing
-- live Disc 1 → Disc 2 gameplay switching still needs full validation
-- DLC voucher effects still need complete in-game verification
-- some runtime/game-specific issues may still appear later in the game
-
-If you find a reproducible issue, open an issue and include as much detail as possible.
-
----
+Please do not assume a feature is fully validated simply because the setup system can prepare the required files.
 
 ## Building from source
 
-This repository does **not** include proprietary game assets or generated game code.
+This repository does not include proprietary game assets or generated game code.
 
-You need your own legal copy of Infinite Undiscovery.
+A developer build requires:
 
-The project uses the ReXGlue / XenonRecomp toolchain.
+- a legally obtained supported Infinite Undiscovery executable
+- ReXGlue SDK
+- CMake
+- Ninja
+- Clang
+- MSVC / Windows SDK environment
 
-General flow:
+General build flow:
 
 1. Clone the repository.
-2. Provide the required external toolchain / SDK.
-3. Run the code generation step using your own game executable.
+2. Provide the required ReXGlue toolchain and SDK.
+3. Generate the game code locally from your own supported executable.
 4. Configure the project with CMake.
-5. Build the desired preset.
+5. Build the Windows x64 target.
 
-The normal release user does not need to do any of this.
+The generated game code is intentionally excluded from the public repository.
 
-This section is only for developers.
-
-More technical setup details are available in:
+More details about the setup implementation are available in:
 
 `ASSET_SETUP.md`
 
----
-
-## Project history
-
-A development timeline from the first proof of concept to the portable release is available in:
+Development history is documented in:
 
 `PROJECT_HISTORY.md`
 
----
-
 ## Credits
 
-This project builds on a lot of work from the Xbox 360 recompilation community.
+This project builds on work from the Xbox 360 recompilation community.
 
 Special thanks to:
 
-- **Magna** — for major help with development, testing, portability, the Asset Setup Wizard, localization and getting the portable build into a usable state.
+- **Magna** — for major help with development, testing, portability, the Asset Setup Wizard, localization and preparing the portable build.
 - **Premium** — for development help and support throughout the project.
-- **[vs-sr-dev / pc-infiniteundiscovery](https://github.com/vs-sr-dev/pc-infiniteundiscovery)** — for the extensive reverse-engineering research, documentation and analysis tools for Infinite Undiscovery and the ASKA engine that served as technical reference during development.
-- **[freefrank / LostOdysseyRecomp](https://github.com/freefrank/LostOdysseyRecomp)** — for the Lost Odyssey native PC recompilation project, whose importer, portable workflow and overall user-facing structure were major references during development.
+- **[vs-sr-dev / pc-infiniteundiscovery](https://github.com/vs-sr-dev/pc-infiniteundiscovery)** — for extensive reverse-engineering research, documentation and analysis tools for Infinite Undiscovery and the ASKA engine.
+- **[freefrank / LostOdysseyRecomp](https://github.com/freefrank/LostOdysseyRecomp)** — for the Lost Odyssey native PC recompilation project, whose importer, portable workflow and user-facing structure served as useful references during development.
 - **ReXGlue / XenonRecomp contributors** — for the tooling and groundwork that make projects like this possible.
-
----
 
 ## Legal
 
@@ -281,8 +252,6 @@ This project is not affiliated with or endorsed by Square Enix, tri-Ace or Micro
 No copyrighted game files are included in this repository or in the release package.
 
 You must provide your own legally obtained copy of the game and any optional DLC.
-
----
 
 ## License
 
