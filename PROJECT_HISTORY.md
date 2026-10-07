@@ -898,3 +898,73 @@ The final intended experience is deliberately simple:
     Play
 
 That is the direction Infinite Undiscovery Recomp will continue to follow.
+
+---
+
+# October 2026 — Pre-RC Consolidated Fix Pass (v1.0.0-rc1 Preparation)
+
+Before sealing the Release Candidate (v1.0.0-rc1), QA and regression testing identified critical lifecycle, UI, and profile handling items that were resolved in a consolidated pass:
+
+1. **F10 Return to Profile Manager Lifecycle Fix**:
+   - Eliminated process overlap and frozen guest instances.
+   - F10 now prompts a native modal confirmation (*"Return to Profile Manager? Current game session will be closed."*).
+   - Upon confirmation, `window()->RequestClose()` initiates clean guest shutdown via `TerminateTitle()` and log flushing before spawning `--profile_manager` strictly during exit.
+
+2. **Game Menu Restructuring & F12 Quit Game**:
+   - Renamed overlay from "Community Debug" to `Infinite Undiscovery — Game Menu`.
+   - Reorganized into clear sections: Game (`Return to Profile Manager (F10)`, `Quit Game (F12)`), Recovery Tools (`Save Anywhere (F6)`, `Safe Step Forward (F8)`, `Undo Debug Move (F9)`), Developer / Debug (`Diagnostic Trace Recorder`), and `Close (F5)`.
+   - Implemented dedicated `Quit Game (F12)` with modal confirmation (*"Quit Infinite Undiscovery? [Yes] [No]"*).
+
+3. **USA-UNDUB STFS Package Validation Coherence**:
+   - Fixed STFS metadata reader in `src/asset_dlc.cpp` to align with ReXGlue's `ContentManager::InstallContent` behavior by falling back to package filename when Lang ID 0 English string slot is empty.
+
+4. **Setup Wizard & Profile Manager UX Refinements**:
+   - Auto-detect folder scanning now accepts an optional target edition; when called from an edition row, media discovery strictly filters for that edition and reports clear errors if not present.
+   - Auto-detect when run across multi-edition media roots prompts user selection if multiple editions are discovered.
+   - Wizard header and headline display persistent profile context (`Setting up: <Profile>`).
+   - Wizard Back button properly enabled on Step 2+ and disabled on Step 1.
+   - Profile row cards widened to render long profile titles (e.g. `USA UNDUB (Japanese Voices)`) without truncation.
+   - Post-install feedback alerts user that the profile was installed and set active.
+   - Complete 100% Spanish / English localization audit across all setup and runtime dialog strings.
+
+
+---
+
+# October 2026 — Final Polish Pass Pre-RC (v1.0.0-rc1)
+
+Following QA validation confirming multi-region profile execution (USA, USA-UNDUB, EUROPE, JAPAN, ASIA) and robust shutdown/switching lifecycles, a comprehensive polish, diagnostics, and localization pass was performed prior to tagging `v1.0.0-rc1`:
+
+1. **Centralized Version Source**:
+   - Single source of truth established in `src/version.h` defining `kProjectVersion = "v1.0.0-rc1"`.
+   - Centralized version used across Game Menu, Session / System Info, diagnostics reports, and tests.
+
+2. **Game Menu F5 Header & Essential Information**:
+   - Clean top header displaying active profile name, current active disc (Disc 1 or Disc 2 via `iu::disc_swap::GetCurrentDisc()`), centralized build version (`v1.0.0-rc1`), and DLC packages installed/loaded count (`iu::dlc::GetInstalledCount()`).
+   - Dedicated `[ Session / System Info ]` / `[ Información de sesión / sistema ]` button opening extensive diagnostics modal.
+
+3. **Session / System Info Diagnostics Modal & Reporting**:
+   - ImGui diagnostic sub-window categorizing detailed metrics:
+     - **Game**: Active Profile, Display Name, Current Disc, Title ID (`0x535107DB`), Region / Edition Code, UI Language, DLC package count.
+     - **Build**: Project Version (`v1.0.0-rc1`), Build Type (`Release`), Build Timestamp (`__DATE__ __TIME__`), Compiler identity.
+     - **Runtime**: ReXGlue SDK (`0.10.0`), active Disc mount device (`\Device\Harddisk0\Partition1` or `\Device\IUDisc2`), Disc 1 / 2 presence status.
+     - **Graphics**: Backend (`D3D12`), GPU adapter description (via DXGI query), window resolution.
+     - **System**: Exact OS version via `RtlGetVersion`, logical CPU cores (`hardware_concurrency`), total & available physical RAM (`GlobalMemoryStatusEx`).
+     - **Paths (Sanitized)**: Executable root, profile root, assets, disc1, disc2, dlc, saves, shaders, cache, logs.
+     - **Diagnostics**: Trace recorder status, Safe Step status, Undo Move availability, Save Anywhere status, PSO prewarm/telemetry flags.
+   - **Report Export**:
+     - `[ Copy All to Clipboard ]` / `[ Copiar todo al portapapeles ]` puts sanitized markdown issue report directly on clipboard.
+     - `[ Save Diagnostic Report ]` / `[ Guardar reporte de diagnóstico ]` writes timestamped report file to `<active_profile>/logs/IU_Diagnostic_YYYY-MM-DD_HH-MM-SS.txt`.
+     - Robust privacy sanitization automatically redacts Windows usernames in paths (`\Users\<USER>\...`).
+
+4. **Bilingual Localization & Real-Time Switching**:
+   - Full English and Spanish localization across Game Menu F5, buttons, status indicators, and tooltips.
+   - Inline `English | Español` language switcher in Game Menu updates all UI text immediately in real-time with zero restart required.
+   - Language preference instantly persisted to `setup.json` (`"language": "en"` / `"language": "es"`) and profile configurations.
+   - Fixed badge bug: English UI strictly displays `ACTIVE` and Spanish strictly displays `ACTIVO`.
+
+5. **USA-UNDUB Subtitle Recommendation Modal**:
+   - On first launch of the `USA-UNDUB` profile into gameplay, displays native advisory dialog recommending subtitle activation (`Options → Event Messages → Voice and Subtitles` / `Opciones → Mensajes de evento → Voz y subtítulos`).
+   - Equipped with `[ OK ]` and `[ Don't show again ]` buttons; preference persisted as `"undub_subtitle_warning_dismissed": true` in `setup.json`.
+
+6. **Asia Edition Display Audit**:
+   - Verified ASIA release containers match English container sizes and content. Updated official display name in `src/content_profile.h` to `Asia (English)`.

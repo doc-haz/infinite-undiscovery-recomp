@@ -1,0 +1,123 @@
+Infinite Undiscovery Recomp v1.0.0-rc1 - Third-Party Notices
+============================================================
+
+The release ZIP redistributes two native binaries built from the ReXGlue
+toolkit (v0.10.0, commit f5337cdc947ff6d4c4196737e2c807a48f2a1fc2):
+
+    rexruntime.dll
+    rexgpu-xenos.dll
+
+Those binaries incorporate third-party open-source components. The complete,
+verbatim license texts are provided in the accompanying LICENSES/ directory.
+This file is an index and a notice; it does not replace the license texts.
+
+The Infinite Undiscovery Recomp project's own code is licensed under
+BSD-3-Clause (see LICENSE). Game files are not distributed.
+
+----------------------------------------------------------------------------
+A. Statically linked into rexruntime.dll
+----------------------------------------------------------------------------
+Component                              License                    Text
+-------------------------------------  -------------------------  --------------------------------------------
+ReXGlue                                BSD-3-Clause               LICENSES/ReXGlue-LICENSE.txt
+Xenia-derived code (xenos data format) BSD-2-Clause               attribution in LICENSES/ReXGlue-LICENSE.txt (1)
+{fmt}                                  MIT                        LICENSES/fmt-LICENSE.txt
+spdlog                                 MIT                        LICENSES/spdlog-LICENSE.txt
+simde                                  MIT                        LICENSES/simde-COPYING.txt
+toml++                                 MIT                        LICENSES/tomlplusplus-LICENSE.txt
+SDL3                                   zlib                       LICENSES/SDL3-LICENSE.txt
+xxHash                                 BSD-2-Clause               LICENSES/xxHash-LICENSE.txt
+Dear ImGui                             MIT                        LICENSES/imgui-LICENSE.txt
+utfcpp                                 BSL-1.0                    LICENSES/utfcpp-LICENSE.txt
+o1heap                                 MIT                        LICENSES/o1heap-LICENSE.txt
+disruptorplus                          MIT                        LICENSES/disruptorplus-LICENSE.txt (see D)
+aes_128 (LuoPeng)                      MIT                        LICENSES/aes128-LICENSE.txt
+crypto/des (Faraz Fallahi)             MIT                        LICENSES/des-LICENSE.txt
+libmspack                              LGPL-2.1                   LICENSES/libmspack-COPYING.LIB.txt
+FFmpeg (libavcodec, libavutil)         LGPL-2.1-or-later          LICENSES/FFmpeg-COPYING.LGPLv2.1.txt (+ FFmpeg-LICENSE.md)
+
+(1) Xenia is BSD-2-Clause (https://xenia.jp). Its attribution is carried in
+    the ReXGlue LICENSE. The SDK tree does not ship a separate Xenia license
+    file, so no standalone text is included here. REVIEW REQUIRED if a
+    standalone Xenia notice is desired.
+
+----------------------------------------------------------------------------
+B. Statically linked into rexgpu-xenos.dll
+----------------------------------------------------------------------------
+Component                              License                    Text
+-------------------------------------  -------------------------  --------------------------------------------
+ReXGlue (xenos GPU plugin)             BSD-3-Clause               LICENSES/ReXGlue-LICENSE.txt
+Xenia-derived code                     BSD-2-Clause               see note (1) above
+xxHash                                 BSD-2-Clause               LICENSES/xxHash-LICENSE.txt
+DXBC checksum (AMD / Advanced Micro    AMD/MIT-style grant,       LICENSES/dxbc-DXBCChecksum-LICENSE.h
+  Devices; DXBCChecksum.cpp)             embedded in source
+
+(rexgpu-xenos.dll links rexruntime.dll dynamically at load time.)
+
+----------------------------------------------------------------------------
+C. Components whose license text is embedded in the source (no separate file)
+----------------------------------------------------------------------------
+* RenderDoc API headers (MIT, (c) Baldur Karlsson) - used by rexui; the MIT
+  grant is embedded in the header (thirdparty/renderdoc).
+* stb_image (public domain / MIT) - used by rexui image decoding; the notice is
+  embedded in the stb_image.h header (thirdparty/stb).
+
+----------------------------------------------------------------------------
+D. disruptorplus (resolved)
+----------------------------------------------------------------------------
+* disruptorplus - header-only; it IS compiled into rexruntime.dll (rexcore's
+  timer_queue.cpp includes disruptorplus/multi_threaded_claim_strategy.hpp,
+  ring_buffer.hpp, sequence_barrier.hpp and spin_wait_strategy.hpp).
+  License: MIT (Copyright (c) 2013 Lewis Baker).
+  Upstream: https://github.com/lewissbaker/disruptorplus (MIT).
+  The vendored copy under thirdparty/disruptorplus carries no license text, so
+  the applicable upstream MIT license is used: LICENSES/disruptorplus-LICENSE.txt
+  (verbatim upstream text).
+  Origin evidence: the vendored copy matches the derived MIT fork
+  https://github.com/xenia-project/disruptorplus (master) exactly in config.hpp,
+  sequence.hpp, ring_buffer.hpp and spin_wait.hpp, and differs from it by a
+  single line in multi_threaded_claim_strategy.hpp (sequence_t -> size_t).
+  LICENSE.txt sha256 (both upstream and fork, identical):
+  A56F05C0DBD9489E928FD3CA22712F90B310FE749CEEF47059E895F6A235100C
+
+----------------------------------------------------------------------------
+E. Build-time-only dependencies (NOT redistributed in the ZIP)
+----------------------------------------------------------------------------
+These are used to build tooling (e.g. the rexglue codegen CLI) and are NOT
+compiled into rexruntime.dll or rexgpu-xenos.dll:
+
+  disasm (binutils-derived, GPL) - linked only by rexcodegen / rexglue CLI
+  TinyCC/PE helpers, catch2, cli11, inja, Tracy (non-Release configs only),
+  dxc-headers, spirv-tools, spirv-headers, glslang, vulkan-headers,
+  vulkan-loader, vulkan-memory-allocator, moltenvk, pe, tiny-aes-c,
+  ffmpeg-overlay.
+
+----------------------------------------------------------------------------
+F. LGPL (FFmpeg, libmspack) - corresponding source and relink materials
+----------------------------------------------------------------------------
+rexruntime.dll statically links libmspack (LGPL-2.1) and FFmpeg's libavcodec /
+libavutil (LGPL-2.1-or-later; built with CONFIG_GPL=0, i.e. no GPL parts).
+
+Under LGPL-2.1 section 6, distributing a work linked with the Library requires,
+besides this notice and the license texts, either the corresponding Library
+source plus the relinkable "work that uses the Library", a shared-library
+mechanism, or equivalent materials. That material is published alongside this
+release in a separate package:
+
+    InfiniteUndiscoveryRecomp-v1.0.0-rc1-LGPL-Compliance.zip
+
+It contains the exact FFmpeg source (submodule commit
+0604b464c7cb4ebc94940cf1f324a3b26b87717c) and libmspack source (submodule commit
+305907723a4e7ab2018e58040059ffb5e77db837), their upstream LGPL license texts,
+the ReXGlue objects and non-LGPL static libraries used to produce
+rexruntime.dll, the export definition, the exact link command, and scripts that
+rebuild the LGPL libraries and relink rexruntime.dll.
+
+The relink procedure was executed and verified for this release: rebuilding
+libmspack (with a local modification) and rebuilding FFmpeg's libavutil from the
+provided sources, then relinking, both produced a rexruntime.dll with the
+identical 10,169-symbol export set, and the relinked DLL was confirmed to run
+the game.
+
+This notice states facts taken from the upstream sources; it is not a legal
+opinion.

@@ -2,6 +2,7 @@
 #include "asset_setup.h"
 #include "asset_dlc.h"
 #include "asset_hash.h"
+#include "content_profile.h"
 #include <algorithm>
 #include <fstream>
 #include <sstream>
@@ -13,20 +14,22 @@
 #include <shlobj.h>
 
 namespace iu::portable {
+
+std::string Utf8(const std::wstring& s) {
+  int n = WideCharToMultiByte(CP_UTF8, 0, s.data(), int(s.size()), nullptr, 0, nullptr, nullptr);
+  std::string out(n, 0); WideCharToMultiByte(CP_UTF8, 0, s.data(), int(s.size()), out.data(), n, nullptr, nullptr); return out;
+}
+
 namespace {
 fs::path home;
 bool es = false;
+std::string g_active_profile;
 const std::pair<std::string,std::string> strings[] = {
 #include "setup_strings.inc"
 };
 
 void Replace(std::string& s, const std::string& a, const std::string& b) {
   size_t i = 0; while ((i = s.find(a, i)) != std::string::npos) { s.replace(i, a.size(), b); i += b.size(); }
-}
-
-std::string Utf8(const std::wstring& s) {
-  int n = WideCharToMultiByte(CP_UTF8, 0, s.data(), int(s.size()), nullptr, 0, nullptr, nullptr);
-  std::string out(n, 0); WideCharToMultiByte(CP_UTF8, 0, s.data(), int(s.size()), out.data(), n, nullptr, nullptr); return out;
 }
 
 void NoLinks(const fs::path& path) {
@@ -38,11 +41,23 @@ void NoLinks(const fs::path& path) {
   }
 }
 
+static bool g_undub_subtitle_warning_dismissed = false;
+
 void WriteConfig(const fs::path& file) {
   NoLinks(file); fs::create_directories(file.parent_path());
   auto temp = file; temp += L".tmp"; NoLinks(temp);
   std::ofstream out(temp, std::ios::binary | std::ios::trunc);
-  out << "{\n  \"language\": \"" << (es ? "es" : "en") << "\",\n  \"portable\": true,\n  \"schema\": 1\n}\n";
+  out << "{\n";
+  if (!g_active_profile.empty()) {
+    out << "  \"active_profile\": \"" << g_active_profile << "\",\n";
+  }
+  out << "  \"language\": \"" << (es ? "es" : "en") << "\",\n";
+  if (g_undub_subtitle_warning_dismissed) {
+    out << "  \"undub_subtitle_warning_dismissed\": true,\n";
+  }
+  out << "  \"portable\": true,\n";
+  out << "  \"schema\": 1\n";
+  out << "}\n";
   out.close();
   if (!out || !MoveFileExW(temp.c_str(), file.c_str(), MOVEFILE_REPLACE_EXISTING | MOVEFILE_WRITE_THROUGH))
     throw std::runtime_error(Text("No se pueden guardar las preferencias."));
@@ -462,6 +477,8 @@ void DrawStatusBadge(HDC dc, HFONT bold_font, HFONT small_font, int x, int y, in
 // Main interactive Wizard dialog state
 struct WizardView {
   fs::path exe_dir;
+  std::optional<std::string> target_edition;
+  int current_step = 1;
 
   std::optional<iu::assets::Disc> first;
   std::optional<iu::assets::Disc> second;
@@ -493,6 +510,7 @@ struct WizardView {
   HWND edit1 = nullptr, btn1 = nullptr;
   HWND edit2 = nullptr, btn2 = nullptr;
   HWND edit3 = nullptr, btn3 = nullptr;
+  HWND btn_autodetect = nullptr;
   HWND btn_back = nullptr, btn_next = nullptr, btn_cancel = nullptr;
   HWND btn_en = nullptr, btn_es = nullptr;
 
@@ -513,6 +531,7 @@ struct WizardView {
     SetWindowTextW(btn1, Text(L"Examinar...").c_str());
     SetWindowTextW(btn2, Text(L"Examinar...").c_str());
     SetWindowTextW(btn3, Text(L"Examinar...").c_str());
+    if (btn_autodetect) SetWindowTextW(btn_autodetect, Text(L"Detectar medios").c_str());
     SetWindowTextW(btn_back, Text(L"Atras").c_str());
     SetWindowTextW(btn_next, Text(L"Siguiente >").c_str());
     SetWindowTextW(btn_cancel, Text(L"Cancelar").c_str());
@@ -532,8 +551,85 @@ struct WizardView {
       dlc_line2.clear();
       dlc_badge = 2;
     }
+
+    if (first && second) {
+      current_step = 3;
+    } else if (first) {
+      current_step = 2;
+    } else {
+      current_step = 1;
+    }
+
+    EnableWindow(btn_back, current_step > 1 && !installing);
     EnableWindow(btn_next, first.has_value());
     InvalidateRect(hwnd, nullptr, FALSE);
+  }
+
+  void StepBack() {
+    if (installing) return;
+    if (current_step == 3) {
+      second.reset();
+      disc2_path_str.clear();
+      SetWindowTextW(edit2, L"");
+      disc2_line1 = Text(L"Seleccione la ISO o carpeta extraida del Disc 2.");
+      disc2_line2.clear();
+      disc2_badge = 0;
+      current_step = 2;
+    } else if (current_step == 2) {
+      first.reset();
+      disc1_path_str.clear();
+      SetWindowTextW(edit1, L"");
+      disc1_line1 = Text(L"Seleccione la ISO o carpeta extraida del Disc 1.");
+      disc1_line2.clear();
+      disc1_badge = 0;
+      current_step = 1;
+    }
+    UpdateTexts();
+  }
+
+  void PickAutoDetectFolder() {
+    auto picked = iu::assets::Pick(true, hwnd);
+    if (!picked) return;
+    auto scan = iu::assets::ScanFolderForMedia(*picked, target_edition);
+    if (!scan.disc1 && !scan.disc2 && scan.dlc_packages.empty()) {
+      if (target_edition) {
+        const auto* info = iu::FindProfileByEdition(*target_edition);
+        std::wstring name = info ? info->display_name : Wide(*target_edition);
+        Error(Text("No valid media found for ") + Utf8(name));
+      } else {
+        Error(Text("No se encontraron discos o paquetes compatibles en la carpeta seleccionada."));
+      }
+      return;
+    }
+    if (scan.disc1) {
+      first = scan.disc1;
+      disc1_path_str = first->source.wstring();
+      const auto* info = iu::FindProfileByEdition(first->edition);
+      std::wstring ed_name = info ? info->display_name : Wide(first->edition);
+      disc1_line1 = Text(L"Detectado: Infinite Undiscovery — ") + ed_name + L" — Disc 1";
+      disc1_line2 = Text(L"Archivos del juego verificados.");
+      disc1_badge = 1;
+      SetWindowTextW(edit1, disc1_path_str.c_str());
+    }
+    if (scan.disc2) {
+      second = scan.disc2;
+      disc2_path_str = second->source.wstring();
+      const auto* info = iu::FindProfileByEdition(second->edition);
+      std::wstring ed_name = info ? info->display_name : Wide(second->edition);
+      disc2_line1 = Text(L"Detectado: Infinite Undiscovery — ") + ed_name + L" — Disc 2";
+      disc2_line2 = Text(L"Archivos del juego verificados.");
+      disc2_badge = 1;
+      SetWindowTextW(edit2, disc2_path_str.c_str());
+    }
+    if (!scan.dlc_packages.empty()) {
+      dlc = scan.dlc_packages;
+      dlc_badge = 1;
+      dlc_path_str = std::to_wstring(dlc.size()) + Text(L" paquete(s) DLC");
+      SetWindowTextW(edit3, dlc_path_str.c_str());
+      dlc_line1 = Text(L"DLC detectado: ") + std::to_wstring(dlc.size()) + Text(L" paquetes DLC verificados.");
+      dlc_line2.clear();
+    }
+    UpdateTexts();
   }
 
   void PickDisc(int slot) {
@@ -552,7 +648,9 @@ struct WizardView {
         if (second) iu::assets::ValidatePair(d, second);
         first = std::move(d);
         disc1_path_str = first->source.wstring();
-        disc1_line1 = Text(L"Detectado: Infinite Undiscovery — ") + Wide(first->edition == "USA" ? "NTSC-U" : first->edition) + L" — Disc 1";
+        const auto* info = iu::FindProfileByEdition(first->edition);
+        std::wstring ed_name = info ? info->display_name : Wide(first->edition);
+        disc1_line1 = Text(L"Detectado: Infinite Undiscovery — ") + ed_name + L" — Disc 1";
         disc1_line2 = Text(L"Archivos del juego verificados.");
         disc1_badge = 1;
         SetWindowTextW(edit1, disc1_path_str.c_str());
@@ -560,7 +658,9 @@ struct WizardView {
         if (first) iu::assets::ValidatePair(*first, d);
         second = std::move(d);
         disc2_path_str = second->source.wstring();
-        disc2_line1 = Text(L"Detectado: Infinite Undiscovery — ") + Wide(second->edition == "USA" ? "NTSC-U" : second->edition) + L" — Disc 2";
+        const auto* info = iu::FindProfileByEdition(second->edition);
+        std::wstring ed_name = info ? info->display_name : Wide(second->edition);
+        disc2_line1 = Text(L"Detectado: Infinite Undiscovery — ") + ed_name + L" — Disc 2";
         disc2_line2 = Text(L"Archivos del juego verificados.");
         disc2_badge = 1;
         SetWindowTextW(edit2, disc2_path_str.c_str());
@@ -635,6 +735,7 @@ struct WizardView {
     ShowWindow(edit1, SW_HIDE); ShowWindow(btn1, SW_HIDE);
     ShowWindow(edit2, SW_HIDE); ShowWindow(btn2, SW_HIDE);
     ShowWindow(edit3, SW_HIDE); ShowWindow(btn3, SW_HIDE);
+    if (btn_autodetect) ShowWindow(btn_autodetect, SW_HIDE);
     EnableWindow(btn_next, FALSE);
 
     install_future = std::async(std::launch::async, [&]() {
@@ -663,6 +764,7 @@ struct WizardView {
       ShowWindow(edit1, SW_SHOW); ShowWindow(btn1, SW_SHOW);
       ShowWindow(edit2, SW_SHOW); ShowWindow(btn2, SW_SHOW);
       ShowWindow(edit3, SW_SHOW); ShowWindow(btn3, SW_SHOW);
+      if (btn_autodetect) ShowWindow(btn_autodetect, SW_SHOW);
       EnableWindow(btn_next, first.has_value());
       InvalidateRect(hwnd, nullptr, FALSE);
       return;
@@ -714,7 +816,13 @@ void PaintWizard(WizardView& v, HDC dc) {
 
   if (!v.installing) {
     // Headline
-    Label(dc, v.font_bold, {315, 224, 980, 248}, L"✦  " + Text(L"Listo para configurar los archivos del juego."), RGB(240, 245, 255));
+    std::wstring headline = L"✦  " + Text(L"Listo para configurar los archivos del juego.");
+    if (v.target_edition) {
+      const auto* info = iu::FindProfileByEdition(*v.target_edition);
+      std::wstring name = info ? info->display_name : Wide(*v.target_edition);
+      headline = L"✦  " + Text(L"Configurando: ") + name;
+    }
+    Label(dc, v.font_bold, {315, 224, 980, 248}, headline, RGB(240, 245, 255));
     Label(dc, v.font_body, {337, 248, 980, 272}, Text(L"Seleccione los discos del juego y DLC opcional. El asistente detectara y verificara sus archivos."), RGB(150, 175, 205));
 
     // Disc Icons
@@ -792,7 +900,7 @@ LRESULT CALLBACK WizardProc(HWND w, UINT msg, WPARAM wp, LPARAM lp) {
       auto* d = reinterpret_cast<DRAWITEMSTRUCT*>(lp);
       bool is_lang = (d->CtlID == 901 || d->CtlID == 902);
       bool is_primary = (d->CtlID == 1011);
-      bool is_browse = (d->CtlID == 1002 || d->CtlID == 1004 || d->CtlID == 1006);
+      bool is_browse = (d->CtlID == 1002 || d->CtlID == 1004 || d->CtlID == 1006 || d->CtlID == 1008);
 
       COLORREF bg = RGB(18, 28, 44);
       COLORREF border = RGB(45, 68, 98);
@@ -837,6 +945,10 @@ LRESULT CALLBACK WizardProc(HWND w, UINT msg, WPARAM wp, LPARAM lp) {
         v->PickDisc(2);
       } else if (id == 1006) { // Browse DLC
         v->PickDlcAction();
+      } else if (id == 1008) { // Auto-detect
+        v->PickAutoDetectFolder();
+      } else if (id == 1010) { // Back
+        v->StepBack();
       } else if (id == 1011) { // Next / Install
         v->StartInstall();
       } else if (id == IDCANCEL || id == 2) {
@@ -861,6 +973,7 @@ LRESULT CALLBACK WizardProc(HWND w, UINT msg, WPARAM wp, LPARAM lp) {
             ShowWindow(v->edit1, SW_SHOW); ShowWindow(v->btn1, SW_SHOW);
             ShowWindow(v->edit2, SW_SHOW); ShowWindow(v->btn2, SW_SHOW);
             ShowWindow(v->edit3, SW_SHOW); ShowWindow(v->btn3, SW_SHOW);
+            if (v->btn_autodetect) ShowWindow(v->btn_autodetect, SW_SHOW);
             EnableWindow(v->btn_next, v->first.has_value());
             Error(e.what());
           }
@@ -997,6 +1110,9 @@ std::wstring Wide(const std::string& s) {
 bool Spanish() { return es; }
 void SetSpanish(bool value) { es = value; }
 
+bool IsUndubSubtitleWarningDismissed() { return g_undub_subtitle_warning_dismissed; }
+void SetUndubSubtitleWarningDismissed(bool value) { g_undub_subtitle_warning_dismissed = value; }
+
 std::string Text(const std::string& input) {
   auto s = input; std::vector<const std::pair<std::string,std::string>*> ordered;
   for (auto& p : strings) ordered.push_back(&p);
@@ -1010,24 +1126,83 @@ std::string Text(const std::string& input) {
 std::wstring Text(const std::wstring& s) { return Wide(Text(Utf8(s))); }
 
 Paths Layout(const fs::path& exe, const std::string& region) {
-  if (region != "NTSC-U" && region != "PAL") throw std::runtime_error(Text("Region no valida."));
-  auto root = fs::absolute(exe) / region; NoLinks(root);
+  const auto* info = iu::FindProfileByFolder(region);
+  if (!info) throw std::runtime_error(Text("Region no valida."));
+  auto root = fs::absolute(exe) / info->folder_name; NoLinks(root);
   return {root, root / "assets", root / "saves", root / "shaders", root / "cache", root / "logs", root / "config.json"};
 }
 
+void MigrateLegacyProfiles(const fs::path& exe) {
+  struct Migration {
+    std::string legacy;
+    std::string current;
+  } migrations[] = {
+    {"NTSC-U", "USA"},
+    {"NTSC-U-UNDUB", "USA-UNDUB"},
+    {"PAL", "EUROPE"}
+  };
+  for (const auto& m : migrations) {
+    fs::path old_dir = exe / m.legacy;
+    fs::path new_dir = exe / m.current;
+    if (fs::exists(old_dir) && fs::is_directory(old_dir)) {
+      if (!fs::exists(new_dir)) {
+        std::error_code ec;
+        fs::rename(old_dir, new_dir, ec);
+        if (!ec) {
+          std::printf("[ProfileMigration] Migrated legacy profile folder '%s' -> '%s'\n",
+                      m.legacy.c_str(), m.current.c_str());
+        }
+      } else {
+        std::printf("[ProfileMigration] Legacy folder '%s' and new folder '%s' both exist; preserving both.\n",
+                    m.legacy.c_str(), m.current.c_str());
+      }
+    }
+  }
+}
+
 void Initialize(const fs::path& exe) {
-  home = fs::absolute(exe); es = false;
+  home = fs::absolute(exe); es = false; g_active_profile.clear(); g_undub_subtitle_warning_dismissed = false;
+  MigrateLegacyProfiles(home);
   NoLinks(home / "setup.json");
   std::ifstream in(home / "setup.json");
-  std::string s((std::istreambuf_iterator<char>(in)), {});
-  es = s.find("\"es\"") != std::string::npos;
+  if (in) {
+    std::string s((std::istreambuf_iterator<char>(in)), {});
+    es = s.find("\"es\"") != std::string::npos;
+    g_undub_subtitle_warning_dismissed =
+        (s.find("\"undub_subtitle_warning_dismissed\": true") != std::string::npos ||
+         s.find("\"undub_subtitle_warning_dismissed\":true") != std::string::npos);
+    auto pos = s.find("\"active_profile\"");
+    if (pos != std::string::npos) {
+      auto colon = s.find(':', pos);
+      if (colon != std::string::npos) {
+        auto q1 = s.find('"', colon);
+        if (q1 != std::string::npos) {
+          auto q2 = s.find('"', q1 + 1);
+          if (q2 != std::string::npos) {
+            std::string prof = s.substr(q1 + 1, q2 - q1 - 1);
+            const auto* info = iu::FindProfileByFolder(prof);
+            g_active_profile = info ? info->folder_name : prof;
+          }
+        }
+      }
+    }
+  }
+}
+
+std::string GetActiveProfile() {
+  return g_active_profile;
+}
+
+void SetActiveProfile(const std::string& profile_folder) {
+  const auto* info = iu::FindProfileByFolder(profile_folder);
+  g_active_profile = info ? info->folder_name : profile_folder;
 }
 
 void SaveLanguage() {
   if (home.empty()) return;
   WriteConfig(home / "setup.json");
-  for (auto region : {"NTSC-U", "PAL"}) {
-    auto p = Layout(home, region);
+  for (const auto& profile : iu::GetAllProfiles()) {
+    auto p = Layout(home, profile.folder_name);
     if (fs::is_directory(p.root)) WriteConfig(p.config);
   }
 }
@@ -1079,7 +1254,11 @@ void Error(const std::string& message) {
   Dialog(L"Error", Wide(message), {{IDOK, L"Cerrar"}});
 }
 
-std::optional<fs::path> RunWizard(const fs::path& exe) {
+std::optional<fs::path> RunWizard(const fs::path& exe,
+                                  const std::optional<iu::assets::Disc>& initial_d1,
+                                  const std::optional<iu::assets::Disc>& initial_d2,
+                                  const std::vector<iu::dlc::Package>& initial_dlc,
+                                  const std::optional<std::string>& target_edition) {
   auto hr = CoInitializeEx(nullptr, COINIT_APARTMENTTHREADED);
   struct ComScope { bool ok; ~ComScope() { if (ok) CoUninitialize(); } } com_scope{SUCCEEDED(hr)};
   INITCOMMONCONTROLSEX icx{sizeof(icx), ICC_STANDARD_CLASSES}; InitCommonControlsEx(&icx);
@@ -1093,6 +1272,33 @@ std::optional<fs::path> RunWizard(const fs::path& exe) {
 
   WizardView v;
   v.exe_dir = exe;
+  v.target_edition = target_edition;
+
+  if (initial_d1) {
+    v.first = initial_d1;
+    v.disc1_path_str = v.first->source.wstring();
+    const auto* info = iu::FindProfileByEdition(v.first->edition);
+    std::wstring ed_name = info ? info->display_name : Wide(v.first->edition);
+    v.disc1_line1 = Text(L"Detectado: Infinite Undiscovery — ") + ed_name + L" — Disc 1";
+    v.disc1_line2 = Text(L"Archivos del juego verificados.");
+    v.disc1_badge = 1;
+  }
+  if (initial_d2) {
+    v.second = initial_d2;
+    v.disc2_path_str = v.second->source.wstring();
+    const auto* info = iu::FindProfileByEdition(v.second->edition);
+    std::wstring ed_name = info ? info->display_name : Wide(v.second->edition);
+    v.disc2_line1 = Text(L"Detectado: Infinite Undiscovery — ") + ed_name + L" — Disc 2";
+    v.disc2_line2 = Text(L"Archivos del juego verificados.");
+    v.disc2_badge = 1;
+  }
+  if (!initial_dlc.empty()) {
+    v.dlc = initial_dlc;
+    v.dlc_badge = 1;
+    v.dlc_path_str = std::to_wstring(v.dlc.size()) + Text(L" paquete(s) DLC");
+    v.dlc_line1 = Text(L"DLC detectado: ") + std::to_wstring(v.dlc.size()) + Text(L" paquetes DLC verificados.");
+    v.dlc_line2.clear();
+  }
 
   v.font_title = CreateFontW(-28, 0, 0, 0, FW_BOLD, 0, 0, 0, DEFAULT_CHARSET, 0, 0, CLEARTYPE_QUALITY, 0, L"Georgia");
   v.font_sub = CreateFontW(-13, 0, 0, 0, FW_NORMAL, 0, 0, 0, DEFAULT_CHARSET, 0, 0, CLEARTYPE_QUALITY, 0, L"Segoe UI");
@@ -1134,9 +1340,16 @@ std::optional<fs::path> RunWizard(const fs::path& exe) {
   v.btn3 = CreateWindowW(L"BUTTON", Text(L"Examinar...").c_str(), WS_CHILD | WS_VISIBLE | WS_TABSTOP | BS_OWNERDRAW,
                          865, 425, 110, 26, w, (HMENU)1006, nullptr, nullptr);
 
+  v.btn_autodetect = CreateWindowW(L"BUTTON", Text(L"Auto-detect media").c_str(), WS_CHILD | WS_VISIBLE | WS_TABSTOP | BS_OWNERDRAW,
+                                   360, 495, 230, 32, w, (HMENU)1008, nullptr, nullptr);
+
   SendMessageW(v.edit1, WM_SETFONT, (WPARAM)v.font_body, TRUE);
   SendMessageW(v.edit2, WM_SETFONT, (WPARAM)v.font_body, TRUE);
   SendMessageW(v.edit3, WM_SETFONT, (WPARAM)v.font_body, TRUE);
+
+  if (v.first) SetWindowTextW(v.edit1, v.disc1_path_str.c_str());
+  if (v.second) SetWindowTextW(v.edit2, v.disc2_path_str.c_str());
+  if (!v.dlc.empty()) SetWindowTextW(v.edit3, v.dlc_path_str.c_str());
 
   // Bottom action buttons
   v.btn_back = CreateWindowW(L"BUTTON", Text(L"Atras").c_str(), WS_CHILD | WS_VISIBLE | BS_OWNERDRAW,
@@ -1145,7 +1358,7 @@ std::optional<fs::path> RunWizard(const fs::path& exe) {
 
   v.btn_next = CreateWindowW(L"BUTTON", Text(L"Siguiente >").c_str(), WS_CHILD | WS_VISIBLE | WS_TABSTOP | BS_OWNERDRAW,
                              755, 570, 125, 34, w, (HMENU)1011, nullptr, nullptr);
-  EnableWindow(v.btn_next, FALSE);
+  EnableWindow(v.btn_next, v.first.has_value());
 
   v.btn_cancel = CreateWindowW(L"BUTTON", Text(L"Cancelar").c_str(), WS_CHILD | WS_VISIBLE | WS_TABSTOP | BS_OWNERDRAW,
                                890, 570, 85, 34, w, (HMENU)IDCANCEL, nullptr, nullptr);
@@ -1175,36 +1388,508 @@ std::optional<fs::path> RunWizard(const fs::path& exe) {
   return v.result_root;
 }
 
+std::optional<fs::path> RunWizard(const fs::path& exe,
+                                  const std::optional<std::string>& target_edition) {
+  return RunWizard(exe, std::nullopt, std::nullopt, {}, target_edition);
+}
+
+struct ProfileManagerView {
+  fs::path exe_dir;
+
+  struct Item {
+    iu::ContentProfileInfo info;
+    bool d1_ready = false;
+    bool d2_ready = false;
+    size_t dlc_count = 0;
+    bool is_active = false;
+  };
+  std::vector<Item> profiles;
+  int selected = 0;
+
+  HWND hwnd = nullptr;
+  HWND btn_en = nullptr, btn_es = nullptr;
+  HWND btn_launch = nullptr;
+  HWND btn_set_active = nullptr;
+  HWND btn_install = nullptr;
+  HWND btn_autodetect = nullptr;
+  HWND btn_exit = nullptr;
+
+  HFONT font_title = nullptr;
+  HFONT font_sub = nullptr;
+  HFONT font_head = nullptr;
+  HFONT font_body = nullptr;
+  HFONT font_bold = nullptr;
+  HFONT font_btn = nullptr;
+
+  std::optional<fs::path> result_root;
+  bool done = false;
+
+  void RefreshProfiles() {
+    profiles.clear();
+    int active_idx = -1;
+    int first_ready_idx = -1;
+    const auto& all = iu::GetAllProfiles();
+    for (size_t i = 0; i < all.size(); ++i) {
+      Item item;
+      item.info = all[i];
+      auto paths = Layout(exe_dir, item.info.folder_name);
+      item.d1_ready = iu::assets::Ready(paths.assets / "disc1");
+      auto d2_xex = paths.assets / "disc2" / "default.xex";
+      auto d2_bin1 = paths.assets / "disc2" / "ud1.bin";
+      auto d2_bin2 = paths.assets / "disc2" / "ud2.bin";
+      item.d2_ready = fs::exists(d2_xex) && fs::exists(d2_bin1) && fs::exists(d2_bin2);
+      auto dlc_dir = paths.assets / "dlc";
+      if (fs::is_directory(dlc_dir)) {
+        std::error_code ec;
+        for (const auto& e : fs::directory_iterator(dlc_dir, ec)) {
+          if (e.is_regular_file()) ++item.dlc_count;
+        }
+      }
+      item.is_active = (!g_active_profile.empty() && g_active_profile == item.info.folder_name);
+      if (item.is_active) active_idx = int(i);
+      if (item.d1_ready && first_ready_idx == -1) first_ready_idx = int(i);
+      profiles.push_back(item);
+    }
+    if (active_idx != -1) {
+      selected = active_idx;
+    } else if (first_ready_idx != -1) {
+      selected = first_ready_idx;
+    } else if (selected >= int(profiles.size())) {
+      selected = 0;
+    }
+  }
+
+  void UpdateTexts() {
+    SetWindowTextW(btn_en, L"English");
+    SetWindowTextW(btn_es, L"Español");
+    SetWindowTextW(btn_launch, Text(L"Iniciar perfil").c_str());
+    SetWindowTextW(btn_set_active, Text(L"Establecer como activo").c_str());
+    SetWindowTextW(btn_install, Text(L"Instalar / Configurar").c_str());
+    SetWindowTextW(btn_autodetect, Text(L"Detectar medios").c_str());
+    SetWindowTextW(btn_exit, Text(L"Cerrar").c_str());
+
+    bool launch_ok = (selected >= 0 && selected < int(profiles.size()) && profiles[selected].d1_ready);
+    EnableWindow(btn_launch, launch_ok);
+    InvalidateRect(hwnd, nullptr, FALSE);
+  }
+
+  void LaunchSelected() {
+    if (selected < 0 || selected >= int(profiles.size())) return;
+    if (!profiles[selected].d1_ready) return;
+    g_active_profile = profiles[selected].info.folder_name;
+    SaveLanguage();
+    result_root = Layout(exe_dir, g_active_profile).root;
+    done = true;
+    DestroyWindow(hwnd);
+  }
+
+  void SetSelectedActive() {
+    if (selected < 0 || selected >= int(profiles.size())) return;
+    g_active_profile = profiles[selected].info.folder_name;
+    SaveLanguage();
+    RefreshProfiles();
+    UpdateTexts();
+  }
+
+  void InstallAction() {
+    ShowWindow(hwnd, SW_HIDE);
+    std::optional<std::string> target;
+    if (selected >= 0 && selected < int(profiles.size())) {
+      target = profiles[selected].info.edition_code;
+    }
+    auto res = RunWizard(exe_dir, target);
+    ShowWindow(hwnd, SW_SHOW);
+    if (res) {
+      auto prof_folder = res->parent_path().parent_path().filename().string();
+      g_active_profile = prof_folder;
+      SaveLanguage();
+      const auto* info = iu::FindProfileByFolder(prof_folder);
+      std::wstring name = info ? info->display_name : Wide(prof_folder);
+      Dialog(iu::portable::Text(L"Gestor de perfiles de contenido"),
+             name + iu::portable::Text(L" instalado con exito y establecido como perfil activo."),
+             {{IDOK, iu::portable::Text(L"Cerrar")}});
+    }
+    RefreshProfiles();
+    UpdateTexts();
+  }
+
+  void AutoDetectAction() {
+    auto picked = iu::assets::Pick(true, hwnd);
+    if (!picked) return;
+    auto scan = iu::assets::ScanFolderForMedia(*picked);
+    if (!scan.disc1 && !scan.disc2 && scan.dlc_packages.empty()) {
+      Error(Text("No se encontraron discos o paquetes compatibles en la carpeta seleccionada."));
+      return;
+    }
+
+    std::optional<std::string> chosen_edition;
+    if (scan.found_editions.size() > 1) {
+      std::vector<Button> buttons;
+      for (size_t i = 0; i < scan.found_editions.size() && i < 10; ++i) {
+        const auto* info = iu::FindProfileByEdition(scan.found_editions[i]);
+        std::wstring ed_name = info ? info->display_name : Wide(scan.found_editions[i]);
+        buttons.push_back({static_cast<int>(100 + i), ed_name});
+      }
+      buttons.push_back({IDCANCEL, iu::portable::Text(L"Cancelar")});
+      int choice = Dialog(iu::portable::Text(L"Seleccionar perfil detectado"),
+                          iu::portable::Text(L"Se detectaron multiples perfiles validos. Elija cual desea configurar:"),
+                          buttons);
+      if (choice == IDCANCEL) return;
+      size_t idx = static_cast<size_t>(choice - 100);
+      if (idx < scan.found_editions.size()) {
+        chosen_edition = scan.found_editions[idx];
+        scan = iu::assets::ScanFolderForMedia(*picked, chosen_edition);
+      }
+    } else if (!scan.found_editions.empty()) {
+      chosen_edition = scan.found_editions.front();
+    }
+
+    ShowWindow(hwnd, SW_HIDE);
+    auto res = RunWizard(exe_dir, scan.disc1, scan.disc2, scan.dlc_packages, chosen_edition);
+    ShowWindow(hwnd, SW_SHOW);
+    if (res) {
+      auto prof_folder = res->parent_path().parent_path().filename().string();
+      g_active_profile = prof_folder;
+      SaveLanguage();
+      const auto* info = iu::FindProfileByFolder(prof_folder);
+      std::wstring name = info ? info->display_name : Wide(prof_folder);
+      Dialog(iu::portable::Text(L"Gestor de perfiles de contenido"),
+             name + iu::portable::Text(L" instalado con exito y establecido como perfil activo."),
+             {{IDOK, iu::portable::Text(L"Cerrar")}});
+    }
+    RefreshProfiles();
+    UpdateTexts();
+  }
+};
+
+void PaintProfileManager(ProfileManagerView& v, HDC dc) {
+  RECT rc; GetClientRect(v.hwnd, &rc);
+  int h = rc.bottom - rc.top;
+  for (int y = 0; y < h; ++y) {
+    int g = 15 + y * 10 / h;
+    int b = 26 + y * 16 / h;
+    Fill(dc, {rc.left, rc.top + y, rc.right, rc.top + y + 1}, RGB(10, g, b));
+  }
+  for (int i = 0; i < 40; ++i) {
+    int sx = (i * 73 + 17) % (rc.right - 40) + 20;
+    int sy = (i * 37 + 11) % 120 + 10;
+    int b = 180 + (i * 23) % 75;
+    SetPixel(dc, sx, sy, RGB(b - 30, b - 15, b));
+  }
+
+  DrawCrest(dc, 52, 48, 22);
+  Label(dc, v.font_title, {86, 20, 600, 56}, L"Infinite Undiscovery", RGB(240, 245, 255));
+  Label(dc, v.font_sub, {88, 56, 600, 78}, L"R E C O M P", RGB(175, 195, 225));
+  Label(dc, v.font_head, {87, 78, 600, 108}, Text(L"Gestor de perfiles de contenido"), RGB(215, 230, 250));
+
+  Label(dc, v.font_body, {725, 30, 800, 54}, Text(L"Idioma") + L":", RGB(150, 175, 205), DT_RIGHT | DT_SINGLELINE);
+
+  DrawCard1(dc, {38, 120, 262, 265});
+  DrawCard2(dc, {38, 280, 262, 425});
+  DrawCard3(dc, {38, 440, 262, 585});
+
+  RECT card_rc = {285, 120, 1005, 630};
+  DrawRoundRect(dc, card_rc, 12, RGB(45, 70, 105), RGB(14, 22, 36));
+
+  Label(dc, v.font_bold, {315, 132, 980, 155}, L"✦  " + Text(L"Seleccione un perfil de contenido para jugar o configurar."), RGB(240, 245, 255));
+
+  for (size_t i = 0; i < v.profiles.size(); ++i) {
+    RECT row_rc = {310, int(158 + i * 75), 980, int(158 + i * 75 + 68)};
+    bool is_sel = (v.selected == int(i));
+    COLORREF bg = is_sel ? RGB(22, 44, 76) : RGB(16, 24, 38);
+    COLORREF border = is_sel ? RGB(70, 165, 245) : RGB(38, 56, 82);
+    DrawRoundRect(dc, row_rc, 8, border, bg);
+
+    // Radio button circle
+    int cx = 330, cy = row_rc.top + 34;
+    auto pen = CreatePen(PS_SOLID, 2, is_sel ? RGB(70, 165, 245) : RGB(65, 90, 125));
+    auto brush = CreateSolidBrush(is_sel ? RGB(20, 65, 115) : RGB(14, 20, 32));
+    auto old_p = SelectObject(dc, pen);
+    auto old_b = SelectObject(dc, brush);
+    Ellipse(dc, cx - 8, cy - 8, cx + 8, cy + 8);
+    if (is_sel) {
+      auto dot_b = CreateSolidBrush(RGB(90, 200, 255));
+      SelectObject(dc, dot_b);
+      Ellipse(dc, cx - 4, cy - 4, cx + 4, cy + 4);
+      DeleteObject(dot_b);
+    }
+    SelectObject(dc, old_b);
+    SelectObject(dc, old_p);
+    DeleteObject(brush);
+    DeleteObject(pen);
+
+    // Profile display name (expand right bound from 530 to 600 for long names like "USA UNDUB (Japanese Voices)")
+    Label(dc, v.font_bold, {350, row_rc.top + 10, 600, row_rc.top + 34}, v.profiles[i].info.display_name, RGB(240, 245, 255));
+    // Folder tag
+    std::wstring dir_tag = Wide(v.profiles[i].info.folder_name + "\\");
+    Label(dc, v.font_btn, {350, row_rc.top + 36, 600, row_rc.top + 58}, dir_tag, RGB(125, 150, 180));
+
+    // Disc 1 status
+    int d1_x = 610;
+    if (v.profiles[i].d1_ready) {
+      DrawStatusBadge(dc, v.font_btn, v.font_btn, d1_x, row_rc.top + 12, 1, L"Disc 1: " + Text(L"Listo"), L"");
+    } else {
+      DrawStatusBadge(dc, v.font_btn, v.font_btn, d1_x, row_rc.top + 12, 3, L"Disc 1: " + Text(L"No instalado"), L"");
+    }
+
+    // Disc 2 status
+    if (v.profiles[i].d2_ready) {
+      DrawStatusBadge(dc, v.font_btn, v.font_btn, d1_x, row_rc.top + 36, 1, L"Disc 2: " + Text(L"Listo"), L"");
+    } else {
+      DrawStatusBadge(dc, v.font_btn, v.font_btn, d1_x, row_rc.top + 36, 0, L"Disc 2: " + Text(L"No instalado"), L"");
+    }
+
+    // DLC status
+    int dlc_x = 750;
+    if (v.profiles[i].dlc_count > 0) {
+      DrawStatusBadge(dc, v.font_btn, v.font_btn, dlc_x, row_rc.top + 24, 2, std::to_wstring(v.profiles[i].dlc_count) + Text(L" paquete(s)"), L"");
+    } else {
+      DrawStatusBadge(dc, v.font_btn, v.font_btn, dlc_x, row_rc.top + 24, 0, Text(L"Sin DLC (Opcional)"), L"");
+    }
+
+    // Active default badge
+    if (v.profiles[i].is_active) {
+      RECT act_rc = {885, row_rc.top + 20, 970, row_rc.top + 48};
+      DrawRoundRect(dc, act_rc, 6, RGB(50, 180, 110), RGB(18, 60, 38));
+      Label(dc, v.font_bold, act_rc, es ? L"ACTIVO" : L"ACTIVE", RGB(110, 245, 170), DT_CENTER | DT_VCENTER | DT_SINGLELINE);
+    }
+  }
+}
+
+LRESULT CALLBACK ProfileManagerProc(HWND w, UINT msg, WPARAM wp, LPARAM lp) {
+  auto* v = reinterpret_cast<ProfileManagerView*>(GetWindowLongPtrW(w, GWLP_USERDATA));
+  if (msg == WM_NCCREATE) {
+    v = static_cast<ProfileManagerView*>(reinterpret_cast<CREATESTRUCTW*>(lp)->lpCreateParams);
+    v->hwnd = w;
+    SetWindowLongPtrW(w, GWLP_USERDATA, reinterpret_cast<LONG_PTR>(v));
+  }
+  if (!v) return DefWindowProcW(w, msg, wp, lp);
+
+  switch (msg) {
+    case WM_ERASEBKGND: return 1;
+
+    case WM_PAINT: {
+      PAINTSTRUCT ps;
+      HDC dc = BeginPaint(w, &ps);
+      HDC back = CreateCompatibleDC(dc);
+      RECT r; GetClientRect(w, &r);
+      auto bitmap = CreateCompatibleBitmap(dc, r.right, r.bottom);
+      auto prev = SelectObject(back, bitmap);
+      PaintProfileManager(*v, back);
+      BitBlt(dc, 0, 0, r.right, r.bottom, back, 0, 0, SRCCOPY);
+      SelectObject(back, prev);
+      DeleteObject(bitmap);
+      DeleteDC(back);
+      EndPaint(w, &ps);
+      return 0;
+    }
+
+    case WM_LBUTTONDOWN: {
+      int mx = LOWORD(lp), my = HIWORD(lp);
+      for (size_t i = 0; i < v->profiles.size(); ++i) {
+        RECT row_rc = {310, int(158 + i * 75), 980, int(158 + i * 75 + 68)};
+        if (mx >= row_rc.left && mx <= row_rc.right && my >= row_rc.top && my <= row_rc.bottom) {
+          v->selected = int(i);
+          v->UpdateTexts();
+          break;
+        }
+      }
+      return 0;
+    }
+
+    case WM_LBUTTONDBLCLK: {
+      int mx = LOWORD(lp), my = HIWORD(lp);
+      for (size_t i = 0; i < v->profiles.size(); ++i) {
+        RECT row_rc = {310, int(158 + i * 75), 980, int(158 + i * 75 + 68)};
+        if (mx >= row_rc.left && mx <= row_rc.right && my >= row_rc.top && my <= row_rc.bottom) {
+          v->selected = int(i);
+          if (v->profiles[i].d1_ready) {
+            v->LaunchSelected();
+          }
+          break;
+        }
+      }
+      return 0;
+    }
+
+    case WM_DRAWITEM: {
+      auto* d = reinterpret_cast<DRAWITEMSTRUCT*>(lp);
+      bool is_lang = (d->CtlID == 901 || d->CtlID == 902);
+      bool is_primary = (d->CtlID == 2001);
+
+      COLORREF bg = RGB(18, 28, 44);
+      COLORREF border = RGB(45, 68, 98);
+      COLORREF text = RGB(200, 215, 235);
+
+      if (is_lang) {
+        bool active = (d->CtlID == (es ? 902 : 901));
+        bg = active ? RGB(26, 68, 120) : RGB(14, 22, 36);
+        border = active ? RGB(70, 150, 235) : RGB(35, 52, 78);
+        text = active ? RGB(255, 255, 255) : RGB(150, 175, 205);
+      } else if (is_primary) {
+        bool enabled = IsWindowEnabled(d->hwndItem);
+        bg = enabled ? RGB(22, 75, 138) : RGB(16, 24, 38);
+        border = enabled ? RGB(65, 160, 245) : RGB(32, 48, 70);
+        text = enabled ? RGB(255, 255, 255) : RGB(80, 105, 135);
+      } else {
+        bg = RGB(20, 32, 50);
+        border = RGB(48, 75, 110);
+        text = RGB(220, 235, 250);
+      }
+
+      DrawRoundRect(d->hDC, d->rcItem, is_lang ? 14 : 6, border, bg);
+
+      wchar_t label[160]{};
+      GetWindowTextW(d->hwndItem, label, 160);
+      Label(d->hDC, (is_primary || is_lang) ? v->font_bold : v->font_btn, d->rcItem, label, text,
+            DT_CENTER | DT_VCENTER | DT_SINGLELINE);
+
+      if (d->itemState & ODS_FOCUS) DrawFocusRect(d->hDC, &d->rcItem);
+      return TRUE;
+    }
+
+    case WM_COMMAND: {
+      int id = LOWORD(wp);
+      if (id == 901) {
+        SetSpanish(false); SaveLanguage(); v->UpdateTexts();
+      } else if (id == 902) {
+        SetSpanish(true); SaveLanguage(); v->UpdateTexts();
+      } else if (id == 2001) { // Launch
+        v->LaunchSelected();
+      } else if (id == 2002) { // Set as Active
+        v->SetSelectedActive();
+      } else if (id == 2003) { // Install / Setup
+        v->InstallAction();
+      } else if (id == 2004) { // Auto-detect
+        v->AutoDetectAction();
+      } else if (id == IDCANCEL || id == 2) {
+        v->done = true;
+        DestroyWindow(w);
+      }
+      return 0;
+    }
+
+    case WM_USER + 102: // TDM_CLICK_BUTTON
+      v->done = true;
+      DestroyWindow(w);
+      return 0;
+
+    case WM_CLOSE:
+      v->done = true;
+      DestroyWindow(w);
+      return 0;
+  }
+  return DefWindowProcW(w, msg, wp, lp);
+}
+
+std::optional<fs::path> RunProfileManager(const fs::path& exe) {
+  auto hr = CoInitializeEx(nullptr, COINIT_APARTMENTTHREADED);
+  struct ComScope { bool ok; ~ComScope() { if (ok) CoUninitialize(); } } com_scope{SUCCEEDED(hr)};
+  INITCOMMONCONTROLSEX icx{sizeof(icx), ICC_STANDARD_CLASSES}; InitCommonControlsEx(&icx);
+
+  static bool registered = false;
+  if (!registered) {
+    WNDCLASSW wc{}; wc.lpfnWndProc = ProfileManagerProc; wc.hInstance = GetModuleHandleW(nullptr);
+    wc.lpszClassName = L"IUProfileManager"; wc.hCursor = LoadCursor(nullptr, IDC_ARROW);
+    RegisterClassW(&wc); registered = true;
+  }
+
+  ProfileManagerView v;
+  v.exe_dir = exe;
+  v.RefreshProfiles();
+
+  v.font_title = CreateFontW(-28, 0, 0, 0, FW_BOLD, 0, 0, 0, DEFAULT_CHARSET, 0, 0, CLEARTYPE_QUALITY, 0, L"Georgia");
+  v.font_sub = CreateFontW(-13, 0, 0, 0, FW_NORMAL, 0, 0, 0, DEFAULT_CHARSET, 0, 0, CLEARTYPE_QUALITY, 0, L"Segoe UI");
+  v.font_head = CreateFontW(-20, 0, 0, 0, FW_SEMIBOLD, 0, 0, 0, DEFAULT_CHARSET, 0, 0, CLEARTYPE_QUALITY, 0, L"Segoe UI");
+  v.font_body = CreateFontW(-14, 0, 0, 0, FW_NORMAL, 0, 0, 0, DEFAULT_CHARSET, 0, 0, CLEARTYPE_QUALITY, 0, L"Segoe UI");
+  v.font_bold = CreateFontW(-14, 0, 0, 0, FW_SEMIBOLD, 0, 0, 0, DEFAULT_CHARSET, 0, 0, CLEARTYPE_QUALITY, 0, L"Segoe UI");
+  v.font_btn = CreateFontW(-13, 0, 0, 0, FW_NORMAL, 0, 0, 0, DEFAULT_CHARSET, 0, 0, CLEARTYPE_QUALITY, 0, L"Segoe UI");
+
+  auto owner = GetActiveWindow();
+  if (owner) EnableWindow(owner, FALSE);
+
+  int win_w = 1040, win_h = 680;
+  HWND w = CreateWindowExW(WS_EX_DLGMODALFRAME, L"IUProfileManager", L"Infinite Undiscovery - Content Profile Manager",
+                           WS_CAPTION | WS_SYSMENU | WS_MINIMIZEBOX,
+                           (GetSystemMetrics(SM_CXSCREEN) - win_w) / 2, (GetSystemMetrics(SM_CYSCREEN) - win_h) / 2,
+                           win_w, win_h, owner, nullptr, GetModuleHandleW(nullptr), &v);
+  if (!w) throw std::runtime_error("Cannot create profile manager window");
+
+  v.btn_en = CreateWindowW(L"BUTTON", L"English", WS_CHILD | WS_VISIBLE | WS_TABSTOP | BS_OWNERDRAW,
+                           805, 26, 85, 26, w, (HMENU)901, nullptr, nullptr);
+  v.btn_es = CreateWindowW(L"BUTTON", L"Español", WS_CHILD | WS_VISIBLE | WS_TABSTOP | BS_OWNERDRAW,
+                           895, 26, 85, 26, w, (HMENU)902, nullptr, nullptr);
+
+  v.btn_launch = CreateWindowW(L"BUTTON", Text(L"Iniciar perfil").c_str(), WS_CHILD | WS_VISIBLE | WS_TABSTOP | BS_OWNERDRAW,
+                               310, 560, 130, 38, w, (HMENU)2001, nullptr, nullptr);
+  v.btn_set_active = CreateWindowW(L"BUTTON", Text(L"Establecer como activo").c_str(), WS_CHILD | WS_VISIBLE | WS_TABSTOP | BS_OWNERDRAW,
+                                  450, 560, 160, 38, w, (HMENU)2002, nullptr, nullptr);
+  v.btn_install = CreateWindowW(L"BUTTON", Text(L"Instalar / Configurar").c_str(), WS_CHILD | WS_VISIBLE | WS_TABSTOP | BS_OWNERDRAW,
+                                620, 560, 155, 38, w, (HMENU)2003, nullptr, nullptr);
+  v.btn_autodetect = CreateWindowW(L"BUTTON", Text(L"Detectar desde carpeta...").c_str(), WS_CHILD | WS_VISIBLE | WS_TABSTOP | BS_OWNERDRAW,
+                                   785, 560, 130, 38, w, (HMENU)2004, nullptr, nullptr);
+  v.btn_exit = CreateWindowW(L"BUTTON", Text(L"Cerrar").c_str(), WS_CHILD | WS_VISIBLE | WS_TABSTOP | BS_OWNERDRAW,
+                             925, 560, 55, 38, w, (HMENU)IDCANCEL, nullptr, nullptr);
+
+  v.UpdateTexts();
+  ShowWindow(w, SW_SHOW);
+  UpdateWindow(w);
+
+  MSG m;
+  while (!v.done && GetMessageW(&m, nullptr, 0, 0) > 0) {
+    if (!IsDialogMessageW(w, &m)) {
+      TranslateMessage(&m);
+      DispatchMessageW(&m);
+    }
+  }
+
+  if (owner) { EnableWindow(owner, TRUE); SetActiveWindow(owner); }
+
+  DeleteObject(v.font_title);
+  DeleteObject(v.font_sub);
+  DeleteObject(v.font_head);
+  DeleteObject(v.font_body);
+  DeleteObject(v.font_bold);
+  DeleteObject(v.font_btn);
+
+  return v.result_root;
+}
+
 std::optional<fs::path> Select(const fs::path& exe, bool maintenance) {
   std::vector<Paths> installed;
-  for (auto region : {"NTSC-U", "PAL"}) {
-    auto p = Layout(exe, region);
+  for (const auto& profile : iu::GetAllProfiles()) {
+    auto p = Layout(exe, profile.folder_name);
     if (assets::Ready(p.assets / "disc1")) {
       auto d = assets::Inspect(p.assets / "disc1");
-      if ((d.edition == "USA" ? "NTSC-U" : "PAL") != std::string(region))
+      const auto* info = iu::FindProfileByEdition(d.edition);
+      if (!info || info->folder_name != profile.folder_name)
         throw std::runtime_error(Text("Ruta portable invalida."));
       installed.push_back(p);
     }
   }
 
   std::optional<fs::path> root;
-  if (installed.size() == 1 && !maintenance) {
-    root = installed.front().root;
-  } else if (!installed.empty()) {
-    std::vector<Button> choices;
-    for (size_t i = 0; i < installed.size(); ++i) {
-      choices.push_back({400 + int(i), L"✓ " + installed[i].root.filename().wstring()});
+  if (!maintenance) {
+    if (!g_active_profile.empty()) {
+      const auto* info = iu::FindProfileByFolder(g_active_profile);
+      if (info) {
+        auto p = Layout(exe, info->folder_name);
+        if (assets::Ready(p.assets / "disc1")) {
+          std::printf("[ProfileManager] Direct boot using active profile: %s\n", info->folder_name.c_str());
+          root = p.root;
+        }
+      }
+    } else if (installed.size() == 1) {
+      g_active_profile = installed.front().root.filename().string();
+      SaveLanguage();
+      std::printf("[ProfileManager] Direct boot with sole detected profile: %s\n", g_active_profile.c_str());
+      root = installed.front().root;
     }
-    choices.push_back({499, L"Configurar otros discos"});
-    int id = Dialog(L"Instalaciones verificadas", L"Elija una instalacion detectada o configure otros discos.", choices);
-    if (id == IDCANCEL) return {};
-    if (id >= 400 && id < 400 + int(installed.size())) root = installed[id - 400].root;
   }
 
   if (!root) {
-auto path = RunWizard(exe);
-    if (!path) return {};
-    root = path->parent_path().parent_path();
+    root = RunProfileManager(exe);
+    if (!root) return {};
   }
 
   auto paths = Layout(exe, root->filename().string());

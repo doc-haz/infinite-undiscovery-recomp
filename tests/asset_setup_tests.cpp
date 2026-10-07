@@ -1,6 +1,9 @@
 #include "asset_setup.h"
 #include "asset_dlc.h"
 #include "asset_hash.h"
+#include "content_profile.h"
+#include "portable_setup.h"
+#include "version.h"
 #include <rex/runtime.h>
 #include <rex/logging.h>
 #include <rex/system/kernel_state.h>
@@ -88,6 +91,129 @@ int wmain(int argc,wchar_t** argv) {
       finished=true;driver.join();
       Check(found && !result,"Native wizard did not cancel");
       std::cout<<"PASS native wizard opened and cancelled without installing\n";return 0;
+    }
+    if (mode == L"profile-tests" && argc >= 3) {
+      fs::path test_dir = fs::absolute(argv[2]);
+      fs::create_directories(test_dir);
+
+      // 1. Declarative Profile Table Verification
+      const auto& profiles = iu::GetAllProfiles();
+      Check(profiles.size() == 5, "Expected 5 official profiles");
+      Check(iu::FindProfileById(iu::ContentProfileId::kUsa) != nullptr, "USA profile not found by id");
+      Check(iu::FindProfileById(iu::ContentProfileId::kUsaUndub) != nullptr, "USA-UNDUB profile not found by id");
+      Check(iu::FindProfileById(iu::ContentProfileId::kEurope) != nullptr, "Europe profile not found by id");
+      Check(iu::FindProfileById(iu::ContentProfileId::kJapan) != nullptr, "Japan profile not found by id");
+      Check(iu::FindProfileById(iu::ContentProfileId::kAsia) != nullptr, "Asia profile not found by id");
+      Check(iu::FindProfileById(iu::ContentProfileId::kAsia)->display_name == L"Asia (English)", "Asia display name should be Asia (English)");
+      Check(std::string(iu::kProjectVersion) == "v1.0.0-rc1", "Centralized version must be v1.0.0-rc1");
+
+      // Verify folder and legacy name resolution
+      Check(iu::FindProfileByFolder("USA")->folder_name == "USA", "USA folder lookup failed");
+      Check(iu::FindProfileByFolder("NTSC-U")->folder_name == "USA", "NTSC-U legacy lookup failed");
+      Check(iu::FindProfileByFolder("USA-UNDUB")->folder_name == "USA-UNDUB", "USA-UNDUB folder lookup failed");
+      Check(iu::FindProfileByFolder("NTSC-U-UNDUB")->folder_name == "USA-UNDUB", "NTSC-U-UNDUB legacy lookup failed");
+      Check(iu::FindProfileByFolder("EUROPE")->folder_name == "EUROPE", "EUROPE folder lookup failed");
+      Check(iu::FindProfileByFolder("PAL")->folder_name == "EUROPE", "PAL legacy lookup failed");
+      Check(iu::FindProfileByFolder("JAPAN")->folder_name == "JAPAN", "JAPAN folder lookup failed");
+      Check(iu::FindProfileByFolder("ASIA")->folder_name == "ASIA", "ASIA folder lookup failed");
+
+      Check(iu::ProfileFolderFromEdition("USA") == "USA", "USA edition to folder failed");
+      Check(iu::ProfileFolderFromEdition("USA-UNDUB") == "USA-UNDUB", "USA-UNDUB edition to folder failed");
+      Check(iu::ProfileFolderFromEdition("EUROPE") == "EUROPE", "EUROPE edition to folder failed");
+      Check(iu::ProfileFolderFromEdition("PAL") == "EUROPE", "PAL edition to folder failed");
+      Check(iu::ProfileFolderFromEdition("JAPAN") == "JAPAN", "JAPAN edition to folder failed");
+      Check(iu::ProfileFolderFromEdition("ASIA") == "ASIA", "ASIA edition to folder failed");
+      std::cout << "PASS declarative profiles table and lookup\n";
+
+      // 2. Migration of Legacy Folders
+      auto migr_dir = test_dir / "migration_test";
+      fs::remove_all(migr_dir);
+      fs::create_directories(migr_dir / "NTSC-U");
+      { std::ofstream out(migr_dir / "NTSC-U" / "marker.txt"); out << "ntsc-u"; }
+      fs::create_directories(migr_dir / "NTSC-U-UNDUB");
+      { std::ofstream out(migr_dir / "NTSC-U-UNDUB" / "marker.txt"); out << "undub"; }
+      fs::create_directories(migr_dir / "PAL");
+      { std::ofstream out(migr_dir / "PAL" / "marker.txt"); out << "pal"; }
+
+      iu::portable::MigrateLegacyProfiles(migr_dir);
+      Check(fs::exists(migr_dir / "USA" / "marker.txt"), "USA migrated folder missing");
+      Check(fs::exists(migr_dir / "USA-UNDUB" / "marker.txt"), "USA-UNDUB migrated folder missing");
+      Check(fs::exists(migr_dir / "EUROPE" / "marker.txt"), "EUROPE migrated folder missing");
+      Check(!fs::exists(migr_dir / "NTSC-U"), "Old NTSC-U folder still exists");
+      Check(!fs::exists(migr_dir / "NTSC-U-UNDUB"), "Old NTSC-U-UNDUB folder still exists");
+      Check(!fs::exists(migr_dir / "PAL"), "Old PAL folder still exists");
+
+      // Verify non-destructive behavior: if new folder already exists, legacy is preserved
+      fs::create_directories(migr_dir / "NTSC-U");
+      { std::ofstream out(migr_dir / "NTSC-U" / "preserved.txt"); out << "preserved"; }
+      iu::portable::MigrateLegacyProfiles(migr_dir);
+      Check(fs::exists(migr_dir / "NTSC-U" / "preserved.txt"), "Non-destructive migration failed; legacy folder overwritten");
+      std::cout << "PASS non-destructive legacy profile migration\n";
+
+      // 3. setup.json Active Profile Persistence
+      auto setup_dir = test_dir / "setup_test";
+      fs::remove_all(setup_dir);
+      fs::create_directories(setup_dir);
+      {
+        std::ofstream out(setup_dir / "setup.json");
+        out << "{\n  \"active_profile\": \"NTSC-U\",\n  \"language\": \"es\",\n  \"portable\": true,\n  \"schema\": 1\n}\n";
+      }
+      iu::portable::Initialize(setup_dir);
+      Check(iu::portable::GetActiveProfile() == "USA", "Legacy active profile NTSC-U was not normalized to USA");
+      Check(iu::portable::Spanish() == true, "Language was not parsed as Spanish");
+
+      iu::portable::SetActiveProfile("USA-UNDUB");
+      iu::portable::SetUndubSubtitleWarningDismissed(true);
+      iu::portable::SaveLanguage();
+      iu::portable::Initialize(setup_dir);
+      Check(iu::portable::GetActiveProfile() == "USA-UNDUB", "Saved active profile USA-UNDUB did not persist");
+      Check(iu::portable::IsUndubSubtitleWarningDismissed() == true, "undub_subtitle_warning_dismissed failed to persist");
+
+      // 4. Target Edition Filtering in ScanFolderForMedia
+      auto filter_test_dir = test_dir / "filter_test";
+      fs::remove_all(filter_test_dir);
+      fs::create_directories(filter_test_dir);
+      // Empty directory scan with target_edition should yield no discs
+      auto empty_res = iu::assets::ScanFolderForMedia(filter_test_dir, "JAPAN");
+      Check(!empty_res.disc1.has_value(), "Empty dir scan should not find disc1");
+      Check(!empty_res.disc2.has_value(), "Empty dir scan should not find disc2");
+      std::cout << "PASS target edition filtering on scan\n";
+
+      // 5. Localization Audit
+      iu::portable::SetSpanish(false);
+      Check(iu::portable::Text("Detectar medios") == "Auto-detect media", "EN Auto-detect media mismatch");
+      Check(iu::portable::Text("Configurando: ") == "Setting up: ", "EN Setting up mismatch");
+      Check(iu::portable::Text("Imagen ISO") == "ISO image", "EN ISO image mismatch");
+      Check(iu::portable::Text("Sin DLC (Opcional)") == "No DLC (Optional)", "EN No DLC mismatch");
+      Check(iu::portable::Text("ACTIVO") == "ACTIVE", "EN ACTIVO mismatch");
+      Check(iu::portable::Text("Aceptar") == "OK", "EN Aceptar mismatch");
+      Check(iu::portable::Text("No volver a mostrar") == "Don't show again", "EN No volver a mostrar mismatch");
+      iu::portable::SetSpanish(true);
+      Check(iu::portable::Text("Detectar medios") == "Detectar medios", "ES Detectar medios mismatch");
+      Check(iu::portable::Text("Configurando: ") == "Configurando: ", "ES Configurando mismatch");
+      Check(iu::portable::Text("Imagen ISO") == "Imagen ISO", "ES Imagen ISO mismatch");
+      Check(iu::portable::Text("Sin DLC (Opcional)") == "Sin DLC (Opcional)", "ES Sin DLC mismatch");
+      Check(iu::portable::Text("ACTIVO") == "ACTIVO", "ES ACTIVO mismatch");
+      Check(iu::portable::Text("Aceptar") == "Aceptar", "ES Aceptar mismatch");
+      Check(iu::portable::Text("No volver a mostrar") == "No volver a mostrar", "ES No volver a mostrar mismatch");
+      iu::portable::SetSpanish(false);
+      std::cout << "PASS localization audit strings\n";
+
+      std::cout << "ALL PROFILE TESTS PASSED\n";
+      return 0;
+    }
+    if (mode == L"scan-folder" && argc >= 3) {
+      fs::path target = argv[2];
+      auto res = iu::assets::ScanFolderForMedia(target);
+      std::cout << "scan disc1=" << (res.disc1.has_value() ? res.disc1->edition : "none")
+                << " disc2=" << (res.disc2.has_value() ? res.disc2->edition : "none")
+                << " dlc=" << res.dlc_packages.size() << '\n';
+      return 0;
+    }
+    if (mode == L"migrate-dir" && argc >= 3) {
+      fs::path target = argv[2];
+      iu::portable::MigrateLegacyProfiles(target);
+      return 0;
     }
     if(mode==L"inspect") {Print(Inspect(argv[2]));return 0;}
     if(mode==L"dlc") {auto p=iu::dlc::Inspect(argv[2]); std::wcout<<p.display_name<<L'\n';std::cout<<p.sha256<<" mask="<<std::hex<<p.license_mask<<'\n';return 0;}

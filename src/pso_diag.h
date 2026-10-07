@@ -11,9 +11,14 @@
 #include <thread>
 
 #include <rex/runtime.h>
+#include <rex/cvar.h>
+#include <rex/logging.h>
 #include <rex/graphics/graphics_system.h>
 #include <rex/ui/presenter.h>
 #include <rex/ui/d3d12/d3d12_provider.h>
+
+REXCVAR_DECLARE(bool, pso_prewarm);
+REXCVAR_DECLARE(bool, pso_telemetry);
 
 namespace pso_diag {
 
@@ -69,6 +74,47 @@ inline std::atomic<uint32_t> s_present_sequence{0};
 inline std::atomic<bool> s_running{false};
 inline std::thread s_worker_thread;
 inline FILE* s_trace_file = nullptr;
+
+inline std::atomic<uint32_t> s_pso_active_compilations{0};
+inline std::atomic<uint32_t> s_pso_total_created{0};
+inline std::atomic<uint64_t> s_last_pso_end_qpc{0};
+inline std::atomic<bool> s_telemetry_enabled{false};
+
+struct FramePsoStats {
+  std::atomic<uint32_t> count{0};
+  std::atomic<uint64_t> total_ticks{0};
+  std::atomic<uint64_t> max_ticks{0};
+};
+inline FramePsoStats s_frame_pso;
+
+struct SessionPsoStats {
+  std::atomic<uint32_t> total_created{0};
+  std::atomic<uint64_t> total_ticks{0};
+  std::atomic<uint64_t> worst_single_ticks{0};
+  std::atomic<uint32_t> worst_frame{0};
+  std::atomic<uint64_t> worst_frame_ticks{0};
+};
+inline SessionPsoStats s_session_pso;
+
+inline bool is_telemetry_enabled() {
+  const char* env = std::getenv("IU_PSO_TELEMETRY");
+  if (env) {
+    return (std::strcmp(env, "1") == 0 || std::strcmp(env, "true") == 0 || std::strcmp(env, "on") == 0);
+  }
+  const char* path = std::getenv("IU_PERF_TRACE_PATH");
+  if (path && path[0] != '\0') {
+    return true;
+  }
+  return REXCVAR_GET(pso_telemetry);
+}
+
+inline bool is_prewarm_enabled() {
+  const char* env = std::getenv("IU_PSO_PREWARM");
+  if (env) {
+    return !(std::strcmp(env, "0") == 0 || std::strcmp(env, "false") == 0 || std::strcmp(env, "off") == 0);
+  }
+  return REXCVAR_GET(pso_prewarm);
+}
 
 // Function pointers for original vtable methods
 using PFN_CreateGraphicsPipelineState = HRESULT(STDMETHODCALLTYPE*)(
@@ -231,14 +277,31 @@ inline HRESULT STDMETHODCALLTYPE Hook_CreateGraphicsPipelineState(
     const D3D12_GRAPHICS_PIPELINE_STATE_DESC* pDesc,
     REFIID riid,
     void** ppPipelineState) {
+  s_pso_active_compilations.fetch_add(1, std::memory_order_relaxed);
+
   LARGE_INTEGER t0, t1;
-  QueryPerformanceCounter(&t0);
+  bool timing_needed = s_telemetry_enabled.load(std::memory_order_relaxed) ||
+                       s_running.load(std::memory_order_relaxed);
+
+  if (timing_needed) {
+    QueryPerformanceCounter(&t0);
+  }
 
   HRESULT hr = s_orig_CreateGraphicsPipelineState(This, pDesc, riid, ppPipelineState);
 
-  QueryPerformanceCounter(&t1);
+  if (timing_needed) {
+    QueryPerformanceCounter(&t1);
+    s_last_pso_end_qpc.store(static_cast<uint64_t>(t1.QuadPart), std::memory_order_release);
+  } else {
+    LARGE_INTEGER now;
+    QueryPerformanceCounter(&now);
+    s_last_pso_end_qpc.store(static_cast<uint64_t>(now.QuadPart), std::memory_order_release);
+  }
 
-  if (s_running.load(std::memory_order_relaxed)) {
+  s_pso_active_compilations.fetch_sub(1, std::memory_order_release);
+  s_pso_total_created.fetch_add(1, std::memory_order_relaxed);
+
+  if (timing_needed) {
     uint64_t vs_hash = 0, ps_hash = 0;
     if (pDesc && pDesc->VS.pShaderBytecode && pDesc->VS.BytecodeLength > 0) {
       const uint8_t* p = reinterpret_cast<const uint8_t*>(pDesc->VS.pShaderBytecode);
@@ -257,17 +320,46 @@ inline HRESULT STDMETHODCALLTYPE Hook_CreateGraphicsPipelineState(
       ps_hash = h;
     }
 
-    uint32_t seq = ++s_pso_sequence;
-    uint64_t idx = s_write_idx.fetch_add(1, std::memory_order_relaxed);
-    TraceEvent& ev = s_events[idx % kEventBufferSize];
-    ev.type = EVENT_PSO;
-    ev.seq = seq;
-    ev.thread_id = GetCurrentThreadId();
-    ev.hr = static_cast<uint32_t>(hr);
-    ev.t_begin = static_cast<uint64_t>(t0.QuadPart);
-    ev.t_end = static_cast<uint64_t>(t1.QuadPart);
-    ev.pso.vs_hash = vs_hash;
-    ev.pso.ps_hash = ps_hash;
+    uint64_t elapsed_ticks = static_cast<uint64_t>(t1.QuadPart - t0.QuadPart);
+    double freq = (double)s_qpc_freq.QuadPart;
+    if (freq <= 0.0) freq = 10000000.0;
+    double elapsed_ms = (double)elapsed_ticks * 1000.0 / freq;
+    uint32_t current_frame = s_frame_sequence.load(std::memory_order_relaxed);
+
+    if (s_telemetry_enabled.load(std::memory_order_relaxed)) {
+      REXLOG_INFO("PIPELINE_CREATE frame={} vs={:016X} ps={:016X} time_ms={:.3f}",
+                  current_frame, vs_hash, ps_hash, elapsed_ms);
+      if (s_trace_file) {
+        std::fprintf(s_trace_file, "PIPELINE_CREATE frame=%u vs=%016llX ps=%016llX time_ms=%.3f\n",
+                     current_frame, (unsigned long long)vs_hash, (unsigned long long)ps_hash, elapsed_ms);
+      }
+
+      s_frame_pso.count.fetch_add(1, std::memory_order_relaxed);
+      s_frame_pso.total_ticks.fetch_add(elapsed_ticks, std::memory_order_relaxed);
+      uint64_t cur_max = s_frame_pso.max_ticks.load(std::memory_order_relaxed);
+      while (elapsed_ticks > cur_max &&
+             !s_frame_pso.max_ticks.compare_exchange_weak(cur_max, elapsed_ticks, std::memory_order_relaxed)) {}
+
+      s_session_pso.total_created.fetch_add(1, std::memory_order_relaxed);
+      s_session_pso.total_ticks.fetch_add(elapsed_ticks, std::memory_order_relaxed);
+      uint64_t cur_worst_single = s_session_pso.worst_single_ticks.load(std::memory_order_relaxed);
+      while (elapsed_ticks > cur_worst_single &&
+             !s_session_pso.worst_single_ticks.compare_exchange_weak(cur_worst_single, elapsed_ticks, std::memory_order_relaxed)) {}
+    }
+
+    if (s_running.load(std::memory_order_relaxed)) {
+      uint32_t seq = ++s_pso_sequence;
+      uint64_t idx = s_write_idx.fetch_add(1, std::memory_order_relaxed);
+      TraceEvent& ev = s_events[idx % kEventBufferSize];
+      ev.type = EVENT_PSO;
+      ev.seq = seq;
+      ev.thread_id = GetCurrentThreadId();
+      ev.hr = static_cast<uint32_t>(hr);
+      ev.t_begin = static_cast<uint64_t>(t0.QuadPart);
+      ev.t_end = static_cast<uint64_t>(t1.QuadPart);
+      ev.pso.vs_hash = vs_hash;
+      ev.pso.ps_hash = ps_hash;
+    }
   }
 
   return hr;
@@ -600,6 +692,33 @@ inline PresenterProbe::PaintResult STDMETHODCALLTYPE Hook_PaintAndPresentImpl(
     }
 
     uint32_t seq = ++s_frame_sequence;
+
+    if (s_telemetry_enabled.load(std::memory_order_relaxed)) {
+      uint32_t count = s_frame_pso.count.exchange(0, std::memory_order_relaxed);
+      if (count > 0) {
+        uint64_t total_ticks = s_frame_pso.total_ticks.exchange(0, std::memory_order_relaxed);
+        uint64_t max_ticks = s_frame_pso.max_ticks.exchange(0, std::memory_order_relaxed);
+        double freq = (double)s_qpc_freq.QuadPart;
+        if (freq <= 0.0) freq = 10000000.0;
+        double total_ms = (double)total_ticks * 1000.0 / freq;
+        double max_ms = (double)max_ticks * 1000.0 / freq;
+
+        REXLOG_INFO("PIPELINE_MISSES_FRAME frame={} count={} total_ms={:.3f} max_ms={:.3f}",
+                    seq, count, total_ms, max_ms);
+        if (s_trace_file) {
+          std::fprintf(s_trace_file, "PIPELINE_MISSES_FRAME frame=%u count=%u total_ms=%.3f max_ms=%.3f\n",
+                       seq, count, total_ms, max_ms);
+        }
+
+        uint64_t cur_worst_frame_ticks = s_session_pso.worst_frame_ticks.load(std::memory_order_relaxed);
+        while (total_ticks > cur_worst_frame_ticks &&
+               !s_session_pso.worst_frame_ticks.compare_exchange_weak(cur_worst_frame_ticks, total_ticks, std::memory_order_relaxed)) {}
+        if (total_ticks >= s_session_pso.worst_frame_ticks.load(std::memory_order_relaxed)) {
+          s_session_pso.worst_frame.store(seq, std::memory_order_relaxed);
+        }
+      }
+    }
+
     uint64_t idx = s_write_idx.fetch_add(1, std::memory_order_relaxed);
     TraceEvent& ev = s_events[idx % kEventBufferSize];
     ev.type = EVENT_FRAME;
@@ -614,6 +733,33 @@ inline PresenterProbe::PaintResult STDMETHODCALLTYPE Hook_PaintAndPresentImpl(
     ev.frame.dxgi_present_ticks = dxgi_present_ticks;
     ev.frame.post_present_ticks = post_present_ticks;
     ev.frame.waitable_ticks = waitable_ticks;
+  } else {
+    uint32_t seq = ++s_frame_sequence;
+    if (s_telemetry_enabled.load(std::memory_order_relaxed)) {
+      uint32_t count = s_frame_pso.count.exchange(0, std::memory_order_relaxed);
+      if (count > 0) {
+        uint64_t total_ticks = s_frame_pso.total_ticks.exchange(0, std::memory_order_relaxed);
+        uint64_t max_ticks = s_frame_pso.max_ticks.exchange(0, std::memory_order_relaxed);
+        double freq = (double)s_qpc_freq.QuadPart;
+        if (freq <= 0.0) freq = 10000000.0;
+        double total_ms = (double)total_ticks * 1000.0 / freq;
+        double max_ms = (double)max_ticks * 1000.0 / freq;
+
+        REXLOG_INFO("PIPELINE_MISSES_FRAME frame={} count={} total_ms={:.3f} max_ms={:.3f}",
+                    seq, count, total_ms, max_ms);
+        if (s_trace_file) {
+          std::fprintf(s_trace_file, "PIPELINE_MISSES_FRAME frame=%u count=%u total_ms=%.3f max_ms=%.3f\n",
+                       seq, count, total_ms, max_ms);
+        }
+
+        uint64_t cur_worst_frame_ticks = s_session_pso.worst_frame_ticks.load(std::memory_order_relaxed);
+        while (total_ticks > cur_worst_frame_ticks &&
+               !s_session_pso.worst_frame_ticks.compare_exchange_weak(cur_worst_frame_ticks, total_ticks, std::memory_order_relaxed)) {}
+        if (total_ticks >= s_session_pso.worst_frame_ticks.load(std::memory_order_relaxed)) {
+          s_session_pso.worst_frame.store(seq, std::memory_order_relaxed);
+        }
+      }
+    }
   }
 
   return res;
@@ -621,6 +767,32 @@ inline PresenterProbe::PaintResult STDMETHODCALLTYPE Hook_PaintAndPresentImpl(
 
 inline void shutdown() {
   s_frame_latency_waitable_object.store(nullptr, std::memory_order_release);
+
+  static std::atomic<bool> summary_emitted{false};
+  if (!summary_emitted.exchange(true)) {
+    if (s_telemetry_enabled.load(std::memory_order_relaxed) || s_session_pso.total_created.load(std::memory_order_relaxed) > 0) {
+      uint32_t total_created = s_session_pso.total_created.load(std::memory_order_relaxed);
+      uint64_t total_ticks = s_session_pso.total_ticks.load(std::memory_order_relaxed);
+      uint64_t worst_single_ticks = s_session_pso.worst_single_ticks.load(std::memory_order_relaxed);
+      uint32_t worst_frame = s_session_pso.worst_frame.load(std::memory_order_relaxed);
+      uint64_t worst_frame_ticks = s_session_pso.worst_frame_ticks.load(std::memory_order_relaxed);
+
+      double freq = (double)s_qpc_freq.QuadPart;
+      if (freq <= 0.0) freq = 10000000.0;
+      double total_creation_ms = (double)total_ticks * 1000.0 / freq;
+      double worst_single_ms = (double)worst_single_ticks * 1000.0 / freq;
+      double worst_frame_ms = (double)worst_frame_ticks * 1000.0 / freq;
+
+      REXLOG_INFO("PIPELINE_SESSION_SUMMARY total_created={} total_creation_ms={:.3f} worst_single_ms={:.3f} worst_frame={} worst_frame_ms={:.3f}",
+                  total_created, total_creation_ms, worst_single_ms, worst_frame, worst_frame_ms);
+      if (s_trace_file) {
+        std::fprintf(s_trace_file, "PIPELINE_SESSION_SUMMARY total_created=%u total_creation_ms=%.3f worst_single_ms=%.3f worst_frame=%u worst_frame_ms=%.3f\n",
+                     total_created, total_creation_ms, worst_single_ms, worst_frame, worst_frame_ms);
+        std::fflush(s_trace_file);
+      }
+    }
+  }
+
   if (s_running.exchange(false)) {
     if (s_worker_thread.joinable()) {
       s_worker_thread.join();
@@ -776,17 +948,23 @@ inline void ensure_initialized() {
   static std::atomic<bool> initialized{false};
   if (initialized.exchange(true)) return;
 
-  const char* path = std::getenv("IU_PERF_TRACE_PATH");
-  if (!path || path[0] == '\0') {
-    return;
-  }
-
   QueryPerformanceFrequency(&s_qpc_freq);
   QueryPerformanceCounter(&s_trace_start_qpc);
   s_prev_wrapper_end_qpc.store(static_cast<uint64_t>(s_trace_start_qpc.QuadPart), std::memory_order_relaxed);
 
+  if (is_telemetry_enabled()) {
+    s_telemetry_enabled.store(true, std::memory_order_relaxed);
+  }
+
+  const char* path = std::getenv("IU_PERF_TRACE_PATH");
+  if (!path || path[0] == '\0') {
+    std::atexit(&shutdown);
+    return;
+  }
+
   s_trace_file = std::fopen(path, "w");
   if (!s_trace_file) {
+    std::atexit(&shutdown);
     return;
   }
   std::fprintf(s_trace_file, "# Infinite Undiscovery Frame Pacing & Performance Trace\n");
@@ -856,6 +1034,62 @@ inline void install(rex::Runtime* rt) {
   }
 
   install_presenter(rt);
+}
+
+inline void prewarm_wait() {
+  ensure_initialized();
+
+  if (!is_prewarm_enabled()) {
+    REXLOG_INFO("[PSO_PREWARM] Disabled (skipping prewarm wait)");
+    return;
+  }
+
+  LARGE_INTEGER t0, t1;
+  QueryPerformanceCounter(&t0);
+  double freq = (double)s_qpc_freq.QuadPart;
+  if (freq <= 0.0) freq = 10000000.0;
+
+  REXLOG_INFO("IU_PSO_PREWARM_BEGIN");
+  if (s_trace_file) {
+    std::fprintf(s_trace_file, "IU_PSO_PREWARM_BEGIN\n");
+    std::fflush(s_trace_file);
+  }
+
+  uint32_t start_created = s_pso_total_created.load(std::memory_order_relaxed);
+
+  const uint64_t quiet_ticks = static_cast<uint64_t>((50.0 / 1000.0) * freq);
+  const uint64_t timeout_ticks = static_cast<uint64_t>((5000.0 / 1000.0) * freq);
+
+  while (true) {
+    LARGE_INTEGER now;
+    QueryPerformanceCounter(&now);
+    uint64_t elapsed_ticks = static_cast<uint64_t>(now.QuadPart - t0.QuadPart);
+    if (elapsed_ticks >= timeout_ticks) {
+      break;
+    }
+
+    uint32_t active = s_pso_active_compilations.load(std::memory_order_acquire);
+    uint64_t last_end = s_last_pso_end_qpc.load(std::memory_order_acquire);
+
+    if (active == 0) {
+      if (last_end == 0 || (static_cast<uint64_t>(now.QuadPart) - last_end) >= quiet_ticks) {
+        break;
+      }
+    }
+
+    Sleep(2);
+  }
+
+  QueryPerformanceCounter(&t1);
+  double wait_ms = (double)(t1.QuadPart - t0.QuadPart) * 1000.0 / freq;
+  uint32_t end_created = s_pso_total_created.load(std::memory_order_relaxed);
+  uint32_t pipelines_waited = end_created >= start_created ? (end_created - start_created) : 0;
+
+  REXLOG_INFO("IU_PSO_PREWARM_END pipelines_waited={} wait_ms={:.2f}", pipelines_waited, wait_ms);
+  if (s_trace_file) {
+    std::fprintf(s_trace_file, "IU_PSO_PREWARM_END pipelines_waited=%u wait_ms=%.2f\n", pipelines_waited, wait_ms);
+    std::fflush(s_trace_file);
+  }
 }
 
 }  // namespace pso_diag

@@ -1,6 +1,7 @@
 #include "asset_setup.h"
 #include "asset_hash.h"
 #include "portable_setup.h"
+#include "content_profile.h"
 #ifdef _WIN32
 #ifndef NOMINMAX
 #define NOMINMAX
@@ -68,11 +69,24 @@ const File& Find(const Disc& d, const std::string& name) {
   auto it=std::find_if(d.files.begin(), d.files.end(), [&](const File& f){return f.name==name;});
   Require(it!=d.files.end(), "Falta default.xex, ud1.bin o ud2.bin."); return *it;
 }
-const char* ExpectedBinHash(unsigned number,const std::string& name) {
+const char* ExpectedBinHash(const std::string& edition, unsigned number, const std::string& name) {
+  Require(number>=1 && number<=2 && (name=="ud1.bin" || name=="ud2.bin"),"Perfil de contenedor invalido.");
+  if (edition == "USA-UNDUB") {
+    const char* expected[2][2] = {
+      {"72b6089ca718897d63c150e63daa033036e99b3316f6bf436ff29231d5da6360", "2ae9486edf0678869b4314a6cfecb9e915a631098d850fa36ce3ce3942dbfb6b"},
+      {"aff26b0764a12656b66443c56ad9e7bd5ff4368709ef5b4ae463c89aca9fe5fe", "d9e37b4214a3b140e9a4b6ab82c8639b9cfc776af0d1755eedca063b39377e93"}};
+    return expected[number-1][name=="ud1.bin"?0:1];
+  }
+  if (edition == "JAPAN") {
+    const char* expected[2][2] = {
+      {"95c432606f5a007656a032b222db59a70b5e27e6ad8105aca3b2420ebfc70bef", "2ae9486edf0678869b4314a6cfecb9e915a631098d850fa36ce3ce3942dbfb6b"},
+      {"f6999e60d032cf7dddbe318d518a07dc2609986ee0cf6345bd269ce95a158251", "d9e37b4214a3b140e9a4b6ab82c8639b9cfc776af0d1755eedca063b39377e93"}};
+    return expected[number-1][name=="ud1.bin"?0:1];
+  }
+  // USA, EUROPE, ASIA
   const char* expected[2][2] = {
     {"e3fbcbba6dddef6bb04159f5fe210dfecbc27c9e6547ee75867e026bd57a6a0f", "1b433977cc5991722730813bad1748a97c7bbd245bd467b9ad43a91726d0f0e1"},
     {"30783ac333050512c41ffe5df05c7008e202f95db1818308e4f89d916e2c659b", "f01e9f1640bd7cef8dc9d9853d249ee72036e157507b0e629f4eed6fa25d2a4f"}};
-  Require(number>=1 && number<=2 && (name=="ud1.bin" || name=="ud2.bin"),"Perfil de contenedor invalido.");
   return expected[number-1][name=="ud1.bin"?0:1];
 }
 void ImageFiles(Disc& d) {
@@ -114,6 +128,7 @@ bool SameOrInside(const fs::path& child, const fs::path& parent) {
   return c.starts_with(p);
 }
 }
+
 Disc Inspect(const fs::path& source) {
   Disc d; d.source=fs::absolute(source);
   Require(fs::exists(d.source),"La ruta no existe.");
@@ -150,32 +165,181 @@ Disc Inspect(const fs::path& source) {
     Require(b[off+19]==2 && (d.number==1 || d.number==2),"Numero de disco invalido.");
   }
   Require(execution,"Falta execution info XEX.");
-  if(d.region==0x00ff0000) d.edition="PAL";
-  else if(d.region==0x000000ff) d.edition="USA";
-  else throw std::runtime_error("Region ambigua o no soportada; no se inferira por el nombre.");
-  Require(d.media_id!="00000000000000000000000000000000","Media ID vacio.");
-  Require(d.multidisc_ids[d.number-1]==d.media_id,"El Media ID no corresponde al numero de disco.");
-  const uint64_t expected[2][2]={{2207584256ull,2800330752ull},{3217651712ull,3289788416ull}};
-  Require(Find(d,"ud1.bin").size==expected[d.number-1][0] && Find(d,"ud2.bin").size==expected[d.number-1][1],"Contenedores ausentes o tamanos no reconocidos para este disco.");
   d.xex_sha256=Digest(b);
+
+  bool is_undub = (d.xex_sha256 == "42dfaa90814f5b78592bb637ac371df20c30acfa897f922fff96d3251553473b" ||
+                   d.xex_sha256 == "a12e9253839a0e47d5bdcbfb92638b349ddecea6e384a1ea09e3e8e7441bbb5f");
+  if (is_undub) {
+    d.edition = "USA-UNDUB";
+    Require((d.number == 1 && d.xex_sha256 == "42dfaa90814f5b78592bb637ac371df20c30acfa897f922fff96d3251553473b") ||
+            (d.number == 2 && d.xex_sha256 == "a12e9253839a0e47d5bdcbfb92638b349ddecea6e384a1ea09e3e8e7441bbb5f"),
+            "Hash XEX no coincide con el numero de disco UNDUB.");
+    Require(d.multidisc_ids[0] == "9bc8428aeaa7bd6247f450ad625d4d59" &&
+            d.multidisc_ids[1] == "7433c19ca506567415eaee1058af47d6",
+            "Tabla multidisco no corresponde a Infinite Undiscovery USA.");
+    d.media_id = d.multidisc_ids[d.number - 1];
+    const uint64_t expected_undub[2][2] = {{2214635520ull, 2775879680ull}, {3227109376ull, 3265337344ull}};
+    Require(Find(d, "ud1.bin").size == expected_undub[d.number - 1][0] &&
+            Find(d, "ud2.bin").size == expected_undub[d.number - 1][1],
+            "Contenedores ausentes o tamanos no reconocidos para este disco UNDUB.");
+  } else {
+    if (d.region == 0x00ff0000) {
+      d.edition = "EUROPE";
+    } else if (d.region == 0x000000ff) {
+      d.edition = "USA";
+    } else if (d.region == 0x0000fd00) {
+      if (d.multidisc_ids[0] == "ca82a3db65f9c645eb3b590242d60dc3" &&
+          d.multidisc_ids[1] == "5546a467358fa42d5fbc2b61245a1fd3") {
+        d.edition = "JAPAN";
+      } else if (d.multidisc_ids[0] == "428e2765894274bd38637b692f1c00f9" &&
+                 d.multidisc_ids[1] == "84626b613e9b2189dedb871c25d0db07") {
+        d.edition = "ASIA";
+      } else {
+        throw std::runtime_error("Region NTSC-J no reconocida en Infinite Undiscovery.");
+      }
+    } else {
+      throw std::runtime_error("Region ambigua o no soportada; no se inferira por el nombre.");
+    }
+    Require(d.media_id != "00000000000000000000000000000000", "Media ID vacio.");
+    Require(d.multidisc_ids[d.number - 1] == d.media_id, "El Media ID no corresponde al numero de disco.");
+
+    if (d.edition == "JAPAN") {
+      const uint64_t expected_japan[2][2] = {{2216155136ull, 2775879680ull}, {3228628992ull, 3265337344ull}};
+      Require(Find(d, "ud1.bin").size == expected_japan[d.number - 1][0] &&
+              Find(d, "ud2.bin").size == expected_japan[d.number - 1][1],
+              "Contenedores ausentes o tamanos no reconocidos para Japón.");
+    } else {
+      const uint64_t expected[2][2] = {{2207584256ull, 2800330752ull}, {3217651712ull, 3289788416ull}};
+      Require(Find(d, "ud1.bin").size == expected[d.number - 1][0] &&
+              Find(d, "ud2.bin").size == expected[d.number - 1][1],
+              "Contenedores ausentes o tamanos no reconocidos para este disco.");
+    }
+  }
   return d;
 }
+
+FolderScanResult ScanFolderForMedia(const fs::path& folder,
+                                    const std::optional<std::string>& target_edition) {
+  FolderScanResult res;
+  if (!fs::exists(folder) || !fs::is_directory(folder)) {
+    res.error_message = "La carpeta especificada no existe.";
+    return res;
+  }
+
+  std::vector<fs::path> candidates;
+  std::vector<fs::path> dlc_search_dirs;
+
+  // 1. Check if folder itself is a direct disc folder
+  try {
+    Disc d = Inspect(folder);
+    if (!target_edition || d.edition == *target_edition) {
+      if (d.number == 1) res.disc1 = d;
+      else if (d.number == 2) res.disc2 = d;
+    }
+  } catch (...) {
+    // Not a direct disc root, continue scanning
+  }
+
+  // 2. Scan immediate children for ISOs and subdirectories
+  for (const auto& e : fs::directory_iterator(folder)) {
+    if (e.is_regular_file()) {
+      auto ext = Lower(e.path().extension().string());
+      if (ext == ".iso") candidates.push_back(e.path());
+    } else if (e.is_directory()) {
+      auto name = Lower(e.path().filename().string());
+      if (name.find("dlc") != std::string::npos) {
+        dlc_search_dirs.push_back(e.path());
+      } else {
+        candidates.push_back(e.path());
+      }
+    }
+  }
+
+  // If folder itself has DLC subdir, also add it
+  if (fs::exists(folder / "dlc") && fs::is_directory(folder / "dlc")) {
+    dlc_search_dirs.push_back(folder / "dlc");
+  }
+
+  std::vector<Disc> found_discs;
+  for (const auto& cand : candidates) {
+    try {
+      Disc d = Inspect(cand);
+      found_discs.push_back(std::move(d));
+    } catch (...) {}
+  }
+
+  if (target_edition) {
+    for (const auto& d : found_discs) {
+      if (d.edition == *target_edition) {
+        if (d.number == 1 && !res.disc1) res.disc1 = d;
+        else if (d.number == 2 && !res.disc2) res.disc2 = d;
+      }
+    }
+  } else {
+    // Group discs by edition
+    std::map<std::string, std::pair<std::optional<Disc>, std::optional<Disc>>> by_edition;
+    for (const auto& d : found_discs) {
+      auto& pair = by_edition[d.edition];
+      if (d.number == 1 && !pair.first) pair.first = d;
+      else if (d.number == 2 && !pair.second) pair.second = d;
+    }
+
+    for (const auto& [ed, _] : by_edition) {
+      res.found_editions.push_back(ed);
+    }
+
+    // Pick first edition with disc1, or just first available
+    for (const auto& [ed, pair] : by_edition) {
+      if (pair.first) {
+        res.disc1 = pair.first;
+        res.disc2 = pair.second;
+        break;
+      }
+    }
+    if (!res.disc1 && !by_edition.empty()) {
+      res.disc1 = by_edition.begin()->second.first;
+      res.disc2 = by_edition.begin()->second.second;
+    }
+  }
+
+  // 3. Scan for DLC packages in dlc_search_dirs or subdirectories
+  for (const auto& dlc_dir : dlc_search_dirs) {
+    try {
+      for (const auto& sub : fs::recursive_directory_iterator(dlc_dir)) {
+        if (sub.is_regular_file()) {
+          try {
+            auto pkg = iu::dlc::Inspect(sub.path());
+            res.dlc_packages.push_back(pkg);
+          } catch (...) {}
+        }
+      }
+    } catch (...) {}
+  }
+
+  return res;
+}
+
 void ValidatePair(const Disc& first, const std::optional<Disc>& second) {
   Require(first.number==1,"La primera fuente debe ser Disc 1.");
   if(second) {
     Require(second->number==2,"La segunda fuente debe ser Disc 2.");
-    Require(first.title==second->title && first.region==second->region && first.edition==second->edition,"No mezcle discos PAL y USA.");
+    Require(first.title==second->title && first.region==second->region && first.edition==second->edition,"No mezcle discos de diferentes regiones o ediciones.");
     Require(first.media_id!=second->media_id,"Ambas fuentes tienen el mismo Media ID.");
     Require(first.multidisc_ids==second->multidisc_ids && first.version==second->version && first.base_version==second->base_version,"Los discos no pertenecen al mismo conjunto/version.");
   }
 }
+
 bool CanLaunch(const Disc& disc) {
-  // These Disc 1 XEXs have identical decrypted PE images. Unknown builds are
-  // never launched with the PAL-generated function registry.
-  return disc.number==1 &&
-      (disc.xex_sha256=="22893bb8d96a1440ecbdbcae543baeaf89d26588c89c99a2c96fecf611475325" ||
-       disc.xex_sha256=="9523b45e6a724d4988ce9cf70d55b672e461b89303b02dc2f0f9c84329c25555");
+  // Disc 1 XEXs across all editions share the identical decrypted executable codebase
+  // and binary-backed entry points.
+  return disc.number == 1 &&
+      (disc.xex_sha256 == "22893bb8d96a1440ecbdbcae543baeaf89d26588c89c99a2c96fecf611475325" ||
+       disc.xex_sha256 == "9523b45e6a724d4988ce9cf70d55b672e461b89303b02dc2f0f9c84329c25555" ||
+       disc.xex_sha256 == "42dfaa90814f5b78592bb637ac371df20c30acfa897f922fff96d3251553473b" ||
+       disc.xex_sha256 == "cbb789e5e8842398253839b2e320874b3851bd10aaa2392aadf5cdeed438cc91" ||
+       disc.xex_sha256 == "fd063de17d98ab1201795efab4ffd06d76e85eeb4da0ce751926792deeeccd33");
 }
+
 bool Ready(const fs::path& root, std::string* reason) {
   try {
     auto d=Inspect(root); Require(CanLaunch(d),"Edicion reconocida, pero este XEX no corresponde a un build admitido.");
@@ -192,18 +356,19 @@ bool Ready(const fs::path& root, std::string* reason) {
       Require(in.eof() && (seen.size()==3 || seen.size()==6) && seen.contains("disc1/default.xex") && seen.contains("disc1/ud1.bin") && seen.contains("disc1/ud2.bin"),"Registro de integridad incompleto.");
       if(seen.size()==6) ValidatePair(d,Inspect(root.parent_path()/"disc2"));
     } else {
-      for(const auto& f:d.files) if(f.name!="default.xex") Require(HashFile(f.host)==ExpectedBinHash(d.number,f.name),"Los assets existentes estan corruptos o no corresponden al perfil admitido.");
+      for(const auto& f:d.files) if(f.name!="default.xex") Require(HashFile(f.host)==ExpectedBinHash(d.edition,d.number,f.name),"Los assets existentes estan corruptos o no corresponden al perfil admitido.");
     }
     return true;
   }
   catch(const std::exception& e) { if(reason) *reason=e.what(); return false; }
 }
+
 fs::path Install(const Disc& first, const std::optional<Disc>& second,
                  const fs::path& parent, const Progress& progress,
                  const std::function<bool()>& cancelled,
                  const std::vector<iu::dlc::Package>& dlc) {
   ValidatePair(first,second);
-  Require(CanLaunch(first),"Este XEX Disc 1 no coincide con los builds PAL/USA admitidos.");
+  Require(CanLaunch(first),"Este XEX Disc 1 no coincide con los builds admitidos.");
   iu::dlc::ValidateSelection(dlc);
   Require(fs::is_directory(parent),"El destino debe ser una carpeta existente.");
   for(auto check=fs::absolute(parent); !check.empty();) {
@@ -216,7 +381,7 @@ fs::path Install(const Disc& first, const std::optional<Disc>& second,
   uint64_t total=0; for(const Disc* d:{&first,second? &*second:nullptr}) if(d) for(const auto& f:d->files) total+=f.size;
   for(const auto& p:dlc) total+=p.size;
   Require(fs::space(parent).available>=total+64*1024*1024,"No hay espacio suficiente en el destino.");
-  fs::path final=portable::Layout(parent,first.edition=="USA"?"NTSC-U":"PAL").assets, stage; bool reserved=false;
+  fs::path final=portable::Layout(parent,iu::ProfileFolderFromEdition(first.edition)).assets, stage; bool reserved=false;
   Require(!fs::exists(final),"La region ya tiene assets; se conservan sin sobrescribir.");
   fs::create_directories(final.parent_path());
   for(unsigned attempt=0;attempt<1000;++attempt) {
@@ -252,7 +417,7 @@ fs::path Install(const Disc& first, const std::optional<Disc>& second,
         Require(fs::file_size(dir/f.name)==f.size,"Copia incompleta.");
         auto digest=hash.Finish();
         if(f.name=="default.xex") Require(digest==d->xex_sha256,"La fuente XEX cambio durante la copia.");
-        if(f.name=="ud1.bin" || f.name=="ud2.bin") Require(digest==ExpectedBinHash(d->number,f.name),"Contenedor BIN corrupto o revision no admitida; no se publicara la instalacion.");
+        if(f.name=="ud1.bin" || f.name=="ud2.bin") Require(digest==ExpectedBinHash(d->edition,d->number,f.name),"Contenedor BIN corrupto o revision no admitida; no se publicara la instalacion.");
         manifest << "disc" << d->number << '/' << f.name << " SHA256=" << digest << " Size=" << f.size << '\n';
       }
       const auto verified=Inspect(dir);
@@ -285,6 +450,7 @@ fs::path Install(const Disc& first, const std::optional<Disc>& second,
     std::error_code ignored; fs::remove_all(stage,ignored); throw;
   }
 }
+
 namespace {
 std::wstring Wide(const std::string& s) { return portable::Wide(s); }
 int Dialog(const std::wstring& heading,const std::wstring& text,const std::vector<TASKDIALOG_BUTTON>& buttons) {
@@ -292,18 +458,24 @@ int Dialog(const std::wstring& heading,const std::wstring& text,const std::vecto
   return portable::Dialog(heading,text,choices);
 }
 }
+
 std::optional<fs::path> Pick(bool folder, void* owner) {
   Microsoft::WRL::ComPtr<IFileOpenDialog> dialog;
   Require(SUCCEEDED(CoCreateInstance(CLSID_FileOpenDialog,nullptr,CLSCTX_INPROC_SERVER,IID_PPV_ARGS(&dialog))),"No se pudo abrir el selector.");
   FILEOPENDIALOGOPTIONS flags{}; dialog->GetOptions(&flags);
   dialog->SetOptions(flags|FOS_FORCEFILESYSTEM|FOS_PATHMUSTEXIST|FOS_FILEMUSTEXIST|(folder?FOS_PICKFOLDERS:0));
-  if(!folder) { const COMDLG_FILTERSPEC filters[]={{L"XDVDFS ISO (*.iso)",L"*.iso"},{L"All files / Todos los archivos",L"*.*"}}; dialog->SetFileTypes(2,filters); }
+  if(!folder) { const COMDLG_FILTERSPEC filters[]={{L"Disc Image or XEX (*.iso, default.xex)",L"*.iso;default.xex"},{L"XDVDFS ISO (*.iso)",L"*.iso"},{L"All files / Todos los archivos",L"*.*"}}; dialog->SetFileTypes(3,filters); }
   auto hr=dialog->Show(reinterpret_cast<HWND>(owner)); if(hr==HRESULT_FROM_WIN32(ERROR_CANCELLED)) return std::nullopt;
   Require(SUCCEEDED(hr),"Error en el selector de archivos.");
   Microsoft::WRL::ComPtr<IShellItem> item; Require(SUCCEEDED(dialog->GetResult(&item)),"No hay archivo seleccionado.");
   PWSTR raw=nullptr; Require(SUCCEEDED(item->GetDisplayName(SIGDN_FILESYSPATH,&raw)),"Ruta de archivo no disponible.");
-  fs::path p(raw); CoTaskMemFree(raw); return p;
+  fs::path p(raw); CoTaskMemFree(raw);
+  if (fs::is_regular_file(p) && Lower(p.filename().string()) == "default.xex") {
+    return p.parent_path();
+  }
+  return p;
 }
+
 std::vector<fs::path> PickPackages(void* owner) {
   Microsoft::WRL::ComPtr<IFileOpenDialog> dialog;
   Require(SUCCEEDED(CoCreateInstance(CLSID_FileOpenDialog,nullptr,CLSCTX_INPROC_SERVER,IID_PPV_ARGS(&dialog))),"No se pudo abrir el selector DLC.");
@@ -322,7 +494,9 @@ std::vector<fs::path> PickPackages(void* owner) {
   }
   return out;
 }
+
 std::optional<fs::path> Wizard(const fs::path& suggested) {
   return portable::RunWizard(suggested);
 }
-}
+
+} // namespace iu::assets

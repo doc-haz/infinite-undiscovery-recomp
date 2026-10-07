@@ -40,12 +40,25 @@ else()
     add_executable(infinite_undiscovery ${INFINITEUNDISCOVERY_SOURCES})
 endif()
 
-rexglue_setup_target(infinite_undiscovery)
+# GPU_PLUGINS xenos makes the SDK stage rexgpu-xenos.dll next to the host. The
+# GPU plugin is runtime-loaded (never linked), so TARGET_RUNTIME_DLLS misses it
+# and the release build output would otherwise only contain rexruntime.dll.
+rexglue_setup_target(infinite_undiscovery GPU_PLUGINS xenos)
 # Preserve the historical PoC executable; publish this stage under its new name.
 set_target_properties(infinite_undiscovery PROPERTIES OUTPUT_NAME "InfiniteUndiscoveryRecomp")
 
 if(WIN32)
     target_link_libraries(infinite_undiscovery PRIVATE bcrypt comctl32 ole32 shell32 uuid gdi32)
+
+    # Release hardening: refuse to produce a build whose staged ReXGlue DLLs are
+    # the old precompiled-SDK copies. Aborts the build with a clear message.
+    add_custom_command(TARGET infinite_undiscovery POST_BUILD
+        COMMAND ${CMAKE_COMMAND}
+            "-DVERIFY_DIR=$<TARGET_FILE_DIR:infinite_undiscovery>"
+            "-DREQUIRE_ALL=ON"
+            -P "${CMAKE_CURRENT_SOURCE_DIR}/cmake/verify_rexglue_dlls.cmake"
+        COMMENT "Verifying staged ReXGlue DLLs (auditable v0.10.0 hashes)"
+        VERBATIM)
 else()
     message(FATAL_ERROR "Asset Setup currently requires Windows; do not imply cross-platform support.")
 endif()

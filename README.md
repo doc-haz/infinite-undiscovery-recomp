@@ -26,12 +26,22 @@ On first launch, the Asset Setup Wizard will ask for your game media and prepare
 
 The Windows release is portable. No installer is required.
 
+## System requirements
+
+- Windows 10 or 11, 64-bit.
+- A Direct3D 12 capable GPU. The runtime uses ReXGlue's `xenos` GPU plugin on
+  top of D3D12 (`rexgpu-xenos.dll`).
+- Microsoft Visual C++ Redistributable 2015-2022 (x64). The binaries depend on
+  `MSVCP140.dll`, `MSVCP140_ATOMIC_WAIT.dll`, `VCRUNTIME140.dll` and
+  `VCRUNTIME140_1.dll`. These Microsoft DLLs are **not** bundled with the
+  release; install the redistributable if Windows reports a missing DLL.
+
 ## Current status
 
 The recomp can currently:
 
 - launch Infinite Undiscovery as a native Windows executable
-- import supported PAL and NTSC-U game media
+- import supported USA, USA-UNDUB, EUROPE, JAPAN and ASIA game media
 - detect Disc 1 and Disc 2 automatically
 - read supported XDVDFS ISO images or extracted disc folders
 - keep Disc 1 and Disc 2 assets separate
@@ -57,12 +67,17 @@ For each disc, the setup system expects the required game data:
 
 The wizard identifies the game from the media itself. Folder names are not used to determine region or disc number.
 
-Supported regions:
+Supported content profiles:
 
-- NTSC-U
-- PAL
+- USA
+- USA-UNDUB (Japanese voices, USA text)
+- EUROPE
+- JAPAN
+- ASIA
 
-Both regions may exist in the same portable directory without sharing assets or saves.
+Legacy folder names are migrated automatically on first launch: `NTSC-U` becomes
+`USA` and `PAL` becomes `EUROPE`. All profiles may coexist in the same portable
+directory without sharing assets or saves.
 
 ## Portable layout
 
@@ -71,32 +86,31 @@ Runtime data is stored relative to the directory containing the EXE.
 Example:
 
     InfiniteUndiscoveryRecomp\
-    ├─ InfiniteUndiscoveryRecomp.exe
-    ├─ rexruntime.dll
-    ├─ rexgpu-xenos.dll
-    ├─ setup.json
-    │
-    ├─ NTSC-U\
-    │   ├─ assets\
-    │   │   ├─ disc1\
-    │   │   ├─ disc2\
-    │   │   └─ dlc\
-    │   ├─ saves\
-    │   ├─ shaders\
-    │   ├─ cache\
-    │   ├─ logs\
-    │   └─ config.json
-    │
-    └─ PAL\
-        ├─ assets\
-        │   ├─ disc1\
-        │   ├─ disc2\
-        │   └─ dlc\
-        ├─ saves\
-        ├─ shaders\
-        ├─ cache\
-        ├─ logs\
-        └─ config.json
+      InfiniteUndiscoveryRecomp.exe
+      rexruntime.dll
+      rexgpu-xenos.dll
+      README.md
+      LICENSE
+      THIRD_PARTY_NOTICES.txt
+      LICENSES\
+      setup.json
+      USA\                    (default profile; legacy NTSC-U migrates here)
+        assets\disc1\
+        assets\disc2\
+        assets\dlc\
+        saves\
+        shaders\
+        cache\
+        logs\
+        config.json
+      USA-UNDUB\              (same layout as USA)
+      EUROPE\                 (legacy PAL migrates here; same layout)
+      JAPAN\                  (same layout)
+      ASIA\                   (same layout)
+
+Only the folders for profiles you actually configure are created. Every profile
+folder keeps its own assets, saves, shaders, cache, logs and config.json, so
+profiles never share state.
 
 The recomp does not use Documents, AppData, Saved Games or previous development directories for normal runtime state.
 
@@ -171,10 +185,10 @@ Save data is local to the portable installation.
 
 Examples:
 
-    NTSC-U\saves\
-    PAL\saves\
+    USA\saves\
+    EUROPE\saves\
 
-PAL and NTSC-U saves remain separate.
+Each content profile keeps its own saves; they do not share save data.
 
 The project does not automatically import saves from older development builds, emulator directories or previous runtime locations.
 
@@ -213,8 +227,8 @@ Current features include:
 
 IU Save Bridge works directly with the portable save structure used by Infinite Undiscovery Recomp:
 
-    NTSC-U\saves\
-    PAL\saves\
+    USA\saves\
+    EUROPE\saves\
 
 The editor keeps its own backups and validates save data before replacing the active file.
 
@@ -226,11 +240,14 @@ Download the current Windows x64 build from the IU Save Bridge Releases page.
 
 The current Asset Setup implementation has been tested with:
 
-- PAL Disc 1
-- PAL Disc 2
-- NTSC-U Disc 1
-- NTSC-U Disc 2
-- PAL / NTSC-U detection
+- USA Disc 1
+- USA Disc 2
+- EUROPE (PAL) Disc 1
+- EUROPE (PAL) Disc 2
+- USA-UNDUB media
+- JAPAN media
+- ASIA media
+- profile detection and legacy NTSC-U / PAL migration
 - Disc 1 / Disc 2 detection
 - mixed-region rejection
 - swapped-disc rejection

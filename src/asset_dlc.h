@@ -23,4 +23,5 @@ void ValidateSelection(const std::vector<Package>& packages);
 void InstallPending(const std::filesystem::path& packages,
                     rex::system::KernelState* kernel,
                     const std::filesystem::path& user_root);
+uint32_t GetInstalledCount();
 }

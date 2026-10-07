@@ -21,8 +21,19 @@ struct Disc {
   std::array<std::string, 2> multidisc_ids;
   std::vector<File> files;
 };
+
+struct FolderScanResult {
+  std::optional<Disc> disc1;
+  std::optional<Disc> disc2;
+  std::vector<iu::dlc::Package> dlc_packages;
+  std::string error_message;
+  std::vector<std::string> found_editions;
+};
+
 // Throws on malformed/foreign/unsupported data. Folder names are never identity.
 Disc Inspect(const fs::path& source);
+FolderScanResult ScanFolderForMedia(const fs::path& folder,
+                                    const std::optional<std::string>& target_edition = std::nullopt);
 void ValidatePair(const Disc& first, const std::optional<Disc>& second);
 bool Ready(const fs::path& root, std::string* reason = nullptr);
 bool CanLaunch(const Disc& disc);

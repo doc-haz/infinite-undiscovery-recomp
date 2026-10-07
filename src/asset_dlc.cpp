@@ -2,9 +2,11 @@
 #include "asset_hash.h"
 #include "portable_setup.h"
 #include <rex/runtime.h>
+#include <rex/filesystem.h>
 #include <rex/system/kernel_state.h>
 #include <rex/system/xam/content_manager.h>
 #include <algorithm>
+#include <atomic>
 #include <chrono>
 #include <map>
 #include <set>
@@ -58,7 +60,10 @@ Package Inspect(const fs::path& source) {
   Check(Hash(b.data()+base,4096,true)==Hex(b.data()+0x381,20),"La tabla hash del DLC esta corrupta.");
   const uint8_t* hashes=b.data()+base;
   for(uint32_t i=0;i<total;++i) Check(Hash(b.data()+base+(uint64_t(i)+1)*4096,4096,true)==Hex(hashes+i*24,20),"Bloque de datos DLC corrupto.");
+  // Read display name using English slot (lang_id 0 at 0x411) with fallback to filename,
+  // exactly matching ReXGlue ContentManager::InstallContent.
   for(unsigned i=0;i<128;++i) { auto c=uint16_t(b[0x411+i*2])<<8 | b[0x412+i*2]; if(!c) break; p.display_name.push_back(static_cast<wchar_t>(c)); }
+  if(p.display_name.empty()) p.display_name = source.filename().wstring();
   for(unsigned i=0;i<16;++i) { const auto* license=b.data()+0x22c+i*16; if(BE(license+12)) p.license_mask|=BE(license+8); }
   auto tables=unsigned(b[0x37c]) | unsigned(b[0x37d])<<8;
   Check(tables>0 && tables<=total,"Tabla de archivos STFS invalida.");
@@ -101,11 +106,15 @@ void ValidateSelection(const std::vector<Package>& packages) {
     Check(names.insert(name).second,"Dos paquetes DLC tienen el mismo nombre de destino.");
   }
 }
+static std::atomic<uint32_t> g_installed_count{0};
+
 void InstallPending(const fs::path& packages,rex::system::KernelState* kernel,const fs::path& user_root) {
   if(!fs::is_directory(packages)) return;
   Check(kernel && kernel->title_id()==0x535107db,"El runtime no tiene cargado el titulo Infinite Undiscovery.");
   std::vector<Package> list; for(const auto& entry:fs::directory_iterator(packages)) list.push_back(Inspect(entry.path()));
-  ValidateSelection(list); if(list.empty())return;
+  ValidateSelection(list);
+  g_installed_count.store(static_cast<uint32_t>(list.size()));
+  if(list.empty())return;
   auto active=kernel->content_manager(); Check(active!=nullptr,"El gestor de contenido no esta disponible.");
   NoLinks(user_root); fs::create_directories(user_root);
   // Validate existing installations semantically through the SDK. Its serialized
@@ -212,5 +221,25 @@ headers.push_back({stage/header, hdr});
     for(auto it=published.rbegin();it!=published.rend();++it) fs::remove_all(*it,ignored);
     fs::remove_all(stage,ignored); throw;
   }
+}
+
+uint32_t GetInstalledCount() {
+  uint32_t val = g_installed_count.load();
+  if (val > 0) return val;
+  try {
+    std::string prof = portable::GetActiveProfile();
+    if (!prof.empty()) {
+      auto exe = rex::filesystem::GetExecutableFolder();
+      auto dlc_dir = portable::Layout(exe, prof).assets / "dlc";
+      if (fs::is_directory(dlc_dir)) {
+        uint32_t count = 0;
+        for (const auto& entry : fs::directory_iterator(dlc_dir)) {
+          if (entry.is_regular_file()) ++count;
+        }
+        return count;
+      }
+    }
+  } catch (...) {}
+  return 0;
 }
 }

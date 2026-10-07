@@ -23,7 +23,7 @@ The EXE, runtime DLLs, game assets, saves, shaders, cache, logs and configuratio
 9. The game starts.
 10. Future launches reuse the validated local installation and skip the wizard unless maintenance/setup is requested.
 
-The user does not manually select PAL or NTSC-U.
+The user does not manually select the region or content profile.
 
 The application determines the supported game region from the selected media.
 
@@ -33,56 +33,57 @@ The application determines the supported game region from the selected media.
 
 All runtime state is stored relative to the directory containing the EXE.
 
-The two supported regions use independent roots:
+Each supported content profile uses an independent root:
 
-    NTSC-U\
-    PAL\
+    USA\
+    USA-UNDUB\
+    EUROPE\
+    JAPAN\
+    ASIA\
+
+Legacy folder names are migrated automatically on first launch (`NTSC-U` becomes
+`USA`; `PAL` becomes `EUROPE`).
 
 Example:
 
     InfiniteUndiscoveryRecomp\
-    ├─ InfiniteUndiscoveryRecomp.exe
-    ├─ rexruntime.dll
-    ├─ rexgpu-xenos.dll
-    │
-    ├─ NTSC-U\
-    │   ├─ assets\
-    │   │   ├─ disc1\
-    │   │   ├─ disc2\
-    │   │   └─ dlc\
-    │   ├─ saves\
-    │   ├─ shaders\
-    │   ├─ cache\
-    │   ├─ logs\
-    │   └─ config.json
-    │
-    └─ PAL\
-        ├─ assets\
-        │   ├─ disc1\
-        │   ├─ disc2\
-        │   └─ dlc\
-        ├─ saves\
-        ├─ shaders\
-        ├─ cache\
-        ├─ logs\
-        └─ config.json
+      InfiniteUndiscoveryRecomp.exe
+      rexruntime.dll
+      rexgpu-xenos.dll
+      setup.json
+      USA\                    (default profile; legacy NTSC-U migrates here)
+        assets\disc1\
+        assets\disc2\
+        assets\dlc\
+        saves\
+        shaders\
+        cache\
+        logs\
+        config.json
+      USA-UNDUB\              (same layout as USA)
+      EUROPE\                 (legacy PAL migrates here; same layout)
+      JAPAN\                  (same layout)
+      ASIA\                   (same layout)
 
 The application does not intentionally use Documents, AppData, LocalAppData, Saved Games, old development directories or emulator folders for its normal runtime state.
 
 Moving the complete portable directory moves the installation with it.
 
-PAL and NTSC-U remain isolated from each other.
+Content profiles remain isolated from each other; assets and saves are never shared.
 
 ---
 
 ## Save isolation
 
-Each supported region has its own save directory.
+Each supported content profile has its own save directory.
 
 Examples:
 
-    NTSC-U\saves\
-    PAL\saves\
+    USA\saves\
+    USA-UNDUB\saves\
+    EUROPE\saves\
+    JAPAN\saves\
+    ASIA\saves\
 
 The region `saves` folder is configured as ReXGlue's `user_data_root`. As a result, in addition to game save data, it also hosts runtime-managed user content such as installed DLC packages (`0000000000000000/535107DB/...`).
 
@@ -96,7 +97,7 @@ This behavior is intentional.
 
 ## Supported media
 
-The native media reader supports the tested PAL and NTSC-U Infinite Undiscovery Xbox 360 releases.
+The native media reader supports the tested USA, USA-UNDUB, EUROPE, JAPAN and ASIA Infinite Undiscovery Xbox 360 releases.
 
 The required root files are:
 
@@ -124,6 +125,7 @@ Supported region masks include:
 
     PAL:     00FF0000
     NTSC-U:  000000FF
+    NTSC-J:  0000FD00  (JAPAN / ASIA disambiguated by multidisc IDs)
 
 Disc identity and multidisc metadata are also checked.
 
@@ -135,13 +137,19 @@ Mixed-region disc pairs, incorrect disc slots and unsupported media are rejected
 
 The currently validated Disc 1 XEX SHA-256 profiles are:
 
-PAL:
+EUROPE (PAL):
 
     22893bb8d96a1440ecbdbcae543baeaf89d26588c89c99a2c96fecf611475325
 
-NTSC-U:
+USA:
 
     9523b45e6a724d4988ce9cf70d55b672e461b89303b02dc2f0f9c84329c25555
+
+Additional validated Disc 1 profiles (USA-UNDUB, JAPAN, ASIA):
+
+    42dfaa90814f5b78592bb637ac371df20c30acfa897f922fff96d3251553473b
+    cbb789e5e8842398253839b2e320874b3851bd10aaa2392aadf5cdeed438cc91
+    fd063de17d98ab1201795efab4ffd06d76e85eeb4da0ce751926792deeeccd33
 
 The decrypted PE payloads of these tested builds were compared during development and produced the same SHA-256:
 
@@ -163,7 +171,7 @@ The large game BIN files are copied separately for each disc.
 
 Their expected sizes and SHA-256 hashes are checked during installation.
 
-The validated PAL and NTSC-U disc sets passed these checks during development.
+The validated disc sets for the supported profiles passed these checks during development.
 
 The setup system records installation metadata so later launches do not need to hash the complete multi-gigabyte game data every time.
 
@@ -362,9 +370,9 @@ The public repository does not contain generated Infinite Undiscovery game code.
 
 Code generation must be performed locally from a supported legally obtained game executable.
 
-The tested PAL and NTSC-U Disc 1 executable payloads are equivalent for the function map used by the project.
+The tested Disc 1 executable payloads across the supported profiles are equivalent for the function map used by the project.
 
-The current project configuration therefore does not maintain independent PAL and NTSC-U generated function maps.
+The current project configuration therefore does not maintain independent generated function maps per profile.
 
 Unknown executable revisions should not be assumed compatible.
 
@@ -384,16 +392,15 @@ Validation work has covered cases including:
 
 - wizard cancellation
 - public EXE cancellation
-- PAL detection
-- NTSC-U detection
+- profile detection (USA, USA-UNDUB, EUROPE, JAPAN, ASIA)
+- legacy NTSC-U / PAL migration
 - Disc 1 / Disc 2 detection
 - swapped disc rejection
 - mixed-region rejection
 - invalid XEX rejection
 - truncated XEX rejection
 - foreign Title ID rejection
-- complete PAL extraction
-- complete NTSC-U extraction
+- complete extraction per supported profile
 - BIN hash verification
 - separate Disc 1 / Disc 2 destinations
 - A Voucher validation
