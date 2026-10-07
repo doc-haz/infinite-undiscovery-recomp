@@ -8,52 +8,88 @@
   Native Windows x64 recompilation with portable asset setup.
 </p>
 
-The current build uses ReXGlue / XenonRecomp and includes a native setup wizard for importing game data from a legally obtained copy of the game.
+Infinite Undiscovery Recomp is a native Windows x64 recompilation of **Infinite Undiscovery** (Xbox 360, 2008), built around the **ReXGlue / XenonRecomp** ecosystem.
 
-No game files, DLC, ISOs or other copyrighted assets are distributed with this project.
+The project includes an integrated native setup system for importing game data from a legally obtained copy of the game.
+
+No game files, DLC, ISOs, saves or other copyrighted game assets are distributed with this project.
+
+---
 
 ## Download
 
-The latest portable build is available from:
+The current public Release Candidate is:
 
-https://github.com/doc-haz/infinite-undiscovery-recomp/releases/latest
+**Infinite Undiscovery Recomp v1.0.0-rc1**
 
-Extract the ZIP to a writable folder and run:
+Release page:
+
+https://github.com/doc-haz/infinite-undiscovery-recomp/releases/tag/v1.0.0-rc1
+
+All releases:
+
+https://github.com/doc-haz/infinite-undiscovery-recomp/releases
+
+Download the portable ZIP, extract it to a writable folder and run:
 
 `InfiniteUndiscoveryRecomp.exe`
 
 On first launch, the Asset Setup Wizard will ask for your game media and prepare the required files.
 
-The Windows release is portable. No installer is required.
+The Windows release is fully portable.
+
+No installer is required.
+
+---
 
 ## System requirements
 
-- Windows 10 or 11, 64-bit.
-- A Direct3D 12 capable GPU. The runtime uses ReXGlue's `xenos` GPU plugin on
-  top of D3D12 (`rexgpu-xenos.dll`).
-- Microsoft Visual C++ Redistributable 2015-2022 (x64). The binaries depend on
-  `MSVCP140.dll`, `MSVCP140_ATOMIC_WAIT.dll`, `VCRUNTIME140.dll` and
-  `VCRUNTIME140_1.dll`. These Microsoft DLLs are **not** bundled with the
-  release; install the redistributable if Windows reports a missing DLL.
+- Windows 10 or Windows 11, 64-bit.
+- A Direct3D 12 capable GPU.
+- Microsoft Visual C++ Redistributable 2015-2022 (x64).
+
+The runtime uses ReXGlue's `xenos` GPU plugin on top of Direct3D 12:
+
+`rexgpu-xenos.dll`
+
+The release depends on Microsoft runtime files including:
+
+- `MSVCP140.dll`
+- `MSVCP140_ATOMIC_WAIT.dll`
+- `VCRUNTIME140.dll`
+- `VCRUNTIME140_1.dll`
+
+These Microsoft DLLs are **not** bundled with the release.
+
+If Windows reports a missing runtime DLL, install the Microsoft Visual C++ Redistributable 2015-2022 (x64).
+
+---
 
 ## Current status
 
 The recomp can currently:
 
-- launch Infinite Undiscovery as a native Windows executable
+- launch Infinite Undiscovery as a native Windows x64 executable
 - import supported USA, USA-UNDUB, EUROPE, JAPAN and ASIA game media
 - detect Disc 1 and Disc 2 automatically
 - read supported XDVDFS ISO images or extracted disc folders
 - keep Disc 1 and Disc 2 assets separate
 - validate known game revisions before installation
+- perform the real in-game Disc 1 -> Disc 2 transition
 - import the supported A Voucher and B Voucher DLC packages
 - install DLC through the ReXGlue content system
 - keep saves, shaders, cache, logs and configuration local to the portable folder
 - reuse an existing validated setup on later launches
+- switch between multiple isolated content profiles
 - use English or Spanish in the setup UI
-- official portable save editing companion available through IU Save Bridge
+- use English or Spanish in the in-game utility UI
+- provide an in-game Game Menu and recovery/debug tools
+- provide Session / System diagnostic information
+- use IU Save Bridge as the official portable save-editor companion
 
-The current public release is still under active gameplay validation.
+The current public release remains a **Release Candidate** because full-game completion and later-game validation are still ongoing.
+
+---
 
 ## Game files
 
@@ -65,7 +101,9 @@ For each disc, the setup system expects the required game data:
     ud1.bin
     ud2.bin
 
-The wizard identifies the game from the media itself. Folder names are not used to determine region or disc number.
+The wizard identifies the game from the media itself.
+
+Folder names are not used to determine edition or disc number.
 
 Supported content profiles:
 
@@ -75,9 +113,14 @@ Supported content profiles:
 - JAPAN
 - ASIA
 
-Legacy folder names are migrated automatically on first launch: `NTSC-U` becomes
-`USA` and `PAL` becomes `EUROPE`. All profiles may coexist in the same portable
-directory without sharing assets or saves.
+Legacy portable folder names are migrated automatically on first launch:
+
+    NTSC-U -> USA
+    PAL    -> EUROPE
+
+All supported profiles may coexist inside the same portable installation without sharing assets, saves or runtime state.
+
+---
 
 ## Portable layout
 
@@ -94,7 +137,8 @@ Example:
       THIRD_PARTY_NOTICES.txt
       LICENSES\
       setup.json
-      USA\                    (default profile; legacy NTSC-U migrates here)
+
+      USA\
         assets\disc1\
         assets\disc2\
         assets\dlc\
@@ -103,22 +147,43 @@ Example:
         cache\
         logs\
         config.json
-      USA-UNDUB\              (same layout as USA)
-      EUROPE\                 (legacy PAL migrates here; same layout)
-      JAPAN\                  (same layout)
-      ASIA\                   (same layout)
 
-Only the folders for profiles you actually configure are created. Every profile
-folder keeps its own assets, saves, shaders, cache, logs and config.json, so
-profiles never share state.
+      USA-UNDUB\
+        ...
+
+      EUROPE\
+        ...
+
+      JAPAN\
+        ...
+
+      ASIA\
+        ...
+
+Only folders for profiles that are actually configured are created.
+
+Each profile keeps its own:
+
+- assets
+- saves
+- shaders
+- cache
+- logs
+- configuration
+
+Profiles do not share runtime state.
 
 The recomp does not use Documents, AppData, Saved Games or previous development directories for normal runtime state.
 
 Moving the complete portable folder moves the installation with it.
 
+---
+
 ## Asset Setup Wizard
 
-The Asset Setup Wizard is integrated into `InfiniteUndiscoveryRecomp.exe`.
+The Asset Setup Wizard is integrated directly into:
+
+`InfiniteUndiscoveryRecomp.exe`
 
 Normal users do not need to run:
 
@@ -135,28 +200,147 @@ The wizard handles:
 2. optional Disc 2 selection
 3. optional DLC selection
 4. media verification
-5. asset installation
+5. native asset installation
 6. portable configuration
+7. profile setup
 
 Disc 1 is required.
 
-Disc 2 setup is supported and recommended so the files are already available for future gameplay testing.
+Disc 2 is optional during initial setup, but installing it is recommended for a complete playthrough.
 
-English is the default setup language. Spanish can be selected from the wizard.
+English is the default setup language.
+
+Spanish can be selected directly from the wizard.
+
+---
+
+## Content Profile Manager
+
+The project includes a native Content Profile Manager.
+
+Supported profiles:
+
+- USA
+- USA-UNDUB
+- EUROPE
+- JAPAN
+- ASIA
+
+The Profile Manager can:
+
+- show installed profiles
+- select the active profile
+- install additional profiles
+- auto-detect supported media
+- keep multiple editions isolated inside one portable installation
+- return from gameplay to profile selection through the in-game Game Menu
+
+Legacy folders are migrated automatically:
+
+    NTSC-U -> USA
+    PAL    -> EUROPE
+
+---
 
 ## Multi-disc status
 
 Infinite Undiscovery is a two-disc game.
 
-The setup system can currently detect, validate and import both Disc 1 and Disc 2, and it keeps their assets separated correctly.
+The setup system can:
 
-However, actual gameplay has not yet been tested up to the point where the original game requests Disc 2.
+- detect Disc 1
+- detect Disc 2
+- validate both discs
+- import both discs
+- keep their assets separated
+- mount the required content during gameplay
 
-This means that Disc 2 asset preparation is validated, but the real in-game Disc 1 → Disc 2 transition is not.
+The **real in-game Disc 1 -> Disc 2 transition has been successfully tested multiple times during development**.
 
-At this time, it is not known how the current runtime will behave when the game reaches the disc-change point. It may work, require additional handling, or fail until explicit disc-switch support is implemented and tested.
+This is no longer considered an untested feature.
 
-Disc 2 can be prepared successfully, but successful in-game disc switching should not be assumed yet.
+The game has repeatedly reached the original disc-change point and transitioned into Disc 2 successfully using the recomp runtime.
+
+Current multi-disc validation therefore consists of two separate states:
+
+### Validated
+
+- Disc 1 media detection
+- Disc 2 media detection
+- Disc 1 import
+- Disc 2 import
+- separate Disc 1 / Disc 2 asset storage
+- runtime Disc 2 mounting
+- real in-game Disc 1 -> Disc 2 transition
+
+### Still under validation
+
+- complete Disc 2 progression
+- later-game runtime behavior
+- complete playthrough to the ending
+
+A complete playthrough has not yet been finished.
+
+---
+
+## In-game Game Menu
+
+Press:
+
+`F5`
+
+to open the Infinite Undiscovery Game Menu.
+
+The menu provides access to runtime information and recovery/debug tools.
+
+Current controls include:
+
+- `F5` — Game Menu
+- `F6` — Save Anywhere
+- `F8` — Safe Step Forward
+- `F9` — Undo Debug Move
+- `F10` — Return to Profile Manager
+- `F12` — Quit Game
+
+These tools are intended primarily for testing, recovery and diagnostics.
+
+They are not meant to silently alter normal gameplay behavior.
+
+---
+
+## Session / System diagnostics
+
+The in-game Game Menu includes a Session / System information panel.
+
+It can display information such as:
+
+- active profile
+- profile display name
+- current disc
+- project version
+- Title ID
+- region / edition
+- UI language
+- DLC package count
+- ReXGlue SDK version
+- active disc mount
+- Disc 1 / Disc 2 presence
+- D3D12 backend
+- GPU adapter
+- window resolution
+- Windows version
+- logical CPU count
+- system RAM
+- portable paths
+- recovery tool state
+- diagnostic trace state
+- PSO prewarm / telemetry state
+
+Diagnostic reports can be copied to the clipboard or saved into the active profile logs folder.
+
+User names inside Windows paths are sanitized from exported reports.
+
+---
 
 ## DLC
 
@@ -179,6 +363,8 @@ Different, damaged, incomplete or conflicting DLC is rejected instead of being s
 
 The project does not distribute DLC packages.
 
+---
+
 ## Saves
 
 Save data is local to the portable installation.
@@ -186,19 +372,30 @@ Save data is local to the portable installation.
 Examples:
 
     USA\saves\
+    USA-UNDUB\saves\
     EUROPE\saves\
+    JAPAN\saves\
+    ASIA\saves\
 
-Each content profile keeps its own saves; they do not share save data.
+Each content profile keeps its own save data.
 
-The project does not automatically import saves from older development builds, emulator directories or previous runtime locations.
+Profiles do not share saves automatically.
 
-This is intentional.
+The recomp does not automatically import saves from:
+
+- older development builds
+- emulator directories
+- Documents
+- AppData
+- previous runtime locations
+
+This isolation is intentional.
+
+---
 
 ## Official Save Companion
 
-**IU Save Bridge** is the official portable save editor companion for Infinite Undiscovery Recomp.
-
-It is designed specifically for the portable save layout used by this recomp and supports both PAL and NTSC-U installations.
+**IU Save Bridge v2.3.0** is the official portable save-editor companion for Infinite Undiscovery Recomp.
 
 Repository:
 
@@ -208,37 +405,63 @@ Latest release:
 
 https://github.com/doc-haz/iu-save-bridge/releases/latest
 
-Current features include:
+Current profile model:
+
+- USA
+- USA-UNDUB
+- EUROPE
+- JAPAN
+- ASIA
+
+Legacy compatibility:
+
+    NTSC-U -> USA
+    PAL    -> EUROPE
+
+IU Save Bridge v2.3.0 supports:
 
 - direct save editing
 - Fol editing
 - character stats editing
 - inventory editing for 1,023 items
 - automatic save discovery
-- PAL / NTSC-U support
-- automatic backups before writing
+- Xbox 360 / STFS save import
+- profile-aware save discovery
+- automatic safety backups before writing
 - manual backup support
 - safe backup restore
-- dual CRC32 recalculation
+- dual Tri-Ace CRC32 recalculation
+- SHA-256 verification
 - English / Spanish interface
 - fully portable operation
 - no installer
 - no AppData, Documents or Registry dependency
+- exclusion of non-playable `saves\achievements\` data from save-slot discovery
 
-IU Save Bridge works directly with the portable save structure used by Infinite Undiscovery Recomp:
+Backups are stored by profile:
 
-    USA\saves\
-    EUROPE\saves\
+    backups\USA\
+    backups\USA-UNDUB\
+    backups\EUROPE\
+    backups\JAPAN\
+    backups\ASIA\
 
-The editor keeps its own backups and validates save data before replacing the active file.
+Legacy backups remain visible without being renamed or moved.
 
-Equipment, skills, story flags and other unverified save structures are intentionally not exposed for editing yet.
+Real retail save validation has currently been performed with:
 
-Download the current Windows x64 build from the IU Save Bridge Releases page.
+- USA
+- legacy NTSC-U mapped to USA
+
+USA-UNDUB, EUROPE, JAPAN and ASIA save handling is currently validated through the shared format and synthetic fixtures.
+
+The editor does not assume that saves from different editions are interchangeable merely because they share the same general format.
+
+---
 
 ## Validation
 
-The current Asset Setup implementation has been tested with:
+The current setup/profile implementation has been tested with:
 
 - USA Disc 1
 - USA Disc 2
@@ -247,11 +470,14 @@ The current Asset Setup implementation has been tested with:
 - USA-UNDUB media
 - JAPAN media
 - ASIA media
-- profile detection and legacy NTSC-U / PAL migration
+- automatic profile detection
+- legacy NTSC-U -> USA migration
+- legacy PAL -> EUROPE migration
 - Disc 1 / Disc 2 detection
+- real in-game Disc 1 -> Disc 2 transition
 - mixed-region rejection
 - swapped-disc rejection
-- invalid and truncated media
+- invalid and truncated media rejection
 - modified XEX rejection
 - foreign Title ID rejection
 - A Voucher validation
@@ -265,25 +491,94 @@ The current Asset Setup implementation has been tested with:
 - setup cancellation and staging cleanup
 - portable execution outside the development directory
 - startup with a working directory different from the EXE directory
+- save loading
+- normal gameplay
+- profile switching
+- clean shutdown
 
-The automated setup tests are developer validation tools and do not replace a complete gameplay test.
+Automated tests are developer validation tools and do not replace complete gameplay testing.
+
+---
+
+## Vesplume Tower / Orb of Patience
+
+One important active gameplay investigation is the known **Vesplume Tower / Orb of Patience softlock**.
+
+A community save reproducing the problem has been provided.
+
+The issue is currently being used as a regression and diagnostic case for:
+
+- progression state
+- story flags
+- runtime behavior
+- scheduler behavior
+- recovery tools
+- later Disc 1 progression
+
+The project does **not** currently claim that this issue is fixed.
+
+Community reports, alternative reproduction cases and diagnostic information are welcome.
+
+---
 
 ## Known limitations
 
-The following are still being validated:
+The following remain under active validation:
 
-- full-game completion
-- gameplay progression up to the original Disc 2 change point
-- actual in-game Disc 1 → Disc 2 transition behavior
-- complete Disc 2 gameplay
+- complete full-game playthrough
+- complete Disc 2 progression
+- late-game runtime issues
+- Vesplume Tower / Orb of Patience softlock
 - complete in-game verification of the A Voucher and B Voucher effects
-- runtime issues that may only appear later in the game
+- hardware / driver-specific graphical issues
+- unusual aspect ratios and ultrawide behavior
 
-Disc 2 can be imported successfully, but this does not mean the game has been proven to transition to Disc 2 correctly during gameplay.
+The Disc 1 -> Disc 2 transition itself has been successfully tested multiple times and is **not** currently considered an unresolved limitation.
 
-No complete playthrough reaching the Disc 2 request has been performed yet.
+Asset preparation and successful disc switching still do not imply that every later section of the game has already been validated.
 
-Asset preparation does not imply full gameplay validation.
+---
+
+## Runtime and release engineering
+
+The public RC uses:
+
+**ReXGlue v0.10.0**
+
+Source revision:
+
+    f5337cdc947ff6d4c4196737e2c807a48f2a1fc2
+
+The public runtime DLLs were rebuilt from the audited ReXGlue v0.10.0 source rather than using the older precompiled SDK binaries.
+
+Runtime compatibility was checked against the symbols consumed by the recomp and Xenos GPU plugin.
+
+The release pipeline includes a hash guard that rejects the previously used runtime DLLs.
+
+Final public artifacts were scanned with Microsoft Defender before release.
+
+---
+
+## Third-party licensing and compliance
+
+The project includes third-party license information under:
+
+    LICENSES\
+    THIRD_PARTY_NOTICES.txt
+
+The ReXGlue runtime statically incorporates LGPL components including FFmpeg and libmspack.
+
+A separate LGPL compliance package is published with the RC release.
+
+It contains corresponding source and relink material required for those statically linked LGPL components.
+
+Current compliance asset:
+
+`InfiniteUndiscoveryRecomp-v1.0.0-rc1-LGPL-Compliance.zip`
+
+The main portable game ZIP remains separate from the compliance archive.
+
+---
 
 ## Building from source
 
@@ -292,7 +587,7 @@ This repository does not include proprietary game assets or generated game code.
 A developer build requires:
 
 - a legally obtained supported Infinite Undiscovery executable
-- ReXGlue SDK
+- ReXGlue SDK / source tree
 - CMake
 - Ninja
 - Clang
@@ -301,20 +596,52 @@ A developer build requires:
 General build flow:
 
 1. Clone the repository.
-2. Provide the required ReXGlue toolchain and SDK.
+2. Provide the required ReXGlue toolchain and SDK/source tree.
 3. Generate the game code locally from your own supported executable.
 4. Configure the project with CMake.
 5. Build the Windows x64 target.
 
 The generated game code is intentionally excluded from the public repository.
 
-More details about the setup implementation are available in:
+More details about setup are available in:
 
 `ASSET_SETUP.md`
 
 Development history is documented in:
 
 `PROJECT_HISTORY.md`
+
+---
+
+## Development history
+
+The project began as a small experiment:
+
+> Can Infinite Undiscovery run as a native Windows recompilation?
+
+It gradually evolved into a portable native Windows application with:
+
+- multi-edition content profiles
+- integrated asset setup
+- profile management
+- native DLC handling
+- portable runtime state
+- multi-disc support
+- tested Disc 1 -> Disc 2 transition
+- recovery tools
+- diagnostics
+- bilingual UI
+- a dedicated save-editor companion
+- audited runtime dependencies
+- reproducible release/compliance work
+
+The detailed timeline is preserved in:
+
+`PROJECT_HISTORY.md`
+
+Historical sections intentionally retain old designs and old validation states when they accurately describe that stage of development.
+
+---
 
 ## Credits
 
@@ -328,19 +655,30 @@ Special thanks to:
 - **[vs-sr-dev / pc-infiniteundiscovery](https://github.com/vs-sr-dev/pc-infiniteundiscovery)** — for extensive reverse-engineering research, documentation and analysis tools for Infinite Undiscovery and the ASKA engine.
 - **[dotslash (freefrank) / LostOdysseyRecomp](https://github.com/freefrank/LostOdysseyRecomp)** — for the Lost Odyssey native PC recompilation project and its importer and portable workflow, which were useful references during development.
 - **ReXGlue / XenonRecomp contributors** — for the tooling and groundwork that make projects like this possible.
+- Everyone testing the recomp, reporting bugs, providing saves and documenting reproduction cases.
+
+---
 
 ## Legal
 
 Infinite Undiscovery is property of its respective copyright holders.
 
-This project is not affiliated with or endorsed by Square Enix, tri-Ace or Microsoft.
+This project is unofficial and is not affiliated with or endorsed by Square Enix, tri-Ace or Microsoft.
 
-No copyrighted game files are included in this repository or in the release package.
+No copyrighted game files, DLC, ISOs or saves are included in this repository or release package.
 
 You must provide your own legally obtained copy of the game and any optional DLC.
 
+---
+
 ## License
 
-The project code is licensed under the BSD-3-Clause license. See `LICENSE` for details.
+The project code is licensed under the BSD-3-Clause license.
 
-Game files and external dependencies retain their respective rights and licenses. The project license does not grant any rights to those materials.
+See:
+
+`LICENSE`
+
+Game files and external dependencies retain their respective rights and licenses.
+
+The project license does not grant any rights to those materials.
