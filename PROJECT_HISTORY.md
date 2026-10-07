@@ -2,7 +2,8 @@
 
 This document records the development history of **Infinite Undiscovery Recomp**,
 from the first question of whether the Xbox 360 game could run as a native Windows
-recompilation to the first public Release Candidate.
+recompilation to the first public Release Candidate and the first rounds of public
+validation.
 
 It is not intended to be a commit-by-commit changelog.
 
@@ -277,6 +278,9 @@ For that reason, runtime disc switching remained a separate validation target.
 
 The project would not claim successful Disc 1 → Disc 2 transition behavior until
 it had been demonstrated in real gameplay.
+
+That decision became important later because the project deliberately avoided
+treating asset preparation as proof of runtime behavior.
 
 ---
 
@@ -921,15 +925,24 @@ Explicit Disc 2 runtime work introduced:
 - diagnostics around mounted devices
 - runtime preparation for a future validated transition
 
-The project deliberately continued to distinguish:
+At this stage, the project deliberately distinguished between:
 
 > Disc 2 is installed
 
-from:
+and:
 
 > The real Disc 1 → Disc 2 transition has been proven during gameplay
 
-That distinction remains important in RC1.
+The second condition had not yet been demonstrated and therefore remained an
+explicit validation target.
+
+This distinction was deliberate.
+
+The project would not treat asset preparation or runtime groundwork as proof of
+actual gameplay behavior.
+
+The transition would only be considered validated after reaching the original
+disc-change point during real gameplay and completing the handoff successfully.
 
 ---
 
@@ -1112,7 +1125,7 @@ The recomp runs the game.
 
 Save Bridge provides controlled save inspection/editing.
 
-Features developed for the companion included:
+Initial features included:
 
 - portable save discovery
 - Fol editing
@@ -1130,7 +1143,7 @@ The companion was later linked from the main recomp README and RC1 release
 documentation.
 
 As the recomp moved from historical NTSC-U / PAL directories to the final content
-profiles, Save Bridge also became a follow-up target for profile-layout updates.
+profiles, Save Bridge became a follow-up target for profile-layout updates.
 
 ---
 
@@ -1687,6 +1700,52 @@ preview builds to a publicly distributed native Windows Release Candidate.
 
 ---
 
+# Disc 1 → Disc 2 transition validated
+
+One of the project's longest-standing gameplay validation targets was eventually
+closed during repeated real-game testing.
+
+The original Infinite Undiscovery Disc 1 → Disc 2 transition was reached and
+completed successfully multiple times using the native recompilation.
+
+The runtime successfully:
+
+- reached the original disc-change point
+- detected the transition state
+- switched from Disc 1 content to the prepared Disc 2 content
+- continued into Disc 2 gameplay
+- repeated the transition successfully across multiple development tests
+
+This changed the project's multi-disc validation status.
+
+Earlier development deliberately distinguished between:
+
+    Disc 2 assets are installed
+
+and:
+
+    the real in-game Disc 1 → Disc 2 transition has been proven
+
+Both conditions have now been satisfied.
+
+The Disc 1 → Disc 2 handoff itself is therefore considered **validated**.
+
+This does not mean the entire second half of the game has been fully validated.
+
+Remaining gameplay work includes:
+
+- later Disc 2 progression
+- complete Disc 2 gameplay
+- full-game completion
+- late-game runtime behavior
+- the Vesplume Tower / Orb of Patience softlock
+- complete verification of optional DLC effects
+
+The project continues to distinguish between a validated disc transition and a
+fully validated playthrough.
+
+---
+
 # Public issue tracking begins
 
 With the RC publicly available, community testing became the next source of
@@ -1728,6 +1787,92 @@ Proper implementation should evaluate:
 - 2D elements
 
 rather than simply forcing a larger resolution.
+
+---
+
+# IU Save Bridge v2.3.0
+
+After RC1, the official save companion was updated to match the recomp's final
+five-profile model.
+
+IU Save Bridge v2.3.0 adopted:
+
+    USA
+    USA-UNDUB
+    EUROPE
+    JAPAN
+    ASIA
+
+Legacy compatibility was preserved in memory:
+
+    NTSC-U → USA
+    PAL    → EUROPE
+
+The update also introduced or consolidated:
+
+- profile-aware save discovery
+- profile-isolated backups
+- legacy backup visibility
+- Xbox 360 / STFS save import
+- dynamic save payload offset support
+- exclusion of `saves\achievements\` from playable save discovery
+- English / Spanish profile terminology
+- mandatory backups before write or restore
+- dual CRC32 recalculation
+- portable configuration using the new `profile` key
+
+The achievements exclusion fixed a case where a valid-looking payload under:
+
+    saves\achievements\535107DB\00000001\...
+
+could otherwise be mistaken for a playable save slot.
+
+The new detection is intentionally narrow and does not exclude valid XUID save
+directories.
+
+Validation for v2.3.0 included:
+
+- 30 / 30 comprehensive automated tests
+- 6 / 6 CLI checks
+- 4 / 4 localization tests
+- 3 / 3 extended feature tests
+- a clean Windows x64 build
+- real USA save testing
+- legacy NTSC-U → USA testing
+- Fol modification
+- backup creation
+- CRC1 verification
+- CRC2 verification
+- SHA-256 refresh
+- byte-identical restore testing
+
+Real retail save validation was performed with USA and legacy NTSC-U saves.
+
+USA-UNDUB, EUROPE, JAPAN and ASIA save handling was validated through the shared
+save format and synthetic fixtures rather than real retail saves from those
+editions.
+
+The final release was published as:
+
+    IU Save Bridge v2.3.0
+
+Repository:
+
+    https://github.com/doc-haz/iu-save-bridge
+
+Release:
+
+    https://github.com/doc-haz/iu-save-bridge/releases/tag/v2.3.0
+
+The final portable ZIP was:
+
+    IU-Save-Bridge-v2.3.0-win-x64.zip
+
+SHA-256:
+
+    ACB2EBE9F08A8CA3F4FD2679011DA5A072C26AD4162D9865A3429647D8A7E23D
+
+The release was scanned with Microsoft Defender and reported no threats.
 
 ---
 
@@ -1822,11 +1967,23 @@ from:
 
     validated in real gameplay
 
-The clearest example remains Disc 1 → Disc 2.
+A major historical example was Disc 1 → Disc 2.
 
-Disc 2 preparation and runtime support have progressed substantially.
+For a long period, Disc 2 preparation and runtime support existed without proof
+that the real in-game transition worked.
 
-That does not mean a complete real-game disc transition has already been proven.
+The project therefore refused to describe the transition as validated until it had
+actually been reached during gameplay.
+
+That validation was later completed successfully multiple times.
+
+The same principle continues to apply elsewhere:
+
+> implemented does not automatically mean validated
+
+and:
+
+> validated in one scenario does not automatically mean fully validated everywhere
 
 ---
 
@@ -1859,7 +2016,8 @@ a low-level recompilation experiment into a portable Windows application with:
 - five content profiles
 - automatic media identification
 - Disc 1 / Disc 2 separation
-- multi-disc runtime groundwork
+- multi-disc runtime support
+- validated real in-game Disc 1 → Disc 2 transition
 - DLC validation
 - STFS DLC installation
 - idempotent DLC reuse
@@ -1900,7 +2058,7 @@ The following remain active validation areas:
 
 - full-game completion
 - Vesplume Tower / Orb of Patience softlock
-- real Disc 1 → Disc 2 transition
+- later Disc 2 progression
 - complete Disc 2 gameplay
 - complete validation of DLC effects during gameplay
 - runtime problems that may only appear much later in the game
@@ -1908,7 +2066,12 @@ The following remain active validation areas:
 - ultrawide support
 - further performance and shader/pipeline tuning
 
-These items are not hidden behind a "complete" label.
+The real in-game Disc 1 → Disc 2 transition is no longer considered an unresolved
+validation item.
+
+It has been reached and completed successfully multiple times during real gameplay.
+
+These remaining items are not hidden behind a "complete" label.
 
 RC1 is intentionally a Release Candidate.
 
