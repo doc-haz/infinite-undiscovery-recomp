@@ -1,93 +1,108 @@
 # Infinite Undiscovery Recomp — Project History
 
-This file is a development timeline for **Infinite Undiscovery Recomp**, from the first experiments to the portable V1.0 executable.
+This document records the development history of **Infinite Undiscovery Recomp**,
+from the first question of whether the Xbox 360 game could run as a native Windows
+recompilation to the first public Release Candidate.
 
-It is not meant to be a technical changelog for every commit. It is the story of the important milestones, problems, wrong turns and breakthroughs that got the project here.
+It is not intended to be a commit-by-commit changelog.
+
+Instead, it documents the major milestones, experiments, wrong turns, technical
+problems, design decisions, validation work, tooling changes and breakthroughs that
+shaped the project.
+
+Where an old design was later replaced, it is kept here as part of the historical
+record rather than rewritten as though the final architecture had existed from the
+beginning.
 
 ---
 
-## September 2026 — The project begins
+# September 2026 — The project begins
 
-Infinite Undiscovery Recomp started as an experiment:
+Infinite Undiscovery Recomp began with a simple question:
 
-> Can Infinite Undiscovery be recompiled into a native Windows executable?
+> Can Infinite Undiscovery run as a native Windows executable?
 
 The project was built around the **ReXGlue / XenonRecomp** ecosystem.
 
-The first goal was intentionally small:
+The initial goals were deliberately modest:
 
 1. Understand the Xbox 360 executable.
 2. Generate native code.
-3. Get the project to compile.
+3. Make the generated project compile.
 4. Get the game to start.
-5. Deal with whatever broke next.
+5. Investigate whatever failed next.
 
 From the beginning, one rule was fixed:
 
-**The repository would not contain proprietary Infinite Undiscovery game assets.**
+> **The repository would not contain proprietary Infinite Undiscovery game assets.**
 
 Users would always need to provide their own legally obtained copy of the game.
-
----
-
-## Initial repository
 
 The first repository commit was:
 
     d017e263
     Initial commit
 
-At this point the repository contained the basic recompilation project structure, build configuration, manifest and early runtime support.
+At this point the repository was primarily a development environment containing
+the recompilation project structure, build configuration, manifest and early
+runtime support.
 
-The project was still very much a development environment rather than something a normal user could download and play.
+It was not yet something a normal player could download and use.
 
 ---
 
-## PAL investigation
+# Early media investigation
 
 Development initially focused on the PAL release.
 
-One reason was the expectation that the PAL version might provide the desired language support.
+One reason was the expectation that the PAL version might provide the desired
+language support.
 
-The Xbox 360 media was inspected and the important game files were identified:
-
-    default.xex
-    ud1.bin
-    ud2.bin
-
-The game is a two-disc title, and each disc contains its own copies of:
+Inspection of the Xbox 360 media identified the important game files:
 
     default.xex
     ud1.bin
     ud2.bin
 
-This later became important because Disc 1 and Disc 2 assets cannot simply overwrite each other.
+Infinite Undiscovery is a two-disc game, and each disc contains its own copies of
+these files.
+
+That detail became important later because Disc 1 and Disc 2 assets cannot simply
+overwrite each other.
+
+Both sets must remain independently available.
 
 ---
 
-## First native builds
+# First native builds
 
-The project eventually reached the point where the generated C++ could be compiled into a native Windows executable.
+The project eventually reached the point where the generated C++ could be compiled
+into a native Windows executable.
 
-The early builds were still developer-oriented.
+The first builds were highly developer-oriented.
 
-Game assets had to be prepared manually and paths supplied directly to the runtime.
+Game assets had to be prepared manually and paths were supplied directly to the
+runtime.
 
-There was no setup wizard and no end-user installation flow.
+There was:
 
-Still, this was an important milestone:
+- no setup wizard
+- no profile manager
+- no portable installation layout
+- no normal end-user setup flow
 
-**Infinite Undiscovery was no longer just being analyzed. It was executing as a native PC recompilation.**
+Even so, this was the first major milestone:
+
+> **Infinite Undiscovery was no longer only being analyzed. It was executing as a
+> native PC recompilation.**
 
 ---
 
-## Runtime bring-up
+# Runtime bring-up
 
-Getting the code to compile was only the beginning.
+Getting the project to compile was only the beginning.
 
-The next stage was largely runtime debugging.
-
-Work during this phase involved areas such as:
+The next phase became a long runtime bring-up effort involving areas such as:
 
 - guest memory initialization
 - Xbox 360 runtime behavior
@@ -98,85 +113,85 @@ Work during this phase involved areas such as:
 - diagnostics
 - shader handling
 - game-specific hooks
+- runtime tracing
+- frame pacing
 
-The game gradually progressed further and further instead of failing immediately.
+The game gradually progressed further instead of failing immediately.
 
-This phase produced many temporary diagnostics, traces and experiments that were useful during development but were never intended to become part of the public repository.
-
----
-
-## GPU and execution progress
-
-One of the most difficult parts of the early work involved the Xenos graphics/runtime path.
-
-The game eventually reached hundreds of frames of execution reliably.
-
-At one stage, execution repeatedly reached roughly frame 309 before encountering an unregistered guest function around:
+At one stage, execution repeatedly reached roughly frame 309 before encountering
+an unregistered guest function near:
 
     0x821F2360
 
-That address became one of several low-level runtime problems investigated during bring-up.
+Addresses such as this became individual investigation targets.
 
-Problems like this marked a change in the project.
+The fundamental development question had changed.
 
-The question was no longer:
+It was no longer:
 
 > Can the executable run?
 
-It was becoming:
+It had become:
 
-> Which specific remaining game/runtime system is stopping it now?
+> Which remaining runtime or game system is stopping it now?
 
 ---
 
-## Graad Prison
+# Graad Prison
 
-One of the first major practical validations was reaching **Graad Prison** in the native recompilation.
+One of the first major gameplay validations was reaching **Graad Prison** in the
+native recompilation.
 
-The historical early build was manually launched by double-clicking the EXE and verified running actual game content.
+The historical build was launched manually and verified running actual game
+content.
 
-This was important because it showed that the project had progressed well beyond a simple boot or menu proof of concept.
+This demonstrated that the project had progressed far beyond a boot-screen or
+menu-only proof of concept.
 
 ---
 
 # PoC 0.1
 
-The first historical proof-of-concept release was preserved as:
+The first historical proof-of-concept milestone was preserved as:
 
     86eaeca
     Add Infinite Undiscovery Recomp Preliminary PoC 0.1
 
-PoC 0.1 included working pieces such as:
+PoC 0.1 contained working pieces including:
 
-- recompilation
+- native recompilation
 - startup
 - frame pacing
 - diagnostics
-- existing hooks
-- fibers
+- game hooks
+- fiber support
 - game asset path configuration
 
-The PoC became a historical baseline.
+PoC 0.1 became a permanent historical baseline.
 
-A deliberate project rule was adopted:
+A project rule was adopted:
 
 > **PoC 0.1 should remain historical and must not be rewritten retroactively.**
 
-Later development would build forward from it rather than pretending the early version had capabilities that were added much later.
+Later versions would move forward rather than pretending the early build had
+features that did not exist yet.
 
 ---
 
-## PAL vs NTSC-U
+# PAL vs NTSC-U investigation
 
-The PAL version was originally expected to provide the desired Spanish language support.
+The PAL version was originally expected to provide the desired Spanish-language
+experience.
 
-The tested PAL release did not provide the expected result, so attention shifted toward the North American **NTSC-U** release.
+Testing did not produce the expected result, so attention shifted toward the North
+American NTSC-U release.
 
-That investigation produced one of the more useful discoveries of the project:
+That comparison led to an important discovery:
 
-### PAL and NTSC-U use the same executable payload
+## PAL and NTSC-U use the same relevant executable payload
 
-After decrypting and comparing the executable payloads, the relevant PE content was found to be identical.
+After decrypting and comparing the executable payloads, the relevant PE content
+was found to be identical.
 
 The versions shared:
 
@@ -187,25 +202,28 @@ The versions shared:
 - the same relevant function addresses
 - the same hook locations
 
-The differences were primarily in Xbox 360 media/header information such as region, certification and disc metadata.
+Differences were primarily in Xbox 360 media/header information such as:
 
-This meant the recompilation work did **not** need to be duplicated for PAL and NTSC-U.
+- region
+- certification
+- disc metadata
 
-One native recompilation could support both variants.
+This meant the native recompilation work did **not** need to be duplicated for PAL
+and NTSC-U.
 
-That discovery later made automatic region detection possible.
+One recompilation could support both media variants.
+
+That discovery later made automatic edition detection possible.
 
 ---
 
-## NTSC-U media validation
+# NTSC-U media validation
 
 The North American discs were inspected independently.
 
 Title ID:
 
     535107DB
-
-The game was confirmed as a two-disc NTSC-U release.
 
 Disc 1 and Disc 2 both contain:
 
@@ -215,44 +233,50 @@ Disc 1 and Disc 2 both contain:
 
 The large BIN files were hashed and verified independently.
 
-One important rule came out of this work:
+An important rule came out of this work:
 
 > **Never merge or overwrite Disc 1 and Disc 2 BIN files.**
 
-Both discs need to remain independently available to the runtime.
+Both discs must remain independently available to the runtime.
 
 ---
 
-## Development extraction tools
+# Development extraction tools
 
-During early development, Xbox 360 media was prepared with development utilities including:
+During early development, Xbox 360 media was prepared with utilities including:
 
     xdvdfs.py
     xex.py
 
-These tools were extremely useful for research and development.
+These tools were extremely useful for research.
 
-They could inspect Xbox 360 disc images, extract files and decrypt/inspect the XEX.
+They could inspect Xbox 360 disc images, extract files and decrypt or inspect the
+XEX.
 
-However, requiring a normal user to run Python scripts manually was never considered an acceptable final experience.
+However, requiring a normal user to run development scripts manually was never
+considered an acceptable final experience.
 
-This eventually became one of the motivations for the integrated setup system.
+This eventually became one of the strongest motivations for the integrated setup
+system.
 
 ---
 
-## Multi-disc work
+# Multi-disc investigation
 
 Infinite Undiscovery uses two game discs.
 
-The project eventually became capable of preparing and preserving both Disc 1 and Disc 2 asset sets.
+The project became capable of preparing and preserving both Disc 1 and Disc 2
+asset sets.
 
-However, another important distinction was made:
+However, an important distinction was made very early:
 
-> Having Disc 2 installed is not the same thing as proving live disc switching during an actual playthrough.
+> Having Disc 2 installed is not the same thing as proving live disc switching
+> during an actual playthrough.
 
-For that reason, runtime disc swapping was deliberately kept as a separate validation item.
+For that reason, runtime disc switching remained a separate validation target.
 
-The project would not claim that disc switching worked until it had actually been tested during gameplay.
+The project would not claim successful Disc 1 → Disc 2 transition behavior until
+it had been demonstrated in real gameplay.
 
 ---
 
@@ -270,67 +294,65 @@ and:
     B Voucher
     License mask: 0x10
 
-Both belong to Infinite Undiscovery:
+Both belong to:
 
     Title ID: 535107DB
     Content type: 00000002
 
 The packages had to remain distinct.
 
-They could not be treated as interchangeable simply because some internal resources appeared similar.
+They could not safely be treated as interchangeable simply because some internal
+resources appeared similar.
 
 ---
 
-## ReXGlue STFS support
+# ReXGlue STFS support
 
-An important discovery was that the ReXGlue runtime already had proper Xbox 360 STFS content support.
+An important discovery was that ReXGlue already contained proper Xbox 360 STFS
+content support.
 
-The project could therefore use:
+The recomp could therefore use:
 
     ContentManager::InstallContent
 
-rather than inventing its own fake DLC layout.
+instead of inventing a custom DLC layout.
 
-This allowed the recomp to validate and install DLC through the runtime's content system.
-
-That became the basis of the final DLC setup implementation.
+This became the basis of the final DLC installation architecture.
 
 ---
 
 # October 1, 2026 — The project changes direction
 
-By October 1, the game itself was running well enough that the next major weakness had become obvious:
+By October 1, the game itself was running well enough that another weakness had
+become obvious:
 
-**The setup experience was terrible for a normal user.**
+> **The setup experience was terrible for a normal user.**
 
-Development still involved manual paths, extraction utilities and knowledge of internal Xbox 360 files.
+Development still required knowledge of internal Xbox 360 files, extraction
+utilities and manual paths.
 
-The project therefore adopted a new goal inspired in large part by the experience of projects such as **Lost Odyssey Recomp**:
+The project therefore adopted a new usability goal, influenced in part by the
+portable workflow used by projects such as **Lost Odyssey Recomp**:
 
     Download
     → Run EXE
     → Select your own game media
-    → Let the EXE prepare everything
+    → Let the application prepare everything
     → Play
 
-No manual Python.
+The intended end-user workflow should require:
 
-No BAT setup.
-
-No PowerShell setup.
-
-No manually running `xdvdfs.py`.
-
-No manually running `xex.py`.
-
-No requirement for the end user to understand:
-
-- XEX files
-- XDVDFS
-- Title IDs
-- `ud1.bin`
-- `ud2.bin`
-- Xbox 360 DLC container structure
+- no Python
+- no BAT setup
+- no PowerShell setup
+- no manual `xdvdfs.py`
+- no manual `xex.py`
+- no knowledge of XEX internals
+- no knowledge of XDVDFS
+- no knowledge of Title IDs
+- no manual handling of `ud1.bin`
+- no manual handling of `ud2.bin`
+- no knowledge of Xbox 360 STFS package structure
 
 This became the **Asset Setup Wizard** project.
 
@@ -338,7 +360,7 @@ This became the **Asset Setup Wizard** project.
 
 # Asset Setup Wizard
 
-The wizard was integrated directly into the recomp executable.
+The setup system was integrated directly into the recomp executable.
 
 The first complete implementation could:
 
@@ -346,254 +368,230 @@ The first complete implementation could:
 - identify PAL / NTSC-U
 - identify Disc 1 / Disc 2
 - extract game assets natively
-- keep both game discs separated
+- keep both discs separated
 - validate optional DLC
-- install DLC through the SDK
+- install DLC through ReXGlue
 - persist configuration
-- skip setup on future runs
-- cancel cleanly without starting the game
+- reuse an existing installation on later runs
+- cancel cleanly without launching the game
 
-Both PAL and NTSC-U extraction paths were tested.
+Both PAL and NTSC-U extraction paths were validated.
 
-This was the point where Infinite Undiscovery Recomp began to feel less like a developer experiment and more like an actual standalone PC application.
+This was the point where Infinite Undiscovery Recomp began to feel less like a
+development experiment and more like a standalone PC application.
 
 ---
 
-## First integrated preview
+# First integrated preview
 
-The first wizard preview compiled successfully and could launch the game after preparing the assets.
+The first wizard-enabled preview compiled successfully and could launch the game
+after preparing the user's own media.
 
-If valid assets were already installed, the EXE correctly skipped the wizard and went directly into game startup.
+If valid assets were already installed, the executable correctly skipped setup and
+continued into normal startup.
 
-The build contained only:
-
-- the EXE
-- required runtime DLLs
+The build contained only application/runtime files.
 
 It did **not** contain:
 
 - game assets
 - ISOs
-- proprietary DLC
+- copyrighted DLC
+- saves from development
 
-The historical PoC 0.1, diagnostics, hooks and fiber work were kept intact.
+The historical PoC work, hooks, diagnostics and fiber changes remained intact.
 
 ---
 
 # The portability problem
 
-Testing the first integrated preview exposed a problem.
+Testing the integrated preview exposed a new problem.
 
-The setup system created installation directories with generated names similar to:
+The initial setup created generated installation directories similar to:
 
     InfiniteUndiscovery-USA-127528054305200-0
 
-Technically it worked, but it was not a clean user-facing layout.
+Technically this worked, but it was not suitable as a clean user-facing structure.
 
-A more serious problem was discovered immediately afterward.
+A more serious issue appeared immediately afterward.
 
-The recomp found **three old save files** that had been created previously by the original development runtime.
+The recomp discovered several old save files created by the previous development
+runtime.
 
-Those saves lived outside the new portable setup.
+Those saves lived outside the new installation.
 
 That behavior was considered unacceptable.
 
-The new application was supposed to be self-contained.
-
-It should not silently discover saves or other runtime state from an older project installation.
+A new portable build should not silently discover state from an old development
+environment.
 
 ---
 
-# Portable-only becomes a project rule
+# Portable-only becomes a permanent project rule
 
 A permanent design decision was made:
 
 > **Infinite Undiscovery Recomp will be fully portable.**
 
-The directory containing the EXE became the root of the installation.
+The directory containing the executable became the installation root.
 
-The program should not depend on:
+Normal runtime state should not depend on:
 
 - Documents
 - My Documents
 - AppData
 - LocalAppData
 - Saved Games
-- old development paths
 - emulator save directories
-- previous recomp directories
+- old development paths
+- previous recomp installations
 
-The application should be movable simply by copying its folder.
+The portable folder itself is the installation.
 
-No installer is required.
+No traditional installer is required.
 
-No installer is planned.
+No registry-based installation is required.
 
-The portable folder **is the installation**.
+The entire application can be moved or backed up simply by moving or copying its
+folder.
 
 ---
 
-## Region-separated portable data
+# Historical two-region portable layout
 
-Because both PAL and NTSC-U are supported, the portable structure was designed to allow both to coexist.
-
-The wizard automatically detects the region from the user's media.
-
-The user does not manually select PAL or NTSC-U.
-
-The resulting structure is based around stable region folders:
+The first portable design used two region folders:
 
     NTSC-U\
     PAL\
 
-Each region has its own runtime state.
+Each region contained independent runtime state:
 
-Example:
+    assets\
+    saves\
+    shaders\
+    cache\
+    logs\
+    config.json
 
-    InfiniteUndiscoveryRecomp\
-    ├─ EXE
-    ├─ runtime DLLs
-    │
-    ├─ NTSC-U\
-    │   ├─ assets\
-    │   ├─ saves\
-    │   ├─ shaders\
-    │   ├─ cache\
-    │   ├─ logs\
-    │   └─ config.json
-    │
-    └─ PAL\
-        ├─ assets\
-        ├─ saves\
-        ├─ shaders\
-        ├─ cache\
-        ├─ logs\
-        └─ config.json
+This was an important intermediate architecture because it established the principle
+that different game variants must not share runtime state.
 
-This design allows both supported regions to exist independently in the same portable installation.
+Later in development this two-region model was replaced by the final multi-profile
+architecture.
+
+The historical `NTSC-U` and `PAL` names are preserved in this document because
+they accurately describe that stage of development.
 
 ---
 
-## Save isolation
+# Save isolation
 
 The portable redesign also changed save behavior.
 
-New saves belong only to the portable region folder.
+New saves belonged only to the portable installation.
 
-For example:
+Older saves from Documents, emulator directories or previous development runtimes
+were deliberately ignored.
 
-    NTSC-U\saves\
+There was no fallback discovery.
 
-or:
+This prevented a fresh portable build from unexpectedly loading data created by an
+older experimental runtime.
 
-    PAL\saves\
-
-Old saves from Documents or previous development runtime locations are deliberately ignored.
-
-There is no automatic migration.
-
-There is no fallback discovery.
-
-This prevents a fresh portable build from unexpectedly loading data created by an older experimental runtime.
+The same isolation principle was later extended to every supported content profile.
 
 ---
 
 # DLC second-launch bug
 
-The first DLC-enabled portable preview revealed another issue.
+The first DLC-enabled portable preview exposed another issue.
 
-On the first launch, the DLC installed correctly.
+On the first launch, DLC installed correctly.
 
-On the second launch, the runtime attempted to process the already-installed DLC again and reported a conflict involving the existing DLC header/license.
+On the second launch, the runtime attempted to process the already-installed
+content again and reported a conflict involving existing DLC metadata.
 
 The packages were not actually different.
 
-The problem was eventually traced to comparison behavior involving padding/non-deterministic data in the installed content representation.
+The problem was eventually traced to comparison behavior involving
+padding/non-deterministic data in the installed content representation.
 
-The DLC handling was corrected to become idempotent.
+DLC handling was corrected to become idempotent.
 
 The intended behavior became:
 
     First launch:
     validate → install → launch
 
-    Later launch:
+    Later launches:
     detect same valid DLC → reuse → launch
 
-A genuinely different, corrupted or conflicting DLC package should still be rejected.
+Different, damaged or conflicting packages should still be rejected.
 
-The goal was not to weaken validation.
+The fix did not weaken validation.
 
-It was to stop reporting a conflict when the already-installed DLC was actually the same package.
+It simply stopped valid already-installed content from being incorrectly treated as
+a conflict.
 
 ---
 
-# English and Spanish
+# English and Spanish support
 
 The original integrated wizard was written primarily in Spanish.
 
-Rather than simply replacing it with English, the project adopted bilingual support.
-
-The wizard now supports:
+Rather than replacing Spanish with English, the project adopted bilingual support:
 
     English | Español
 
-English is the default.
+English became the default.
 
-The language can be changed from the wizard and the preference is persisted.
+The selected language was persisted.
 
-User-facing strings were moved into a centralized localization system rather than leaving scattered hard-coded dialog text.
+User-facing strings were moved toward centralized localization instead of remaining
+scattered as hard-coded dialog text.
+
+Later this bilingual system was expanded to runtime menus and diagnostics.
 
 ---
 
 # Wizard visual redesign
 
-The first wizard was functional but visually very simple.
+The first setup wizard was functional but visually minimal.
 
-It looked like a plain white native Windows utility.
+It looked like a standard white native Windows utility.
 
-That was useful during development, but it did not match the identity of the project.
+That was acceptable during early testing but did not match the identity of the
+project.
 
-A visual concept was created for a more polished setup experience.
-
-The design direction included:
+A visual redesign introduced:
 
 - dark midnight-blue presentation
 - fantasy/JRPG atmosphere
 - Infinite Undiscovery Recomp branding
-- Disc 1 → Disc 2 → DLC progress display
-- clear validation status
-- English / Español selector
+- Disc 1 → Disc 2 → DLC progression
+- validation status
+- English / Español selection
 - dark content panels
 - decorative fantasy elements
 - cleaner spacing and hierarchy
 
-The final implementation stayed lightweight and native.
+The implementation remained lightweight and native.
 
-Rather than shipping copyrighted official game art, the UI was implemented with procedural/original Win32/GDI elements inspired by the visual concept.
+No copyrighted official artwork was embedded into the release.
 
-The redesigned wizard included elements such as:
-
-- celestial/fantasy decorative motifs
-- dark midnight styling
-- starfield-like decoration
-- architectural/fantasy cards
-- disc indicators
-- validation badges
-- styled navigation controls
-
-The mockup served as a direction, not as a giant image pasted behind the controls.
+The interface used original/procedural Win32/GDI presentation inspired by the
+visual concept.
 
 ---
 
 # Automated setup validation
 
-The Asset Setup test suite grew alongside the wizard.
+The Asset Setup test suite expanded alongside the wizard.
 
-Tests covered cases including:
+Testing covered cases including:
 
-- PAL media detection
-- NTSC-U media detection
+- PAL detection
+- NTSC-U detection
 - Disc 1 / Disc 2 identification
 - swapped disc order
 - mixed-region media
@@ -611,60 +609,57 @@ Tests covered cases including:
 - settings persistence
 - explicit path priority
 - DLC idempotency
-- subsequent launch behavior
+- subsequent-launch behavior
 
-The purpose of the tests was not to replace manual gameplay testing.
+Automated tests were never intended to replace real gameplay testing.
 
-They were intended to protect the setup/runtime integration from regressions while the project moved toward a public release.
+Their purpose was to protect the setup/runtime integration from regressions while
+development continued.
 
 ---
 
 # October 1, 2026 — Portable preview milestone
 
-A new portable build was compiled after the portability, DLC, localization and UI work.
+A new portable build was created after the portability, DLC, localization and UI
+work.
 
-The executable produced for that revision had SHA-256:
+The executable for that historical preview had SHA-256:
 
     BC1CDDA5F93727DA7AC8F4F7E7DA3A2F7829E55B947BE9677F4F113E57664E20
 
-The associated runtime libraries remained separate from the game assets.
-
-The project still distributed no proprietary game content.
-
-The build was packaged into a clean test archive:
+The preview archive was:
 
     InfiniteUndiscoveryRecomp-Portable-Test.zip
 
-The archive contained only the application/runtime files necessary to start the recomp.
+The archive intentionally contained no pre-created game data.
 
-It deliberately did not contain pre-created:
+It excluded:
 
-- NTSC-U data
-- PAL data
-- game assets
+- NTSC-U assets
+- PAL assets
+- game files
 - saves
 - shaders
 - cache
 - DLC
 - ISOs
 
-The point was to test the same experience a new user would have after downloading a release.
+The goal was to reproduce the experience of a completely new user.
 
 ---
 
-# The first real portable test
+# First real portable test
 
 The portable ZIP was extracted outside the development tree.
 
-It was launched from a completely different directory, like a normal release.
+It was launched from a completely unrelated directory.
 
 The build worked.
 
-This was a major milestone.
+This demonstrated that the recomp no longer depended on the original development
+environment.
 
-It demonstrated that the recomp no longer depended on the original development directory to function.
-
-The project had reached the intended user flow:
+The target workflow had become real:
 
     Download ZIP
     → Extract anywhere
@@ -672,224 +667,1278 @@ The project had reached the intended user flow:
     → Select your own media
     → Play
 
-That success made the portable-only model the final distribution design.
+This validated the portable-only distribution model.
 
 ---
 
 # No installer
 
-During release preparation, another design decision was made explicit:
+The release philosophy was made explicit:
 
-**There will be no traditional installer.**
+> **There will be no traditional installer.**
 
 No MSI.
 
-No setup package writing into Program Files.
+No Program Files installation.
 
-No registry-based installation.
+No registry dependency.
 
-No files intentionally scattered around the Windows user profile.
+No intentional spreading of files around the user's profile.
 
-The official release format is a portable ZIP.
-
-The user extracts it wherever they want and runs the application from there.
-
-If they want to move it, they move the folder.
-
-If they want to back it up, they back up the folder.
-
-That simplicity is intentional.
+The official distribution format would be a portable ZIP.
 
 ---
 
-# Cleaning the repository
+# Expanding beyond PAL / NTSC-U
 
-By the time the portable build worked, the main development directory had accumulated a large amount of local material:
+As media validation expanded, the original two-region model was no longer enough.
+
+The project moved toward explicit content profiles.
+
+The final RC1 profile model became:
+
+    USA
+    USA-UNDUB
+    EUROPE
+    JAPAN
+    ASIA
+
+Each profile has independent:
+
+- assets
+- saves
+- shaders
+- cache
+- logs
+- configuration
+
+Profiles may coexist in the same portable installation without sharing runtime
+state.
+
+For compatibility with older portable builds:
+
+    NTSC-U → USA
+    PAL    → EUROPE
+
+Legacy folders are migrated automatically.
+
+The old two-folder PAL / NTSC-U design therefore remains historically important,
+but it is no longer the current runtime layout.
+
+---
+
+# USA-UNDUB support
+
+Community interest and internal testing led to explicit support for an Undub
+configuration using:
+
+- USA text/data
+- Japanese voices
+
+A dedicated profile was created:
+
+    USA-UNDUB
+
+This allowed Undub media to remain isolated rather than weakening validation for
+every game variant.
+
+The setup system gained edition-aware scanning and profile-specific detection.
+
+USA-UNDUB also received a first-launch subtitle recommendation explaining where to
+enable voice subtitles in the game options.
+
+The warning can be dismissed permanently.
+
+---
+
+# Japan and Asia profiles
+
+Media research continued beyond the original PAL and NTSC-U releases.
+
+Explicit profiles were added for:
+
+    JAPAN
+    ASIA
+
+Testing confirmed the Asia release containers matched the expected English content
+layout.
+
+The user-facing profile name was standardized as:
+
+    Asia (English)
+
+By RC1, all five profiles had been exercised through the setup/profile system.
+
+---
+
+# Content Profile Manager
+
+The original single-flow setup wizard evolved into a multi-profile management
+system.
+
+The Content Profile Manager allows users to:
+
+- view supported profiles
+- install a profile
+- auto-detect compatible media
+- select an active profile
+- maintain several profiles in one portable installation
+
+Media scanning became edition-aware.
+
+When auto-detection is launched from a specific profile row, the scan filters for
+that edition.
+
+When several compatible editions are found, the user can choose which one to
+configure.
+
+The wizard also began displaying persistent profile context such as:
+
+    Setting up: <Profile>
+
+This made it clear which edition was currently being installed.
+
+---
+
+# Profile Manager lifecycle work
+
+Switching back to the Profile Manager exposed a lifecycle problem.
+
+Earlier implementations could create overlapping processes or leave a guest
+instance frozen while another process was launched.
+
+The F10 flow was redesigned.
+
+F10 now asks:
+
+    Return to Profile Manager?
+    Current game session will be closed.
+
+If confirmed, the game performs a clean shutdown first:
+
+- window close request
+- title termination
+- log flushing
+
+Only during normal process exit is the Profile Manager launched.
+
+This eliminated overlapping guest/runtime instances.
+
+---
+
+# Game Menu and recovery tools
+
+The original development-oriented "Community Debug" overlay evolved into:
+
+    Infinite Undiscovery — Game Menu
+
+The menu was reorganized into clearer sections.
+
+## Game
+
+- Return to Profile Manager — F10
+- Quit Game — F12
+
+## Recovery Tools
+
+- Save Anywhere — F6
+- Safe Step Forward — F8
+- Undo Debug Move — F9
+
+## Developer / Debug
+
+- Diagnostic Trace Recorder
+
+## Menu
+
+- Close — F5
+
+F12 received its own confirmation dialog to ensure the title shuts down cleanly.
+
+The recovery tools remained deliberate user-triggered actions rather than automatic
+runtime modifications.
+
+---
+
+# Save Anywhere
+
+Save Anywhere was introduced as a recovery/debug action.
+
+Its purpose was not to redesign the game's original save system.
+
+Instead, it provided a controlled mechanism for preserving progress while testing
+problem areas and long gameplay sequences.
+
+Development included separate investigation of:
+
+- target acquisition
+- runtime entry points
+- safety constraints
+
+The feature remained clearly identified as a recovery/debug tool.
+
+---
+
+# Safe Step Forward and Undo Debug Move
+
+Additional recovery tools were introduced for difficult runtime situations.
+
+Safe Step Forward allows controlled positional recovery.
+
+Undo Debug Move allows reverting the most recent supported recovery movement.
+
+These tools were intended to help investigate or escape runtime problems without
+pretending that the underlying bug had been fixed.
+
+---
+
+# PSO diagnostics and prewarm work
+
+Shader and pipeline behavior remained an important part of runtime stability.
+
+The project added PSO-related diagnostics and prewarm/telemetry support.
+
+This work helped characterize pipeline creation and graphics behavior while keeping
+the normal gameplay path usable.
+
+PSO state later became visible in the Session / System diagnostic interface.
+
+---
+
+# Disc 2 runtime work
+
+Preparing Disc 2 assets had been solved much earlier.
+
+The next problem was determining what actually happens when the running game reaches
+the original disc transition.
+
+Explicit Disc 2 runtime work introduced:
+
+- Disc 2 IO tracing
+- package tracing
+- disc-swap state tracing
+- current-disc tracking
+- diagnostics around mounted devices
+- runtime preparation for a future validated transition
+
+The project deliberately continued to distinguish:
+
+> Disc 2 is installed
+
+from:
+
+> The real Disc 1 → Disc 2 transition has been proven during gameplay
+
+That distinction remains important in RC1.
+
+---
+
+# Vesplume Tower / Orb of Patience
+
+A historical Infinite Undiscovery progression problem became one of the project's
+most important real-game validation targets:
+
+**Vesplume Tower / Orb of Patience softlock.**
+
+The same or similar behavior had also been observed under emulation.
+
+A community save was later provided specifically reproducing the problem.
+
+The issue became useful not only as a bug report but also as a diagnostic checkpoint
+for:
+
+- game state
+- story flags
+- Disc 1 progression
+- transition behavior
+- runtime scheduling
+- recovery tooling
+
+The project does not claim that this bug is fixed in RC1.
+
+Instead, it remains an active regression and investigation case.
+
+---
+
+# Diagnostic Game Menu
+
+Before RC1, the Game Menu received a larger diagnostics pass.
+
+A centralized version source was introduced:
+
+    src/version.h
+
+with:
+
+    kProjectVersion = "v1.0.0-rc1"
+
+The Game Menu header gained live information including:
+
+- active profile
+- current disc
+- project version
+- loaded DLC count
+
+A dedicated:
+
+    Session / System Info
+
+window was added.
+
+---
+
+# Session / System Info
+
+The diagnostics interface reports structured information in several categories.
+
+## Game
+
+- active profile
+- profile display name
+- current disc
+- Title ID
+- region / edition code
+- UI language
+- DLC count
+
+## Build
+
+- project version
+- build type
+- build timestamp
+- compiler identity
+
+## Runtime
+
+- ReXGlue SDK version
+- active disc mount
+- Disc 1 availability
+- Disc 2 availability
+
+## Graphics
+
+- D3D12 backend
+- GPU adapter
+- window resolution
+
+## System
+
+- Windows version
+- logical CPU count
+- total RAM
+- available RAM
+
+## Paths
+
+- executable root
+- profile root
+- assets
+- disc1
+- disc2
+- DLC
+- saves
+- shaders
+- cache
+- logs
+
+## Diagnostics
+
+- trace recorder status
+- Safe Step status
+- Undo availability
+- Save Anywhere status
+- PSO prewarm status
+- PSO telemetry status
+
+The paths shown in diagnostic reports are sanitized to avoid exposing Windows user
+names unnecessarily.
+
+---
+
+# Diagnostic report export
+
+The diagnostics window gained two support-oriented features:
+
+    Copy All to Clipboard
+    Save Diagnostic Report
+
+Clipboard output produces a Markdown-friendly issue report.
+
+Saved diagnostics are written into the active profile logs directory with a
+timestamped name similar to:
+
+    IU_Diagnostic_YYYY-MM-DD_HH-MM-SS.txt
+
+This was designed to make future bug reports easier to reproduce and analyze.
+
+---
+
+# Runtime bilingual interface
+
+The English / Spanish localization system was expanded beyond the setup wizard.
+
+The Game Menu, status indicators, buttons and tooltips became bilingual.
+
+An inline:
+
+    English | Español
+
+switch can change the runtime UI immediately without restarting the application.
+
+The setting is persisted into the portable configuration.
+
+Several localization consistency problems were also corrected, including the
+English/Spanish ACTIVE / ACTIVO status badge.
+
+---
+
+# IU Save Bridge
+
+As portable saves became an important part of the project, a companion utility was
+developed:
+
+    IU Save Bridge
+
+Repository:
+
+    https://github.com/doc-haz/iu-save-bridge
+
+IU Save Bridge became the official portable save companion for Infinite Undiscovery
+Recomp.
+
+Its role is separate from the recomp itself.
+
+The recomp runs the game.
+
+Save Bridge provides controlled save inspection/editing.
+
+Features developed for the companion included:
+
+- portable save discovery
+- Fol editing
+- character stat editing
+- inventory editing
+- support for 1,023 inventory entries
+- automatic backups
+- manual backups
+- safe restore
+- dual CRC32 recalculation
+- English / Spanish interface
+- portable operation
+
+The companion was later linked from the main recomp README and RC1 release
+documentation.
+
+As the recomp moved from historical NTSC-U / PAL directories to the final content
+profiles, Save Bridge also became a follow-up target for profile-layout updates.
+
+---
+
+# Repository growth and cleanup
+
+By the time the recomp was working reliably, the development directory had grown
+very large.
+
+It contained:
 
 - generated code
-- build outputs
-- temporary tests
-- diagnostic traces
-- old experiments
+- build trees
 - extracted game media
-- DLC test data
-- portable preview packages
-- evidence folders
+- repeated Disc 1 / Disc 2 assets
+- DLC test material
+- diagnostics
 - local tools
+- portable previews
+- temporary experiments
+- evidence directories
+- multiple runtime copies
 
-Most of that was useful during development.
+A full inventory showed that the working root had grown to roughly 97 GB, mostly
+because large game data had been duplicated across several experimental trees.
 
-Almost none of it belonged in the public repository.
+Eight region/build trees alone accounted for most of that usage.
 
-A new clean working copy was therefore created from the Git repository baseline.
+A clean repository strategy was adopted.
 
-The clean tree preserved the legitimate current project source while excluding development clutter and proprietary material.
+Before reorganizing anything, a full backup was created:
 
-The clean repository included the current source for:
+    repo-clean-backup-2026-10-06
 
-- Asset Setup Wizard
-- native media inspection
-- DLC handling
-- portable path setup
-- save isolation
-- localization
-- UI
-- tests
-- required build integration
+The backup preserved the original working tree.
 
-It deliberately excluded:
+The active `repo-clean` tree was then reduced to a lightweight source-oriented
+working repository containing only the files needed for development and release.
 
-- ISOs
-- `default.xex`
-- `ud1.bin`
-- `ud2.bin`
-- extracted game assets
-- DLC packages
-- saves
-- shaders/cache
-- logs
-- compiled outputs
-- portable ZIPs
-- temporary diagnostics
-- local-only developer files
+The cleaned repository was approximately 189 MB rather than tens of gigabytes.
 
-The historical Git repository and PoC 0.1 remained intact.
+No proprietary game content was added to Git.
+
+The large backup remained intact until after release validation.
 
 ---
 
-# V1.0 release philosophy
+# ReXGlue runtime investigation
 
-By the time the V1.0 executable was ready, several principles had become part of the project itself.
+Release preparation exposed an unexpected problem.
+
+The project originally used precompiled ReXGlue v0.10.0 runtime DLLs.
+
+VirusTotal results for the original precompiled runtime, particularly
+`rexruntime.dll`, showed a high number of antivirus detections.
+
+A detection count alone does not prove that a binary is malicious, but distributing
+a public recomp with heavily flagged runtime DLLs was considered unacceptable.
+
+The public release was therefore paused.
+
+The solution was not to whitelist the files.
+
+The solution was to rebuild ReXGlue from auditable source.
+
+---
+
+# Auditable ReXGlue v0.10.0 source
+
+The official ReXGlue repository was checked out at:
+
+    tag:    v0.10.0
+    commit: f5337cdc947ff6d4c4196737e2c807a48f2a1fc2
+
+The original source snapshot was compared against the Git tag.
+
+Versioned files matched, but the snapshot did not contain all submodule state needed
+for a fully auditable rebuild.
+
+A proper Git checkout with pinned submodules was therefore prepared.
+
+Submodule retrieval initially encountered HTTP/2 problems.
+
+Using HTTP/1.1 and serial submodule initialization resolved the fetch issues.
+
+---
+
+# Windows symlink problem
+
+Another source-build problem appeared in `libmspack`.
+
+Several files expected as Unix-style symlinks had been checked out on Windows as
+plain text files containing target paths because symlink support was unavailable.
+
+Fifteen affected files were replaced locally with byte-identical copies of their
+intended targets.
+
+This allowed the official source tree to compile without changing the effective
+source content.
+
+---
+
+# Rebuilding ReXGlue
+
+The auditable ReXGlue build used:
+
+- Clang / LLVM 20.1.8
+- CMake 3.31.8
+- Ninja 1.12.1
+- MSVC STL / toolset 14.44.35207
+- Windows SDK 10.0.26100.0
+
+The resulting clean runtime DLLs were:
+
+## rexruntime.dll
+
+    SHA-256
+    25C0F2D1DBB7FE3147FC59E22C9A3E4C764DC2E0B0C6877FC86F0DA499E0F67F
+
+## rexgpu-xenos.dll
+
+    SHA-256
+    98CEF22E2AC1667F3A42910DD7474C0409BBEF7DB7599B3A48DF1EDBB0739A2D
+
+Both newly built DLLs subsequently produced clean VirusTotal results and clean
+Microsoft Defender scans.
+
+---
+
+# ABI compatibility audit
+
+Replacing runtime DLLs immediately before a public release required more than simply
+confirming that the filenames matched.
+
+A detailed ABI audit was performed.
+
+The Infinite Undiscovery executable imported:
+
+    304 symbols
+
+from `rexruntime.dll`.
+
+The new runtime provided:
+
+    304 / 304
+
+required symbols.
+
+The Xenos GPU plugin required:
+
+    103 symbols
+
+from the runtime.
+
+The new runtime provided:
+
+    103 / 103
+
+required symbols.
+
+Additional project tools and tests were also checked.
+
+The original and rebuilt runtimes had some differences in their total exported
+symbol sets, largely caused by STL/template instantiations exported through the
+runtime's broad Windows export configuration.
+
+None of the symbols actually consumed by the known project binaries were missing.
+
+The Xenos GPU plugin ABI was also examined directly.
+
+The plugin exported:
+
+    AmdPowerXpressRequestHighPerformance
+    NvOptimusEnablement
+    rex_gpu_abi_version
+    rex_gpu_create
+
+`rex_gpu_abi_version()` returned ABI version 1.
+
+PE characteristics, import sets and runtime linkage model were also compared.
+
+The rebuilt DLLs were judged drop-in compatible for the recomp.
+
+---
+
+# Controlled runtime swap test
+
+A controlled copy of a known-working Infinite Undiscovery build was created.
+
+Only:
+
+    rexruntime.dll
+    rexgpu-xenos.dll
+
+were replaced with the locally rebuilt auditable versions.
+
+The game successfully:
+
+- started
+- loaded the Xenos GPU plugin
+- created a D3D12 device
+- translated more than one thousand shaders
+- created graphics pipelines
+- loaded an existing save
+- accepted movement and camera input
+- rendered gameplay
+- shut down cleanly
+
+No observable ABI, plugin or import regression was found.
+
+---
+
+# Release pipeline hardening
+
+Once the rebuilt ReXGlue runtime was validated, the release pipeline itself was
+hardened so that the old precompiled DLLs could not accidentally return.
+
+The project was changed to consume an auditable installed ReXGlue v0.10.0 tree.
+
+A post-build verification step was introduced:
+
+    cmake/verify_rexglue_dlls.cmake
+
+The build verifies that the runtime DLL hashes match the known clean builds.
+
+If the old precompiled runtime is encountered, the build aborts.
+
+The release pipeline also gained:
+
+    release/make-release.ps1
+
+The script stages only approved release files and performs antivirus checks before a
+publicable archive is produced.
+
+---
+
+# Defender release gate
+
+Microsoft Defender became a formal release gate.
+
+The release workflow scans:
+
+- InfiniteUndiscoveryRecomp.exe
+- rexruntime.dll
+- rexgpu-xenos.dll
+- release staging directory
+- final application ZIP
+- compliance ZIP
+
+A non-zero Defender result aborts the public-release path.
+
+During RC preparation, the freshly created ZIP occasionally produced a transient:
+
+    0x80508023
+
+engine error.
+
+The gate correctly treated this as a failure and stopped.
+
+Repeated scans subsequently completed successfully with no threats detected.
+
+Because the same transient behavior appeared more than once immediately after ZIP
+creation, retry handling was identified as a possible future pipeline improvement.
+
+---
+
+# Third-party license audit
+
+The deeper release audit also reviewed third-party licensing.
+
+The runtime was found to statically incorporate LGPL components including:
+
+- FFmpeg `libavcodec`
+- FFmpeg `libavutil`
+- libmspack
+
+The relevant FFmpeg fork was identified at commit:
+
+    0604b464c7cb4ebc94940cf1f324a3b26b87717c
+
+with LGPL configuration and GPL/nonfree components disabled.
+
+The libmspack source used by the runtime was identified at commit:
+
+    305907723a4e7ab2018e58040059ffb5e77db837
+
+Rather than ignoring the issue because similar recomp projects commonly ship
+runtime binaries, the project chose to prepare explicit compliance material.
+
+---
+
+# LGPL relink compliance package
+
+A separate compliance package was constructed containing:
+
+- corresponding FFmpeg source
+- corresponding libmspack source
+- license texts
+- non-LGPL object files needed for relinking
+- non-LGPL static libraries needed for relinking
+- `exports.def`
+- exact object ordering
+- exact library ordering
+- relink scripts
+- version/toolchain documentation
+
+The package was tested in practice.
+
+Three relink cases were validated:
+
+1. baseline relink
+2. modified/rebuilt libmspack
+3. modified/rebuilt libavutil
+
+The resulting `rexruntime.dll` files preserved the required export interface.
+
+A baseline relinked runtime was also placed beside the real recomp executable and
+successfully ran gameplay.
+
+The purpose was not to reproduce an identical DLL byte-for-byte.
+
+The purpose was to demonstrate that users have the material required to modify the
+LGPL library and relink a functional runtime.
+
+---
+
+# disruptorplus license resolution
+
+One remaining third-party dependency required investigation:
+
+    disruptorplus
+
+The vendored ReXGlue copy did not include its own LICENSE file.
+
+Source comparison showed that it corresponded to the Xenia fork of
+`disruptorplus`, derived from the Lewis Baker upstream project.
+
+The vendored headers were almost entirely byte-identical to the Xenia fork, with a
+single local code difference identified in one header.
+
+The upstream and Xenia fork both use the MIT License:
+
+    Copyright (c) 2013 Lewis Baker
+
+The exact license text was added to:
+
+    LICENSES/disruptorplus-LICENSE.txt
+
+and the third-party notices were updated.
+
+This resolved the final known third-party licensing blocker for RC1.
+
+---
+
+# Third-party notices
+
+The public release was prepared with:
+
+    LICENSES/
+    THIRD_PARTY_NOTICES.txt
+
+The notices document relevant third-party components and their licenses.
+
+The main application ZIP contains the normal third-party notices.
+
+The larger LGPL corresponding-source/relink material is distributed as a separate
+release asset so that the normal game ZIP remains compact.
+
+---
+
+# Release Candidate consolidation
+
+Before sealing RC1, a consolidated QA/fix pass addressed several lifecycle and UI
+issues.
+
+## F10 profile-manager lifecycle
+
+Process overlap and frozen guest instances were eliminated.
+
+F10 now performs clean shutdown before returning to the Profile Manager.
+
+## F12 Quit Game
+
+A dedicated quit command with confirmation was added.
+
+## USA-UNDUB STFS handling
+
+STFS metadata handling was aligned with ReXGlue behavior when the English Lang ID 0
+string slot is empty.
+
+## Setup UX
+
+The wizard gained:
+
+- profile-aware auto-detection
+- multi-edition selection
+- persistent setup-profile context
+- corrected Back-button behavior
+- wider profile cards
+- post-install confirmation
+- complete English / Spanish UI review
+
+---
+
+# RC1 final polish
+
+The final polish pass included:
+
+- centralized version reporting
+- current-disc reporting
+- DLC count
+- Session / System Info
+- sanitized diagnostic report export
+- runtime language switching
+- USA-UNDUB subtitle recommendation
+- Asia profile naming cleanup
+- PSO status
+- recovery tool status
+- profile information
+- system information
+- graphics information
+
+By this point the five-profile model had been validated at the setup/runtime level:
+
+    USA
+    USA-UNDUB
+    EUROPE
+    JAPAN
+    ASIA
+
+---
+
+# Final repository reconciliation
+
+While RC1 was being prepared locally, two commits had appeared on the remote
+`main` branch:
+
+    Create .recomp.json
+    Update README.md
+
+The local RC1 commit and remote `main` therefore diverged.
+
+Because the RC1 commit had not yet been published, the clean solution was to rebase
+it onto the updated remote branch.
+
+A local safety branch was created first.
+
+The rebase completed successfully without conflicts.
+
+A final documentation pass then corrected two legacy Save Bridge paths from:
+
+    NTSC-U\saves\
+    PAL\saves\
+
+to:
+
+    USA\saves\
+    EUROPE\saves\
+
+The RC1 commit was amended rather than creating a meaningless extra documentation
+commit.
+
+---
+
+# Final RC1 commit
+
+The final Release Candidate commit became:
+
+    ce6586c0a237541caa438122ecdd99c62982b288
+
+Commit title:
+
+    feat: v1.0.0-rc1 — multi-region profiles, in-game menu & recovery tools, hardened ReXGlue release
+
+The working tree was clean before publication.
+
+---
+
+# Final RC1 validation
+
+The final build used the audited ReXGlue v0.10.0 runtime.
+
+The application was tested from the exact staged release binaries.
+
+Validation included:
+
+- application startup
+- ReXGlue v0.10.0 runtime
+- correct clean runtime DLLs loaded
+- D3D12 device creation
+- shader translation
+- USA profile
+- DLC validation
+- save loading
+- real gameplay rendering
+- clean shutdown
+
+Microsoft Defender reported no threats in the final public artifacts.
+
+---
+
+# Final RC1 release hashes
+
+The public application archive:
+
+    InfiniteUndiscoveryRecomp-v1.0.0-rc1.zip
+
+SHA-256:
+
+    311A243E67FD992597A0AC72E5632DEF4FC9311F538B9F8C974AE07B315945B2
+
+The separate LGPL compliance archive:
+
+    InfiniteUndiscoveryRecomp-v1.0.0-rc1-LGPL-Compliance.zip
+
+SHA-256:
+
+    082BE0B4D0F938494A1C5852057EDA5DF905A8237C3DD451D266D0C4436B56B9
+
+Runtime DLL hashes:
+
+    rexruntime.dll
+    25C0F2D1DBB7FE3147FC59E22C9A3E4C764DC2E0B0C6877FC86F0DA499E0F67F
+
+    rexgpu-xenos.dll
+    98CEF22E2AC1667F3A42910DD7474C0409BBEF7DB7599B3A48DF1EDBB0739A2D
+
+---
+
+# October 6, 2026 — v1.0.0-rc1 public release
+
+The final RC1 commit was pushed to `main`.
+
+An annotated tag was created:
+
+    v1.0.0-rc1
+
+The tag was pushed to GitHub.
+
+The first public Release Candidate was then published as a GitHub **Pre-release**:
+
+    Infinite Undiscovery Recomp v1.0.0-rc1
+
+The release contains:
+
+1. the portable Windows build
+2. the separate LGPL compliance package
+
+No copyrighted Infinite Undiscovery game files, DLC, ISOs or saves are included.
+
+Users must provide their own legally obtained game media.
+
+This was the first point at which the project moved from internal development and
+preview builds to a publicly distributed native Windows Release Candidate.
+
+---
+
+# Public issue tracking begins
+
+With the RC publicly available, community testing became the next source of
+validation.
+
+The first public issues included:
+
+## Vesplume Tower softlock
+
+A save was provided reproducing the Orb of Patience/Vesplume Tower problem.
+
+The issue remains an active regression/investigation case.
+
+## USA-UNDUB request
+
+A user requested support for an Undub version using Japanese voices with English
+text.
+
+By the time RC1 was published, a dedicated `USA-UNDUB` profile already existed.
+
+Community testing is still useful because independently produced Undub variants may
+not all have identical file layouts or hashes.
+
+## Ultrawide support
+
+Users requested resolutions including:
+
+    3440x1440
+    5120x2160
+
+Ultrawide support is considered a future feature rather than an RC1 stability
+requirement.
+
+Proper implementation should evaluate:
+
+- aspect ratio
+- camera/FOV behavior
+- HUD placement
+- 2D elements
+
+rather than simply forcing a larger resolution.
+
+---
+
+# Current design principles
+
+Several principles now define the project.
 
 ## Portable first
 
-The application should be usable from the directory where it was extracted.
+The portable folder is the installation.
 
-No traditional installation is required.
+No traditional installer is required.
 
 ---
 
 ## Bring your own game
 
-The project does not distribute Infinite Undiscovery game assets.
+The project does not distribute proprietary Infinite Undiscovery content.
 
 Users provide their own legally obtained media.
 
 ---
 
-## EXE-first setup
+## Native setup
 
-Normal users should not need to know how Xbox 360 media is structured.
+Normal users should not need development extraction tools.
 
-They should not need to manually run development scripts.
-
-The EXE handles the normal asset setup flow.
+The executable handles the normal media import flow.
 
 ---
 
-## Automatic media detection
+## Profile isolation
 
-The application identifies supported media automatically.
+Different editions remain independent.
 
-The user should not need to know whether their copy is PAL or NTSC-U before setup.
+The final profile model is:
+
+    USA
+    USA-UNDUB
+    EUROPE
+    JAPAN
+    ASIA
+
+Each profile has its own:
+
+- assets
+- saves
+- shaders
+- cache
+- logs
+- configuration
 
 ---
 
-## Region isolation
+## Historical compatibility
 
-PAL and NTSC-U can coexist without sharing assets, saves or runtime state.
+Older portable folders are migrated:
+
+    NTSC-U → USA
+    PAL    → EUROPE
+
+Historical documentation retains the old names when describing the stage of
+development in which they were actually used.
 
 ---
 
 ## Local saves
 
-The recomp uses its own local save data.
+The recomp uses its own portable saves.
 
-It does not silently adopt saves created by older development environments.
-
----
-
-## Historical versions stay historical
-
-PoC 0.1 remains a record of what the project actually looked like at that point in development.
-
-It is not rewritten to match later capabilities.
+It does not silently adopt unrelated emulator or historical development saves.
 
 ---
 
-## Do not claim what has not been tested
+## Recovery tools are recovery tools
 
-If something has not been demonstrated in real gameplay, the project should say so.
+Save Anywhere, Safe Step Forward and Undo Debug Move exist to support testing and
+recovery.
 
-The clearest example is live Disc 1 → Disc 2 switching.
-
-Having both discs installed is supported.
-
-That does not automatically prove every in-game disc transition until it has actually been played and validated.
+Their existence should not be used to claim that an underlying game/runtime bug is
+fixed.
 
 ---
 
-# V1.0 status
+## Do not claim what has not been demonstrated
 
-At the V1.0 executable milestone, Infinite Undiscovery Recomp had evolved from a low-level recompilation experiment into a portable PC application with:
+The project deliberately separates:
+
+    implemented
+
+from:
+
+    validated in real gameplay
+
+The clearest example remains Disc 1 → Disc 2.
+
+Disc 2 preparation and runtime support have progressed substantially.
+
+That does not mean a complete real-game disc transition has already been proven.
+
+---
+
+## Auditable release dependencies
+
+Public runtime DLLs should come from an identifiable source revision.
+
+RC1 uses the audited ReXGlue v0.10.0 source revision rather than the previously used
+precompiled SDK binaries.
+
+---
+
+## Clean public artifacts
+
+A release should contain only what the user needs.
+
+Development data, proprietary game assets, local saves, generated game files and
+temporary diagnostics do not belong in the public archive.
+
+---
+
+# What v1.0.0-rc1 represents
+
+By the first public Release Candidate, Infinite Undiscovery Recomp had evolved from
+a low-level recompilation experiment into a portable Windows application with:
 
 - native recompiled execution
-- integrated setup wizard
-- native media inspection
-- automatic PAL / NTSC-U detection
-- Disc 1 / Disc 2 detection
-- native asset extraction
-- separate multi-disc asset storage
-- DLC A / B validation
-- STFS DLC installation through the runtime
-- idempotent DLC behavior on later launches
-- portable region-separated runtime data
-- isolated local saves
-- local shaders/cache/configuration
-- English and Spanish setup UI
-- English as the default language
-- redesigned setup presentation
-- subsequent-launch setup skipping
-- no required external extraction scripts for normal users
-- no installer
-- no bundled copyrighted game assets
-
-The remaining work around V1.0 is primarily release work and continued real-game validation rather than rebuilding the setup architecture from scratch.
+- integrated media setup
+- native Xbox 360 media inspection
+- five content profiles
+- automatic media identification
+- Disc 1 / Disc 2 separation
+- multi-disc runtime groundwork
+- DLC validation
+- STFS DLC installation
+- idempotent DLC reuse
+- fully portable runtime state
+- isolated saves
+- isolated shaders/cache/logs/configuration
+- English / Spanish setup
+- English / Spanish runtime UI
+- Content Profile Manager
+- Game Menu
+- Save Anywhere
+- Safe Step Forward
+- Undo Debug Move
+- F10 Profile Manager return
+- F12 clean quit
+- Session / System diagnostics
+- sanitized issue-report generation
+- PSO diagnostics
+- Disc 2 tracing
+- USA-UNDUB support
+- Japan support
+- Asia support
+- official IU Save Bridge companion
+- auditable ReXGlue runtime builds
+- ABI-validated replacement runtime DLLs
+- antivirus-gated release pipeline
+- third-party license notices
+- LGPL corresponding-source/relink package
+- reproducible runtime relink validation
+- a clean public Git repository
+- a public GitHub Release Candidate
 
 ---
 
-# Known V1.0 validation items
+# Known RC1 validation items
 
-Some areas remain intentionally documented as ongoing validation items.
+The following remain active validation areas:
 
-These include:
+- full-game completion
+- Vesplume Tower / Orb of Patience softlock
+- real Disc 1 → Disc 2 transition
+- complete Disc 2 gameplay
+- complete validation of DLC effects during gameplay
+- runtime problems that may only appear much later in the game
+- compatibility with independently produced USA-UNDUB variants
+- ultrawide support
+- further performance and shader/pipeline tuning
 
-- full-game testing
-- live Disc 1 → Disc 2 switching during actual gameplay
-- complete in-game verification of the DLC voucher effects
-- any runtime issue that only appears much later in the game
+These items are not hidden behind a "complete" label.
 
-These are not hidden behind a "fully complete" label.
+RC1 is intentionally a Release Candidate.
 
-They are simply the next things to validate as the project is played further.
+Its purpose is to turn internal testing into broader real-world validation.
 
 ---
 
-# From experiment to portable release
+# From experiment to public Release Candidate
 
 The project began with a much smaller question:
 
-> Can Infinite Undiscovery run as a native recompilation?
+> Can Infinite Undiscovery run as a native recompilation on PC?
 
-By V1.0, the question had changed.
+The answer became yes.
 
-The game could run.
+The next question was:
 
-The next challenge had become making the experience practical enough that someone else could use it without recreating the development environment.
+> Can it be packaged so another person can use it without rebuilding the entire
+> development environment?
 
-That is what the integrated wizard and portable release were built to solve.
+That answer also became yes.
 
-The final intended experience is deliberately simple:
+Then came a third question:
+
+> Can it be released in a way that is portable, auditable, legally documented,
+> antivirus-clean and honest about what has and has not been tested?
+
+The work leading to `v1.0.0-rc1` was the answer to that question.
+
+The intended user experience remains deliberately simple:
 
     Download
     Extract
@@ -897,74 +1946,11 @@ The final intended experience is deliberately simple:
     Select your own game media
     Play
 
-That is the direction Infinite Undiscovery Recomp will continue to follow.
+Everything behind that workflow — recompilation, media detection, extraction,
+profiles, DLC, runtime DLLs, diagnostics, compliance, release tooling and validation
+— exists so that the user does not have to recreate the development environment.
 
----
+`v1.0.0-rc1` is not the end of the project.
 
-# October 2026 — Pre-RC Consolidated Fix Pass (v1.0.0-rc1 Preparation)
-
-Before sealing the Release Candidate (v1.0.0-rc1), QA and regression testing identified critical lifecycle, UI, and profile handling items that were resolved in a consolidated pass:
-
-1. **F10 Return to Profile Manager Lifecycle Fix**:
-   - Eliminated process overlap and frozen guest instances.
-   - F10 now prompts a native modal confirmation (*"Return to Profile Manager? Current game session will be closed."*).
-   - Upon confirmation, `window()->RequestClose()` initiates clean guest shutdown via `TerminateTitle()` and log flushing before spawning `--profile_manager` strictly during exit.
-
-2. **Game Menu Restructuring & F12 Quit Game**:
-   - Renamed overlay from "Community Debug" to `Infinite Undiscovery — Game Menu`.
-   - Reorganized into clear sections: Game (`Return to Profile Manager (F10)`, `Quit Game (F12)`), Recovery Tools (`Save Anywhere (F6)`, `Safe Step Forward (F8)`, `Undo Debug Move (F9)`), Developer / Debug (`Diagnostic Trace Recorder`), and `Close (F5)`.
-   - Implemented dedicated `Quit Game (F12)` with modal confirmation (*"Quit Infinite Undiscovery? [Yes] [No]"*).
-
-3. **USA-UNDUB STFS Package Validation Coherence**:
-   - Fixed STFS metadata reader in `src/asset_dlc.cpp` to align with ReXGlue's `ContentManager::InstallContent` behavior by falling back to package filename when Lang ID 0 English string slot is empty.
-
-4. **Setup Wizard & Profile Manager UX Refinements**:
-   - Auto-detect folder scanning now accepts an optional target edition; when called from an edition row, media discovery strictly filters for that edition and reports clear errors if not present.
-   - Auto-detect when run across multi-edition media roots prompts user selection if multiple editions are discovered.
-   - Wizard header and headline display persistent profile context (`Setting up: <Profile>`).
-   - Wizard Back button properly enabled on Step 2+ and disabled on Step 1.
-   - Profile row cards widened to render long profile titles (e.g. `USA UNDUB (Japanese Voices)`) without truncation.
-   - Post-install feedback alerts user that the profile was installed and set active.
-   - Complete 100% Spanish / English localization audit across all setup and runtime dialog strings.
-
-
----
-
-# October 2026 — Final Polish Pass Pre-RC (v1.0.0-rc1)
-
-Following QA validation confirming multi-region profile execution (USA, USA-UNDUB, EUROPE, JAPAN, ASIA) and robust shutdown/switching lifecycles, a comprehensive polish, diagnostics, and localization pass was performed prior to tagging `v1.0.0-rc1`:
-
-1. **Centralized Version Source**:
-   - Single source of truth established in `src/version.h` defining `kProjectVersion = "v1.0.0-rc1"`.
-   - Centralized version used across Game Menu, Session / System Info, diagnostics reports, and tests.
-
-2. **Game Menu F5 Header & Essential Information**:
-   - Clean top header displaying active profile name, current active disc (Disc 1 or Disc 2 via `iu::disc_swap::GetCurrentDisc()`), centralized build version (`v1.0.0-rc1`), and DLC packages installed/loaded count (`iu::dlc::GetInstalledCount()`).
-   - Dedicated `[ Session / System Info ]` / `[ Información de sesión / sistema ]` button opening extensive diagnostics modal.
-
-3. **Session / System Info Diagnostics Modal & Reporting**:
-   - ImGui diagnostic sub-window categorizing detailed metrics:
-     - **Game**: Active Profile, Display Name, Current Disc, Title ID (`0x535107DB`), Region / Edition Code, UI Language, DLC package count.
-     - **Build**: Project Version (`v1.0.0-rc1`), Build Type (`Release`), Build Timestamp (`__DATE__ __TIME__`), Compiler identity.
-     - **Runtime**: ReXGlue SDK (`0.10.0`), active Disc mount device (`\Device\Harddisk0\Partition1` or `\Device\IUDisc2`), Disc 1 / 2 presence status.
-     - **Graphics**: Backend (`D3D12`), GPU adapter description (via DXGI query), window resolution.
-     - **System**: Exact OS version via `RtlGetVersion`, logical CPU cores (`hardware_concurrency`), total & available physical RAM (`GlobalMemoryStatusEx`).
-     - **Paths (Sanitized)**: Executable root, profile root, assets, disc1, disc2, dlc, saves, shaders, cache, logs.
-     - **Diagnostics**: Trace recorder status, Safe Step status, Undo Move availability, Save Anywhere status, PSO prewarm/telemetry flags.
-   - **Report Export**:
-     - `[ Copy All to Clipboard ]` / `[ Copiar todo al portapapeles ]` puts sanitized markdown issue report directly on clipboard.
-     - `[ Save Diagnostic Report ]` / `[ Guardar reporte de diagnóstico ]` writes timestamped report file to `<active_profile>/logs/IU_Diagnostic_YYYY-MM-DD_HH-MM-SS.txt`.
-     - Robust privacy sanitization automatically redacts Windows usernames in paths (`\Users\<USER>\...`).
-
-4. **Bilingual Localization & Real-Time Switching**:
-   - Full English and Spanish localization across Game Menu F5, buttons, status indicators, and tooltips.
-   - Inline `English | Español` language switcher in Game Menu updates all UI text immediately in real-time with zero restart required.
-   - Language preference instantly persisted to `setup.json` (`"language": "en"` / `"language": "es"`) and profile configurations.
-   - Fixed badge bug: English UI strictly displays `ACTIVE` and Spanish strictly displays `ACTIVO`.
-
-5. **USA-UNDUB Subtitle Recommendation Modal**:
-   - On first launch of the `USA-UNDUB` profile into gameplay, displays native advisory dialog recommending subtitle activation (`Options → Event Messages → Voice and Subtitles` / `Opciones → Mensajes de evento → Voz y subtítulos`).
-   - Equipped with `[ OK ]` and `[ Don't show again ]` buttons; preference persisted as `"undub_subtitle_warning_dismissed": true` in `setup.json`.
-
-6. **Asia Edition Display Audit**:
-   - Verified ASIA release containers match English container sizes and content. Updated official display name in `src/content_profile.h` to `Asia (English)`.
+It is the point where Infinite Undiscovery Recomp moved from an internal experiment
+to a public native-PC project ready for broader testing.
