@@ -1,0 +1,1876 @@
+{
+ "meta": {
+  "metodo": "mt-glosario"
+ },
+ "strings": [
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "2",
+   "en": "Castle Gate",
+   "es": "Puerta del castillo",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "4",
+   "en": "lnn",
+   "es": "Posada",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "6",
+   "en": "Oh, it's just you, Capell. Couldn't be him of course.",
+   "es": "Ah, eres tú, Capell. Claro que no podía ser él.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "8",
+   "en": "Sigmund is gone. My journey is over now.",
+   "es": "Sigmund se ha ido. Mi viaje ha terminado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "10",
+   "en": "Over?",
+   "es": "¿Terminado?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "12",
+   "en": "You may look alike, but that's it. You're no Sigmund.",
+   "es": "Podrás parecerte, pero ya está. Tú no eres Sigmund.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "16",
+   "en": "He's gone, so there's no reason for me to stick around anymore.",
+   "es": "Se ha ido, así que ya no tengo motivo para quedarme.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "18",
+   "en": "But!",
+   "es": "¡Pero!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "20",
+   "en": "I got pummeled by Sigmund a long time ago.But he offered up a rematch-for after we saved the world.The whole world! What a thing to say.With those words, he won me over. But then, he went and gotbeaten by that Dreadknight-not once but twice in a row,and ended up... No...Without him, this journey means nothin' to me. Nothing. Sorry, but I'm gettin' out. I'm through.",
+   "es": "Sigmund me dio una paliza hace mucho tiempo. Pero me ofreció la revancha... para después de salvar el mundo. ¡El mundo entero! Vaya cosas que decir. Con esas palabras me conquistó. Pero luego se dejó vencer por ese Caballero Temible, no una sino dos veces seguidas, y acabó... No... Sin él, este viaje no significa nada para mí. Nada. Lo siento, pero me largo. He terminado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "24",
+   "en": "Nothin' personal, okay?",
+   "es": "Sin rencores, ¿vale?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "26",
+   "en": "Balbagan.",
+   "es": "Balbagan.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "28",
+   "en": "Good luck. Tell the others I left.",
+   "es": "Buena suerte. Diles a los demás que me he ido.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "30",
+   "en": "Balbagan left the party!",
+   "es": "¡Balbagan deja el grupo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "32",
+   "en": "You found me.",
+   "es": "Me has encontrado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "34",
+   "en": "Michelle, what are you doing up this late at night?",
+   "es": "Michelle, ¿qué haces despierta a estas horas?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "36",
+   "en": "Hmmm...",
+   "es": "Mmm...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "38",
+   "en": "You can't sleep?",
+   "es": "¿No puedes dormir?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "40",
+   "en": "Oh no, that's not it. I was looking at the moon, thinking, even chained up, it's beautiful.",
+   "es": "No, no es eso. Miraba la luna y pensaba que, aun encadenada, es hermosa.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "42",
+   "en": "You're amazing, Michelle.",
+   "es": "Eres increíble, Michelle.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "44",
+   "en": "Amazing? How?",
+   "es": "¿Increíble? ¿Por qué?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "46",
+   "en": "Just...to keep a smile going through all of this.",
+   "es": "Por... mantener la sonrisa en medio de todo esto.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "48",
+   "en": "Everyone wants to protect the life of someone important tothem, right? Well the same goes for me.So I was happy...so happy to have a lunaglyph for healing.",
+   "es": "Todos quieren proteger la vida de alguien importante, ¿no? Pues yo también. Así que era feliz... muy feliz de tener un lunaglifo de curación.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "50",
+   "en": "But of course...I can't save everyone. It's impossible and I knew it.So I used to cry a lot. I cried and I cried. It's the only thing I could do perfectly.",
+   "es": "Pero, claro... no puedo salvar a todos. Es imposible y lo sabía. Así que antes lloraba mucho. Lloraba y lloraba. Es lo único que sabía hacer a la perfección.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "52",
+   "en": "But lives have been saved because of your actions, and there must be others who are waiting for your help.",
+   "es": "Pero gracias a ti se han salvado vidas, y habrá otros que esperan tu ayuda.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "54",
+   "en": "Not only do you have the same face, but you say the same things. It's unbelievable...",
+   "es": "No solo tienes la misma cara, sino que dices lo mismo. Es increíble...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "56",
+   "en": "Stop crying. Smile at those in need. Look to the future. Don't dwellon the past. He was pushing me even when I was feeling down...",
+   "es": "Deja de llorar. Sonríe a quien lo necesita. Mira al futuro. No te aferres al pasado. Él me animaba incluso cuando estaba decaída...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "58",
+   "en": "Wow... You and Sigmund are both so strong...",
+   "es": "Vaya... Sigmund y tú sois tan fuertes...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "60",
+   "en": "I will pass the same words on to you, Capell.",
+   "es": "Te transmito las mismas palabras, Capell.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "62",
+   "en": "What's that?",
+   "es": "¿Qué es eso?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "64",
+   "en": "Look to the future and stop dwelling on the past.",
+   "es": "Mira al futuro y no te aferres al pasado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "66",
+   "en": "Thank you, Michelle.",
+   "es": "Gracias, Michelle.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "70",
+   "en": "Come on, Capell.",
+   "es": "Vamos, Capell.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "72",
+   "en": "Cheer up.",
+   "es": "Anímate.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "80",
+   "en": "Thanks. Goodnight, Rico.'Night, Rucha.",
+   "es": "Gracias. Buenas noches, Rico. Buenas noches, Rucha.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "82",
+   "en": "What!?",
+   "es": "¡¿Qué?!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "84",
+   "en": "Lose that smile!",
+   "es": "¡Quítate esa sonrisa!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "86",
+   "en": "I-I'm sorry.",
+   "es": "L-lo siento.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "88",
+   "en": "You're going to be taking over for Lord Sigmund!",
+   "es": "¡Vas a sustituir al lord Sigmund!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "90",
+   "en": "Y-yes.",
+   "es": "S-sí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "92",
+   "en": "Why does it have to be you!?Just because you share the same face...damn!This is a nightmare. I'll never accept you as his successor.",
+   "es": "¡¿Por qué tienes que ser tú?! Solo porque compartes su cara... ¡maldita sea! Esto es una pesadilla. Nunca te aceptaré como su sucesor.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "94",
+   "en": "I know I'm not as gifted as him, but...",
+   "es": "Sé que no soy tan dotado como él, pero...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "96",
+   "en": "Everything you do irritates me! You're completely incompetent! And yet you...",
+   "es": "¡Todo lo que haces me irrita! ¡Eres un completo incompetente! Y aun así...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "98",
+   "en": "I'll tolerate you for a while. But get out of this room right now! I don't even want to look at you!",
+   "es": "Te toleraré un tiempo. ¡Pero sal de esta habitación ahora mismo! ¡Ni siquiera quiero mirarte!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "100",
+   "en": "This place definitely has the best view.",
+   "es": "Este sitio tiene sin duda las mejores vistas.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "102",
+   "en": "Vesplume Tower is...over there, right?",
+   "es": "La Torre Vesplume está... por ahí, ¿verdad?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "106",
+   "en": "Aya...",
+   "es": "Aya...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "108",
+   "en": "I'm not crying.",
+   "es": "No estoy llorando.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "110",
+   "en": "Playing the flute up here... Don't forget you're supposed to be Sigmund the Liberator.",
+   "es": "Tocar la flauta aquí arriba... No olvides que se supone que eres Sigmund el Libertador.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "112",
+   "en": "Sorry.",
+   "es": "Perdón.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "114",
+   "en": "I'll forgive you this time. That song you were playing...It was for him, wasn't it?",
+   "es": "Te perdonaré esta vez. Esa canción que tocabas... Era para él, ¿verdad?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "116",
+   "en": "It doesn't seem right. He died for all of us, and we can't even give him a proper funeral.",
+   "es": "No me parece justo. Murió por todos nosotros y ni podemos darle un funeral como es debido.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "118",
+   "en": "I know...but we survived this and now it's our duty to carry out his ideals...",
+   "es": "Lo sé... pero hemos sobrevivido, y ahora es nuestro deber llevar a cabo sus ideales...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "120",
+   "en": "Yeah.",
+   "es": "Sí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "122",
+   "en": "Is it really all right for me to take the place of a man like Sigmund?",
+   "es": "¿De verdad está bien que yo ocupe el lugar de un hombre como Sigmund?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "124",
+   "en": "You're just pretending. Act like him. That's all.",
+   "es": "Solo estás fingiendo. Actúa como él. Eso es todo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "126",
+   "en": "I think I can handle that.",
+   "es": "Creo que puedo con eso.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "128",
+   "en": "I don't know.",
+   "es": "No sé.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "130",
+   "en": "You could at least try to encourage me.",
+   "es": "Al menos podrías animarme.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "132",
+   "en": "Do your best. I'll help, too.",
+   "es": "Esfuérzate. Yo también ayudaré.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "134",
+   "en": "Thank you, Aya.I'll definitely try...the best I can.",
+   "es": "Gracias, Aya. Lo intentaré... con todas mis fuerzas.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "136",
+   "en": "Hello, Capell.",
+   "es": "Hola, Capell.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "138",
+   "en": "You can't sleep either?",
+   "es": "¿Tú tampoco puedes dormir?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "140",
+   "en": "Well, I guess I'm not comfortable being alone right now.",
+   "es": "Bueno, supongo que ahora mismo no me siento cómodo estando solo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "142",
+   "en": "Alone... Thinking back, I was always with him.He was younger than I, and so very arrogant.",
+   "es": "Solo... Pensándolo bien, siempre estaba con él. Era menor que yo, y muy arrogante.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "144",
+   "en": "People saw him as a gifted, and he was truly something special.But to me, he was always just a man-a stubborn and clumsyone at that. Quite far from being perfect.",
+   "es": "La gente lo veía como un dotado, y era verdaderamente especial. Pero para mí siempre fue solo un hombre, terco y torpe. Muy lejos de ser perfecto.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "146",
+   "en": "As a friend and a brother, I wanted to help ease his burden.",
+   "es": "Como amigo y hermano, quería ayudarle a aligerar su carga.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "148",
+   "en": "Eugene...",
+   "es": "Eugene...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "150",
+   "en": "Sigmund changed after meeting you. He found something in you that went far deeper than your mere resemblance.",
+   "es": "Sigmund cambió tras conocerte. Encontró en ti algo mucho más profundo que el mero parecido.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "152",
+   "en": "Thank you for listening. I feel much better after sharing this.",
+   "es": "Gracias por escucharme. Me siento mucho mejor después de contarlo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "154",
+   "en": "No, thank you for telling me.",
+   "es": "No, gracias a ti por contármelo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "156",
+   "en": "It's late. You should rest. Starting tomorrow, things will be very busy.",
+   "es": "Es tarde. Deberías descansar. A partir de mañana todo estará muy ocupado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "158",
+   "en": "Yes, I know. Thanks again. Goodnight.",
+   "es": "Sí, lo sé. Gracias de nuevo. Buenas noches.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "160",
+   "en": "Goodnight, Capell.",
+   "es": "Buenas noches, Capell.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "162",
+   "en": "...Aya?",
+   "es": "¿...Aya?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "164",
+   "en": "So you leave again with that troupe. Unfitting for a princess.",
+   "es": "Así que vuelves a marcharte con esa troupe. Poco apropiado para una princesa.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "166",
+   "en": "Would you be happy if I just stayed in the palace!?",
+   "es": "¿¡Serías feliz si me quedara en palacio!?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "168",
+   "en": "He's backed by the empress of Halgita.Even the king of Burguss gave his blessing!",
+   "es": "¡Cuenta con el respaldo de la emperatriz de Halgita! ¡Hasta el rey de Burguss dio su bendición!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "170",
+   "en": "He's a meage.",
+   "es": "Es un meage.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "172",
+   "en": "That means nothing!",
+   "es": "¡Eso no significa nada!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "174",
+   "en": "Aristos rule and oversee while meages and unblessedsenjoy the peace we create. That is the way it must be.",
+   "es": "Los aristos gobiernan y vigilan, mientras los meage y los desdichados disfrutan de la paz que creamos. Así debe ser.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "176",
+   "en": "I don't share your view!",
+   "es": "¡No comparto tu opinión!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "178",
+   "en": "You will not undergo a rite?",
+   "es": "¿No te someterás a un rito?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "180",
+   "en": "You never change...",
+   "es": "Nunca cambias...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "182",
+   "en": "Aya, your father is the emir, and you are his daughter.You must mind your place.",
+   "es": "Aya, tu padre es el emir, y tú eres su hija. Debes respetar tu lugar.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "184",
+   "en": "Mother...",
+   "es": "Madre...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "186",
+   "en": "Please listen to him.Your father understands you more than you realize.",
+   "es": "Escúchale, por favor. Tu padre te entiende más de lo que crees.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "188",
+   "en": "No, he doesn't!He's an aristo! They can't understand feelings!It's all logic and reason...!That's why I don't ever want to become one!",
+   "es": "¡No, no es así! ¡Es un aristo! ¡No pueden entender los sentimientos! ¡Todo es lógica y razón...! ¡Por eso nunca quiero convertirme en uno!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "192",
+   "en": "Capell! What are you doing here?",
+   "es": "¡Capell! ¿Qué haces aquí?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "194",
+   "en": "Uh, you see... I was on my way to the bathroomand then I got lost, and then...",
+   "es": "Eh, verás... iba al baño, me perdí y luego...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "196",
+   "en": "Have some time?",
+   "es": "¿Tienes un momento?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "198",
+   "en": "S-sure.",
+   "es": "S-seguro.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "200",
+   "en": "Well?",
+   "es": "¿Y bien?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "202",
+   "en": "It's a great view.",
+   "es": "Son unas vistas magníficas.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "204",
+   "en": "This is my favorite spot in the palace. Whenever I look out from here,my worries seem to just fade away into nothingness.",
+   "es": "Es mi rincón favorito del palacio. Siempre que miro desde aquí, mis preocupaciones parecen desvanecerse.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "206",
+   "en": "You're worried about something?",
+   "es": "¿Estás preocupada por algo?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "208",
+   "en": "How much of it did you hear?",
+   "es": "¿Cuánto has oído?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "210",
+   "en": "Hear what?",
+   "es": "¿Oír qué?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "212",
+   "en": "That conversation.",
+   "es": "Esa conversación.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "214",
+   "en": "...All of it.",
+   "es": "...Toda.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "216",
+   "en": "So now you know everything.",
+   "es": "Así que ya lo sabes todo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "218",
+   "en": "It's great having parents you can argue with, you know.",
+   "es": "Es genial tener padres con los que discutir, ¿sabes?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "224",
+   "en": "Oh yeah! Do you have your flute?Play something for me.",
+   "es": "¡Ah, sí! ¿Tienes tu flauta? Tócame algo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "226",
+   "en": "That was a beautiful song. What's it called?",
+   "es": "Era una canción preciosa. ¿Cómo se llama?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "228",
+   "en": "Fleeing Dog Rhapsody.",
+   "es": "Rapsodia del perro fugitivo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "230",
+   "en": "I shouldn't have asked.",
+   "es": "No debería haber preguntado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "232",
+   "en": "I was just wondering, Aya.",
+   "es": "Me preguntaba una cosa, Aya.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "234",
+   "en": "Hm?",
+   "es": "¿Hm?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "236",
+   "en": "Why haven't you undergone the rite yet?",
+   "es": "¿Por qué aún no te has sometido al rito?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "238",
+   "en": "What did you say?",
+   "es": "¿Qué has dicho?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "240",
+   "en": "I don't think I'm the right person to say this,but... They do care about you, Aya.",
+   "es": "No creo que sea yo quien deba decirlo, pero... Se preocupan por ti, Aya.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "242",
+   "en": "It's not like I don't know that.",
+   "es": "No es que no lo sepa.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "244",
+   "en": "Then...",
+   "es": "Entonces...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "246",
+   "en": "It just isn't that simple.",
+   "es": "No es tan sencillo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "248",
+   "en": "Hm?",
+   "es": "¿Hm?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "250",
+   "en": "You don't understand anything, do you?",
+   "es": "No entiendes nada, ¿verdad?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "252",
+   "en": "You saw my parents.",
+   "es": "Viste a mis padres.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "254",
+   "en": "Yes.",
+   "es": "Sí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "256",
+   "en": "Well, then didn't you notice that something was amiss?",
+   "es": "Bueno, ¿no notaste que algo no cuadraba?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "258",
+   "en": "Amiss?",
+   "es": "¿Que algo no cuadraba?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "260",
+   "en": "Both of your parents are aristos, correct?",
+   "es": "Tus dos padres son aristos, ¿verdad?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "262",
+   "en": "Correct.",
+   "es": "Correcto.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "264",
+   "en": "But you're a meage...aren't you?",
+   "es": "Pero tú eres un meage... ¿no?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "266",
+   "en": "Of course I am.",
+   "es": "Claro que lo soy.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "268",
+   "en": "And that means...wait!",
+   "es": "Y eso significa... ¡espera!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "270",
+   "en": "All aristos were once meages.",
+   "es": "Todos los aristos fueron alguna vez meage.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "272",
+   "en": "Meages turning into aristos?I don't think I really understand what you're saying...",
+   "es": "¿Meage que se convierten en aristos? Creo que no entiendo qué quieres decir...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "274",
+   "en": "Those who have the necessary traits undergo a special rite.They are then reborn, a process which transforms them into an aristo.",
+   "es": "Quienes poseen los rasgos necesarios se someten a un rito especial. Luego renacen, un proceso que los transforma en aristo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "276",
+   "en": "Both of my parents are aristos. My ancestors were allmembers of a long line of emirs. So, if I were to undergothe rite, I would become an aristo, too.No matter what.",
+   "es": "Mis dos padres son aristos. Mis antepasados eran todos de una larga estirpe de emires. Así que, si me sometiera al rito, yo también me convertiría en aristo. Pase lo que pase.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "278",
+   "en": "You can receive more power by becoming an aristo, so maybeI could save more people. But I just...I don't want to become one!",
+   "es": "Al convertirte en aristo recibes más poder, y quizá podría salvar a más gente. Pero es que... ¡no quiero convertirme en uno!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "280",
+   "en": "Aya.",
+   "es": "Aya.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "282",
+   "en": "It changes you!What if I lose my compassion?",
+   "es": "¡Te cambia! ¿Y si pierdo la compasión?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "284",
+   "en": "You won't know until you become one.",
+   "es": "No lo sabrás hasta que te conviertas en uno.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "286",
+   "en": "I can't bring myself to undergo a rite. It's hard to explain, but thethought scares me. If I gain power, I'm afraid that I will becomesomeone different...and lose what makes me...me.",
+   "es": "No consigo decidirme a someterme a un rito. Es difícil de explicar, pero la idea me asusta. Si gano poder, temo convertirme en alguien distinto... y perder lo que me hace... ser yo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "290",
+   "en": "The name of this song is-",
+   "es": "El nombre de esta canción es...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "292",
+   "en": "Stop right there. I don't want to know.",
+   "es": "Para ahí. No quiero saberlo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "294",
+   "en": "Thank you. I feel a little better.",
+   "es": "Gracias. Me siento algo mejor.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "296",
+   "en": "Me too.",
+   "es": "Yo también.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "298",
+   "en": "Can you find your room?",
+   "es": "¿Sabes encontrar tu habitación?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "300",
+   "en": "Uh, yeah...I think so.",
+   "es": "Eh, sí... creo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "302",
+   "en": "Goodnight, Capell.",
+   "es": "Buenas noches, Capell.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "304",
+   "en": "Okay. Goodnight.",
+   "es": "Vale. Buenas noches.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "306",
+   "en": "Obtained some prelude notations!",
+   "es": "¡Obtienes anotaciones de preludio!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "308",
+   "en": "Gossip-loving soldier",
+   "es": "Soldado chismoso",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "310",
+   "en": "Rumor has it that the emir thinks even more highly of youthan he did of Lord Sigmund.The new Liberator, Capell, is born! I'll spread the word right away!",
+   "es": "Se rumorea que el emir te valora aún más que al lord Sigmund. ¡Ha nacido el nuevo Libertador, Capell! ¡Lo pregonaré ahora mismo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "312",
+   "en": "Rumor has it that our strongest guard, Samson, lost ina fight with a monster.Samson is looking for someone who can defeat it.Do you know anyone strong enough?",
+   "es": "Se rumorea que nuestro guardia más fuerte, Samson, perdió una pelea contra un monstruo. Samson busca a alguien capaz de vencerlo. ¿Conoces a alguien lo bastante fuerte?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "314",
+   "en": "It's even worse that you claimed Lord Sigmund's success as your own.",
+   "es": "Es aún peor que te atribuyeras el éxito del lord Sigmund.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "316",
+   "en": "So...you really fooled everyone in Fayel with all your lies...including me!",
+   "es": "Así que... engañaste a todos en Fayel con tus mentiras... ¡incluida a mí!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "318",
+   "en": "More foreigners are coming to the palace... I heard thearistos of Halgita are quite skilled and strong.",
+   "es": "Vienen más extranjeros al palacio... Oí que los aristos de Halgita son muy hábiles y fuertes.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "320",
+   "en": "Whenever he finds someone strong, he challenges themto a contest. He can judge a person's strength just bylooking at their muscles!",
+   "es": "Cada vez que encuentra a alguien fuerte, le reta a un duelo. ¡Puede juzgar la fuerza de una persona solo con mirarle los músculos!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "322",
+   "en": "Samson could've been a general, but didn't want the added stress.I guess he's happy with his role as palace guard.",
+   "es": "Samson podría haber sido general, pero no quería más agobios. Supongo que está contento como guardia de palacio.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "324",
+   "en": "Samson, a palace guard, apparently trained with General Emmieunder the same master. He finished the training before her.",
+   "es": "Al parecer, Samson, guardia de palacio, se entrenó con la general Emmie bajo el mismo maestro. Terminó el entrenamiento antes que ella.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "326",
+   "en": "You know Gina, Princess Aya's maid? She's really strong,though she doesn't show it. Apparently, she'sa martial arts expert or something.",
+   "es": "¿Conoces a Gina, la doncella de la princesa Aya? Es muy fuerte, aunque no lo parezca. Al parecer, es experta en artes marciales o algo así.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "328",
+   "en": "Have you heard of Samson? He's a palace guard stronger thanan ox. In fact, some say that he's the strongest guard ever.",
+   "es": "¿Has oído hablar de Samson? Es un guardia de palacio más fuerte que un buey. De hecho, algunos dicen que es el guardia más fuerte de todos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "330",
+   "en": "Soldier",
+   "es": "Soldado",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "332",
+   "en": "Please enter, Capell.",
+   "es": "Pase, Capell.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "334",
+   "en": "This is the palace of Fayel.",
+   "es": "Este es el palacio de Fayel.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "336",
+   "en": "This is the palace of Fayel.",
+   "es": "Este es el palacio de Fayel.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "338",
+   "en": "You have no right to come here anymore.",
+   "es": "Ya no tienes derecho a venir aquí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "340",
+   "en": "Liberator, please enter here.",
+   "es": "Libertador, pase por aquí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "342",
+   "en": "Liberator, please enter here.",
+   "es": "Libertador, pase por aquí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "344",
+   "en": "I cannot allow those without a permit to enter.",
+   "es": "No puedo permitir la entrada a quien no tenga permiso.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "346",
+   "en": "Cat",
+   "es": "Gato",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "348",
+   "en": "Grrr...I think I ate too much. I'm gonna get too fat if I carryon like this.",
+   "es": "Grrr... Creo que he comido demasiado. Voy a ponerme gordo si sigo así.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "350",
+   "en": "I became a house cat recently. Although I don't have to worryabout finding food, the lifestyle is quite a drag.",
+   "es": "Me convertí en gato doméstico hace poco. Aunque no tengo que preocuparme por la comida, la vida es bastante aburrida.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "352",
+   "en": "Fish trading has started up again!",
+   "es": "¡Ha vuelto el comercio de pescado!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "354",
+   "en": "I don't have the courage to leave, so I guess I'll justhave to carry on as usual.",
+   "es": "No tengo valor para marcharme, así que tendré que seguir como siempre.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "356",
+   "en": "I can't stand this day-to-day monotony.Maybe I should go on a trip...",
+   "es": "No soporto esta monotonía diaria. Quizá debería irme de viaje...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "358",
+   "en": "...The life of a cat is as peaceful as always.Although I'm getting a bit bored of it now.",
+   "es": "...La vida de un gato es tan apacible como siempre. Aunque ya me está aburriendo un poco.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "360",
+   "en": "I don't mind a bit of peace and quiet, but a little action wouldbe nice. In fact, a pet bear loose in the city would be perfectright now!",
+   "es": "No me importa un poco de tranquilidad, pero no vendría mal algo de acción. ¡De hecho, un oso suelto por la ciudad sería perfecto ahora mismo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "362",
+   "en": "Samson. guard",
+   "es": "Samson, guardia",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "364",
+   "en": "Good work so far, Capell. I'll protect Sawadir while you keepdoing the same for Aya.",
+   "es": "Buen trabajo hasta ahora, Capell. Yo protegeré a Sawadir mientras tú haces lo mismo con Aya.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "366",
+   "en": "We both have our roles to fulfill.",
+   "es": "Ambos tenemos un papel que cumplir.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "368",
+   "en": "What was the point of calling myself the strongest guard?Was my arrogance my downfall?",
+   "es": "¿De qué servía llamarme el guardia más fuerte? ¿Fue mi arrogancia mi perdición?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "370",
+   "en": "Damn...I feel so ashamed for failing to protect my master.",
+   "es": "Maldita sea... Me da mucha vergüenza no haber protegido a mi señor.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "372",
+   "en": "I feel sorry for Lord Sigmund that someone like you hasdragged his name through the mud.",
+   "es": "Lamento que alguien como tú haya arrastrado el nombre del lord Sigmund por el barro.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "374",
+   "en": "It's been you, and not Lord Sigmund, who I've been dealingwith the whole time. I've been duped!",
+   "es": "¡Has sido tú, y no el lord Sigmund, con quien he tratado todo el tiempo! ¡Me han engañado!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "376",
+   "en": "Lord Sigmund! Please accept my challenge toa test of strength!",
+   "es": "¡Lord Sigmund! ¡Acepte mi reto de fuerza!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "378",
+   "en": "You've gotten strong through your worldly experiences.I can't wait for the day when I get to challenge you.",
+   "es": "Te has vuelto fuerte con tus experiencias. Ansío el día en que pueda retarte.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "380",
+   "en": "Lord Sigmund! I've heard all about your success. Seeingas you saved Burguss, it doesn't surprise me that youhave such a great reputation.",
+   "es": "¡Lord Sigmund! He oído hablar de tu éxito. Puesto que salvaste Burguss, no me sorprende tu gran reputación.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "382",
+   "en": "I'd like to have a contest with you sometime, Lord Sigmund.That is, if you wouldn't mind the challenge.",
+   "es": "Me gustaría tener un duelo contigo alguna vez, lord Sigmund. Si no te importa el reto, claro.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "384",
+   "en": "Oh, Lord Sigmund, I thought you came this way just a moment ago...",
+   "es": "Ah, lord Sigmund, creí que acababas de pasar por aquí...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "386",
+   "en": "It's not that they stand a chance against me, anyway.Hahaha!",
+   "es": "De todos modos, no es que tengan ninguna posibilidad contra mí. ¡Jajaja!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "388",
+   "en": "Our palace is open to everyone, scum included, so I'mon the lookout for any suspicious characters.",
+   "es": "Nuestro palacio está abierto a todos, escoria incluida, así que vigilo a los sospechosos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "390",
+   "en": "Palace guard",
+   "es": "Guardia de palacio",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "392",
+   "en": "All hail the Liberator!",
+   "es": "¡Salve al Libertador!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "394",
+   "en": "This is the throne room.",
+   "es": "Esta es la sala del trono.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "396",
+   "en": "This is the throne room.",
+   "es": "Esta es la sala del trono.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "398",
+   "en": "Fraud! You have no business being here!",
+   "es": "¡Impostor! ¡No tienes nada que hacer aquí!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "400",
+   "en": "This is the throne room.",
+   "es": "Esta es la sala del trono.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "402",
+   "en": "His Majesty is resting in his private quarters.",
+   "es": "Su Majestad descansa en sus aposentos privados.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "404",
+   "en": "This is the throne room.",
+   "es": "Esta es la sala del trono.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "406",
+   "en": "This is the throne room.",
+   "es": "Esta es la sala del trono.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "408",
+   "en": "Liberator, His Majesty is not here right now.",
+   "es": "Libertador, Su Majestad no está aquí ahora mismo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "410",
+   "en": "This is the throne room.",
+   "es": "Esta es la sala del trono.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "412",
+   "en": "Cat",
+   "es": "Gato",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "414",
+   "en": "Hey, you're back again!",
+   "es": "¡Eh, has vuelto!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "416",
+   "en": "Where have you been? You keep leaving the city withouttelling me. I've been worried about you.",
+   "es": "¿Dónde estabas? No paran de salir de la ciudad sin decirme nada. He estado preocupado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "418",
+   "en": "Hey, we've been seeing quite a lot of each other recently!",
+   "es": "¡Eh, nos hemos estado viendo bastante últimamente!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "420",
+   "en": "That rain was strange.Definitely different than anything I've seen before.",
+   "es": "Esa lluvia fue extraña. Distinta de todo lo que he visto antes.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "422",
+   "en": "You're not so bad for a human, you know.",
+   "es": "No estás nada mal para ser humano, ¿sabes?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "424",
+   "en": "Cats in Fayel never lose their prey.",
+   "es": "Los gatos de Fayel nunca pierden a su presa.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "426",
+   "en": "I envy those house cats and their easy lifestyles, althoughwithout killer instincts, they're not really proper cats anymore!",
+   "es": "Envidio a esos gatos domésticos y su vida fácil, aunque sin instinto asesino ya no son gatos de verdad.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "428",
+   "en": "Cat",
+   "es": "Gato",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "430",
+   "en": "It's not easy being the feline head honcho in this city!",
+   "es": "¡No es fácil ser el jefe felino de esta ciudad!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "432",
+   "en": "You're here to pay your respects already? Good!I'm glad you've learned your lesson.",
+   "es": "¿Ya vienes a rendirme pleitesía? ¡Bien! Me alegra que hayas aprendido la lección.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "434",
+   "en": "You're late in paying your respects!",
+   "es": "¡Llegas tarde a rendir pleitesía!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "436",
+   "en": "Whenever you come to this city, don't forget to payme the proper respect!",
+   "es": "¡Siempre que vengas a esta ciudad, no olvides rendirme el debido respeto!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "438",
+   "en": "Oh, it's you. You're back again.",
+   "es": "Ah, eres tú. Has vuelto.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "440",
+   "en": "Hey, scram! This is all mine!",
+   "es": "¡Eh, largo! ¡Todo esto es mío!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "442",
+   "en": "Hey, this is my territory. Get outta here!I ain't sharing with anyone!",
+   "es": "¡Eh, este es mi territorio! ¡Lárgate! ¡No lo comparto con nadie!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "444",
+   "en": "Palace guard",
+   "es": "Guardia de palacio",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "446",
+   "en": "Lord Sigmund, you have an audience with His Majestytomorrow. Please come back then.",
+   "es": "Lord Sigmund, mañana tiene audiencia con Su Majestad. Vuelva entonces.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "448",
+   "en": "Sasha. knight",
+   "es": "Sasha, caballero",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "450",
+   "en": "Capell, please protect Aya. Try to be safe and bring her backwithout a scratch.",
+   "es": "Capell, protege a Aya, por favor. Intenta ir con cuidado y tráela de vuelta sin un rasguño.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "452",
+   "en": "This is the throne room.",
+   "es": "Esta es la sala del trono.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "454",
+   "en": "This is the throne room.",
+   "es": "Esta es la sala del trono.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "456",
+   "en": "You've been fooling poor Aya as well as everyone else. I can'tunderstand why she ended up with you. It's ridiculous.",
+   "es": "Has engañado a la pobre Aya y a todos los demás. No entiendo cómo acabó contigo. Es ridículo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "458",
+   "en": "This is the throne room. You have no business being here.",
+   "es": "Esta es la sala del trono. No tienes nada que hacer aquí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "460",
+   "en": "Lord Sigmund, what are you doing here at this late hour?",
+   "es": "Lord Sigmund, ¿qué hace aquí a estas horas?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "462",
+   "en": "This is the throne room.",
+   "es": "Esta es la sala del trono.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "464",
+   "en": "But I still don't understand why Aya has to risk her life...Lord Sigmund, could you convince Aya to stay here,where it's safe?",
+   "es": "Pero sigo sin entender por qué Aya tiene que arriesgar la vida... Lord Sigmund, ¿podría convencer a Aya de que se quede aquí, a salvo?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "466",
+   "en": "Lord Sigmund, thank you so much for saving this country.",
+   "es": "Lord Sigmund, muchas gracias por salvar este país.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "468",
+   "en": "This is the throne room. His Majesty is waiting for you.Please hurry.",
+   "es": "Esta es la sala del trono. Su Majestad le espera. Dése prisa.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "470",
+   "en": "Cat",
+   "es": "Gato",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "472",
+   "en": "The city's getting lively again!",
+   "es": "¡La ciudad vuelve a estar animada!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "474",
+   "en": "The entire city looks so down.",
+   "es": "Toda la ciudad parece deprimida.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "476",
+   "en": "Looks like you're having a bit of a hard time. Good thingswill happen in the end, so just hang in there.",
+   "es": "Parece que lo estás pasando mal. Al final pasarán cosas buenas, así que aguanta.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "478",
+   "en": "Did you do something wrong?",
+   "es": "¿Has hecho algo malo?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "480",
+   "en": "Compared to the others, you're pretty popular, aren't you?",
+   "es": "En comparación con los demás, eres bastante popular, ¿eh?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "482",
+   "en": "The humans are making quite a racket. What's going on?",
+   "es": "Los humanos arman mucho jaleo. ¿Qué pasa?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "484",
+   "en": "The Liberator is off to a tower. Humans are always so busy.",
+   "es": "El Libertador se va a una torre. Los humanos siempre tan ocupados.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "486",
+   "en": "I heard that a man called \"The Liberator\"has come to town.",
+   "es": "Oí que ha llegado a la ciudad un hombre llamado \"el Libertador\".",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "488",
+   "en": "Soldier",
+   "es": "Soldado",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "490",
+   "en": "You're the Liberator, after all! I wish you the best of luckon your future quests.",
+   "es": "¡Así que eres el Libertador! Te deseo mucha suerte en tus futuras gestas.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "492",
+   "en": "This is the palace of Fayel.",
+   "es": "Este es el palacio de Fayel.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "494",
+   "en": "This is the palace of Fayel.",
+   "es": "Este es el palacio de Fayel.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "496",
+   "en": "This is the palace of Fayel!",
+   "es": "¡Este es el palacio de Fayel!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "498",
+   "en": "Welcome to our country, Lord Sigmund.",
+   "es": "Bienvenido a nuestro país, lord Sigmund.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "500",
+   "en": "This is the palace of Fayel!",
+   "es": "¡Este es el palacio de Fayel!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "502",
+   "en": "We thank you for your great work, Lord Sigmund.",
+   "es": "Le agradecemos su gran labor, lord Sigmund.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "504",
+   "en": "This is the palace of Fayel.",
+   "es": "Este es el palacio de Fayel.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "506",
+   "en": "Palace guard",
+   "es": "Guardia de palacio",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "508",
+   "en": "Liberator, please protect Aya. I do not wish forSawadir to feel any more sorrow...",
+   "es": "Libertador, protege a Aya, por favor. No deseo que Sawadir sienta más pesar...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "510",
+   "en": "This is the emir's private room.",
+   "es": "Esta es la habitación privada del emir.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "512",
+   "en": "This is the emir's private room.",
+   "es": "Esta es la habitación privada del emir.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "514",
+   "en": "Leave immediately. You are not welcome here!",
+   "es": "¡Márchese de inmediato! ¡Aquí no es bienvenido!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "516",
+   "en": "This is the emir's private room.",
+   "es": "Esta es la habitación privada del emir.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "518",
+   "en": "Emir Sharukh is resting right now.",
+   "es": "El emir Sharukh está descansando ahora mismo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "520",
+   "en": "I'm sorry. Not even the Liberator is allowed in this room.Leave here at once.",
+   "es": "Lo siento. Ni siquiera el Libertador puede entrar en esta habitación. Márchese de inmediato.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "522",
+   "en": "This is the emir's private room.",
+   "es": "Esta es la habitación privada del emir.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "524",
+   "en": "Not even the Liberator is allowed in this room.Leave here at once.",
+   "es": "Ni siquiera el Libertador puede entrar en esta habitación. Márchese de inmediato.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "526",
+   "en": "These are the emir's private quarters.Please leave here quietly.",
+   "es": "Estos son los aposentos privados del emir. Márchese en silencio.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "528",
+   "en": "Liberator, did you not just pass by here a moment ago?Or am I mistaken?",
+   "es": "Libertador, ¿no acaba de pasar por aquí hace un momento? ¿O me equivoco?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "530",
+   "en": "These are the emir's private quarters.Please leave here quietly.",
+   "es": "Estos son los aposentos privados del emir. Márchese en silencio.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "532",
+   "en": "Gina",
+   "es": "Gina",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "534",
+   "en": "Oh! ...It's the look-alike. I can't understand why the princessis looking so down the whole time....I've never seen her like this. I'm so worried.",
+   "es": "¡Oh! ...Es el doble. No entiendo por qué la princesa está tan decaída todo el tiempo. ...Nunca la había visto así. Estoy muy preocupada.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "536",
+   "en": "I'm sorry, but I can't permit anyone to see Aya right now.Please come again when she's feeling better.",
+   "es": "Lo siento, pero no puedo permitir que nadie vea a Aya ahora mismo. Vuelve cuando se encuentre mejor.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "538",
+   "en": "Cat",
+   "es": "Gato",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "540",
+   "en": "Hmmm... The moon is looking bigger than usual andI don't know why...",
+   "es": "Mmm... La luna parece más grande de lo normal y no sé por qué...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "542",
+   "en": "Hm... Looks like I fell back to sleep...",
+   "es": "Mmm... Parece que me he vuelto a dormir...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "544",
+   "en": "Hm... I'm trying to take a catnap, so don't bother me...",
+   "es": "Mmm... Estoy intentando echarme una siesta, no me molestes...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "546",
+   "en": "Brrr... It's getting colder every day...",
+   "es": "Brrr... Cada día hace más frío...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "548",
+   "en": "Hmmm... It's a bit wet today...",
+   "es": "Mmm... Hoy está un poco húmedo...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "550",
+   "en": "I'll probably be sleeping here tomorrow, too...",
+   "es": "Probablemente mañana también duerma aquí...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "552",
+   "en": "It looks like today will be hot again...",
+   "es": "Parece que hoy volverá a hacer calor...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "554",
+   "en": "I'm...sleepy...",
+   "es": "Tengo... sueño...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4AEF1000_007",
+   "id": "556",
+   "en": "Obtained some fantasia notations!",
+   "es": "¡Obtienes anotaciones de fantasía!",
+   "ctx": "dialogo"
+  }
+ ]
+}

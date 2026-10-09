@@ -1,0 +1,553 @@
+{
+ "meta": {
+  "metodo": "mt-glosario"
+ },
+ "strings": [
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "4",
+   "en": "Rucha? I'm on my way!",
+   "es": "¿Rucha? ¡Voy de camino!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "6",
+   "en": "Daaad!",
+   "es": "¡Papááá!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "8",
+   "en": "...Oh no.",
+   "es": "...Ay, no.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "14",
+   "en": "Shaddup!",
+   "es": "¡Cállate!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "16",
+   "en": "Who's there!?",
+   "es": "¡¿Quién anda ahí?!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "18",
+   "en": "Rambert. Ram-bert!",
+   "es": "Rambert. ¡Ram-bert!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "20",
+   "en": "Why are you so mean!?",
+   "es": "¡¿Por qué eres tan malo?!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "22",
+   "en": "Mmm, me get Sigmund... Me lucky.",
+   "es": "Mmm, yo atrapar a Sigmund... Yo tener suerte.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "24",
+   "en": "How could you do this...",
+   "es": "Cómo has podido hacer esto...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "26",
+   "en": "Me kill Sigmund!",
+   "es": "¡Yo matar a Sigmund!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "28",
+   "en": "Listen! I'm not... I'm not Sigmund!",
+   "es": "¡Escucha! ¡Yo no soy... no soy Sigmund!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "30",
+   "en": "Sigmund lie. Me not stupid!",
+   "es": "Sigmund mentir. ¡Yo no tonto!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "32",
+   "en": "Look, I may not be Sigmund, but...",
+   "es": "Mira, puede que no sea Sigmund, pero...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "34",
+   "en": "I'll still make you pay for this!",
+   "es": "¡Aun así te haré pagar por esto!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "36",
+   "en": "Meage children, you have freed me. I am most grateful.",
+   "es": "Niños meage, me habéis liberado. Estoy muy agradecido.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "38",
+   "en": "Rocco...my friend and humble servant.For my sake, you have suffered greatly.",
+   "es": "Rocco... mi amigo y humilde servidor. Por mí has sufrido mucho.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "40",
+   "en": "It's not your fault, Saruleus.",
+   "es": "No es culpa tuya, Saruleus.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "42",
+   "en": "It's the Order's fault!",
+   "es": "¡Es culpa de la Orden!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "44",
+   "en": "Rico... Rucha...",
+   "es": "Rico... Rucha...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "46",
+   "en": "So, young man, you are called Capell.",
+   "es": "Así que, jovencito, te llamas Capell.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "50",
+   "en": "Take this with you.",
+   "es": "Llévate esto.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "52",
+   "en": "What is it?",
+   "es": "¿Qué es?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "54",
+   "en": "An amarlista. A crystal which holds my power. ",
+   "es": "Un amarlista. Un cristal que contiene mi poder.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "56",
+   "en": "It will heal your companion.",
+   "es": "Curará a tu compañera.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "58",
+   "en": "Eh? How do you know about Aya?",
+   "es": "¿Eh? ¿Cómo sabes lo de Aya?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "60",
+   "en": "You know everything... I can't believe it.",
+   "es": "Lo sabes todo... No me lo puedo creer.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "62",
+   "en": "You're lucky. It's a great honor to get an amarlista.",
+   "es": "Tienes suerte. Es un gran honor recibir un amarlista.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "64",
+   "en": "Dad said so.",
+   "es": "Papá lo dijo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "66",
+   "en": "There is someone out there distorting the moon's power.However, my duty is to protect this land. I cannot abandon it.",
+   "es": "Hay alguien por ahí distorsionando el poder de la luna. Sin embargo, mi deber es proteger esta tierra. No puedo abandonarla.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "68",
+   "en": "Take this with you. Through this flute,I shall see the world with your eyes.You shall have my support.Your foes shall be my foes as well.",
+   "es": "Llévate esto. A través de esta flauta, veré el mundo con tus ojos. Contarás con mi apoyo. Tus enemigos serán también los míos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "70",
+   "en": "Seeing the world... Foes... I don't know...",
+   "es": "Ver el mundo... Enemigos... No sé...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "72",
+   "en": "Please, you have to listen to him!",
+   "es": "¡Por favor, tienes que escucharle!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "74",
+   "en": "But I...",
+   "es": "Pero yo...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "76",
+   "en": "I know you're not a hero.",
+   "es": "Sé que no eres un héroe.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "78",
+   "en": "Saruleus said your name's Capell. It wasn't an alias.",
+   "es": "Saruleus dijo que te llamas Capell. No era un alias.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "80",
+   "en": "So why?",
+   "es": "¿Entonces por qué?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "82",
+   "en": "Please.",
+   "es": "Por favor.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "84",
+   "en": "Please, for our dad.",
+   "es": "Por favor, por nuestro padre.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "86",
+   "en": "If I have to.",
+   "es": "Si no queda otra.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "88",
+   "en": "Obtained the Saruleus Amarlista!Obtained the Saruleus Flute!Learned the Prudentiae tune!Learned the Percipere tune!",
+   "es": "¡Obtienes el Amarlista de Saruleus! ¡Obtienes la Flauta de Saruleus! ¡Aprendes la melodía Prudentiae! ¡Aprendes la melodía Percipere!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "90",
+   "en": "Black wings and poisonous fangs...",
+   "es": "Alas negras y colmillos venenosos...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "92",
+   "en": "I guess I could try to lead some monsters back here...Sounds like a real hassle, though.",
+   "es": "Supongo que podría intentar atraer algunos monstruos aquí... Aunque suena a mucho lío.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "94",
+   "en": "Dragontail lever",
+   "es": "Palanca de cola de dragón",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "96",
+   "en": "Sewaria",
+   "es": "Sewaria",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "98",
+   "en": "Look for Scamper, he knows.He will show you if you bring up my name.He loves me and would do anything for me!",
+   "es": "Busca a Scamper, él lo sabe. Te lo mostrará si mencionas mi nombre. ¡Me quiere y haría cualquier cosa por mí!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "100",
+   "en": "Oh, are you looking for the secret room?Scamper is always talking about that place.Look for Scamper, he knows.He will show you if you bring up my name.He loves me and would do anything for me!",
+   "es": "Oh, ¿buscas la habitación secreta? Scamper siempre habla de ese lugar. Busca a Scamper, él lo sabe. Te lo mostrará si mencionas mi nombre. ¡Me quiere y haría cualquier cosa por mí!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "102",
+   "en": "Did you find the secret room?",
+   "es": "¿Has encontrado la habitación secreta?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "104",
+   "en": "Scamper",
+   "es": "Scamper",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "106",
+   "en": "I think I might tell Miss Sewaria where it is as I like her.Ohhh, she's so pretty!",
+   "es": "Creo que quizá le diga a la señorita Sewaria dónde está, porque me gusta. ¡Oooh, es tan bonita!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "108",
+   "en": "This temple has a secret room!I'm not gonna tell you or anyone else where it is though,'cause it's a secret!I think I might tell Miss Sewaria where it is sinceI like her...really like her. Ohhh, she's so pretty!",
+   "es": "¡Este templo tiene una habitación secreta! Aunque no te diré dónde está a ti ni a nadie, ¡porque es un secreto! Creo que quizá se lo diga a la señorita Sewaria, porque me gusta... me gusta de verdad. ¡Oooh, es tan bonita!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "110",
+   "en": "What? Miss Sewaria asked for me to help?Oh, I'd tell her anything she wants to know.Follow me so I can show you!",
+   "es": "¿Qué? ¿La señorita Sewaria ha pedido mi ayuda? Oh, le diría cualquier cosa que quisiera saber. ¡Sígueme y te lo enseño!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "112",
+   "en": "Here's the entrance! Make sure you don't tell anyone.It's a secret.Well, it was until I told you anyway! Hehehe.",
+   "es": "¡Aquí está la entrada! Asegúrate de no decírselo a nadie. Es un secreto. ¡Bueno, lo era hasta que te lo he contado! Jejeje.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "114",
+   "en": "Cheddar",
+   "es": "Cheddar",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "116",
+   "en": "Bats can attack, even if it's dark.Look out for them!They can be very s-s-scary!",
+   "es": "Los murciélagos pueden atacar aunque esté oscuro. ¡Cuidado con ellos! ¡Pueden dar muchísimo m-m-miedo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "118",
+   "en": "You're a big human but you can understand us?Strange! Well, I tell you what, I'll let you in on a little secret.Bats can attack, even if it's dark. Look out for them!They can be very s-s-scary!",
+   "es": "Eres un humano grande, pero ¿nos entiendes? ¡Qué raro! Bueno, te voy a contar un secretito. Los murciélagos pueden atacar aunque esté oscuro. ¡Cuidado con ellos! ¡Pueden dar muchísimo m-m-miedo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "120",
+   "en": "Snouty",
+   "es": "Hocico",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "122",
+   "en": "Oh no! Where am I now? I'm completely lost!",
+   "es": "¡Ay, no! ¿Dónde estoy ahora? ¡Estoy completamente perdido!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "124",
+   "en": "Please! Take me back to my home!",
+   "es": "¡Por favor! ¡Llévame de vuelta a casa!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "126",
+   "en": "Show him the way.",
+   "es": "Muéstrale el camino.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "128",
+   "en": "Ignore him.",
+   "es": "Ignóralo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "129",
+   "en": "dummy",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "130",
+   "en": "dummy",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "132",
+   "en": "Thank you! Let me hitch a ride in your pocket.I won't bother you, I promise! I live in Nolaan.Please take me to my owner. He's an active human boy!Thank you so much!",
+   "es": "¡Gracias! Déjame subir a tu bolsillo. ¡No te molestaré, lo prometo! Vivo en Nolaan. Por favor, llévame con mi dueño. ¡Es un niño humano muy activo! ¡Muchas gracias!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "134",
+   "en": "Humans aren't as nice as they used to be!They can be very mean at times. What a shame!",
+   "es": "¡Los humanos ya no son tan simpáticos como antes! A veces pueden ser muy crueles. ¡Qué lástima!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "136",
+   "en": "Toothy",
+   "es": "Dentudo",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "138",
+   "en": "The atmosphere here feels very strange compared to normal.So stale and sticky. Yuck! Saruleus seems weird, too.I don't like it one bit.",
+   "es": "El ambiente aquí se siente muy extraño comparado con lo normal. Tan viciado y pegajoso. ¡Puaj! Saruleus también parece raro. No me gusta nada.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "140",
+   "en": "A little bit ago, I saw a monstrous ogre and his friendsgoing deeper inside the temple.They didn't look very friendly. Evil and scary!",
+   "es": "Hace un momento vi a un ogro monstruoso y a sus amigos adentrarse más en el templo. No parecían muy amigables. ¡Malvados y aterradores!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "142",
+   "en": "Capell",
+   "es": "Capell",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "144",
+   "en": "Somebody dug this up.",
+   "es": "Alguien ha desenterrado esto.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "146",
+   "en": "Rubble",
+   "es": "Restos",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "148",
+   "en": "Dragontail lever",
+   "es": "Palanca de cola de dragón",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "150",
+   "en": "Dragontail lever",
+   "es": "Palanca de cola de dragón",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "152",
+   "en": "Dragontail lever",
+   "es": "Palanca de cola de dragón",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "154",
+   "en": "Door",
+   "es": "Puerta",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "156",
+   "en": "I demand...black wings...poisonous...fangs...",
+   "es": "Exijo... alas negras... venenosos... colmillos...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "158",
+   "en": "An offering of poisonous fangs...",
+   "es": "Una ofrenda de colmillos venenosos...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "160",
+   "en": "An offering of black wings...",
+   "es": "Una ofrenda de alas negras...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_224F6800_028",
+   "id": "162",
+   "en": "Door",
+   "es": "Puerta",
+   "ctx": "dialogo"
+  }
+ ]
+}

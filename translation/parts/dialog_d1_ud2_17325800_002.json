@@ -1,0 +1,3087 @@
+{
+ "meta": {
+  "metodo": "mt-glosario"
+ },
+ "strings": [
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "9",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "10",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "11",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "12",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "13",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "14",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "15",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "16",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "17",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "18",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "19",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "20",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "21",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "22",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "23",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "24",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "25",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "26",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "36",
+   "en": "Nolaan 1",
+   "es": "Nolaan 1",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "38",
+   "en": "Nolaan 2",
+   "es": "Nolaan 2",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "40",
+   "en": "Nolaan 3",
+   "es": "Nolaan 3",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "42",
+   "en": "Burgusstadt 1",
+   "es": "Burgusstadt 1",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "44",
+   "en": "Burgusstadt 2",
+   "es": "Burgusstadt 2",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "46",
+   "en": "Burgusstadt 3",
+   "es": "Burgusstadt 3",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "48",
+   "en": "Sapran 1",
+   "es": "Sapran 1",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "50",
+   "en": "Sapran 2",
+   "es": "Sapran 2",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "52",
+   "en": "Sapran 3",
+   "es": "Sapran 3",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "54",
+   "en": "Fayel 1",
+   "es": "Fayel 1",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "56",
+   "en": "Fayel 2",
+   "es": "Fayel 2",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "58",
+   "en": "Fayel 3",
+   "es": "Fayel 3",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "60",
+   "en": "Fayel 4",
+   "es": "Fayel 4",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "62",
+   "en": "Fayel 5",
+   "es": "Fayel 5",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "64",
+   "en": "Fayel 6",
+   "es": "Fayel 6",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "66",
+   "en": "Fayel 7",
+   "es": "Fayel 7",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "68",
+   "en": "Fayel 8",
+   "es": "Fayel 8",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "70",
+   "en": "Zala 1",
+   "es": "Zala 1",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "72",
+   "en": "Zala 2",
+   "es": "Zala 2",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "74",
+   "en": "Zala 3",
+   "es": "Zala 3",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "76",
+   "en": "Zala 4",
+   "es": "Zala 4",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "78",
+   "en": "Zala 5",
+   "es": "Zala 5",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "80",
+   "en": "Zala 6",
+   "es": "Zala 6",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "82",
+   "en": "Kolton 1",
+   "es": "Kolton 1",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "84",
+   "en": "Kolton 2",
+   "es": "Kolton 2",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "86",
+   "en": "Kolton 3",
+   "es": "Kolton 3",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "88",
+   "en": "Kolton 4",
+   "es": "Kolton 4",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "90",
+   "en": "Halgita 1",
+   "es": "Halgita 1",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "92",
+   "en": "Halgita 2",
+   "es": "Halgita 2",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "94",
+   "en": "Halgita 3",
+   "es": "Halgita 3",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "96",
+   "en": "Halgita 4",
+   "es": "Halgita 4",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "98",
+   "en": "Halgita 5",
+   "es": "Halgita 5",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "100",
+   "en": "Halgita 6",
+   "es": "Halgita 6",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "102",
+   "en": "Halgita 7",
+   "es": "Halgita 7",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "104",
+   "en": "Halgita 8",
+   "es": "Halgita 8",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "106",
+   "en": "Halgita 9",
+   "es": "Halgita 9",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "108",
+   "en": "Halgita 10",
+   "es": "Halgita 10",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "110",
+   "en": "Halgita 11",
+   "es": "Halgita 11",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "112",
+   "en": "Halgita 12",
+   "es": "Halgita 12",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "114",
+   "en": "Seraphic Gate 1",
+   "es": "Puerta Seráfica 1",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "122",
+   "en": "Graad Prison (First time)",
+   "es": "Prisión de Graad (Primera vez)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "124",
+   "en": "Graad Prison (after Vembert appears)",
+   "es": "Prisión de Graad (después de que aparezca Vembert)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "126",
+   "en": "Graad Woods (First time)",
+   "es": "Bosque de Graad (Primera vez)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "128",
+   "en": "Graad Woods (carrying Aya)",
+   "es": "Bosque de Graad (llevando a Aya)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "130",
+   "en": "Luse Plains (Saruleus attack)",
+   "es": "Llanuras de Luse (ataque Saruleus)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "132",
+   "en": "Nolaan (First time)",
+   "es": "Nolaan (Primera vez)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "134",
+   "en": "Dragonbone Shrine (first time)",
+   "es": "Santuario Hueso de Dragón (primera vez)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "136",
+   "en": "Dragonbone Shrine (before Rambert fight)",
+   "es": "Santuario Hueso de Dragón (antes de la pelea con Rambert)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "138",
+   "en": "Luse Plains (heading to Prevant)",
+   "es": "Llanuras de Luse (en dirección a Prevant)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "140",
+   "en": "Luse Plains (before Prevant)",
+   "es": "Llanuras de Luse (antes Prevant)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "142",
+   "en": "Castle Prevant (first time)",
+   "es": "Castillo Prevant (primera vez)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "144",
+   "en": "Castle Prevant (before Lester fight)",
+   "es": "Castillo Prevant (antes de la pelea de Lester)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "146",
+   "en": "Burgusstadt (first time)",
+   "es": "Burgusstadt (primera vez)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "148",
+   "en": "Oradian Dunes (first time)",
+   "es": "Dunas Oradianas (primera vez)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "150",
+   "en": "Sapran (destroy crystals)",
+   "es": "Sapran (destruir cristales)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "152",
+   "en": "Sapran (before Semberas)",
+   "es": "Sapran (antes de Semberas)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "154",
+   "en": "Oradian Dunes (heading for refugees)",
+   "es": "Dunas Oradianas (rumbo a refugiados)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "156",
+   "en": "Oradian Dunes (before refugees)",
+   "es": "Dunas Oradianas (antes de los refugiados)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "158",
+   "en": "Oradian Dunes (rescue Leif)",
+   "es": "Dunas Oradianas (rescate Leif)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "160",
+   "en": "Sapran (after Leif is rescued)",
+   "es": "Sapran (después de que Leif sea rescatado)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "162",
+   "en": "Oradian Dunes (gathering firewood)",
+   "es": "Dunas Oradianas (recogiendo leña)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "164",
+   "en": "Fayel (first time)",
+   "es": "Fayel (primera vez)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "166",
+   "en": "Oradian Dunes (rescue Gustav)",
+   "es": "Dunas Oradianas (rescate Gustav)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "168",
+   "en": "Oradian Mountains (first time)",
+   "es": "Montañas Oradianas (primera vez)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "170",
+   "en": "Vesplume Tower (first time)",
+   "es": "Torre de Vesplume (primera vez)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "172",
+   "en": "Vesplume Tower (2nd floor)",
+   "es": "Torre de Vesplume (2do piso)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "173",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "174",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "175",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "176",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "177",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "178",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "180",
+   "en": "Vesplume Tower (3rd floor)",
+   "es": "Torre de Vesplume (3er piso)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "182",
+   "en": "Vesplume Tower (4th floor)",
+   "es": "Torre de Vesplume (4to piso)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "184",
+   "en": "Vesplume Tower (6th floor)",
+   "es": "Torre de Vesplume (6to piso)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "186",
+   "en": "Vesplume Tower (before Evil Eye battle)",
+   "es": "Torre de Vesplume (antes de la batalla contra Evil Eye)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "188",
+   "en": "Vesplume Tower (top of tower)",
+   "es": "Torre de Vesplume (parte superior de la torre)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "190",
+   "en": "Port Zala (first time)",
+   "es": "Puerto Zala (primera vez)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "192",
+   "en": "Zalan Coast (first time)",
+   "es": "Costa de Zalan (primera vez)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "194",
+   "en": "Kolton (vermiform fight)",
+   "es": "Kolton (lucha vermiforme)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "196",
+   "en": "Cobasna Timberlands (first time)",
+   "es": "Bosque de Cobasna (primera vez)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "198",
+   "en": "Halgita (first time)",
+   "es": "Halgita (primera vez)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "200",
+   "en": "Cobasna Timberlands (heading for Kiriya)",
+   "es": "Bosque de Cobasna (rumbo a Kiriya)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "202",
+   "en": "Cobasna Timberlands (chimaera battle)",
+   "es": "Bosque de Cobasna (batalla de quimeras)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "204",
+   "en": "Kolton (Edward vermifies)",
+   "es": "Kolton (Edward verifica)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "206",
+   "en": "Halgita (in flames)",
+   "es": "Halgita (en llamas)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "208",
+   "en": "Cobasna Timberlands (heading for dais)",
+   "es": "Bosque de Cobasna (rumbo al estrado)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "210",
+   "en": "Dais (first time)",
+   "es": "Dais (primera vez)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "212",
+   "en": "Dais (before queen)",
+   "es": "Estrado (antes de la reina)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "214",
+   "en": "Dais (before Held)",
+   "es": "Estrado (antes de Held)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "216",
+   "en": "Halgita (after dais)",
+   "es": "Halgita (después del estrado)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "218",
+   "en": "Zala (it's raining!)",
+   "es": "Zala (¡está lloviendo!)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "220",
+   "en": "Sapran (vermiform attack)",
+   "es": "Sapran (ataque vermiforme)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "222",
+   "en": "Kolton (arrested)",
+   "es": "Kolton (arrestado)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "224",
+   "en": "Castle Valette (first time)",
+   "es": "Castillo Valette (primera vez)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "226",
+   "en": "Castle Valette (before lich fight)",
+   "es": "Castillo Valette (antes de la pelea con el lich)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "228",
+   "en": "Castle Valette (before Saranda fight)",
+   "es": "Castillo Valette (antes de la pelea con Saranda)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "230",
+   "en": "Plodhif Caverns (first time)",
+   "es": "Cavernas de Plodhif (primera vez)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "232",
+   "en": "Pieria Wetlands (first time)",
+   "es": "Humedales Pieria (primera vez)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "234",
+   "en": "Underwater Palace (first time)",
+   "es": "Palacio Submarino (primera vez)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "236",
+   "en": "Underwater Palace (before evil eye 2 fight)",
+   "es": "Palacio Submarino (antes de la pelea contra el mal de ojo 2)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "238",
+   "en": "Underwater palace (before chimaera 2 fight)",
+   "es": "Palacio submarino (antes de la pelea contra Quimera 2)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "240",
+   "en": "Underwater Palace (before lich 2 fight)",
+   "es": "Palacio Submarino (antes de la pelea con el lich 2)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "242",
+   "en": "Underwater Palace (before kraken fight)",
+   "es": "Palacio Submarino (antes de la pelea con el kraken)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "244",
+   "en": "Underwater Palace (before Karathos/Leonid fight)",
+   "es": "Palacio Submarino (antes de la pelea entre Karathos y Leonid)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "246",
+   "en": "Lunar Sanctuary (first time)",
+   "es": "Santuario Lunar (primera vez)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "248",
+   "en": "Lunar Sanctuary (before Veros)",
+   "es": "Santuario Lunar (antes Veros)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "250",
+   "en": "Seraphic Gate (first time)",
+   "es": "Puerta Seráfica (primera vez)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "252",
+   "en": "Seraphic Gate (Sigmund fight)",
+   "es": "Puerta Seráfica (pelea de Sigmund)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "254",
+   "en": "Seraphic Gate (Gabriel fight)",
+   "es": "Puerta Seráfica (pelea con Gabriel)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "256",
+   "en": "Seraphic Gate (Ethereal fight)",
+   "es": "Puerta Seráfica (Lucha etérea)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "258",
+   "en": "Scenario completed heading for Cobasna",
+   "es": "Escenario completado rumbo a Cobasna",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "260",
+   "en": "100 map changes in prison (debug use only)",
+   "es": "100 cambios de mapa en prisión (solo uso de depuración)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "262",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "264",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "266",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "268",
+   "en": "Select a location.",
+   "es": "Seleccione una ubicación.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "270",
+   "en": "Sub-event jump",
+   "es": "Salto de sub-evento",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "272",
+   "en": "sub-event 1001i graad prison treasure tutorial",
+   "es": "sub-evento 1001i tutorial del tesoro de la prisión de graad",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "274",
+   "en": "sub-event 1002i graad prison connect tutorial",
+   "es": "tutorial de conexión de prisión de graad del subevento 1002i",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "276",
+   "en": "sub-event 1003i graad prison locked chest",
+   "es": "subevento 1003i prisión de graad cofre cerrado",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "278",
+   "en": "sub-event 1004i graad prison camp tutorial",
+   "es": "sub-evento 1004i tutorial del campo de prisioneros de Graad",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "280",
+   "en": "sub-event 1006i graad prison vembert",
+   "es": "subevento 1006i prisión de graad vembert",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "282",
+   "en": "sub-event 1007i graad prison vembert 2",
+   "es": "subevento 1007i prisión de graad vembert 2",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "284",
+   "en": "sub-event 1008i graad prison vembert jump",
+   "es": "subevento 1008i prisión de graad salto de vembert",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "286",
+   "en": "sub-event 1009i graad prison vembert dash",
+   "es": "subevento 1009i prisión de graad vembert dash",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "288",
+   "en": "sub-event 1010i graad prison duo in danger",
+   "es": "Subevento 1010i dúo de prisión de Graad en peligro",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "290",
+   "en": "sub-event 1011i graad prison vembert falls",
+   "es": "subevento 1011i prisión de graad vembert cae",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "292",
+   "en": "sub-event 1012i graad prison game over event",
+   "es": "Subevento 1012i Graad Prison Game Over Evento",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "294",
+   "en": "sub-event 1013i graad prison escape",
+   "es": "subevento 1013i fuga de prisión de Graad",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "296",
+   "en": "sub-event 2001i graad woods detection",
+   "es": "subevento 2001i detección de bosques de Graad",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "298",
+   "en": "sub-event 2002i graad woods wolves",
+   "es": "subevento 2002i lobos de los bosques de graad",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "300",
+   "en": "sub-event 2003i graad woods nuts",
+   "es": "Subevento 2003i Graad Woods Nuts",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "302",
+   "en": "sub-event 2004i graad woods soldiers",
+   "es": "subevento 2004i soldados de graad woods",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "304",
+   "en": "sub-event 2005i graad woods wolves, nuts",
+   "es": "subevento 2005i bosques de graad lobos, nueces",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "306",
+   "en": "sub-event 2006i graad woods vembert returns",
+   "es": "sub-evento 2006i graad woods vembert regresa",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "308",
+   "en": "sub-event 2008i graad woods healing request",
+   "es": "Subevento 2008i Solicitud de curación de Graad Woods",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "310",
+   "en": "sub-event 3003i luse plains ogre battle",
+   "es": "subevento 3003i batalla de ogros de las llanuras de luse",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "312",
+   "en": "sub-event 3004i luse plains order knight",
+   "es": "subevento 3004i caballero de la orden de las llanuras luse",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "314",
+   "en": "sub-event 3005i luse plains catapults",
+   "es": "subevento 3005i catapultas de llanuras luse",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "316",
+   "en": "sub-event 3006i luse plains pigeon",
+   "es": "subevento 3006i paloma de las llanuras luse",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "318",
+   "en": "sub-event 3007i battle starts in luce plains",
+   "es": "La batalla del subevento 3007i comienza en Luce Plains.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "320",
+   "en": "sub-event 4001i nolaan creation",
+   "es": "sub-evento 4001i creación nolaan",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "322",
+   "en": "sub-event 5001i dragonbone shrine sacrifice door",
+   "es": "sub-evento 5001i puerta de sacrificio del santuario de hueso de dragón",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "324",
+   "en": "sub-event 5002i dragonbone shrine bats",
+   "es": "subevento 5002i murciélagos del santuario de hueso de dragón",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "326",
+   "en": "sub-event 8001i oradian dunes leif gets captured",
+   "es": "El subevento 8001i Oradian Dunes Leif es capturado",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "328",
+   "en": "sub-event 8002i oradian dunes leif dies",
+   "es": "Subevento 8002i Oradian Dunes Leif muere",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "330",
+   "en": "sub-event 8003i oradian dunes refugees die",
+   "es": "Subevento 8003i Mueren refugiados de las dunas de Oradián",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "332",
+   "en": "sub-event 8004i oradian dunes gustav dies",
+   "es": "Subevento 8004i Dunas de Oradian gustav muere",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "334",
+   "en": "sub-event 8005i oradian dunes leif captured",
+   "es": "Subevento 8005i Dunas de Oradian Leif capturado",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "336",
+   "en": "sub-event 10001i fayel sleepless town",
+   "es": "subevento 10001i fayel ciudad sin dormir",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "338",
+   "en": "sub-event 10002i Fayel (night)",
+   "es": "subevento 10002i Fayel (noche)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "340",
+   "en": "sub-event 10003i Fayel (departure)",
+   "es": "subevento 10003i Fayel (salida)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "342",
+   "en": "sub-event 12001i vesplume ogre",
+   "es": "subevento 12001i ogro vesplume",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "344",
+   "en": "sub-event 12002i vesplume evil eye",
+   "es": "subevento 12002i vesplume mal de ojo",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "346",
+   "en": "sub-event 12002i vesplume doppleganger",
+   "es": "subevento 12002i vesplume doppleganger",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "348",
+   "en": "sub-event 12004i vesplume edward orb",
+   "es": "subevento 12004i vesplume edward orb",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "350",
+   "en": "sub-event 12005i vesplume edward charges",
+   "es": "subevento 12005i vesplume edward cargos",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "352",
+   "en": "sub-event 12006i vesplume sigmund trapped",
+   "es": "subevento 12006i vesplume sigmund atrapado",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "354",
+   "en": "sub-event 12007i vesplume no rebirth orb",
+   "es": "subevento 12007i vesplume sin orbe de renacimiento",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "356",
+   "en": "sub-event 12008i vesplume yes rebirth orb",
+   "es": "subevento 12008i vesplume sí orbe de renacimiento",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "358",
+   "en": "sub-event 12009i vesplume magic summon",
+   "es": "subevento 12009i invocación mágica vesplume",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "360",
+   "en": "sub-event 12010i vesplume no rebirth orb 2",
+   "es": "subevento 12010i vesplume sin renacimiento orbe 2",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "362",
+   "en": "sub-event 12011i vesplume what is orb?",
+   "es": "subevento 12011i vesplume ¿qué es orbe?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "364",
+   "en": "sub-event 14001i zala to kolton",
+   "es": "subevento 14001i zala a kolton",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "366",
+   "en": "sub-event 14002i zala hurry to kolton",
+   "es": "subevento 14002i zala prisa a kolton",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "368",
+   "en": "sub-event 14003i boat arrives in zala",
+   "es": "El barco del subevento 14003i llega a Zala.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "370",
+   "en": "sub-event 16001i kolton ed goes nuts",
+   "es": "subevento 16001i kolton ed se vuelve loco",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "372",
+   "en": "sub-event 16002i kolton edward nuts",
+   "es": "subevento 16002i nueces kolton edward",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "374",
+   "en": "sub-event 16003i kolton ed run! 1",
+   "es": "subevento 16003i kolton ed run! 1",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "376",
+   "en": "sub-event 16004i kolton ed run! 2",
+   "es": "subevento 16004i kolton ed run! 2",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "378",
+   "en": "sub-event 17001i cobasna chimaera",
+   "es": "subevento 17001i quimera cobasna",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "380",
+   "en": "sub-event 18001i Halgita go to inn",
+   "es": "subevento 18001i Halgita ir a la posada",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "382",
+   "en": "sub-event 18002i halgita vermiform attack",
+   "es": "subevento 18002i ataque vermiforme halgita",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "384",
+   "en": "sub-event 18003i halgita svala out!",
+   "es": "subevento 18003i halgita svala fuera!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "386",
+   "en": "sub-event 20001i dais buggy bridge",
+   "es": "subevento 20001i puente tipo buggy con tarima",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "388",
+   "en": "sub-event 21001i plodhif aguri",
+   "es": "subevento 21001i plodhif aguri",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "390",
+   "en": "sub-event 21002i plodhif capell danger",
+   "es": "subevento 21002i plodhif capell peligro",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "392",
+   "en": "sub-event 22001i valette lich",
+   "es": "subevento 22001i valette lich",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "394",
+   "en": "sub-event 2202i valette split up",
+   "es": "subevento 2202i valette dividido",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "396",
+   "en": "sub-event 22003i valette teleporter destroyed",
+   "es": "Subevento 22003i Teletransportador Valette destruido",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "398",
+   "en": "sub-event 22004i castle valette lich is destroyed",
+   "es": "subevento 22004i el castillo valette lich es destruido",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "400",
+   "en": "sub-event 23001i pieria dragon",
+   "es": "subevento 23001i pieria dragon",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "402",
+   "en": "sub-event 24001i underwater palace evil eye appears",
+   "es": "Subevento 24001i Aparece el mal de ojo del palacio submarino.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "404",
+   "en": "sub-event 24002i underwater palace chimaera is back",
+   "es": "El subevento 24002i Quimera del palacio submarino está de vuelta",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "406",
+   "en": "sub-event 24003i underwater palace lich returns",
+   "es": "Subevento 24003i El regreso del lich del palacio submarino",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "408",
+   "en": "sub-event 24004i underwater palace (it's a kraken!)",
+   "es": "subevento 24004i palacio submarino (¡es un kraken!)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "410",
+   "en": "Select an event.",
+   "es": "Seleccione un evento.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "412",
+   "en": "Check movies. etc",
+   "es": "Consultar películas. etc.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "414",
+   "en": "Opening Movie",
+   "es": "Película de apertura",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "416",
+   "en": "Title screen",
+   "es": "Pantalla de título",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "418",
+   "en": "Company logo",
+   "es": "Logotipo de la empresa",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "420",
+   "en": "Ending",
+   "es": "Finalizando",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "422",
+   "en": "Azure Chain event",
+   "es": "Evento Cadena Azur",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "424",
+   "en": "Orange Chain event",
+   "es": "Evento de la Cadena Naranja",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "426",
+   "en": "Crimson Chain event",
+   "es": "Evento Cadena Carmesí",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "428",
+   "en": "Cerulean Chain event",
+   "es": "Evento de la Cadena Cerúlea",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "430",
+   "en": "Amber Chain event",
+   "es": "Evento de la Cadena Ámbar",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "432",
+   "en": "Ashen Chain event",
+   "es": "Evento Cadena de Ceniza",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "434",
+   "en": "Onyx Chain event",
+   "es": "Evento Cadena de Ónice",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "436",
+   "en": "Moon Chain event",
+   "es": "Evento de cadena lunar",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "438",
+   "en": "Burgusstadt Parade",
+   "es": "Desfile de Burgusstadt",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "440",
+   "en": "Fayel Parade",
+   "es": "Desfile Fayel",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "442",
+   "en": "Edward Event",
+   "es": "Evento Edward",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "444",
+   "en": "Vesplume Tower Event",
+   "es": "Evento Torre de Vesplume",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "446",
+   "en": "Arrival to Vesplume Tower Event",
+   "es": "Llegada al evento Torre de Vesplume",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "448",
+   "en": "Private event check",
+   "es": "Verificación de evento privado",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "450",
+   "en": "Private event 5i Saruleus's flute",
+   "es": "Evento privado 5i La flauta de Saruleus",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "452",
+   "en": "Private event 15i shadow helper (fayel)",
+   "es": "Evento privado 15i ayudante de sombra (fayel)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "454",
+   "en": "private event 27i snow princess (kolton)",
+   "es": "evento privado 27i princesa de nieve (kolton)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "456",
+   "en": "private event 28i look out (kolton)",
+   "es": "evento privado 28i cuidado (kolton)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "458",
+   "en": "private event 32i no veggies! (halgita)",
+   "es": "evento privado 32i ¡sin verduras! (halgita)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "460",
+   "en": "private event 36i surprises in alleys (kolton)",
+   "es": "evento privado 36i sorpresas en callejones (kolton)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "462",
+   "en": "private event 43i bookworm (halgita)",
+   "es": "evento privado 43i ratón de biblioteca (halgita)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "464",
+   "en": "private event 51i shy person (kolton)",
+   "es": "evento privado 51i persona tímida (kolton)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "466",
+   "en": "private event 52i drinking is fun (zala)",
+   "es": "evento privado 52i beber es divertido (zala)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "468",
+   "en": "private event 53i ninja (zala)",
+   "es": "evento privado 53i ninja (zala)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "470",
+   "en": "private event 56i live by the sword (zala)",
+   "es": "evento privado 56i en vivo por la espada (zala)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "472",
+   "en": "private event 60i courage and valor (zala)",
+   "es": "evento privado 60i coraje y valor (zala)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "474",
+   "en": "private event 61i dirge of cerberus (sapran)",
+   "es": "evento privado 61i canto fúnebre de cerbero (sapran)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "476",
+   "en": "private event 64i broken toy (kolton)",
+   "es": "evento privado 64i juguete roto (kolton)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "478",
+   "en": "private event 68i cooking prowess (halgita)",
+   "es": "evento privado 68i destreza culinaria (halgita)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "480",
+   "en": "private event 70i writing prowess (zala)",
+   "es": "evento privado 70i destreza en escritura (zala)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "482",
+   "en": "Event jump",
+   "es": "Salto de evento",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "484",
+   "en": "event 001i prisoner",
+   "es": "evento 001i prisionero",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "486",
+   "en": "event 003i escape",
+   "es": "evento 003i escape",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "488",
+   "en": "event 004i aya's angry",
+   "es": "evento 004i aya está enojada",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "490",
+   "en": "event 006-1i Vembert in pursuit",
+   "es": "evento 006-1i Vembert en persecución",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "492",
+   "en": "event 006-2i Vembert in pursuit 2",
+   "es": "evento 006-2i Vembert en persecución 2",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "494",
+   "en": "event 007i run to the woods",
+   "es": "evento 007 corro al bosque",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "496",
+   "en": "event 011i arguments",
+   "es": "argumentos del evento 011i",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "498",
+   "en": "event 015-1i splitting up",
+   "es": "evento 015-1i separándose",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "500",
+   "en": "event 016-1i Saruleus is pissed",
+   "es": "evento 016-1i Saruleus esta enojado",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "502",
+   "en": "event 017i Rico and Rucha",
+   "es": "evento 017i Rico y Rucha",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "504",
+   "en": "event 018i Rico and Rucha's house",
+   "es": "evento 018i La casa de Rico y Rucha",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "506",
+   "en": "event 023i back of the shrine",
+   "es": "evento 023i detrás del santuario",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "508",
+   "en": "event 024i back of the shrine",
+   "es": "evento 024i detrás del santuario",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "510",
+   "en": "event 025i aya recovers",
+   "es": "evento 025i aya se recupera",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "512",
+   "en": "event 027i castle prevant battle",
+   "es": "evento 027i castillo antes de la batalla",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "514",
+   "en": "event 028i party back together",
+   "es": "evento 028i grupo de nuevo juntos",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "516",
+   "en": "event 029i savio appears",
+   "es": "evento 029i aparece savio",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "518",
+   "en": "event 030i lester",
+   "es": "evento 030i lester",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "520",
+   "en": "event 031i azure chain destroyed (movie)",
+   "es": "evento 031i cadena azul destruida (película)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "522",
+   "en": "Lord Sigmund!",
+   "es": "¡Señor Sigmund!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "526",
+   "en": "My lord?",
+   "es": "¿Mi señor?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "528",
+   "en": "I'll liberate this land from the chain. Stand guard.",
+   "es": "Liberaré esta tierra de la cadena. Haz guardia.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "530",
+   "en": "Yes!",
+   "es": "¡Sí!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "532",
+   "en": "He's gonna destroy that huge chain all by himself?",
+   "es": "¿Va a destruir esa enorme cadena él solo?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "534",
+   "en": "If we could cut it, we would be helping him.",
+   "es": "Si pudiéramos cortarlo, lo estaríamos ayudando.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "536",
+   "en": "Why not try?",
+   "es": "¿Por qué no intentarlo?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "538",
+   "en": "We can't.",
+   "es": "No podemos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "540",
+   "en": "Really?",
+   "es": "¿En realidad?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "542",
+   "en": "No one can sever chains. Not anyone.",
+   "es": "Nadie puede romper cadenas. Nadie.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "544",
+   "en": "Yeah, but Sigmund is cutting it, right?",
+   "es": "Sí, pero Sigmund lo está cortando, ¿verdad?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "546",
+   "en": "He's doing the impossible.",
+   "es": "Está haciendo lo imposible.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "548",
+   "en": "That's why he's a hero.",
+   "es": "Por eso es un héroe.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "550",
+   "en": "Begone!",
+   "es": "¡Vete!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "552",
+   "en": "He did it!",
+   "es": "¡Lo hizo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "554",
+   "en": "The chain is...",
+   "es": "La cadena es...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "556",
+   "en": "Amazing.",
+   "es": "Increíble.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "558",
+   "en": "Lord Sigmund!",
+   "es": "¡Señor Sigmund!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "562",
+   "en": "Oh no!",
+   "es": "¡Oh, no!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "564",
+   "en": "Lord Sigmund!",
+   "es": "¡Señor Sigmund!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "566",
+   "en": "You did well.",
+   "es": "Lo hiciste bien.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "568",
+   "en": "My lord, you mustn't move! I'll have Eugene here in no time!",
+   "es": "¡Mi señor, no debe moverse! ¡Tendré a Eugene aquí en poco tiempo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "570",
+   "en": "Don't trouble yourself. I know that this body can't be healed.",
+   "es": "No te molestes. Sé que este cuerpo no se puede curar.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "572",
+   "en": "His body is a wreck. It's from constant fighting.He began this battle alone so...",
+   "es": "Su cuerpo es un desastre. Es por la lucha constante. Él comenzó esta batalla solo, así que...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "574",
+   "en": "Eugene even warned him that he could collapse at any moment,but Sigmund kept on insisting on destroying the chains.",
+   "es": "Eugene incluso le advirtió que podía desplomarse en cualquier momento, pero Sigmund siguió insistiendo en destruir las cadenas.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "576",
+   "en": "O-oh...",
+   "es": "O-oh...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "578",
+   "en": "Capell, I offer you my thanks.But this is a battlefield. You must-",
+   "es": "Capell, te doy las gracias. Pero este es un campo de batalla. Debes-",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "580",
+   "en": "Join us!",
+   "es": "¡Únase a nosotros!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "582",
+   "en": "What?",
+   "es": "¿Qué?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "584",
+   "en": "He just doesn't know himself well enough yet.I know he can help us! I'm certain of it!",
+   "es": "Simplemente aún no se conoce lo suficiente. ¡Sé que puede ayudarnos! ¡Estoy seguro de ello!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "586",
+   "en": "That's my decision...",
+   "es": "Esa es mi decisión...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "588",
+   "en": "You keep quiet!",
+   "es": "¡Quédate callado!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "590",
+   "en": "But...don't I have a say in this?",
+   "es": "Pero... ¿no tengo yo voz y voto en esto?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "592",
+   "en": "It's not merely fighting ability.I sense that he possesses a far more wondrous power.",
+   "es": "No se trata simplemente de capacidad de lucha. Siento que posee un poder mucho más maravilloso.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "594",
+   "en": "What power?How can he possess power if he doesn't even want to wield a sword?",
+   "es": "¿Qué poder? ¿Cómo puede poseer poder si ni siquiera quiere empuñar una espada?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "596",
+   "en": "Wielding a sword isn't everything!",
+   "es": "¡Empuñar una espada no lo es todo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "598",
+   "en": "Aya, you're not making any sense!",
+   "es": "Aya, ¡no tienes ningún sentido!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "600",
+   "en": "Yeah! Yeah!",
+   "es": "¡Sí! ¡Sí!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "602",
+   "en": "Quiet, you!",
+   "es": "¡Silencio tú!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "606",
+   "en": "If he joins us, he won't receive any more special treatment.",
+   "es": "Si se une a nosotros, no recibirá ningún trato especial.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "608",
+   "en": "Yes.",
+   "es": "Sí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "610",
+   "en": "But!",
+   "es": "¡Pero!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "616",
+   "en": "Thank you, my lord!Congratulations, Capell!",
+   "es": "¡Gracias, mi señor! ¡Felicidades, Capell!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "618",
+   "en": "Congratulations?",
+   "es": "¿Felicidades?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "620",
+   "en": "We shall return to Burgusstadt...victorious!",
+   "es": "Volveremos a Burgusstadt...¡victoriosos!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "622",
+   "en": "Um, excuse me! This sword?",
+   "es": "¡Disculpe! ¿Esta espada?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "624",
+   "en": "Use it as you wish.",
+   "es": "Úselo como desee.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "626",
+   "en": "Are you sure?",
+   "es": "¿Está seguro?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "628",
+   "en": "Come on. Let's go!",
+   "es": "Vamos. ¡Vamos!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "630",
+   "en": "Who made you the leader?",
+   "es": "¿Quién te nombró líder?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "632",
+   "en": "event-048i cheering crowd",
+   "es": "event-048i multitud animando",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "634",
+   "en": "event 049i michelle",
+   "es": "evento 049i michelle",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "636",
+   "en": "event 051i sigmund's heart",
+   "es": "evento 051i el corazón de sigmund",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "638",
+   "en": "event 058i sigmund's rite 2",
+   "es": "evento 058i rito de sigmund 2",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "640",
+   "en": "event 065i land of fayel",
+   "es": "evento 065i tierra de fayel",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "642",
+   "en": "event 066i split in the road",
+   "es": "evento 066i dividido en la carretera",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "644",
+   "en": "event 067i arrive in sapran",
+   "es": "evento 067i llega a sapran",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "646",
+   "en": "event 069i sapran chain",
+   "es": "evento 069i cadena sapran",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "648",
+   "en": "event 070i capell cuts the chain",
+   "es": "evento 070i capell corta la cadena",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "650",
+   "en": "event 071i refugees spotted",
+   "es": "evento 071i refugiados avistados",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "652",
+   "en": "event 072i capell vs sigmund",
+   "es": "evento 072i capell vs sigmund",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "654",
+   "en": "event 074i looking for leif",
+   "es": "evento 074i buscando a leif",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "656",
+   "en": "event 075i rescue leif",
+   "es": "evento 075i rescate leif",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "658",
+   "en": "event 076i leif is in trouble",
+   "es": "evento 076i leif está en problemas",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "660",
+   "en": "event 077i leif is rescued!",
+   "es": "evento 077i ¡leif es rescatado!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "662",
+   "en": "event 078i sis and bro together",
+   "es": "evento 078i hermana y hermano juntos",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "664",
+   "en": "event 080i aya is jealous",
+   "es": "evento 080i aya esta celosa",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "666",
+   "en": "event 081i goodbye sapran",
+   "es": "evento 081i adios sapran",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "668",
+   "en": "event 082i making camp",
+   "es": "evento 082i haciendo campamento",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "670",
+   "en": "event 083i capell and aya 1",
+   "es": "evento 083i capell y aya 1",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "672",
+   "en": "Great song. What's it called?",
+   "es": "Gran canción. ¿Cómo se llama?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "674",
+   "en": "I wrote it myself.It's entitled...\"The Slovenly Serenade.\"",
+   "es": "Lo escribí yo mismo. Se titula...\"La serenata eslovena\".",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "676",
+   "en": "I shouldn't have asked.",
+   "es": "No debería haber preguntado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "678",
+   "en": "Not tired?",
+   "es": "¿No estás cansado?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "680",
+   "en": "No, I'm going to sit here and watch the fire a little longer.",
+   "es": "No, voy a sentarme aquí y mirar el fuego un poco más.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "682",
+   "en": "Leave the fire to me, Aya. You can go on to bed.",
+   "es": "Déjame el fuego a mí, Aya. Puedes irte a la cama.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "684",
+   "en": "Not yet. This is relaxing.",
+   "es": "Aún no. Esto es relajante.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "686",
+   "en": "Why do fires relax you?",
+   "es": "¿Por qué los incendios te relajan?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "688",
+   "en": "Flames are sacred and familiar.Everyone in Fayel learns that growing up.",
+   "es": "Las llamas son sagradas y familiares. Todos en Fayel aprenden eso mientras crecen.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "690",
+   "en": "Oh?",
+   "es": "¿Oh?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "692",
+   "en": "Doesn't looking at it stir up memories?",
+   "es": "¿Verlo no te evoca recuerdos?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "694",
+   "en": "Think we'll catch up to them by tomorrow?",
+   "es": "¿Crees que los alcanzaremos mañana?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "696",
+   "en": "It won't be long. The city is nearby, so we can meet them there.",
+   "es": "No pasará mucho tiempo. La ciudad está cerca, por lo que podremos encontrarnos con ellos allí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "698",
+   "en": "Good.",
+   "es": "Bien.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "700",
+   "en": "You didn't want my help at Graad.So, why did you come with us?",
+   "es": "No querías mi ayuda en Graad. Entonces, ¿por qué viniste con nosotros?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "702",
+   "en": "You told me to escape for your sake.I thought that it was a funny thing to say.",
+   "es": "Me dijiste que escapara por tu bien. Pensé que era gracioso decirlo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "704",
+   "en": "That's it?",
+   "es": "¿Eso es todo?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "706",
+   "en": "You were also blunt and self-centered...And even a bit-",
+   "es": "También fuiste directo y egocéntrico...E incluso un poco-",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "708",
+   "en": "Gee, thanks.",
+   "es": "Vaya, gracias.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "712",
+   "en": "I'm just tired of things like lying...and running away all the time.",
+   "es": "Simplemente estoy cansado de cosas como mentir... y huir todo el tiempo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "714",
+   "en": "We've gotta keep fighting!",
+   "es": "¡Tenemos que seguir luchando!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "716",
+   "en": "I think you try too hard.",
+   "es": "Creo que te esfuerzas demasiado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "718",
+   "en": "You could try a little harder, you know!?",
+   "es": "Podrías esforzarte un poco más, ¿sabes?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "720",
+   "en": "Hey, I might not look it,but I'm doing my best, okay?",
+   "es": "Oye, puede que no lo parezca, pero estoy haciendo lo mejor que puedo, ¿vale?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "722",
+   "en": "Really?",
+   "es": "¿En realidad?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "728",
+   "en": "But now I think we should rest up for tomorrow.",
+   "es": "Pero ahora creo que deberíamos descansar para mañana.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "730",
+   "en": "Yeah, you're right. Goodnight, Capell.",
+   "es": "Sí, tienes razón. Buenas noches, Capell.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "732",
+   "en": "Goodnight, Aya.",
+   "es": "Buenas noches, Aya.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "734",
+   "en": "event 084i arrive in fayel",
+   "es": "evento 084i llega a fayel",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "736",
+   "en": "event 085i royal invitation",
+   "es": "evento 085i invitación real",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "738",
+   "en": "event 091i gina asks for help",
+   "es": "evento 091i gina pide ayuda",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "740",
+   "en": "event 092i report to gina",
+   "es": "evento 092i reportar a gina",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "742",
+   "en": "event 095i dominica appears",
+   "es": "evento 095i aparece dominica",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "744",
+   "en": "event 096i gustav rescued",
+   "es": "evento 096i gustav rescatado",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "746",
+   "en": "event 097i end of holiday",
+   "es": "evento 097i fin de vacaciones",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "748",
+   "en": "event 102i thoughts of sigmund",
+   "es": "evento 102i pensamientos de sigmund",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "750",
+   "en": "event 104i arrive at vesplume",
+   "es": "evento 104i llega a vesplume",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "752",
+   "en": "event 105i enter vesplume",
+   "es": "evento 105i entrar en vesplume",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "754",
+   "en": "event 108i leonid",
+   "es": "evento 108i leonidas",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "756",
+   "en": "event 110i big battle",
+   "es": "evento 110i gran batalla",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "758",
+   "en": "event 111i death of siggy",
+   "es": "evento 111i muerte de siggy",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "760",
+   "en": "event 113i somber parade",
+   "es": "evento 113i desfile sombrío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "762",
+   "en": "event 115i eugene's memories",
+   "es": "evento 115i los recuerdos de eugene",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "764",
+   "en": "event 116i balbagan is moody",
+   "es": "evento 116i balbagan está de mal humor",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "766",
+   "en": "event 117i eugene's memories",
+   "es": "evento 117i los recuerdos de eugene",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "768",
+   "en": "event 118i twins sleep talk",
+   "es": "evento 118i gemelos dormir hablar",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "770",
+   "en": "event 119i ed is emo",
+   "es": "evento 119i ed es emo",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "772",
+   "en": "event 120i song for siggy",
+   "es": "evento 120i canción para siggy",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "774",
+   "en": "event 120-1i song for a hero",
+   "es": "evento 120-1i canción para un héroe",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "776",
+   "en": "event 123i head for halgita",
+   "es": "evento 123i cabeza para halgita",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "778",
+   "en": "event 126i zala in danger",
+   "es": "evento 126i zala en peligro",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "780",
+   "en": "event 130i faina again",
+   "es": "evento 130i faina otra vez",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "782",
+   "en": "event 135i tsunami terror",
+   "es": "evento 135i tsunami terror",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "784",
+   "en": "event 138i small island battle",
+   "es": "evento 138i batalla en una pequeña isla",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "786",
+   "en": "event-139i chain is cut tsunami tstops.",
+   "es": "La cadena event-139i se corta y se detiene el tsunami.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "788",
+   "en": "event 145i internal strife",
+   "es": "evento 145i lucha interna",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "790",
+   "en": "event 147i edward is jealous",
+   "es": "evento 147i edward está celoso",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "792",
+   "en": "event 150i arrive in kolton",
+   "es": "El evento 150i llega a Kolton.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "794",
+   "en": "event 152i vermiform",
+   "es": "evento 152i vermiforme",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "796",
+   "en": "event 159i arrive in halgita",
+   "es": "evento 159i llega a halgita",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "798",
+   "en": "event 161i empress svala",
+   "es": "evento 161i emperatriz svala",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "800",
+   "en": "event 169i choice 2 with vic",
+   "es": "evento 169i elección 2 con vic",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "802",
+   "en": "event 178i lunar rain is eeevil?",
+   "es": "¿El evento 178i lluvia lunar es malvado?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "804",
+   "en": "event 171i kiriya's turf",
+   "es": "evento 171i el territorio de kiriya",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "806",
+   "en": "event 187i ed is a monster!",
+   "es": "evento 187i ed es un monstruo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "808",
+   "en": "event 188i ed's emotions",
+   "es": "evento 188i las emociones de ed",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "810",
+   "en": "event 193i halgita in danger?",
+   "es": "evento 193i halgita en peligro?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "812",
+   "en": "event 194i vermiforms attack",
+   "es": "evento 194i ataque de vermiformes",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "814",
+   "en": "event 196i attack of leonid",
+   "es": "evento 196i ataque de leonidas",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "816",
+   "en": "event 206-1i lil promise",
+   "es": "evento 206-1i pequeña promesa",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "818",
+   "en": "event 201i held's trap",
+   "es": "evento 201i trampa retenida",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "820",
+   "en": "event 202i bug nest",
+   "es": "evento 202i nido de insectos",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "822",
+   "en": "event 203i queen bug",
+   "es": "evento 203i error reina",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "824",
+   "en": "event 204i held goes nuts",
+   "es": "El evento celebrado en 204i se vuelve loco",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "826",
+   "en": "event 204-2i held goes nuts",
+   "es": "el evento 204-2i celebrado se vuelve loco",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "828",
+   "en": "event-205i chain is smashed5 held confesses",
+   "es": "La cadena event-205i se rompe 5 retenido confiesa",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "830",
+   "en": "event 216i fayel in danger?",
+   "es": "evento 216i fayel en peligro?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "832",
+   "en": "event 210i arrival in kolton",
+   "es": "evento 210i llegada a kolton",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "834",
+   "en": "event 210-1i free event 1",
+   "es": "evento 210-1i evento gratuito 1",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "836",
+   "en": "event 210-2i free event 2",
+   "es": "evento 210-2i evento gratuito 2",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "838",
+   "en": "event 212i meet with king miro",
+   "es": "evento 212i encuentro con el rey miro",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "840",
+   "en": "event 238i raining in fayel",
+   "es": "evento 238i lloviendo en fayel",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "842",
+   "en": "event 240i state of matters",
+   "es": "evento 240i estado de la cuestión",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "844",
+   "en": "event 242i sapran screams",
+   "es": "evento 242i gritos sapran",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "846",
+   "en": "event 244i vermiform disaster",
+   "es": "evento 244i desastre vermiforme",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "848",
+   "en": "event 251i truth revealed",
+   "es": "evento 251i verdad revelada",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "850",
+   "en": "event 254i back to kolton",
+   "es": "evento 254i de regreso a kolton",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "852",
+   "en": "event 258-1i surrounded",
+   "es": "evento 258-1i rodeado",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "854",
+   "en": "event 266i leonid's true identity",
+   "es": "evento 266i la verdadera identidad de leonid",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "856",
+   "en": "event-261i aya is sad",
+   "es": "event-261i aya está triste",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "858",
+   "en": "event 270i determined dominica",
+   "es": "evento 270i determinado dominica",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "860",
+   "en": "event 279i saranda",
+   "es": "evento 279i saranda",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "862",
+   "en": "event 280i saranda checks out",
+   "es": "evento 280i saranda revisa",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "864",
+   "en": "event 282-2i what lies ahead",
+   "es": "evento 282-2i lo que nos espera",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "866",
+   "en": "event-276i bleak surroundings",
+   "es": "event-276i entorno sombrío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "868",
+   "en": "event 285i time for rest",
+   "es": "evento 285i tiempo para descansar",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "870",
+   "en": "event 294i the morning after",
+   "es": "evento 294i la mañana siguiente",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "872",
+   "en": "event 295i polluted land",
+   "es": "evento 295i tierra contaminada",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "874",
+   "en": "event 296i final order knight",
+   "es": "evento 296i orden final caballero",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "876",
+   "en": "event 297i iskan's confession",
+   "es": "evento 297i la confesión de iskan",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "878",
+   "en": "event 300i duel with leonid",
+   "es": "evento 300i duelo con leonid",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "880",
+   "en": "event 301i big battle",
+   "es": "evento 301i gran batalla",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "882",
+   "en": "event 302i after the battle",
+   "es": "evento 302i después de la batalla",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "884",
+   "en": "event 303i final chain",
+   "es": "evento 303i cadena final",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "886",
+   "en": "event 306i the moon",
+   "es": "evento 306i la luna",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "888",
+   "en": "event 308i veros the moon god",
+   "es": "evento 308i veros el dios de la luna",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "890",
+   "en": "event 310-1|5i battle with god",
+   "es": "evento 310-1|5i batalla con dios",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "892",
+   "en": "evente 311i veros goes down",
+   "es": "evente 311i veros se cae",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "894",
+   "en": "event 319i promise fulfilled",
+   "es": "evento 319i promesa cumplida",
+   "ctx": "dialogo"
+  }
+ ]
+}

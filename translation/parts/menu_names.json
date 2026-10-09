@@ -1,0 +1,2920 @@
+{
+ "meta": {
+  "agente": "ws3",
+  "ctx": "nombres"
+ },
+ "strings": [
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100010",
+   "en": "Pebbleshell Crab",
+   "es": "Cangrejo Caparazón",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100011",
+   "en": "Harpy",
+   "es": "Arpía",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100012",
+   "en": "Dragon",
+   "es": "Dragón",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100013",
+   "en": "Giant Wasp",
+   "es": "Avispa gigante",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100014",
+   "en": "Envy",
+   "es": "Envidia",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100015",
+   "en": "Green Drogo Warrior",
+   "es": "Guerrero drogo verde",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100016",
+   "en": "Stone Gargoyle",
+   "es": "Gárgola de piedra",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100086",
+   "en": "Mushroom",
+   "es": "Seta",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100087",
+   "en": "Mushroom",
+   "es": "Seta",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100090",
+   "en": "Cracked Rock",
+   "es": "Roca agrietada",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100091",
+   "en": "Dripstone",
+   "es": "Estalactita",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100092",
+   "en": "Mold-covered Wall",
+   "es": "Pared con moho",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100093",
+   "en": "Mold-covered Floor",
+   "es": "Suelo con moho",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100094",
+   "en": "Knee-deep Spores",
+   "es": "Esporas hasta la rodilla",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100095",
+   "en": "Dripstone",
+   "es": "Estalactita",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100096",
+   "en": "Dripstone",
+   "es": "Estalactita",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100097",
+   "en": "Chain",
+   "es": "Cadena",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100105",
+   "en": "Treasure Chest",
+   "es": "Cofre del tesoro",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100129",
+   "en": "Flute",
+   "es": "Flauta",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100130",
+   "en": "Mold-covered Wall 2",
+   "es": "Pared con moho 2",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100131",
+   "en": "Middle-aged Burguss Man",
+   "es": "Burguss de mediana edad",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100133",
+   "en": "Dog",
+   "es": "Perro",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100134",
+   "en": "Pigeon",
+   "es": "Paloma",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100135",
+   "en": "Mouse",
+   "es": "Ratón",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100137",
+   "en": "Mandragora",
+   "es": "Mandrágora",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100138",
+   "en": "Garuda",
+   "es": "Garuda",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100141",
+   "en": "Lumper Leader",
+   "es": "Líder lumper",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100142",
+   "en": "Lumper Healer",
+   "es": "Sanador lumper",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100143",
+   "en": "Lumper Mage",
+   "es": "Mago lumper",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100144",
+   "en": "Lumper Marksman",
+   "es": "Tirador lumper",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100145",
+   "en": "Lumper Soldier",
+   "es": "Soldado lumper",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100149",
+   "en": "Middle-aged Burguss Woman",
+   "es": "Burguss de mediana edad (mujer)",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100150",
+   "en": "Graad Woods",
+   "es": "Bosque de Graad",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100155",
+   "en": "Kingdom of Burguss (Check World Map)",
+   "es": "Reino de Burguss (ver mapa)",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100156",
+   "en": "Fayel Emirate (Check World Map)",
+   "es": "Emirato de Fayel (ver mapa)",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100157",
+   "en": "Halgitian Empire (Check World Map)",
+   "es": "Imperio Halgitiano (ver mapa)",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100158",
+   "en": "Kolton Union (Check World Map)",
+   "es": "Unión de Kolton (ver mapa)",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100159",
+   "en": "Casandra (Check World Map)",
+   "es": "Casandra (ver mapa)",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100170",
+   "en": "Bihar Mines",
+   "es": "Minas de Bihar",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100186",
+   "en": "Scissorclaw Centipede",
+   "es": "Ciempiés tijera",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100187",
+   "en": "Hill Gigas",
+   "es": "Gigas de las colinas",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100190",
+   "en": "Old Burguss Man",
+   "es": "Burguss anciano",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100191",
+   "en": "Old Burguss Woman",
+   "es": "Burguss anciana",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100195",
+   "en": "Dancing Sword",
+   "es": "Espada danzante",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100199",
+   "en": "Dancing Crossbow",
+   "es": "Ballesta danzante",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100201",
+   "en": "Order Servant",
+   "es": "Sirviente de la Orden",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100203",
+   "en": "Graad Prison",
+   "es": "Prisión de Graad",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100204",
+   "en": "Oradian Dunes",
+   "es": "Dunas Oradianas",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100205",
+   "en": "Port Zala",
+   "es": "Puerto Zala",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100207",
+   "en": "Cobasna Timberlands",
+   "es": "Bosque de Cobasna",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100208",
+   "en": "Burguss Boy",
+   "es": "Niño burguss",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100209",
+   "en": "Burguss Girl",
+   "es": "Niña burguss",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100216",
+   "en": "lmpfish",
+   "es": "Pez diablillo",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100219",
+   "en": "Burguss Soldier (F)",
+   "es": "Soldado burguss (M)",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100223",
+   "en": "Cave Rachnuvus",
+   "es": "Rachnuvus de cueva",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100224",
+   "en": "Larva",
+   "es": "Larva",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100272",
+   "en": "Magic Settings",
+   "es": "Ajustes de magia",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100284",
+   "en": "Save Point",
+   "es": "Punto de guardado",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100285",
+   "en": "Tutorial Point",
+   "es": "Punto de tutorial",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100287",
+   "en": "Fruit",
+   "es": "Fruta",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100290",
+   "en": "Moss Glutton",
+   "es": "Glotón de musgo",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100291",
+   "en": "Bloodsucker",
+   "es": "Chupasangre",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100292",
+   "en": "Thorn Cobra",
+   "es": "Cobra de espinas",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100294",
+   "en": "Young Burguss Man",
+   "es": "Joven burguss",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100295",
+   "en": "Young Burguss Woman",
+   "es": "Joven burguss (mujer)",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104166",
+   "en": "Graad Woods",
+   "es": "Bosque de Graad",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104369",
+   "en": "Control Lever",
+   "es": "Palanca de control",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104381",
+   "en": "Fish",
+   "es": "Pez",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104385",
+   "en": "Shopkeeper",
+   "es": "Tendero",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104392",
+   "en": "Wooden Box",
+   "es": "Caja de madera",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104393",
+   "en": "Pot",
+   "es": "Olla",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104394",
+   "en": "ltem Bag (Floor)",
+   "es": "Bolsa de objetos (suelo)",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104395",
+   "en": "ltem Bag (On Wall)",
+   "es": "Bolsa de objetos (pared)",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104409",
+   "en": "Nolaan",
+   "es": "Nolaan",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104410",
+   "en": "Luce Plains",
+   "es": "Llanuras de Luce",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104411",
+   "en": "Dragonbone Shrine",
+   "es": "Santuario Hueso de Dragón",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104412",
+   "en": "Castle Prevant",
+   "es": "Castillo Prevant",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104418",
+   "en": "Rockbeak",
+   "es": "Picorroca",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104419",
+   "en": "Amigo",
+   "es": "Amigo",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104420",
+   "en": "Orthros",
+   "es": "Orthros",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104429",
+   "en": "Green Drogo Chief",
+   "es": "Jefe drogo verde",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104430",
+   "en": "Skull Soldier",
+   "es": "Soldado calavera",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104433",
+   "en": "Kraken",
+   "es": "Kraken",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104436",
+   "en": "Lion Mask",
+   "es": "Máscara de león",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104437",
+   "en": "Dragon Lever",
+   "es": "Palanca de dragón",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104439",
+   "en": "Plodhif Caverns",
+   "es": "Cavernas de Plodhif",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104443",
+   "en": "Oradian Mountains",
+   "es": "Montañas Oradianas",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104444",
+   "en": "Vesplume Tower",
+   "es": "Torre de Vesplume",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104450",
+   "en": "Dais",
+   "es": "Estrado",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104460",
+   "en": "Pieria Marshlands",
+   "es": "Marismas de Pieria",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104462",
+   "en": "Underwater Palace",
+   "es": "Palacio Submarino",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104464",
+   "en": "Lunar Sanctuary",
+   "es": "Santuario Lunar",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104465",
+   "en": "Castle Valette",
+   "es": "Castillo Valette",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104730",
+   "en": "Order jailer",
+   "es": "Carcelero de la Orden",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104731",
+   "en": "Skull Knight",
+   "es": "Caballero calavera",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104752",
+   "en": "Wooden Box Mimic",
+   "es": "Mímico caja de madera",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104788",
+   "en": "Kron the Vicious Eye",
+   "es": "Kron, el Ojo Cruel",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104790",
+   "en": "Queen Rachnuvus",
+   "es": "Reina Rachnuvus",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104820",
+   "en": "Normal Combat",
+   "es": "Combate normal",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104821",
+   "en": "ln-Danger Combat",
+   "es": "Combate de peligro",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104824",
+   "en": "Wild Wolf",
+   "es": "Lobo salvaje",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104828",
+   "en": "Living Lantern",
+   "es": "Farol viviente",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104829",
+   "en": "Cow",
+   "es": "Vaca",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104830",
+   "en": "Cat",
+   "es": "Gato",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104831",
+   "en": "Rabbit",
+   "es": "Conejo",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104832",
+   "en": "Fox",
+   "es": "Zorro",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104834",
+   "en": "Order Archer",
+   "es": "Arquero de la Orden",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105005",
+   "en": "Gimmick Door",
+   "es": "Puerta mecánica",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105039",
+   "en": "Fire Gigas",
+   "es": "Gigas de fuego",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105040",
+   "en": "Storm Gigas",
+   "es": "Gigas de tormenta",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105041",
+   "en": "Frost Gigas",
+   "es": "Gigas de escarcha",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105044",
+   "en": "Crystal Ball",
+   "es": "Bola de cristal",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105045",
+   "en": "Herb",
+   "es": "Hierba",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105046",
+   "en": "Herb",
+   "es": "Hierba",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105047",
+   "en": "Herb",
+   "es": "Hierba",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105048",
+   "en": "Club",
+   "es": "Garrote",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105699",
+   "en": "Burguss Minister",
+   "es": "Ministro burguss",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105797",
+   "en": "Wyvern",
+   "es": "Guiverno",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105798",
+   "en": "Forest Rachnuvus",
+   "es": "Rachnuvus del bosque",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105799",
+   "en": "Tiger Rachnuvus",
+   "es": "Rachnuvus tigre",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105863",
+   "en": "Nolaan/Sapran (Ruined)",
+   "es": "Nolaan/Sapran (ruinas)",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105864",
+   "en": "Nolaan/Sapran (Normal)",
+   "es": "Nolaan/Sapran (normal)",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105867",
+   "en": "Port Zala",
+   "es": "Puerto Zala",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105868",
+   "en": "Port Constanza",
+   "es": "Puerto Constanza",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105871",
+   "en": "Luce Plains",
+   "es": "Llanuras de Luce",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105872",
+   "en": "Oradian Dunes",
+   "es": "Dunas Oradianas",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105873",
+   "en": "Sea - lsland of the Chain",
+   "es": "Mar: Isla de la Cadena",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105874",
+   "en": "Cobasna Timberlands",
+   "es": "Bosque de Cobasna",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105875",
+   "en": "Forbidden Land",
+   "es": "Tierra Prohibida",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105876",
+   "en": "Lintz Highland/judgment Peak",
+   "es": "Altiplano de Lintz/Pico del Juicio",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105877",
+   "en": "Pieria Marshlands/Boros Highlands",
+   "es": "Marismas de Pieria/Tierras de Boros",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105878",
+   "en": "Burguss Palace",
+   "es": "Palacio de Burguss",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105879",
+   "en": "Fayel Palace",
+   "es": "Palacio de Fayel",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105880",
+   "en": "Halgitian Castle",
+   "es": "Castillo Halgitiano",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105881",
+   "en": "Kolton Castle",
+   "es": "Castillo de Kolton",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105882",
+   "en": "Ryner Fortess",
+   "es": "Fortaleza de Ryner",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105883",
+   "en": "Casandra Underwater Palace",
+   "es": "Palacio Submarino de Casandra",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105884",
+   "en": "Lunar Sanctuary",
+   "es": "Santuario Lunar",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105885",
+   "en": "Dragonbone Shrine",
+   "es": "Santuario Hueso de Dragón",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105886",
+   "en": "Plodhif Caverns/Dais Plateau",
+   "es": "Cavernas de Plodhif/Altiplano",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105887",
+   "en": "Castle Prevant",
+   "es": "Castillo Prevant",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105888",
+   "en": "Vesplume Tower",
+   "es": "Torre de Vesplume",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105889",
+   "en": "Castle Valette",
+   "es": "Castillo Valette",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105890",
+   "en": "Vinphen Mountain",
+   "es": "Montaña Vinphen",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105891",
+   "en": "Seraphic Gate",
+   "es": "Puerta Seráfica",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105892",
+   "en": "Aerial Fortress",
+   "es": "Fortaleza Aérea",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105893",
+   "en": "Normal Battle 2",
+   "es": "Batalla normal 2",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105899",
+   "en": "Victory",
+   "es": "Victoria",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105900",
+   "en": "Loss (Game Over)",
+   "es": "Derrota (Fin del juego)",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106018",
+   "en": "Brown Drogo Warrior",
+   "es": "Guerrero drogo pardo",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106019",
+   "en": "Blue Drogo Warrior",
+   "es": "Guerrero drogo azul",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106020",
+   "en": "Lumper King",
+   "es": "Rey lumper",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106021",
+   "en": "Lumper Duke",
+   "es": "Duque lumper",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106022",
+   "en": "Lumper Mar@uis",
+   "es": "Marqués lumper",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106023",
+   "en": "Lumper Count",
+   "es": "Conde lumper",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106024",
+   "en": "Lumper Baron",
+   "es": "Barón lumper",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106025",
+   "en": "Veld the Evil Eye",
+   "es": "Veld, el Ojo Maligno",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106026",
+   "en": "Atro the Cursed Eye",
+   "es": "Atro, el Ojo Maldito",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106028",
+   "en": "Killer Wasp",
+   "es": "Avispa asesina",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106029",
+   "en": "Queen Wasp",
+   "es": "Avispa reina",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106030",
+   "en": "juggernaut Centipede",
+   "es": "Ciempiés demoledor",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106031",
+   "en": "Fleshbiter",
+   "es": "Mordecarne",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106032",
+   "en": "Wendigo",
+   "es": "Wendigo",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106033",
+   "en": "Dire Wolf",
+   "es": "Lobo atroz",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106034",
+   "en": "Swamp Serpent",
+   "es": "Sierpe del pantano",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106035",
+   "en": "Lava Glutton",
+   "es": "Glotón de lava",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106036",
+   "en": "Gremlinfish",
+   "es": "Pez gremlin",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106040",
+   "en": "Stoneshell Crab",
+   "es": "Cangrejo petrificado",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106041",
+   "en": "Miragebeak",
+   "es": "Picomiraje",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106042",
+   "en": "Dune Harpy",
+   "es": "Arpía de la duna",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106043",
+   "en": "Avalanche Harpy",
+   "es": "Arpía alud",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106044",
+   "en": "Quetzalcoatl",
+   "es": "Quetzalcóatl",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106045",
+   "en": "Quetzalcoatl",
+   "es": "Quetzalcóatl",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106046",
+   "en": "Te@uilo",
+   "es": "Tequilo",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106047",
+   "en": "Alraune",
+   "es": "Alraune",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106048",
+   "en": "Mandragora",
+   "es": "Mandrágora",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106049",
+   "en": "Crystal Gargoyle",
+   "es": "Gárgola de cristal",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106050",
+   "en": "Crystal Gargoyle",
+   "es": "Gárgola de cristal",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106052",
+   "en": "Skull Warrior",
+   "es": "Guerrero calavera",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106053",
+   "en": "Greed",
+   "es": "Codicia",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106054",
+   "en": "Wrath",
+   "es": "Ira",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106055",
+   "en": "Taras@ue",
+   "es": "Tarasca",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106056",
+   "en": "Peluda",
+   "es": "Peluda",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106057",
+   "en": "Seaspawn",
+   "es": "Engendro marino",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106058",
+   "en": "Leviathan",
+   "es": "Leviatán",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106059",
+   "en": "Flying Sword",
+   "es": "Espada voladora",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106060",
+   "en": "Order Follower",
+   "es": "Secuaz de la Orden",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106061",
+   "en": "Order Fighter",
+   "es": "Luchador de la Orden",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106062",
+   "en": "Order Warrior",
+   "es": "Guerrero de la Orden",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106063",
+   "en": "Order Fencer",
+   "es": "Esgrimista de la Orden",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106064",
+   "en": "Order Expert",
+   "es": "Experto de la Orden",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106065",
+   "en": "Order Master",
+   "es": "Maestro de la Orden",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106066",
+   "en": "Order Expert",
+   "es": "Experto de la Orden",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106067",
+   "en": "Order Markswoman",
+   "es": "Tiradora de la Orden",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106068",
+   "en": "Order Ranger",
+   "es": "Guardabosque de la Orden",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106069",
+   "en": "Order Sharpshooter",
+   "es": "Francotirador de la Orden",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106070",
+   "en": "Order Sniper",
+   "es": "Tirador de élite",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106071",
+   "en": "Order Conjurer",
+   "es": "Conjurador de la Orden",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106072",
+   "en": "Order Witch",
+   "es": "Bruja de la Orden",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106073",
+   "en": "Order Mage",
+   "es": "Mago de la Orden",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106074",
+   "en": "Order Bomber",
+   "es": "Bombardero de la Orden",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106075",
+   "en": "Order Sorceress",
+   "es": "Hechicera de la Orden",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106091",
+   "en": "Vermified Held",
+   "es": "Held vermiforme",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106099",
+   "en": "Dog",
+   "es": "Perro",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106100",
+   "en": "Dog",
+   "es": "Perro",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106102",
+   "en": "Cat",
+   "es": "Gato",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106103",
+   "en": "Cat",
+   "es": "Gato",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106104",
+   "en": "Cat",
+   "es": "Gato",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106105",
+   "en": "Rabbit",
+   "es": "Conejo",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106106",
+   "en": "Mouse",
+   "es": "Ratón",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106108",
+   "en": "Cow",
+   "es": "Vaca",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106109",
+   "en": "Fox",
+   "es": "Zorro",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106111",
+   "en": "Fish",
+   "es": "Pez",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106112",
+   "en": "Middle-aged Burguss Man A",
+   "es": "Burguss de mediana edad A",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106113",
+   "en": "Middle-aged Fayel Man A",
+   "es": "Fayel de mediana edad A",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106114",
+   "en": "Middle-aged Halgitian Man",
+   "es": "Halgitiano de mediana edad",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106115",
+   "en": "Middle-aged Halgitian Man A",
+   "es": "Halgitiano de mediana edad A",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106116",
+   "en": "Middle-aged Kolton Man",
+   "es": "Kolton de mediana edad",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106117",
+   "en": "Middle-aged Kolton Man A",
+   "es": "Kolton de mediana edad A",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106118",
+   "en": "Middle-aged Unblessed Man",
+   "es": "No bendito de mediana edad",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106120",
+   "en": "Fayel Boy",
+   "es": "Niño de Fayel",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106121",
+   "en": "Halgitian Boy",
+   "es": "Niño halgitiano",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106122",
+   "en": "Kolton Boy",
+   "es": "Niño de Kolton",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106123",
+   "en": "Unblessed Boy",
+   "es": "Niño no bendito",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106124",
+   "en": "Old Burguss Man A",
+   "es": "Burguss anciano A",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106125",
+   "en": "Old Fayel Man",
+   "es": "Fayel anciano",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106127",
+   "en": "Old Halgitian Man",
+   "es": "Halgitiano anciano",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106129",
+   "en": "Old Kolton Man",
+   "es": "Kolton anciano",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106131",
+   "en": "Old Unblessed Man",
+   "es": "No bendito anciano",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106133",
+   "en": "Burguss Soldier (M)",
+   "es": "Soldado burguss (H)",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106134",
+   "en": "Fayel Soldier (M)",
+   "es": "Soldado de Fayel (H)",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106135",
+   "en": "Halgita Soldier (M)",
+   "es": "Soldado halgitiano (H)",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106136",
+   "en": "Kolton Soldier (M)",
+   "es": "Soldado de Kolton (H)",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106137",
+   "en": "Burguss Aristo Man",
+   "es": "Aristócrata burguss",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106138",
+   "en": "Fayel Aristo Man",
+   "es": "Aristócrata de Fayel",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106139",
+   "en": "Halgitian Aristo Man",
+   "es": "Aristócrata halgitiano",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106140",
+   "en": "Kolton Aristo Man",
+   "es": "Aristócrata de Kolton",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106141",
+   "en": "Fayel Minister",
+   "es": "Ministro de Fayel",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106142",
+   "en": "Halgitian Minister",
+   "es": "Ministro halgitiano",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106143",
+   "en": "Kolton Minister",
+   "es": "Ministro de Kolton",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106144",
+   "en": "Burguss Priest",
+   "es": "Sacerdote burguss",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106145",
+   "en": "Fayel Priest",
+   "es": "Sacerdote de Fayel",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106146",
+   "en": "Halgitian Priest",
+   "es": "Sacerdote halgitiano",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106147",
+   "en": "Kolton Priest",
+   "es": "Sacerdote de Kolton",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106151",
+   "en": "Fisherman",
+   "es": "Pescador",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106152",
+   "en": "Middle-aged Burguss Woman A",
+   "es": "Burguss de mediana edad (mujer) A",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106153",
+   "en": "Middle-aged Fayel Woman A",
+   "es": "Fayel de mediana edad (mujer) A",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106154",
+   "en": "Middle-aged Halgitian Woman A",
+   "es": "Halgitiana de mediana edad A",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106155",
+   "en": "Middle-aged Kolton Woman",
+   "es": "Kolton de mediana edad (mujer)",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106157",
+   "en": "Middle-aged Unblessed Woman",
+   "es": "No bendita de mediana edad",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106159",
+   "en": "Old Burguss Woman A",
+   "es": "Burguss anciana A",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106160",
+   "en": "Old Fayle Woman",
+   "es": "Fayel anciana",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106162",
+   "en": "Old Halgitian Woman",
+   "es": "Halgitiana anciana",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106164",
+   "en": "Old Kolton Woman",
+   "es": "Kolton anciana",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106166",
+   "en": "Old Unblessed Woman",
+   "es": "No bendita anciana",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106168",
+   "en": "Fayel Girl",
+   "es": "Niña de Fayel",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106169",
+   "en": "Halgitian Girl",
+   "es": "Niña halgitiana",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106170",
+   "en": "Kolton Girl",
+   "es": "Niña de Kolton",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106171",
+   "en": "Unblessed Girl",
+   "es": "Niña no bendita",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106172",
+   "en": "Fayel Soldier (F)",
+   "es": "Soldado de Fayel (M)",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106173",
+   "en": "Halgita Soldier (F)",
+   "es": "Soldado halgitiano (M)",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106174",
+   "en": "Kolton Soldier (F)",
+   "es": "Soldado de Kolton (M)",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106175",
+   "en": "Burguss Aristo Female",
+   "es": "Aristócrata burguss (mujer)",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106176",
+   "en": "Fayel Aristo Female",
+   "es": "Aristócrata de Fayel (mujer)",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106177",
+   "en": "Halgitian Aristo Female",
+   "es": "Aristócrata halgitiana",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106178",
+   "en": "Kolton Aristo Female",
+   "es": "Aristócrata de Kolton (mujer)",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106180",
+   "en": "Waitress",
+   "es": "Camarera",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106181",
+   "en": "Catapult",
+   "es": "Catapulta",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106182",
+   "en": "Catapult Rock",
+   "es": "Roca de catapulta",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106195",
+   "en": "Gabriel Celeste",
+   "es": "Gabriel Celeste",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106196",
+   "en": "Ethereal Queen",
+   "es": "Reina Etérea",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106197",
+   "en": "Bird",
+   "es": "Pájaro",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106201",
+   "en": "Young Burguss Man A",
+   "es": "Joven burguss A",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106202",
+   "en": "Young Fayel Man",
+   "es": "Joven de Fayel",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106204",
+   "en": "Young Halgitian Man",
+   "es": "Joven halgitiano",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106206",
+   "en": "Young Kolton Man",
+   "es": "Joven de Kolton",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106208",
+   "en": "Young Unblessed Man",
+   "es": "Joven no bendito",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106210",
+   "en": "Young Burguss Woman A",
+   "es": "Joven burguss (mujer) A",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106211",
+   "en": "Young Fayel Woman",
+   "es": "Joven de Fayel (mujer)",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106213",
+   "en": "Young Halgitian Woman",
+   "es": "Joven halgitiana",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106215",
+   "en": "Young Kolton Woman",
+   "es": "Joven de Kolton (mujer)",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106217",
+   "en": "Young Unblessed Woman",
+   "es": "Joven no bendita",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106219",
+   "en": "Zalan Coast",
+   "es": "Costa de Zala",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106424",
+   "en": "Mantifish",
+   "es": "Pezmantis",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106425",
+   "en": "Breakwater Rock",
+   "es": "Rompeolas",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106427",
+   "en": "Shipwreck",
+   "es": "Pecio",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106445",
+   "en": "Barricade",
+   "es": "Barricada",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106461",
+   "en": "Capell Carrying Aya",
+   "es": "Capell cargando a Aya",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106487",
+   "en": "Exploding Barrel",
+   "es": "Barril explosivo",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106488",
+   "en": "Torch",
+   "es": "Antorcha",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106489",
+   "en": "Gigas Launcher",
+   "es": "Lanzagigas",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106502",
+   "en": "Bunch of Keys",
+   "es": "Manojo de llaves",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106503",
+   "en": "Tent",
+   "es": "Tienda",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106504",
+   "en": "Campfire",
+   "es": "Hoguera",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106519",
+   "en": "True Capell",
+   "es": "Capell auténtico",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106540",
+   "en": "Vermified Edward",
+   "es": "Edward vermiforme",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106541",
+   "en": "Twins, Mother",
+   "es": "Madre de los gemelos",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106544",
+   "en": "Sawadir",
+   "es": "Sawadir",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106547",
+   "en": "Shackles",
+   "es": "Grilletes",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106560",
+   "en": "Veros Dais",
+   "es": "Estrado de Veros",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106561",
+   "en": "Vesplume Tower",
+   "es": "Torre de Vesplume",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106573",
+   "en": "Formerly Dressed Aya",
+   "es": "Aya con su ropa anterior",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106574",
+   "en": "Aerry",
+   "es": "Aerry",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106575",
+   "en": "Pyrool",
+   "es": "Pyrool",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106576",
+   "en": "Geogar",
+   "es": "Geogar",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106577",
+   "en": "Astrogul",
+   "es": "Astrogul",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106578",
+   "en": "Hydrake",
+   "es": "Hydrake",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106804",
+   "en": "Crystal",
+   "es": "Cristal",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106862",
+   "en": "Firewood",
+   "es": "Leña",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106863",
+   "en": "Meal",
+   "es": "Comida",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106864",
+   "en": "Spoon",
+   "es": "Cuchara",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106865",
+   "en": "Fork",
+   "es": "Tenedor",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106889",
+   "en": "EVE_049_Kettle",
+   "es": "Tetera",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106939",
+   "en": "Soulcrusher",
+   "es": "Rompealmas",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106940",
+   "en": "Lifestealer",
+   "es": "Robavidas",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106941",
+   "en": "Garm",
+   "es": "Garm",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106942",
+   "en": "Swordtail Viper",
+   "es": "Víbora colaespada",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106943",
+   "en": "lnferno Glutton",
+   "es": "Glotón infernal",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106944",
+   "en": "Rockshell Crab",
+   "es": "Cangrejo rocoso",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106945",
+   "en": "lron Box Mimic",
+   "es": "Mímico caja de hierro",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106946",
+   "en": "lron Chest Mimic",
+   "es": "Mímico cofre de hierro",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106947",
+   "en": "Gold Chest Mimic",
+   "es": "Mímico cofre de oro",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106948",
+   "en": "jeweled Cabinet Mimic",
+   "es": "Mímico arcón enjoyado",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106949",
+   "en": "Fountainbeak",
+   "es": "Picofuente",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106950",
+   "en": "Burning Lantern",
+   "es": "Farol ardiente",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106954",
+   "en": "Order Private",
+   "es": "Soldado raso de la Orden",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106955",
+   "en": "Order Soldier",
+   "es": "Soldado de la Orden",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106956",
+   "en": "Order Officer",
+   "es": "Oficial de la Orden",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106957",
+   "en": "Order Adept",
+   "es": "Adepto de la Orden",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106958",
+   "en": "Vermiform",
+   "es": "Vermiforme",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106960",
+   "en": "Vermiform",
+   "es": "Vermiforme",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106962",
+   "en": "Vermiform",
+   "es": "Vermiforme",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106963",
+   "en": "Vermiform",
+   "es": "Vermiforme",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106964",
+   "en": "Vermiform",
+   "es": "Vermiforme",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106965",
+   "en": "Vermiform",
+   "es": "Vermiforme",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106968",
+   "en": "Mirror",
+   "es": "Espejo",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106970",
+   "en": "Projector",
+   "es": "Proyector",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106979",
+   "en": "Capell (Baby)",
+   "es": "Capell (bebé)",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106981",
+   "en": "Capell (Child)",
+   "es": "Capell (niño)",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106983",
+   "en": "Edward (Child)",
+   "es": "Edward (niño)",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106984",
+   "en": "Leonid (Child)",
+   "es": "Leonid (niño)",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106985",
+   "en": "Edward (Young Man)",
+   "es": "Edward (joven)",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106986",
+   "en": "Edward,s Mother",
+   "es": "Madre de Edward",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106987",
+   "en": "Edward,s Father",
+   "es": "Padre de Edward",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107006",
+   "en": "Web",
+   "es": "Telaraña",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107109",
+   "en": "Sigmund (Child)",
+   "es": "Sigmund (niño)",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107110",
+   "en": "Sigmund (Baby)",
+   "es": "Sigmund (bebé)",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107114",
+   "en": "Chainspike",
+   "es": "Cadena con púas",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107149",
+   "en": "Fruit",
+   "es": "Fruta",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107151",
+   "en": "Gargoyle Statue",
+   "es": "Estatua de gárgola",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107152",
+   "en": "Combclaw Centipede",
+   "es": "Ciempiés peine",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107178",
+   "en": "Nest",
+   "es": "Nido",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107180",
+   "en": "Tornado",
+   "es": "Tornado",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107195",
+   "en": "Rib Forager",
+   "es": "Recolector de costillas",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107198",
+   "en": "Faesphere",
+   "es": "Esfera feérica",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107655",
+   "en": "Nest",
+   "es": "Nido",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107666",
+   "en": "Shadow Capell",
+   "es": "Capell Sombrío",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107676",
+   "en": "Seraphic Gate",
+   "es": "Puerta Seráfica",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107709",
+   "en": "Ending Map",
+   "es": "Mapa final",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107715",
+   "en": "Start Screen",
+   "es": "Pantalla inicial",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107785",
+   "en": "Seated Middle-aged Man",
+   "es": "Hombre de mediana edad sentado",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107786",
+   "en": "Seated Young Man",
+   "es": "Joven sentado",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107787",
+   "en": "Seated Old Man",
+   "es": "Anciano sentado",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107788",
+   "en": "Seated Boy",
+   "es": "Niño sentado",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107789",
+   "en": "Seated Middle-aged Woman",
+   "es": "Mujer de mediana edad sentada",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107790",
+   "en": "Seated Young Woman",
+   "es": "Joven sentada",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107791",
+   "en": "Seated Old Woman",
+   "es": "Anciana sentada",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107792",
+   "en": "Seated Girl",
+   "es": "Niña sentada",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107793",
+   "en": "Seated Male Soldier",
+   "es": "Soldado sentado",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107794",
+   "en": "Seated Female Soldier",
+   "es": "Soldado (mujer) sentada",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107795",
+   "en": "Seated Male Aristo",
+   "es": "Aristócrata sentado",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107796",
+   "en": "Seated Female Aristo",
+   "es": "Aristócrata (mujer) sentada",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107797",
+   "en": "Seated Minister",
+   "es": "Ministro sentado",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107798",
+   "en": "Seated Fisherman",
+   "es": "Pescador sentado",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107799",
+   "en": "Seated Shopkeeper",
+   "es": "Tendero sentado",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107800",
+   "en": "Seated Waitress",
+   "es": "Camarera sentada",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107801",
+   "en": "Seated Priest",
+   "es": "Sacerdote sentado",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107802",
+   "en": "Male Carpenter",
+   "es": "Carpintero",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107803",
+   "en": "Female Carpenter",
+   "es": "Carpintera",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107843",
+   "en": "Cerulean Link",
+   "es": "Eslabón cerúleo",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107844",
+   "en": "Amber Link",
+   "es": "Eslabón ámbar",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107845",
+   "en": "Ashen Link",
+   "es": "Eslabón ceniciento",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107861",
+   "en": "Leonid Without Chains",
+   "es": "Leonid sin cadenas",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107943",
+   "en": "Blue Drogo Warrior",
+   "es": "Guerrero drogo azul",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107944",
+   "en": "Green Drogo Chief",
+   "es": "Jefe drogo verde",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107945",
+   "en": "Fountainbeak",
+   "es": "Picofuente",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107946",
+   "en": "Dune Harpy",
+   "es": "Arpía de la duna",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107947",
+   "en": "Storm Gigas",
+   "es": "Gigas de tormenta",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107948",
+   "en": "Frost Gigas",
+   "es": "Gigas de escarcha",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107949",
+   "en": "Hill Gigas",
+   "es": "Gigas de las colinas",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107950",
+   "en": "Swordtail Viper",
+   "es": "Víbora colaespada",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107951",
+   "en": "Mantifish",
+   "es": "Pezmantis",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107952",
+   "en": "Te@uilo",
+   "es": "Tequilo",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107953",
+   "en": "Lava Glutton",
+   "es": "Glotón de lava",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107954",
+   "en": "Queen Wasp",
+   "es": "Avispa reina",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107955",
+   "en": "Pebbleshell Crab",
+   "es": "Cangrejo Caparazón",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107956",
+   "en": "Garm",
+   "es": "Garm",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107957",
+   "en": "Scissorclaw Centipede",
+   "es": "Ciempiés tijera",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107958",
+   "en": "Lifestealer",
+   "es": "Robavidas",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107959",
+   "en": "Narbear",
+   "es": "Narbear",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107960",
+   "en": "Forest Rachnuvus",
+   "es": "Rachnuvus del bosque",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107961",
+   "en": "Larva",
+   "es": "Larva",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107962",
+   "en": "Flying Sword",
+   "es": "Espada voladora",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107963",
+   "en": "Dancing Crossbow",
+   "es": "Ballesta danzante",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107964",
+   "en": "Burning Lantern",
+   "es": "Farol ardiente",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107965",
+   "en": "Skull Soldier",
+   "es": "Soldado calavera",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107966",
+   "en": "Skull Knight",
+   "es": "Caballero calavera",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107967",
+   "en": "Faesphere",
+   "es": "Esfera feérica",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107968",
+   "en": "Order Officer",
+   "es": "Oficial de la Orden",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107969",
+   "en": "Order Ranger",
+   "es": "Guardabosque de la Orden",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107970",
+   "en": "Order Sorceress",
+   "es": "Hechicera de la Orden",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107973",
+   "en": "Fire Gigas",
+   "es": "Gigas de fuego",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107974",
+   "en": "Halgita Soldier (M)",
+   "es": "Soldado halgitiano (H)",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107975",
+   "en": "Halgita Soldier (F)",
+   "es": "Soldado halgitiano (M)",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "108019",
+   "en": "Fayel",
+   "es": "Fayel",
+   "ctx": "nombres"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "108073",
+   "en": "Barricade",
+   "es": "Barricada",
+   "ctx": "nombres"
+  }
+ ]
+}

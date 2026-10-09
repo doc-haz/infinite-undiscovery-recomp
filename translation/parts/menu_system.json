@@ -1,0 +1,3823 @@
+{
+ "meta": {
+  "agente": "ws3",
+  "ctx": "menu"
+ },
+ "strings": [
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "1",
+   "en": " ",
+   "es": " ",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "3",
+   "en": "lNVALlD HANDLE",
+   "es": "ASA INVALIDA",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "4",
+   "en": "UNKNOWN CHARACTER",
+   "es": "DESCONOCIDO",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "23",
+   "en": "UNKNOWN CHARACTER",
+   "es": "DESCONOCIDO",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "44",
+   "en": "%",
+   "es": "%",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "45",
+   "en": "PRESS START",
+   "es": "Pulsa Start",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "46",
+   "en": "New Game",
+   "es": "Nueva part",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "47",
+   "en": "Continue",
+   "es": "Continuar",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "48",
+   "en": "Options",
+   "es": "Opciones",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "50",
+   "en": "Easy",
+   "es": "Fácil",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "51",
+   "en": "Normal",
+   "es": "Normal",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "52",
+   "en": "Hard",
+   "es": "Difícil",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "53",
+   "en": "lnfinity",
+   "es": "Infinito",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "54",
+   "en": "lf you start playing without signing in.you will be unable to save your progress,Continue anyway.",
+   "es": "Si juegas sin iniciar sesión, no podrás guardar. ¿Continuar?",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "56",
+   "en": "Hit",
+   "es": "Gol",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "57",
+   "en": "Aerial",
+   "es": "Aéreo",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "58",
+   "en": "?own",
+   "es": "Caída",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "59",
+   "en": "Good",
+   "es": "Bien",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "60",
+   "en": "Great",
+   "es": "Gran",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "61",
+   "en": "Excellent!",
+   "es": "¡Excelente!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "62",
+   "en": "Dnbelievable!",
+   "es": "¡Increíble!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "63",
+   "en": "Survival!",
+   "es": "¡Superado!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "64",
+   "en": "↓ltem↓",
+   "es": "Objeto",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "65",
+   "en": "Level Up!",
+   "es": "¡Nivel+!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "66",
+   "en": "----",
+   "es": "----",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "67",
+   "en": "Door",
+   "es": "Puerta",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "68",
+   "en": "lt,s locked,",
+   "es": "Cerrado.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "69",
+   "en": "Unlocked!",
+   "es": "¡Abierto!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "74",
+   "en": "Obtains",
+   "es": "Obtiene",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "75",
+   "en": " Fol!",
+   "es": "¡Fol!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "76",
+   "en": "lt,s empty,",
+   "es": "Vacío.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "77",
+   "en": "Uses",
+   "es": "Usa",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "78",
+   "en": "Level increases to ",
+   "es": "Nivel sube a ",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "79",
+   "en": "!",
+   "es": "!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "80",
+   "en": "Learns ",
+   "es": "Gana ",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "81",
+   "en": " effect wears off!",
+   "es": " efecto acabó",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "82",
+   "en": " effect is added!",
+   "es": " efecto +",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "83",
+   "en": "Disarms the ",
+   "es": "Desarma ",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "84",
+   "en": "lt,s locked,",
+   "es": "Cerrado.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "85",
+   "en": "Unlocks the treasure chest!",
+   "es": "¡Abre el cofre!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "86",
+   "en": "Falls in battle!",
+   "es": "¡Al suelo!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "87",
+   "en": "Becomes ",
+   "es": "Queda ",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "88",
+   "en": " is unlocked!",
+   "es": " ¡abierto!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "89",
+   "en": " changes!",
+   "es": " varía!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "90",
+   "en": "Everybody,s full!",
+   "es": "¡Todos llenos!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "91",
+   "en": "Feels hungry,",
+   "es": "Hambriento.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "92",
+   "en": "Steals",
+   "es": "Roba",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "93",
+   "en": "Begins item creation,,,",
+   "es": "Creando objeto",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "94",
+   "en": "ltem creation successful!",
+   "es": "¡Objeto creado!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "95",
+   "en": "ltem creation failed!",
+   "es": "¡Creación fallida!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "96",
+   "en": "lt,s a trap!",
+   "es": "¡Trampa!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "97",
+   "en": "Disarms Chest Trap!",
+   "es": "¡Desarmada!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "98",
+   "en": "asleep",
+   "es": "Sueño",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "99",
+   "en": "poisoned",
+   "es": "Veneno",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "100",
+   "en": "cursed",
+   "es": "Maldito",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "101",
+   "en": "confused",
+   "es": "Confuso",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "102",
+   "en": "paralyzed",
+   "es": "Parálisis",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "103",
+   "en": "frozen",
+   "es": "Helado",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "104",
+   "en": "unseeing",
+   "es": "Ciego",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "105",
+   "en": "unhearing",
+   "es": "Sordo",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "106",
+   "en": "unsmelling",
+   "es": "no huele",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "107",
+   "en": "stinky",
+   "es": "Peste",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "108",
+   "en": "charmed",
+   "es": "Hechizo",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "109",
+   "en": "untasting",
+   "es": "insípido",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "110",
+   "en": "berserked",
+   "es": "Furioso",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "111",
+   "en": "Gas",
+   "es": "Gas",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "112",
+   "en": "Siren",
+   "es": "Sirena",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "113",
+   "en": "Bomb",
+   "es": "Bomba",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "114",
+   "en": "AP drops to zero!Unable to guard and open to critical hits from enemies!",
+   "es": "¡PA a cero!\n¡Sin defensa y abierto a críticos!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "115",
+   "en": "lnfinite AP!All hits are critical and unblockable!",
+   "es": "¡PA infinito!\n¡Golpes críticos e imparables!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "117",
+   "en": "TARGET",
+   "es": "BLANCO",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "118",
+   "en": "HP",
+   "es": "PV",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "119",
+   "en": "MP",
+   "es": "PM",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "120",
+   "en": "Oyerkill",
+   "es": "Exceso",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "121",
+   "en": "Gate",
+   "es": "Puerta",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "122",
+   "en": "???",
+   "es": "???",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "123",
+   "en": "Shoot",
+   "es": "Tiro",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "124",
+   "en": "Cancel",
+   "es": "Anular",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "125",
+   "en": "Load Data",
+   "es": "Cargar",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "126",
+   "en": "Title Screen",
+   "es": "Título",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "128",
+   "en": "Fight freely!",
+   "es": "¡Luchad!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "129",
+   "en": "Work together!",
+   "es": "¡En equipo!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "130",
+   "en": "Focus on one target!",
+   "es": "¡A por uno!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "131",
+   "en": "Spread out!",
+   "es": "¡Dispersaos!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "132",
+   "en": "Wait here!",
+   "es": "¡Esperad!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "133",
+   "en": "Preserve your MP!",
+   "es": "¡Ahorrad PM!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "134",
+   "en": "Silence",
+   "es": "Silencio",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "135",
+   "en": "Unseeing",
+   "es": "Ceguera",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "136",
+   "en": "Unhearing",
+   "es": "Sordera",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "137",
+   "en": "Unsmelling",
+   "es": "sin olfato",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "138",
+   "en": "Steal",
+   "es": "Roba",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "139",
+   "en": "Weakness Up",
+   "es": "Debilidad +",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "140",
+   "en": "Trip",
+   "es": "Tro.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "141",
+   "en": "Doom",
+   "es": "Ruina",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "142",
+   "en": "Steals",
+   "es": "Roba",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "143",
+   "en": "Command",
+   "es": "Orden",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "144",
+   "en": "Release",
+   "es": "Soltar",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "145",
+   "en": "Throw",
+   "es": "Tirar",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "146",
+   "en": "Charge and Release",
+   "es": "Carga y suelta",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "147",
+   "en": "Multislash",
+   "es": "Multicorte",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "148",
+   "en": "Dismount",
+   "es": "Bajar",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "149",
+   "en": "Play Time",
+   "es": "Tiempo",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "150",
+   "en": "-",
+   "es": "-",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "151",
+   "en": ":",
+   "es": ":",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "152",
+   "en": "This game is a work of fiction,Any similarities to actual people. locations. organizations.and events are purely coincidental,",
+   "es": "Este juego es ficción. Cualquier parecido con personas, lugares, organizaciones o hechos reales es pura coincidencia.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "153",
+   "en": "You are not signed in,To save your progress. you must be signed in,Will you sign in.lf you select \"No.\" you will be unable to save,",
+   "es": "No has iniciado sesión. Para guardar el progreso debes iniciar sesión. ¿Iniciar? Si eliges «No», no podrás guardar.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "154",
+   "en": "There is no storage device selected,To save your progress. you must select a storage device,Select a storage device.lf you select \"No.\" you will be unable to save,",
+   "es": "No hay dispositivo de almacenamiento. Para guardar debes elegir uno. ¿Elegir? Si eliges «No», no podrás guardar.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "155",
+   "en": "The selected storage device does not have sufficient free space,Will you select another storage device.lf you select \"No.\" you will be unable to save,",
+   "es": "El dispositivo no tiene espacio libre suficiente. ¿Elegir otro? Si eliges «No», no podrás guardar.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "156",
+   "en": "The selected storage device does notcontain any lnfinite Undiscovery save data,Will you select another storage device.lf you select \"No.\" you will return to the main menu,",
+   "es": "El dispositivo no contiene datos de Infinite Undiscovery. ¿Elegir otro? Si eliges «No», volverás al menú.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "157",
+   "en": "Signed out of profile,Return to the title screen,",
+   "es": "Sesión cerrada. Vuelve al título.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "158",
+   "en": "The Xbox 360 Controllerhas been disconnected fromthe Xbox 360 console,",
+   "es": "El mando de Xbox 360 se ha desconectado.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "159",
+   "en": "Yes",
+   "es": "Sí",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "160",
+   "en": "No",
+   "es": "No",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "161",
+   "en": "Yes",
+   "es": "Sí",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "162",
+   "en": "No",
+   "es": "No",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "163",
+   "en": "The \"!\" icon will appear when detected,",
+   "es": "El icono ! sale al detectarlo.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "164",
+   "en": "Your vision will be impaired if the area is too dark,",
+   "es": "Verás peor si la zona está muy oscura.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "165",
+   "en": "You cannot search when your sword is drawn,",
+   "es": "No puedes buscar con la espada.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "166",
+   "en": "Focus",
+   "es": "Foco",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "167",
+   "en": "Spread",
+   "es": "Disp.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "168",
+   "en": "Change Page",
+   "es": "Cambiar",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "169",
+   "en": "Close Window",
+   "es": "Cerrar",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "170",
+   "en": "Load this data.lf you load this data. any unsavedchanges will be lost,",
+   "es": "Cargar estos datos. Se perderá el progreso sin guardar.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "171",
+   "en": "Start",
+   "es": "Inic.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "172",
+   "en": "Sign ln",
+   "es": "Entrar",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "173",
+   "en": "Obtains ",
+   "es": "Obtiene",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "174",
+   "en": "!",
+   "es": "!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "175",
+   "en": " trap!",
+   "es": " ¡trampa!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "176",
+   "en": "This mode is for players who are unaccustomed to action games,Some content is unavailable in this mode,Start the game in Easy mode.",
+   "es": "Modo para quien no juega a la acción. Hay contenido no disponible. Iniciar en Fácil.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "177",
+   "en": "This mode is for intermediate players,Most content is available in this mode,Start the game in Normal mode.",
+   "es": "Modo intermedio. Casi todo disponible. Iniciar en Normal.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "178",
+   "en": "This mode is for hardcore players,Most content is available in this mode,Start the game in Hard mode.",
+   "es": "Modo para expertos. Casi todo disponible. Iniciar en Difícil.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "179",
+   "en": "This mode is for unbelievably hardcore players,All content is available in this mode,Start the game in lnfinity mode.",
+   "es": "Modo extremo. Todo el contenido disponible. Iniciar en Infinito.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "180",
+   "en": "Failed to display save screen!",
+   "es": "¡Error de guardado!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "181",
+   "en": "Failed to display load screen!",
+   "es": "¡Error al mostrar carga!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "182",
+   "en": "You must be signed in to save game data! ",
+   "es": "¡Debes iniciar sesión para guardar!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "183",
+   "en": "You must be signed in to load game data! ",
+   "es": "¡Debes iniciar sesión para cargar!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "184",
+   "en": "The selected storage device does not have sufficient free space,Select another storage device or exit to the XboxDashboard and free up more space,",
+   "es": "El dispositivo no tiene espacio libre. Elige otro o libera espacio en el panel de Xbox.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "185",
+   "en": "You may not be able to save the game or unlockachievements without a storage device selected,Are you sure you want to continue.",
+   "es": "Sin dispositivo podrías no guardar ni lograr logros. ¿Seguro que quieres continuar?",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "186",
+   "en": "The current storage device has been disconnected,Please reconnect the storage device,",
+   "es": "El dispositivo actual se ha desconectado. Vuelve a conectarlo.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "187",
+   "en": "Save data could not be loaded becausethe file is corrupt,",
+   "es": "No se pudo cargar: el archivo está dañado.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "188",
+   "en": "Clear Data",
+   "es": "Borrar",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "189",
+   "en": "Please insert disc l,",
+   "es": "Inserta disco 1.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "190",
+   "en": "Please insert disc 2,",
+   "es": "Inserta disco 2.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "191",
+   "en": "This is disc l data,Do you want to switch to disc l.",
+   "es": "Son datos del disco 1. ¿Cambiar al disco 1?",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "192",
+   "en": "This is disc 2 data,Do you want to switch to disc 2.",
+   "es": "Son datos del disco 2. ¿Cambiar al disco 2?",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "193",
+   "en": "You will need disc l,Do you want to switch to disc l.",
+   "es": "Necesitas el disco 1. ¿Cambiar al disco 1?",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "194",
+   "en": ",,,",
+   "es": "...",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "195",
+   "en": "EXP +50%",
+   "es": "EXP+50%",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "196",
+   "en": "l00% Critical hit rate!",
+   "es": "¡100% de críticos!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "197",
+   "en": "Rare item drop rate up!",
+   "es": "¡Más objetos raros!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "198",
+   "en": "AP falls to zero!",
+   "es": "¡PA a cero!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "199",
+   "en": "l00% Susceptible to critical hits!",
+   "es": "¡100% vulnerable a críticos!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "200",
+   "en": "Dwindle",
+   "es": "Merma",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "201",
+   "en": "Could not load because the connection toXbox LlVE was lost,Retry.",
+   "es": "No se pudo cargar: se perdió la conexión con Xbox LIVE. Reintentar.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10000",
+   "en": "0",
+   "es": "0",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10001",
+   "en": "1",
+   "es": "1",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10002",
+   "en": "2",
+   "es": "2",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10003",
+   "en": "3",
+   "es": "3",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10004",
+   "en": "4",
+   "es": "4",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10005",
+   "en": "5",
+   "es": "5",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10006",
+   "en": "6",
+   "es": "6",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10007",
+   "en": "7",
+   "es": "7",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10008",
+   "en": "8",
+   "es": "8",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10009",
+   "en": "9",
+   "es": "9",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10010",
+   "en": ":",
+   "es": ":",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10011",
+   "en": "→",
+   "es": "→",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10012",
+   "en": "Weapon",
+   "es": "Arma",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10013",
+   "en": "Armor",
+   "es": "Armad.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10014",
+   "en": "Headwear",
+   "es": "Cabeza",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10015",
+   "en": "Boots",
+   "es": "Botas",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10016",
+   "en": "Accessory 1",
+   "es": "Accesorio 1",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10017",
+   "en": "Accessory 2",
+   "es": "Acc. 2",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10018",
+   "en": "Bonus",
+   "es": "Bonif.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10019",
+   "en": "Stats",
+   "es": "Atr.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10020",
+   "en": "Description",
+   "es": "Descripción",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10021",
+   "en": "Battle Skills",
+   "es": "Habs.combate",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10022",
+   "en": "Skill Data",
+   "es": "Datos",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10023",
+   "en": "Connect Action",
+   "es": "Acc. conexión",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10024",
+   "en": "Lv",
+   "es": "Nv",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10025",
+   "en": "Next",
+   "es": "Sig.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10026",
+   "en": "HP",
+   "es": "PV",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10027",
+   "en": "MP",
+   "es": "PM",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10028",
+   "en": "Pa『t\\ 4",
+   "es": "Gr. A",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10029",
+   "en": "Pa『t\\ B",
+   "es": "Gr. B",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10030",
+   "en": "Pa『t\\ C",
+   "es": "Gr. C",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10031",
+   "en": "岬1Dt\\",
+   "es": "Gr.D",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10032",
+   "en": "Leade『",
+   "es": "Líder",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10033",
+   "en": "Set",
+   "es": "Fijar",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10034",
+   "en": "Stats",
+   "es": "Atr.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10035",
+   "en": "Connect Actions",
+   "es": "Acc. conexión",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10036",
+   "en": "Connect Skills",
+   "es": "Hab.conexión",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10037",
+   "en": "Personal Skills",
+   "es": "Habs. propias",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10038",
+   "en": "Support Skills",
+   "es": "Habs. apoyo",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10039",
+   "en": "Attriのutes",
+   "es": "Atributos",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10040",
+   "en": "Bonus",
+   "es": "Bonif.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10041",
+   "en": "Description",
+   "es": "Descripción",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10042",
+   "en": "『ncカantment Bonus",
+   "es": "Bono encant.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10043",
+   "en": "戸ood Bonus",
+   "es": "Bono com.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10044",
+   "en": "7aどic Data",
+   "es": "Magia",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10045",
+   "en": "戸lute",
+   "es": "Flauta",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10046",
+   "en": "戸lute 7n了o",
+   "es": "Info.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10047",
+   "en": "HP ナ",
+   "es": "PV",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10048",
+   "en": "7P ナ",
+   "es": "PM",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10049",
+   "en": "ltems",
+   "es": "Objetos",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10050",
+   "en": "Magic",
+   "es": "Magia",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10051",
+   "en": "E@uipment",
+   "es": "Equipo",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10052",
+   "en": "Skills",
+   "es": "Habilidades",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10053",
+   "en": "Connect",
+   "es": "Conexión",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10054",
+   "en": "Flute Music",
+   "es": "Música",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10055",
+   "en": "Creation",
+   "es": "Creación",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10056",
+   "en": "Status",
+   "es": "Estado",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10057",
+   "en": "Map",
+   "es": "Map.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10058",
+   "en": "Party",
+   "es": "Grupo",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10059",
+   "en": "Options",
+   "es": "Opc.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10060",
+   "en": "Data",
+   "es": "Dat.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10061",
+   "en": "Select an item to use,",
+   "es": "Elige un objeto.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10062",
+   "en": "Assign skills,",
+   "es": "Pon habilidades.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10063",
+   "en": "Set and change e@uipment,",
+   "es": "Equipa y cambia.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10064",
+   "en": "Create items and use enchantments,",
+   "es": "Crea objetos y encanta.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10065",
+   "en": "Display characters status,",
+   "es": "Mira el estado.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10066",
+   "en": "View the map,",
+   "es": "Ver mapa.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10067",
+   "en": "Set and replace party members,",
+   "es": "Cambia el grupo.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10068",
+   "en": "Modify game settings,",
+   "es": "Ajusta opciones.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10069",
+   "en": "Talk to party members,",
+   "es": "Habla al grupo.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10070",
+   "en": "Set battle skills,",
+   "es": "Pon combate.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10071",
+   "en": "Set Connect actions (CA),",
+   "es": "Pon accs. conexión.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10072",
+   "en": "Set flute music,",
+   "es": "Pon música.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10073",
+   "en": "Set the fre@uency of character magic usage,",
+   "es": "Ajusta el uso de magia.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10074",
+   "en": "Display personal skills,",
+   "es": "Mira habs. propias.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10075",
+   "en": "Perform item creation,",
+   "es": "Crea objetos.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10076",
+   "en": "Perform enchantment creation,",
+   "es": "Crea encantamientos.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10077",
+   "en": "Save the game,",
+   "es": "Guardar",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10078",
+   "en": "Load a game,",
+   "es": "Cargar",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10079",
+   "en": "Display tutorials,",
+   "es": "Mira tutoriales.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10080",
+   "en": "Modify game settings,",
+   "es": "Ajusta opciones.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10081",
+   "en": "Create items using blacksmith skills,",
+   "es": "Crea objetos con forja.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10082",
+   "en": "Create items using cooking skills,",
+   "es": "Crea objetos con cocina.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10083",
+   "en": "Create items using alchemy skills,",
+   "es": "Crea objetos con alquimia.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10084",
+   "en": "Create items using writing skills,",
+   "es": "Crea objetos con escritura.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10085",
+   "en": "Use",
+   "es": "Usar",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10086",
+   "en": "Allow Usage",
+   "es": "Permitir",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10087",
+   "en": "Turn Page",
+   "es": "Pasar",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10088",
+   "en": "Usable ltems",
+   "es": "Usables",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10089",
+   "en": "Food",
+   "es": "Com.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10090",
+   "en": "Weapons",
+   "es": "Armas",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10091",
+   "en": "Armor",
+   "es": "Arm.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10092",
+   "en": "Accessories",
+   "es": "Accesorios",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10093",
+   "en": "Materials",
+   "es": "Mat.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10094",
+   "en": "Special ltems",
+   "es": "Especiales",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10095",
+   "en": "New ltems",
+   "es": "Nuevos",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10096",
+   "en": "Display usable items,",
+   "es": "Muestra usables.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10097",
+   "en": "Display food,",
+   "es": "Comida",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10098",
+   "en": "Display weapons,",
+   "es": "Muestra armas.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10099",
+   "en": "Display armor,",
+   "es": "Ver armad.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10100",
+   "en": "Display accessories,",
+   "es": "Ver accesorios.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10101",
+   "en": "Display materials,",
+   "es": "Ver materiales.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10102",
+   "en": "Display special items,",
+   "es": "Muestra especiales.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10103",
+   "en": "Display miscellaneous items,",
+   "es": "Muestra otros obj.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10104",
+   "en": "Display new items,",
+   "es": "Muestra nuevos.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10105",
+   "en": "----",
+   "es": "----",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10106",
+   "en": "----",
+   "es": "----",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10107",
+   "en": "(",
+   "es": "(",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10108",
+   "en": ")",
+   "es": ")",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10109",
+   "en": ":",
+   "es": ":",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10110",
+   "en": "(None)",
+   "es": "(Nada)",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10111",
+   "en": "N/A",
+   "es": "N/D",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10112",
+   "en": "Set",
+   "es": "Fij.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10113",
+   "en": "Switch",
+   "es": "Camb.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10114",
+   "en": "Battle Skill",
+   "es": "Combate",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10115",
+   "en": "Personal Skill",
+   "es": "Hab. propia",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10116",
+   "en": "HP",
+   "es": "PV",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10117",
+   "en": "MP",
+   "es": "PM",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10118",
+   "en": "Lv",
+   "es": "Nv",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10119",
+   "en": "岬和P",
+   "es": "EXP",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10120",
+   "en": "N岬和上 Lv",
+   "es": "Sig. Nv",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10121",
+   "en": "SP",
+   "es": "SP",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10122",
+   "en": "4上K",
+   "es": "ATQ",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10123",
+   "en": "D岬同",
+   "es": "DEF",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10124",
+   "en": "H|上",
+   "es": "PRE",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10125",
+   "en": "4GL",
+   "es": "VEL",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10126",
+   "en": "|N上",
+   "es": "INT",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10127",
+   "en": "/",
+   "es": "/",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10129",
+   "en": " increased,",
+   "es": "subido.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10130",
+   "en": "(Remove)",
+   "es": "(Quitar)",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10131",
+   "en": "Are you sure you want thecurrent party setup.",
+   "es": "¿Seguro que quieres este grupo?",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10132",
+   "en": "One or more parties do nothave a leader,You must assign a leader toall parties,",
+   "es": "Falta un líder en algún grupo. Asigna un líder a cada grupo.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10133",
+   "en": "Freely assign characters,",
+   "es": "Asigna personajes.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10134",
+   "en": "Unknown Character",
+   "es": "Desconocido",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10139",
+   "en": "Kiriya (Secondary)",
+   "es": "Kiriya (Secund.)",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10145",
+   "en": "Kristofer (Secondary)",
+   "es": "Kristofer (Secund.)",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10148",
+   "en": "Savio (Secondary)",
+   "es": "Savio (Secund.)",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10151",
+   "en": "Dominica (Secondary)",
+   "es": "Dominica (Secund.)",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10152",
+   "en": "Seraphina (Secondary)",
+   "es": "Seraphina (Secund.)",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10153",
+   "en": "Blacksmith",
+   "es": "Forja",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10154",
+   "en": "Cooking",
+   "es": "Cocina",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10155",
+   "en": "Alchemy",
+   "es": "Alquimia",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10156",
+   "en": "Writing",
+   "es": "Escritura",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10157",
+   "en": "Enchantment",
+   "es": "Encantar",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10158",
+   "en": "Re@uired Materials",
+   "es": "Materiales",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10159",
+   "en": "Creating,,,",
+   "es": "Creando...",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10160",
+   "en": "Success!",
+   "es": "¡Éxito!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10161",
+   "en": "Failure!",
+   "es": "¡Fallo!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10162",
+   "en": "Event Messages",
+   "es": "Mensajes",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10163",
+   "en": "Target Lock-On",
+   "es": "Fijar objetivo",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10164",
+   "en": "Cursor Memory",
+   "es": "Mem. cursor",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10165",
+   "en": "Vertical Camera",
+   "es": "Cám. vertical",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10166",
+   "en": "Horizontal Camera",
+   "es": "Cám. horizontal",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10167",
+   "en": "Camera Speed",
+   "es": "Vel. cámara",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10168",
+   "en": "Vertical Aiming",
+   "es": "Puntería vert.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10169",
+   "en": "Horizontal Aiming",
+   "es": "Puntería horiz.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10170",
+   "en": "Music Volume",
+   "es": "Vol. música",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10171",
+   "en": "SE Volume",
+   "es": "Vol. SE",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10172",
+   "en": "Voice Volume",
+   "es": "Vol. voces",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10173",
+   "en": "Vibration",
+   "es": "Vibración",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10174",
+   "en": "Controller Settings",
+   "es": "Mando",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10175",
+   "en": "Default",
+   "es": "Defecto",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10176",
+   "en": "Customize voice and subtitle preferences,",
+   "es": "Ajusta voz y subtítulos.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10177",
+   "en": "Customize targeting,",
+   "es": "Ajusta objetivo.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10178",
+   "en": "Customize cursor preference,",
+   "es": "Ajusta el cursor.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10179",
+   "en": "Customize vertical camera movement,",
+   "es": "Ajusta la cám. vertical.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10180",
+   "en": "Customize horizontal camera movement,",
+   "es": "Ajusta la cám. horizontal.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10181",
+   "en": "Customize camera movement speed,",
+   "es": "Ajusta la vel. de cámara.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10182",
+   "en": "Customize vertical aiming,",
+   "es": "Ajusta puntería v.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10183",
+   "en": "Adjust music volume,",
+   "es": "Ajusta vol.música.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10184",
+   "en": "Adjust sound effect volume,",
+   "es": "Ajusta vol. efectos.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10185",
+   "en": "Adjust voice volume,",
+   "es": "Ajusta vol. voces.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10186",
+   "en": "Select controller layout settings,",
+   "es": "Configura el mando.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10187",
+   "en": "Restore default settings,",
+   "es": "Restaura el defecto.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10188",
+   "en": "Voice and Subtitles",
+   "es": "Voz y subtítulos",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10189",
+   "en": "Voice Only",
+   "es": "Solo voz",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10190",
+   "en": "Subtitles Only",
+   "es": "Subtítulos",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10191",
+   "en": "No",
+   "es": "No",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10192",
+   "en": "Yes",
+   "es": "Sí",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10193",
+   "en": "Normal",
+   "es": "Normal",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10194",
+   "en": "Manual",
+   "es": "Manual",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10195",
+   "en": "Auto",
+   "es": "Auto",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10196",
+   "en": "lnverted",
+   "es": "Inv.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10197",
+   "en": "Fast",
+   "es": "Ráp.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10198",
+   "en": "Slow",
+   "es": "Lenta",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10199",
+   "en": "Mi『",
+   "es": "Med.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10200",
+   "en": "Max",
+   "es": "Máx",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10201",
+   "en": "On",
+   "es": "Sí",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10202",
+   "en": "Off",
+   "es": "No",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10203",
+   "en": "Setting l",
+   "es": "Ajuste1",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10204",
+   "en": "Setting 2",
+   "es": "Ajuste2",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10205",
+   "en": "Setting 3",
+   "es": "Ajuste3",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10206",
+   "en": "Setting 4",
+   "es": "Ajuste4",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10224",
+   "en": "Are you sure you want to resetall your settings.",
+   "es": "¿Restaurar todos los ajustes?",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10225",
+   "en": "Help,,,",
+   "es": "Ayuda",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10226",
+   "en": "Camera Vertical",
+   "es": "Cám. vertical",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10227",
+   "en": "Normal",
+   "es": "Normal",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10228",
+   "en": "lnverted",
+   "es": "Inv.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10229",
+   "en": "Camera Horizontal",
+   "es": "Cám. horizontal",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10230",
+   "en": "Normal",
+   "es": "Normal",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10231",
+   "en": "lnverted",
+   "es": "Inv.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10232",
+   "en": "Vertical Aiming",
+   "es": "Puntería vert.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10233",
+   "en": "Normal",
+   "es": "Normal",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10234",
+   "en": "lnverted",
+   "es": "Inv.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10235",
+   "en": "Horizontal Aiming",
+   "es": "Puntería horiz.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10236",
+   "en": "Normal",
+   "es": "Normal",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10237",
+   "en": "lnverted",
+   "es": "Inv.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10238",
+   "en": "Completion Time",
+   "es": "Tiempo total",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10240",
+   "en": "Rank",
+   "es": "Rango",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10241",
+   "en": "Sub-Party Bonus EXP",
+   "es": "EXP subgrupo",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10242",
+   "en": "Sub-Party Bonus ltems",
+   "es": "Obj. subgrupo",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10243",
+   "en": "Sub-Party Bonus Fol",
+   "es": "Fol subgrupo",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10244",
+   "en": "T人RGET",
+   "es": "BLANCO",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10245",
+   "en": "Examine",
+   "es": "Examinar",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10246",
+   "en": "Talk",
+   "es": "Hablar",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10247",
+   "en": ":",
+   "es": ":",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10248",
+   "en": ".",
+   "es": ".",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10249",
+   "en": "...",
+   "es": "...",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10250",
+   "en": "Error: Unknown Tactic",
+   "es": "¡Táctica no válida!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10251",
+   "en": "Focus",
+   "es": "Foco",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10252",
+   "en": "Spread",
+   "es": "Disp.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10253",
+   "en": "Free",
+   "es": "Libre",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10254",
+   "en": "Combo",
+   "es": "Combo",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10255",
+   "en": "Wait",
+   "es": "Esp.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10256",
+   "en": "Save MP",
+   "es": "Ahorra",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10257",
+   "en": "Speaker",
+   "es": "Altavoz",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10258",
+   "en": "Are you sure you want todiscard this item.",
+   "es": "¿Descartar este objeto?",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10259",
+   "en": "Are you sure you want thecurrent party setup.",
+   "es": "¿Confirmar el grupo?",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10260",
+   "en": "Yes",
+   "es": "Sí",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10261",
+   "en": "No",
+   "es": "No",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10262",
+   "en": "(None)",
+   "es": "(Nada)",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10263",
+   "en": "Set Usage Limit",
+   "es": "Límite uso",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10264",
+   "en": "Details",
+   "es": "Det.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10265",
+   "en": "Best",
+   "es": "Mej.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10266",
+   "en": "->",
+   "es": "->",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10267",
+   "en": ":",
+   "es": ":",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10268",
+   "en": "ATK",
+   "es": "ATQ",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10269",
+   "en": "HlT",
+   "es": "PRE",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10270",
+   "en": "DEF",
+   "es": "DEF",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10271",
+   "en": "AGL",
+   "es": "VEL",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10272",
+   "en": "lNT",
+   "es": "INT",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10273",
+   "en": "Lv",
+   "es": "Nv",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10274",
+   "en": "DMG x",
+   "es": "Dañox",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10275",
+   "en": "AP:",
+   "es": "PA:",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10276",
+   "en": "MP",
+   "es": "PM",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10277",
+   "en": "Proficiency:",
+   "es": "Pericia:",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10278",
+   "en": "Next",
+   "es": "Sig.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10279",
+   "en": "None",
+   "es": "Nada",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10280",
+   "en": "Earth",
+   "es": "Tierra",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10281",
+   "en": "Water",
+   "es": "Agua",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10282",
+   "en": "Fire",
+   "es": "Fuego",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10283",
+   "en": "Wind",
+   "es": "Viento",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10284",
+   "en": "Dark",
+   "es": "Oscuro",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10285",
+   "en": "Light",
+   "es": "Luz",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10286",
+   "en": "Use: Press and hold ,",
+   "es": "Uso: mantén pulsado\n,",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10287",
+   "en": "Use: Press and hold ,",
+   "es": "Uso: mantén pulsado\n,",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10288",
+   "en": "Use: Press and hold ,",
+   "es": "Uso: mantén pulsado\n,",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10289",
+   "en": "Use: Press and hold ,",
+   "es": "Uso: mantén pulsado\n,",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10290",
+   "en": "Use: Press and hold ,",
+   "es": "Uso: mantén pulsado\n,",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10291",
+   "en": "Use: Press and hold ,",
+   "es": "Uso: mantén pulsado\n,",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10292",
+   "en": "Use: Press  while connected,",
+   "es": "Uso: pulsa\nmientras estás conectado,",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10293",
+   "en": "Use: Press  while connected,",
+   "es": "Uso: pulsa\nmientras estás conectado,",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10294",
+   "en": "Use: After connecting. while pressing and holding . press ,",
+   "es": "Uso: tras conectarte, mantén pulsado\n y pulsa\n,",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10295",
+   "en": "Use: After connecting. while pressing and holding . press ,",
+   "es": "Uso: tras conectarte, mantén pulsado\n y pulsa\n,",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10296",
+   "en": "Confirm",
+   "es": "Aceptar",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10297",
+   "en": "Back",
+   "es": "Atrás",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10298",
+   "en": "Limit",
+   "es": "Lím.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10299",
+   "en": "Change",
+   "es": "Camb.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10300",
+   "en": "Confirm",
+   "es": "Aceptar",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10301",
+   "en": "Back",
+   "es": "Atrás",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10302",
+   "en": "Best",
+   "es": "Mej.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10303",
+   "en": "Details",
+   "es": "Det.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10304",
+   "en": "Change",
+   "es": "Camb.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10305",
+   "en": "Change",
+   "es": "Camb.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10306",
+   "en": "Discard",
+   "es": "Tirar",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10307",
+   "en": "Limit",
+   "es": "Lím.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10308",
+   "en": "Best",
+   "es": "Mej.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10309",
+   "en": "lnfo",
+   "es": "Info",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10310",
+   "en": "Execute",
+   "es": "Ejecutar",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10311",
+   "en": "Confirm",
+   "es": "Aceptar",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10312",
+   "en": "Zoom ln/Out",
+   "es": "Zoom +/-",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10313",
+   "en": "Transparency",
+   "es": "Transparencia",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10314",
+   "en": "Purchase items,",
+   "es": "Comprar",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10315",
+   "en": "Sell items,",
+   "es": "Vender",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10316",
+   "en": "Amount",
+   "es": "Cant.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10317",
+   "en": "Details",
+   "es": "Det.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10318",
+   "en": "Character",
+   "es": "Personaje",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10319",
+   "en": "Change",
+   "es": "Camb.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10320",
+   "en": "All",
+   "es": "Todo",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10321",
+   "en": "Weapons",
+   "es": "Armas",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10322",
+   "en": "Armor",
+   "es": "Arm.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10323",
+   "en": "Usable ltems",
+   "es": "Usables",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10324",
+   "en": "Materials",
+   "es": "Mat.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10325",
+   "en": "All",
+   "es": "Todo",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10326",
+   "en": "Weapons",
+   "es": "Armas",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10327",
+   "en": "Armor",
+   "es": "Arm.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10328",
+   "en": "Usable ltems",
+   "es": "Usables",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10329",
+   "en": "Food",
+   "es": "Com.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10330",
+   "en": "Materials",
+   "es": "Mat.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10331",
+   "en": "Fol",
+   "es": "Fol",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10332",
+   "en": "Total",
+   "es": "Total",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10333",
+   "en": "E@uippable",
+   "es": "Equipable",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10334",
+   "en": "Non-E@uippable",
+   "es": "No equipable",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10335",
+   "en": "E@uipped",
+   "es": "Equipado",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10336",
+   "en": "x",
+   "es": "x",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10337",
+   "en": "Are you sure you want topurchase the selected items.",
+   "es": "¿Comprar los objetos elegidos?",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10338",
+   "en": "Are you sure you want tosell the selected items.",
+   "es": "¿Vender los objetos elegidos?",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10339",
+   "en": "ATK",
+   "es": "ATQ",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10340",
+   "en": "DEF",
+   "es": "DEF",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10341",
+   "en": "HlT",
+   "es": "PRE",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10342",
+   "en": "AGL",
+   "es": "VEL",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10343",
+   "en": "lNT",
+   "es": "INT",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10345",
+   "en": "Save",
+   "es": "Guar.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10346",
+   "en": "Load",
+   "es": "Cargar",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10347",
+   "en": "Save",
+   "es": "Guar.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10348",
+   "en": "Lひad",
+   "es": "Cargar",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10349",
+   "en": "Create New",
+   "es": "Crear",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10350",
+   "en": "This slot is already in use by another game,",
+   "es": "Esta ranura ya tiene otra partida.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10351",
+   "en": "This data is corrupted,",
+   "es": "Datos dañados.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10352",
+   "en": "Working Data",
+   "es": "Actuales",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10353",
+   "en": "Unknown Data",
+   "es": "Desconocidos",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10354",
+   "en": "No data exists,",
+   "es": "Sin datos.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10355",
+   "en": "lncompatible data version,",
+   "es": "Datos incompatibles.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10356",
+   "en": "Saving content,Please don,t turn off your console,",
+   "es": "Guardando. No apagues la consola.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10357",
+   "en": "Are you sure you want to overwritethe save game data. This will erasethe previous save game data,",
+   "es": "¿Sobrescribir la partida? Se borrarán los datos anteriores.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10358",
+   "en": "Save successful,",
+   "es": "Guardada.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10359",
+   "en": "Save failed,",
+   "es": "Fallo.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10360",
+   "en": "Load successful,",
+   "es": "Cargada.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10361",
+   "en": "Load failed,",
+   "es": "Fallo.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10362",
+   "en": "Checking,,,Do not turn off the console,",
+   "es": "Comprobando... No apagues la consola.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10363",
+   "en": "Cannot load the selected save game data,",
+   "es": "No se pueden cargar estos datos.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10364",
+   "en": "Storage device cannot be found,Please reselect a storage device,",
+   "es": "Dispositivo no encontrado. Elige otro.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10365",
+   "en": "There is a problem with the storage device, Since thereis no storage device containing the current gamer profiledetected. you may not be able to save the game or unlockachievements, Please connect a storage device that containsthe current gamer profile,",
+   "es": "Problema con el dispositivo. Sin uno con tu perfil, quizá no puedas guardar ni lograr logros. Conecta uno.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10366",
+   "en": "Continue playing. (lf there is no storage device containingthe current gamer profile connected. you may not beable to save the game or unlock achievements,)",
+   "es": "Continuar la partida. (Sin un dispositivo con tu perfil, quizá no puedas guardar ni lograr logros.)",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10367",
+   "en": "Under development!An unidentfied error has occured,",
+   "es": "¡En desarrollo! Se produjo un error no identificado.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10368",
+   "en": "Failed to check the selectedstorage device,",
+   "es": "Error al comprobar el dispositivo.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10369",
+   "en": "Save game data is corrupted,Load failed,",
+   "es": "La partida está dañada. Error al cargar.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10370",
+   "en": "Any unsaved progress will be lost,Are you sure you want to load.",
+   "es": "Se perderá el progreso sin guardar. ¿Cargar igual?",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10371",
+   "en": "The selected storage device cannot be used,Do you want to select another storage device.",
+   "es": "No se puede usar el dispositivo. ¿Elegir otro?",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10372",
+   "en": "No storage device has been selected,To save your progress.a storage device must be selected,Do you want to select a storage device.",
+   "es": "No hay dispositivo. Para guardar debes elegir uno. ¿Elegir uno?",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10373",
+   "en": "Slot",
+   "es": "Ran.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10374",
+   "en": "-",
+   "es": "-",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10375",
+   "en": "/",
+   "es": "/",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10376",
+   "en": "Which slot do you want to save to.",
+   "es": "¿A qué ranura guardar?",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10377",
+   "en": "Which slot do you want to load from.",
+   "es": "¿De qué ranura cargar?",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10378",
+   "en": "Details",
+   "es": "Det.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10379",
+   "en": "Battle Skill 国 1",
+   "es": "Hab.comb. 1",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10380",
+   "en": "Battle Skill 国 2",
+   "es": "Hab.comb. 2",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10381",
+   "en": "Connect Action 国 1",
+   "es": "Acc. conexión 1",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10382",
+   "en": "Connect Action 国 2",
+   "es": "Acc. conexión 2",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10383",
+   "en": "Bonus",
+   "es": "Bonif.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10384",
+   "en": "Stats",
+   "es": "Atr.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10385",
+   "en": "Description",
+   "es": "Descripción",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10386",
+   "en": "Battle Skills",
+   "es": "Habs.combate",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10387",
+   "en": "Skill Data",
+   "es": "Datos",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10388",
+   "en": "Connect Actions",
+   "es": "Accs. conexión",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10389",
+   "en": "7aどic Data",
+   "es": "Magia",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10390",
+   "en": "Sort",
+   "es": "Ord.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10391",
+   "en": "By name",
+   "es": "Nombre",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10392",
+   "en": "By type",
+   "es": "Tipo",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10393",
+   "en": "By ATK",
+   "es": "ATQ",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10394",
+   "en": "By DEF",
+   "es": "DEF",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10395",
+   "en": "By lNT",
+   "es": "INT",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10396",
+   "en": "By HlT",
+   "es": "PRE",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10397",
+   "en": "By AGL",
+   "es": "VEL",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10398",
+   "en": "By price",
+   "es": "Precio",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10402",
+   "en": "Speaker Test",
+   "es": "Altavoces",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10403",
+   "en": "Adjust speaker position,",
+   "es": "Ajusta la posición.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10404",
+   "en": "Select a speaker,",
+   "es": "Elige altavoz.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10405",
+   "en": "Play",
+   "es": "Play",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10406",
+   "en": "Select Speaker",
+   "es": "Altavoz",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10407",
+   "en": "Adjust Sound Origin",
+   "es": "Ajustar origen",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10408",
+   "en": "にSelects a speaker>",
+   "es": "<Elige altavoz>",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10409",
+   "en": "Player",
+   "es": "Jug.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10410",
+   "en": "Rotate Character",
+   "es": "Girar personaje",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10411",
+   "en": "Adjust Speaker Position",
+   "es": "Ajustar altavoz",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10412",
+   "en": "Cancel",
+   "es": "Anular",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10413",
+   "en": "Vic,s skill Haggling has succeeded,",
+   "es": "La habilidad \nRegateo\n de Vic ha tenido éxito.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10414",
+   "en": "Buy",
+   "es": "Compr.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10415",
+   "en": "Sell",
+   "es": "Vend.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10416",
+   "en": "Amount",
+   "es": "Cant.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10417",
+   "en": "Total",
+   "es": "Total",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10418",
+   "en": "Fol",
+   "es": "Fol",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10419",
+   "en": "A",
+   "es": "A",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10420",
+   "en": "B",
+   "es": "B",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10421",
+   "en": "C",
+   "es": "C",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10422",
+   "en": "D",
+   "es": "D",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10423",
+   "en": "E",
+   "es": "E",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10425",
+   "en": "Universal",
+   "es": "Universal",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10426",
+   "en": "戸lute Data",
+   "es": "Flauta",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "10427",
+   "en": "Vic,s skill High Bargaineer has activated,",
+   "es": "La habilidad \nGran regateador\n de Vic se ha activado.",
+   "ctx": "menu"
+  }
+ ]
+}

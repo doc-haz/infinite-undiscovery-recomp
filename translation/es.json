@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "nota": "Traduccion de prueba (starter). Esquema: { stem, id, en, es, ctx }. REGLA: len(es) <= len(en) en ancho (tools/validate_translation.py).",
+    "estado": "DEMO"
+  },
+  "strings": [
+    {"stem": "d1_ud1_000A4000_005", "id": "152", "ctx": "sistema",
+     "en": "This game is a work of fiction,Any similarities to actual people. locations. organizations.and events are purely coincidental,",
+     "es": "El niño comió café con azúcar. ¡Qué frío! ¿Dónde está el pingüino? ÁÉÍÓÚÜÑ"},
+
+    {"stem": "d1_ud1_000A4000_005", "id": "10061", "ctx": "menu",
+     "en": "Select an item to use,", "es": "Elige un objeto."},
+    {"stem": "d1_ud1_000A4000_005", "id": "10062", "ctx": "menu",
+     "en": "Assign skills,", "es": "Asignar"},
+    {"stem": "d1_ud1_000A4000_005", "id": "10063", "ctx": "menu",
+     "en": "Set and change e@uipment,", "es": "Equipa y cambia"},
+    {"stem": "d1_ud1_000A4000_005", "id": "10064", "ctx": "menu",
+     "en": "Create items and use enchantments,", "es": "Crea objetos y magia"},
+    {"stem": "d1_ud1_000A4000_005", "id": "10065", "ctx": "menu",
+     "en": "Display characters status,", "es": "Estado del grupo"},
+    {"stem": "d1_ud1_000A4000_005", "id": "10066", "ctx": "menu",
+     "en": "View the map,", "es": "Ver mapa"},
+    {"stem": "d1_ud1_000A4000_005", "id": "10067", "ctx": "menu",
+     "en": "Set and replace party members,", "es": "Cambia el grupo"},
+    {"stem": "d1_ud1_000A4000_005", "id": "10068", "ctx": "menu",
+     "en": "Modify game settings,", "es": "Opciones"},
+    {"stem": "d1_ud1_000A4000_005", "id": "10069", "ctx": "menu",
+     "en": "Talk to party members,", "es": "Habla al grupo"},
+    {"stem": "d1_ud1_000A4000_005", "id": "10070", "ctx": "menu",
+     "en": "Set battle skills,", "es": "Hab. combate"}
+  ]
+}

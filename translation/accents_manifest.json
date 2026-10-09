@@ -1,0 +1,4051 @@
+{
+  "bancos": [
+    {
+      "stem": "d1_ud1_000A4000_005",
+      "aif_len": 593920,
+      "aif_fnv": "8c6b25b7ae8c9414",
+      "atlas": [
+        768,
+        768
+      ],
+      "format": 82,
+      "ident": 1346842929,
+      "tiled_width": 192,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 557,
+      "new_count": 557,
+      "total": 1516032,
+      "atlas_w": 768,
+      "atlas_h": 768,
+      "bases": {
+        "!": 161,
+        "?": 189,
+        "A": 5,
+        "E": 10,
+        "I": 518,
+        "N": 3,
+        "O": 13,
+        "U": 11,
+        "a": 18,
+        "e": 20,
+        "i": 27,
+        "n": 25,
+        "o": 35,
+        "u": 23
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 858,
+          "cell": 557,
+          "base": "!",
+          "base_cell": 161,
+          "from_ref": false,
+          "metric": 2055
+        },
+        {
+          "char": "¿",
+          "code": 859,
+          "cell": 558,
+          "base": "?",
+          "base_cell": 189,
+          "from_ref": false,
+          "metric": 4103
+        },
+        {
+          "char": "Á",
+          "code": 860,
+          "cell": 559,
+          "base": "A",
+          "base_cell": 5,
+          "from_ref": false,
+          "metric": 3850
+        },
+        {
+          "char": "É",
+          "code": 861,
+          "cell": 560,
+          "base": "E",
+          "base_cell": 10,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "Í",
+          "code": 862,
+          "cell": 561,
+          "base": "I",
+          "base_cell": 518,
+          "from_ref": false,
+          "metric": 2314
+        },
+        {
+          "char": "Ñ",
+          "code": 863,
+          "cell": 562,
+          "base": "N",
+          "base_cell": 3,
+          "from_ref": false,
+          "metric": 4362
+        },
+        {
+          "char": "Ó",
+          "code": 864,
+          "cell": 563,
+          "base": "O",
+          "base_cell": 13,
+          "from_ref": false,
+          "metric": 4618
+        },
+        {
+          "char": "Ú",
+          "code": 865,
+          "cell": 564,
+          "base": "U",
+          "base_cell": 11,
+          "from_ref": false,
+          "metric": 4106
+        },
+        {
+          "char": "Ü",
+          "code": 866,
+          "cell": 565,
+          "base": "U",
+          "base_cell": 11,
+          "from_ref": false,
+          "metric": 4106
+        },
+        {
+          "char": "á",
+          "code": 867,
+          "cell": 566,
+          "base": "a",
+          "base_cell": 18,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "é",
+          "code": 868,
+          "cell": 567,
+          "base": "e",
+          "base_cell": 20,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "í",
+          "code": 869,
+          "cell": 568,
+          "base": "i",
+          "base_cell": 27,
+          "from_ref": false,
+          "metric": 1546
+        },
+        {
+          "char": "ñ",
+          "code": 870,
+          "cell": 569,
+          "base": "n",
+          "base_cell": 25,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ó",
+          "code": 871,
+          "cell": 570,
+          "base": "o",
+          "base_cell": 35,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ú",
+          "code": 872,
+          "cell": 571,
+          "base": "u",
+          "base_cell": 23,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ü",
+          "code": 873,
+          "cell": 572,
+          "base": "u",
+          "base_cell": 23,
+          "from_ref": false,
+          "metric": 3594
+        }
+      ]
+    },
+    {
+      "stem": "d1_ud1_317BD800_037",
+      "aif_len": 593920,
+      "aif_fnv": "031f5ac51087faa5",
+      "atlas": [
+        768,
+        768
+      ],
+      "format": 82,
+      "ident": 1162228017,
+      "tiled_width": 192,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 544,
+      "new_count": 544,
+      "total": 26112,
+      "atlas_w": 768,
+      "atlas_h": 768,
+      "bases": {
+        "!": 77,
+        "?": 13,
+        "a": 488,
+        "e": 437,
+        "i": 426,
+        "n": 455,
+        "o": 45,
+        "u": 458
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 845,
+          "cell": 544,
+          "base": "!",
+          "base_cell": 77,
+          "from_ref": false,
+          "metric": 2055
+        },
+        {
+          "char": "¿",
+          "code": 846,
+          "cell": 545,
+          "base": "?",
+          "base_cell": 13,
+          "from_ref": false,
+          "metric": 3847
+        },
+        {
+          "char": "á",
+          "code": 847,
+          "cell": 546,
+          "base": "a",
+          "base_cell": 488,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "é",
+          "code": 848,
+          "cell": 547,
+          "base": "e",
+          "base_cell": 437,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "í",
+          "code": 849,
+          "cell": 548,
+          "base": "i",
+          "base_cell": 426,
+          "from_ref": false,
+          "metric": 1546
+        },
+        {
+          "char": "ñ",
+          "code": 850,
+          "cell": 549,
+          "base": "n",
+          "base_cell": 455,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ó",
+          "code": 851,
+          "cell": 550,
+          "base": "o",
+          "base_cell": 45,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "ú",
+          "code": 852,
+          "cell": 551,
+          "base": "u",
+          "base_cell": 458,
+          "from_ref": false,
+          "metric": 3594
+        }
+      ]
+    },
+    {
+      "stem": "d1_ud1_34C6D000_019",
+      "aif_len": 593920,
+      "aif_fnv": "d1d6dabe2b9b5bc1",
+      "atlas": [
+        768,
+        704
+      ],
+      "format": 82,
+      "ident": 1969512816,
+      "tiled_width": 192,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 519,
+      "new_count": 519,
+      "total": 34688,
+      "atlas_w": 768,
+      "atlas_h": 704,
+      "bases": {
+        "!": 23,
+        "?": 61,
+        "a": 449,
+        "e": 448,
+        "i": 465,
+        "n": 463,
+        "o": 14,
+        "u": 451
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 820,
+          "cell": 519,
+          "base": "!",
+          "base_cell": 23,
+          "from_ref": false,
+          "metric": 2055
+        },
+        {
+          "char": "¿",
+          "code": 821,
+          "cell": 520,
+          "base": "?",
+          "base_cell": 61,
+          "from_ref": false,
+          "metric": 3847
+        },
+        {
+          "char": "á",
+          "code": 822,
+          "cell": 521,
+          "base": "a",
+          "base_cell": 449,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "é",
+          "code": 823,
+          "cell": 522,
+          "base": "e",
+          "base_cell": 448,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "í",
+          "code": 824,
+          "cell": 523,
+          "base": "i",
+          "base_cell": 465,
+          "from_ref": false,
+          "metric": 1546
+        },
+        {
+          "char": "ñ",
+          "code": 825,
+          "cell": 524,
+          "base": "n",
+          "base_cell": 463,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ó",
+          "code": 826,
+          "cell": 525,
+          "base": "o",
+          "base_cell": 14,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "ú",
+          "code": 827,
+          "cell": 526,
+          "base": "u",
+          "base_cell": 451,
+          "from_ref": false,
+          "metric": 3594
+        }
+      ]
+    },
+    {
+      "stem": "d1_ud1_39513800_022",
+      "aif_len": 692224,
+      "aif_fnv": "953376a19e7d2d5b",
+      "atlas": [
+        896,
+        768
+      ],
+      "format": 82,
+      "ident": 1346842930,
+      "tiled_width": 224,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 628,
+      "new_count": 628,
+      "total": 48512,
+      "atlas_w": 896,
+      "atlas_h": 768,
+      "bases": {
+        "!": 166,
+        "?": 29,
+        "I": 50,
+        "a": 403,
+        "e": 359,
+        "i": 237,
+        "n": 239,
+        "o": 18,
+        "u": 448
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 929,
+          "cell": 628,
+          "base": "!",
+          "base_cell": 166,
+          "from_ref": false,
+          "metric": 2055
+        },
+        {
+          "char": "¿",
+          "code": 930,
+          "cell": 629,
+          "base": "?",
+          "base_cell": 29,
+          "from_ref": false,
+          "metric": 3847
+        },
+        {
+          "char": "Í",
+          "code": 931,
+          "cell": 630,
+          "base": "I",
+          "base_cell": 50,
+          "from_ref": false,
+          "metric": 2314
+        },
+        {
+          "char": "á",
+          "code": 932,
+          "cell": 631,
+          "base": "a",
+          "base_cell": 403,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "é",
+          "code": 933,
+          "cell": 632,
+          "base": "e",
+          "base_cell": 359,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "í",
+          "code": 934,
+          "cell": 633,
+          "base": "i",
+          "base_cell": 237,
+          "from_ref": false,
+          "metric": 1546
+        },
+        {
+          "char": "ñ",
+          "code": 935,
+          "cell": 634,
+          "base": "n",
+          "base_cell": 239,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ó",
+          "code": 936,
+          "cell": 635,
+          "base": "o",
+          "base_cell": 18,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "ú",
+          "code": 937,
+          "cell": 636,
+          "base": "u",
+          "base_cell": 448,
+          "from_ref": false,
+          "metric": 3594
+        }
+      ]
+    },
+    {
+      "stem": "d1_ud2_17325800_002",
+      "aif_len": 921600,
+      "aif_fnv": "4a6283db4fb80e25",
+      "atlas": [
+        1024,
+        832
+      ],
+      "format": 82,
+      "ident": 1162227767,
+      "tiled_width": 256,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 828,
+      "new_count": 828,
+      "total": 57216,
+      "atlas_w": 1024,
+      "atlas_h": 832,
+      "bases": {
+        "!": 257,
+        "?": 28,
+        "A": 167,
+        "E": 62,
+        "O": 30,
+        "U": 277,
+        "a": 53,
+        "e": 129,
+        "i": 128,
+        "n": 56,
+        "o": 12,
+        "u": 133
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 1129,
+          "cell": 828,
+          "base": "!",
+          "base_cell": 257,
+          "from_ref": false,
+          "metric": 2055
+        },
+        {
+          "char": "¿",
+          "code": 1130,
+          "cell": 829,
+          "base": "?",
+          "base_cell": 28,
+          "from_ref": false,
+          "metric": 3847
+        },
+        {
+          "char": "Á",
+          "code": 1131,
+          "cell": 830,
+          "base": "A",
+          "base_cell": 167,
+          "from_ref": false,
+          "metric": 4362
+        },
+        {
+          "char": "É",
+          "code": 1132,
+          "cell": 831,
+          "base": "E",
+          "base_cell": 62,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "Ó",
+          "code": 309,
+          "cell": 8,
+          "base": "O",
+          "base_cell": 30,
+          "from_ref": false,
+          "metric": 4874
+        },
+        {
+          "char": "Ú",
+          "code": 310,
+          "cell": 9,
+          "base": "U",
+          "base_cell": 277,
+          "from_ref": false,
+          "metric": 4618
+        },
+        {
+          "char": "á",
+          "code": 311,
+          "cell": 10,
+          "base": "a",
+          "base_cell": 53,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "é",
+          "code": 343,
+          "cell": 42,
+          "base": "e",
+          "base_cell": 129,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "í",
+          "code": 344,
+          "cell": 43,
+          "base": "i",
+          "base_cell": 128,
+          "from_ref": false,
+          "metric": 1546
+        },
+        {
+          "char": "ñ",
+          "code": 345,
+          "cell": 44,
+          "base": "n",
+          "base_cell": 56,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ó",
+          "code": 346,
+          "cell": 45,
+          "base": "o",
+          "base_cell": 12,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "ú",
+          "code": 347,
+          "cell": 46,
+          "base": "u",
+          "base_cell": 133,
+          "from_ref": false,
+          "metric": 3594
+        }
+      ]
+    },
+    {
+      "stem": "d1_ud2_1793D000_018",
+      "aif_len": 36864,
+      "aif_fnv": "f48adfdfd36f69c9",
+      "atlas": [
+        256,
+        128
+      ],
+      "format": 82,
+      "ident": 1128804658,
+      "tiled_width": 64,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 32,
+      "new_count": 32,
+      "total": 512,
+      "atlas_w": 256,
+      "atlas_h": 128,
+      "bases": {
+        "i": 27
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "í",
+          "code": 302,
+          "cell": 1,
+          "base": "i",
+          "base_cell": 27,
+          "from_ref": false,
+          "metric": 2058
+        }
+      ]
+    },
+    {
+      "stem": "d1_ud2_19478000_028",
+      "aif_len": 69632,
+      "aif_fnv": "a9353ad168d8503a",
+      "atlas": [
+        256,
+        192
+      ],
+      "format": 82,
+      "ident": 1128804658,
+      "tiled_width": 64,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 42,
+      "new_count": 42,
+      "total": 1280,
+      "atlas_w": 256,
+      "atlas_h": 192,
+      "bases": {
+        "?": 28,
+        "a": 16,
+        "i": 22
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¿",
+          "code": 343,
+          "cell": 42,
+          "base": "?",
+          "base_cell": 28,
+          "from_ref": false,
+          "metric": 3847
+        },
+        {
+          "char": "á",
+          "code": 344,
+          "cell": 43,
+          "base": "a",
+          "base_cell": 16,
+          "from_ref": false,
+          "metric": 3082
+        },
+        {
+          "char": "í",
+          "code": 345,
+          "cell": 44,
+          "base": "i",
+          "base_cell": 22,
+          "from_ref": false,
+          "metric": 1802
+        }
+      ]
+    },
+    {
+      "stem": "d1_ud2_198FA800_008",
+      "aif_len": 102400,
+      "aif_fnv": "67f3bf914fbcab6b",
+      "atlas": [
+        384,
+        256
+      ],
+      "format": 82,
+      "ident": 1969512816,
+      "tiled_width": 96,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 78,
+      "new_count": 78,
+      "total": 1024,
+      "atlas_w": 384,
+      "atlas_h": 256,
+      "bases": {
+        "i": 26
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "í",
+          "code": 379,
+          "cell": 78,
+          "base": "i",
+          "base_cell": 26,
+          "from_ref": false,
+          "metric": 1546
+        }
+      ]
+    },
+    {
+      "stem": "d1_ud2_1B067800_037",
+      "aif_len": 495616,
+      "aif_fnv": "5cd238a64bb6f5c5",
+      "atlas": [
+        768,
+        576
+      ],
+      "format": 82,
+      "ident": 1969513010,
+      "tiled_width": 192,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 418,
+      "new_count": 418,
+      "total": 20608,
+      "atlas_w": 768,
+      "atlas_h": 576,
+      "bases": {
+        "!": 111,
+        "?": 176,
+        "a": 146,
+        "e": 145,
+        "i": 167,
+        "n": 165,
+        "o": 26,
+        "u": 148
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 719,
+          "cell": 418,
+          "base": "!",
+          "base_cell": 111,
+          "from_ref": false,
+          "metric": 2055
+        },
+        {
+          "char": "¿",
+          "code": 720,
+          "cell": 419,
+          "base": "?",
+          "base_cell": 176,
+          "from_ref": false,
+          "metric": 3847
+        },
+        {
+          "char": "á",
+          "code": 721,
+          "cell": 420,
+          "base": "a",
+          "base_cell": 146,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "é",
+          "code": 722,
+          "cell": 421,
+          "base": "e",
+          "base_cell": 145,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "í",
+          "code": 723,
+          "cell": 422,
+          "base": "i",
+          "base_cell": 167,
+          "from_ref": false,
+          "metric": 1546
+        },
+        {
+          "char": "ñ",
+          "code": 724,
+          "cell": 423,
+          "base": "n",
+          "base_cell": 165,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ó",
+          "code": 725,
+          "cell": 424,
+          "base": "o",
+          "base_cell": 26,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "ú",
+          "code": 726,
+          "cell": 425,
+          "base": "u",
+          "base_cell": 148,
+          "from_ref": false,
+          "metric": 3594
+        }
+      ]
+    },
+    {
+      "stem": "d1_ud2_1E70B800_010",
+      "aif_len": 1052672,
+      "aif_fnv": "be7c00863395baf7",
+      "atlas": [
+        1024,
+        960
+      ],
+      "format": 82,
+      "ident": 1162227767,
+      "tiled_width": 256,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 909,
+      "new_count": 909,
+      "total": 103936,
+      "atlas_w": 1024,
+      "atlas_h": 960,
+      "bases": {
+        "!": 57,
+        "?": 127,
+        "E": 649,
+        "a": 6,
+        "e": 3,
+        "i": 388,
+        "n": 4,
+        "o": 11,
+        "u": 15
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 1210,
+          "cell": 909,
+          "base": "!",
+          "base_cell": 57,
+          "from_ref": false,
+          "metric": 2055
+        },
+        {
+          "char": "¿",
+          "code": 1211,
+          "cell": 910,
+          "base": "?",
+          "base_cell": 127,
+          "from_ref": false,
+          "metric": 3847
+        },
+        {
+          "char": "É",
+          "code": 1212,
+          "cell": 911,
+          "base": "E",
+          "base_cell": 649,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "á",
+          "code": 1213,
+          "cell": 912,
+          "base": "a",
+          "base_cell": 6,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "é",
+          "code": 1214,
+          "cell": 913,
+          "base": "e",
+          "base_cell": 3,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "í",
+          "code": 1215,
+          "cell": 914,
+          "base": "i",
+          "base_cell": 388,
+          "from_ref": false,
+          "metric": 1546
+        },
+        {
+          "char": "ñ",
+          "code": 1216,
+          "cell": 915,
+          "base": "n",
+          "base_cell": 4,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ó",
+          "code": 1217,
+          "cell": 916,
+          "base": "o",
+          "base_cell": 11,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ú",
+          "code": 1218,
+          "cell": 917,
+          "base": "u",
+          "base_cell": 15,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ü",
+          "code": 1219,
+          "cell": 918,
+          "base": "u",
+          "base_cell": 15,
+          "from_ref": false,
+          "metric": 3594
+        }
+      ]
+    },
+    {
+      "stem": "d1_ud2_224F6800_028",
+      "aif_len": 413696,
+      "aif_fnv": "7d9ef1c5f6bb671b",
+      "atlas": [
+        640,
+        576
+      ],
+      "format": 82,
+      "ident": 1969513010,
+      "tiled_width": 160,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 354,
+      "new_count": 354,
+      "total": 14720,
+      "atlas_w": 640,
+      "atlas_h": 576,
+      "bases": {
+        "!": 26,
+        "?": 17,
+        "a": 236,
+        "e": 244,
+        "i": 241,
+        "n": 239,
+        "o": 22,
+        "u": 291
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 655,
+          "cell": 354,
+          "base": "!",
+          "base_cell": 26,
+          "from_ref": false,
+          "metric": 2055
+        },
+        {
+          "char": "¿",
+          "code": 656,
+          "cell": 355,
+          "base": "?",
+          "base_cell": 17,
+          "from_ref": false,
+          "metric": 3847
+        },
+        {
+          "char": "á",
+          "code": 657,
+          "cell": 356,
+          "base": "a",
+          "base_cell": 236,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "é",
+          "code": 658,
+          "cell": 357,
+          "base": "e",
+          "base_cell": 244,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "í",
+          "code": 659,
+          "cell": 358,
+          "base": "i",
+          "base_cell": 241,
+          "from_ref": false,
+          "metric": 1546
+        },
+        {
+          "char": "ñ",
+          "code": 660,
+          "cell": 359,
+          "base": "n",
+          "base_cell": 239,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ó",
+          "code": 303,
+          "cell": 2,
+          "base": "o",
+          "base_cell": 22,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "ú",
+          "code": 306,
+          "cell": 5,
+          "base": "u",
+          "base_cell": 291,
+          "from_ref": false,
+          "metric": 3594
+        }
+      ]
+    },
+    {
+      "stem": "d1_ud2_254C2000_039",
+      "aif_len": 266240,
+      "aif_fnv": "acbe48fe9995128d",
+      "atlas": [
+        512,
+        512
+      ],
+      "format": 82,
+      "ident": 1162227767,
+      "tiled_width": 128,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 252,
+      "new_count": 252,
+      "total": 4736,
+      "atlas_w": 512,
+      "atlas_h": 512,
+      "bases": {
+        "!": 71,
+        "?": 74,
+        "a": 241,
+        "i": 13,
+        "n": 250,
+        "o": 21,
+        "u": 52
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 553,
+          "cell": 252,
+          "base": "!",
+          "base_cell": 71,
+          "from_ref": false,
+          "metric": 2055
+        },
+        {
+          "char": "¿",
+          "code": 554,
+          "cell": 253,
+          "base": "?",
+          "base_cell": 74,
+          "from_ref": false,
+          "metric": 3847
+        },
+        {
+          "char": "á",
+          "code": 555,
+          "cell": 254,
+          "base": "a",
+          "base_cell": 241,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "í",
+          "code": 556,
+          "cell": 255,
+          "base": "i",
+          "base_cell": 13,
+          "from_ref": false,
+          "metric": 1802
+        },
+        {
+          "char": "ñ",
+          "code": 305,
+          "cell": 4,
+          "base": "n",
+          "base_cell": 250,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ó",
+          "code": 306,
+          "cell": 5,
+          "base": "o",
+          "base_cell": 21,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "ú",
+          "code": 307,
+          "cell": 6,
+          "base": "u",
+          "base_cell": 52,
+          "from_ref": false,
+          "metric": 3594
+        }
+      ]
+    },
+    {
+      "stem": "d1_ud2_28E68000_023",
+      "aif_len": 495616,
+      "aif_fnv": "0854c5e35b21a573",
+      "atlas": [
+        768,
+        640
+      ],
+      "format": 82,
+      "ident": 1346842930,
+      "tiled_width": 192,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 437,
+      "new_count": 437,
+      "total": 31488,
+      "atlas_w": 768,
+      "atlas_h": 640,
+      "bases": {
+        "!": 15,
+        "?": 84,
+        "U": 229,
+        "a": 391,
+        "e": 394,
+        "i": 13,
+        "n": 409,
+        "o": 21,
+        "u": 63
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 738,
+          "cell": 437,
+          "base": "!",
+          "base_cell": 15,
+          "from_ref": false,
+          "metric": 2055
+        },
+        {
+          "char": "¿",
+          "code": 739,
+          "cell": 438,
+          "base": "?",
+          "base_cell": 84,
+          "from_ref": false,
+          "metric": 3847
+        },
+        {
+          "char": "Ú",
+          "code": 740,
+          "cell": 439,
+          "base": "U",
+          "base_cell": 229,
+          "from_ref": false,
+          "metric": 4618
+        },
+        {
+          "char": "á",
+          "code": 741,
+          "cell": 440,
+          "base": "a",
+          "base_cell": 391,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "é",
+          "code": 742,
+          "cell": 441,
+          "base": "e",
+          "base_cell": 394,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "í",
+          "code": 743,
+          "cell": 442,
+          "base": "i",
+          "base_cell": 13,
+          "from_ref": false,
+          "metric": 1802
+        },
+        {
+          "char": "ñ",
+          "code": 744,
+          "cell": 443,
+          "base": "n",
+          "base_cell": 409,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ó",
+          "code": 745,
+          "cell": 444,
+          "base": "o",
+          "base_cell": 21,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "ú",
+          "code": 746,
+          "cell": 445,
+          "base": "u",
+          "base_cell": 63,
+          "from_ref": false,
+          "metric": 3594
+        }
+      ]
+    },
+    {
+      "stem": "d1_ud2_2E8D1800_003",
+      "aif_len": 1331200,
+      "aif_fnv": "968b7bb4fc4346fe",
+      "atlas": [
+        1152,
+        1152
+      ],
+      "format": 82,
+      "ident": 1969512816,
+      "tiled_width": 288,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 1274,
+      "new_count": 1274,
+      "total": 206080,
+      "atlas_w": 1152,
+      "atlas_h": 1152,
+      "bases": {
+        "!": 125,
+        "?": 58,
+        "E": 1255,
+        "U": 38,
+        "a": 10,
+        "e": 6,
+        "i": 855,
+        "n": 15,
+        "o": 3,
+        "u": 4
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 1575,
+          "cell": 1274,
+          "base": "!",
+          "base_cell": 125,
+          "from_ref": false,
+          "metric": 2055
+        },
+        {
+          "char": "¿",
+          "code": 1576,
+          "cell": 1275,
+          "base": "?",
+          "base_cell": 58,
+          "from_ref": false,
+          "metric": 3847
+        },
+        {
+          "char": "É",
+          "code": 1577,
+          "cell": 1276,
+          "base": "E",
+          "base_cell": 1255,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "Ú",
+          "code": 1578,
+          "cell": 1277,
+          "base": "U",
+          "base_cell": 38,
+          "from_ref": false,
+          "metric": 4618
+        },
+        {
+          "char": "á",
+          "code": 1579,
+          "cell": 1278,
+          "base": "a",
+          "base_cell": 10,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "é",
+          "code": 1580,
+          "cell": 1279,
+          "base": "e",
+          "base_cell": 6,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "í",
+          "code": 314,
+          "cell": 13,
+          "base": "i",
+          "base_cell": 855,
+          "from_ref": false,
+          "metric": 1546
+        },
+        {
+          "char": "ñ",
+          "code": 317,
+          "cell": 16,
+          "base": "n",
+          "base_cell": 15,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ó",
+          "code": 324,
+          "cell": 23,
+          "base": "o",
+          "base_cell": 3,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ú",
+          "code": 325,
+          "cell": 24,
+          "base": "u",
+          "base_cell": 4,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ü",
+          "code": 327,
+          "cell": 26,
+          "base": "u",
+          "base_cell": 4,
+          "from_ref": false,
+          "metric": 3594
+        }
+      ]
+    },
+    {
+      "stem": "d1_ud2_339DF000_020",
+      "aif_len": 692224,
+      "aif_fnv": "6d700c9e595ef1ba",
+      "atlas": [
+        896,
+        768
+      ],
+      "format": 82,
+      "ident": 1128804658,
+      "tiled_width": 224,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 661,
+      "new_count": 661,
+      "total": 49280,
+      "atlas_w": 896,
+      "atlas_h": 768,
+      "bases": {
+        "!": 90,
+        "?": 51,
+        "I": 73,
+        "a": 554,
+        "e": 472,
+        "i": 466,
+        "n": 468,
+        "o": 13,
+        "u": 581
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 962,
+          "cell": 661,
+          "base": "!",
+          "base_cell": 90,
+          "from_ref": false,
+          "metric": 2055
+        },
+        {
+          "char": "¿",
+          "code": 963,
+          "cell": 662,
+          "base": "?",
+          "base_cell": 51,
+          "from_ref": false,
+          "metric": 3847
+        },
+        {
+          "char": "Í",
+          "code": 964,
+          "cell": 663,
+          "base": "I",
+          "base_cell": 73,
+          "from_ref": false,
+          "metric": 2314
+        },
+        {
+          "char": "á",
+          "code": 965,
+          "cell": 664,
+          "base": "a",
+          "base_cell": 554,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "é",
+          "code": 966,
+          "cell": 665,
+          "base": "e",
+          "base_cell": 472,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "í",
+          "code": 967,
+          "cell": 666,
+          "base": "i",
+          "base_cell": 466,
+          "from_ref": false,
+          "metric": 1546
+        },
+        {
+          "char": "ñ",
+          "code": 968,
+          "cell": 667,
+          "base": "n",
+          "base_cell": 468,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ó",
+          "code": 969,
+          "cell": 668,
+          "base": "o",
+          "base_cell": 13,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "ú",
+          "code": 970,
+          "cell": 669,
+          "base": "u",
+          "base_cell": 581,
+          "from_ref": false,
+          "metric": 3594
+        }
+      ]
+    },
+    {
+      "stem": "d1_ud2_3A123800_010",
+      "aif_len": 921600,
+      "aif_fnv": "55d91d75eaf59ae5",
+      "atlas": [
+        1024,
+        896
+      ],
+      "format": 82,
+      "ident": 1128804658,
+      "tiled_width": 256,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 884,
+      "new_count": 884,
+      "total": 109824,
+      "atlas_w": 1024,
+      "atlas_h": 896,
+      "bases": {
+        "!": 106,
+        "?": 56,
+        "E": 598,
+        "a": 474,
+        "e": 471,
+        "i": 475,
+        "n": 477,
+        "o": 38,
+        "u": 501
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 1185,
+          "cell": 884,
+          "base": "!",
+          "base_cell": 106,
+          "from_ref": false,
+          "metric": 2055
+        },
+        {
+          "char": "¿",
+          "code": 1186,
+          "cell": 885,
+          "base": "?",
+          "base_cell": 56,
+          "from_ref": false,
+          "metric": 3847
+        },
+        {
+          "char": "É",
+          "code": 1187,
+          "cell": 886,
+          "base": "E",
+          "base_cell": 598,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "á",
+          "code": 1188,
+          "cell": 887,
+          "base": "a",
+          "base_cell": 474,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "é",
+          "code": 1189,
+          "cell": 888,
+          "base": "e",
+          "base_cell": 471,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "í",
+          "code": 1190,
+          "cell": 889,
+          "base": "i",
+          "base_cell": 475,
+          "from_ref": false,
+          "metric": 1546
+        },
+        {
+          "char": "ñ",
+          "code": 1191,
+          "cell": 890,
+          "base": "n",
+          "base_cell": 477,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ó",
+          "code": 1192,
+          "cell": 891,
+          "base": "o",
+          "base_cell": 38,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "ú",
+          "code": 1193,
+          "cell": 892,
+          "base": "u",
+          "base_cell": 501,
+          "from_ref": false,
+          "metric": 3594
+        }
+      ]
+    },
+    {
+      "stem": "d1_ud2_40141800_004",
+      "aif_len": 1478656,
+      "aif_fnv": "a137705118f70929",
+      "atlas": [
+        1280,
+        1088
+      ],
+      "format": 82,
+      "ident": 1347170613,
+      "tiled_width": 320,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 1321,
+      "new_count": 1321,
+      "total": 275200,
+      "atlas_w": 1280,
+      "atlas_h": 1088,
+      "bases": {
+        "!": 143,
+        "?": 105,
+        "U": 872,
+        "a": 3,
+        "e": 7,
+        "i": 657,
+        "n": 17,
+        "o": 21,
+        "u": 22
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 1622,
+          "cell": 1321,
+          "base": "!",
+          "base_cell": 143,
+          "from_ref": false,
+          "metric": 2055
+        },
+        {
+          "char": "¿",
+          "code": 1623,
+          "cell": 1322,
+          "base": "?",
+          "base_cell": 105,
+          "from_ref": false,
+          "metric": 3847
+        },
+        {
+          "char": "Ú",
+          "code": 1624,
+          "cell": 1323,
+          "base": "U",
+          "base_cell": 872,
+          "from_ref": false,
+          "metric": 4106
+        },
+        {
+          "char": "á",
+          "code": 1625,
+          "cell": 1324,
+          "base": "a",
+          "base_cell": 3,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "é",
+          "code": 1626,
+          "cell": 1325,
+          "base": "e",
+          "base_cell": 7,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "í",
+          "code": 1627,
+          "cell": 1326,
+          "base": "i",
+          "base_cell": 657,
+          "from_ref": false,
+          "metric": 1546
+        },
+        {
+          "char": "ñ",
+          "code": 1628,
+          "cell": 1327,
+          "base": "n",
+          "base_cell": 17,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ó",
+          "code": 1629,
+          "cell": 1328,
+          "base": "o",
+          "base_cell": 21,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ú",
+          "code": 1630,
+          "cell": 1329,
+          "base": "u",
+          "base_cell": 22,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ü",
+          "code": 1631,
+          "cell": 1330,
+          "base": "u",
+          "base_cell": 22,
+          "from_ref": false,
+          "metric": 3594
+        }
+      ]
+    },
+    {
+      "stem": "d1_ud2_4AEF1000_007",
+      "aif_len": 692224,
+      "aif_fnv": "92da35121e916b58",
+      "atlas": [
+        896,
+        768
+      ],
+      "format": 82,
+      "ident": 1346842929,
+      "tiled_width": 224,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 624,
+      "new_count": 624,
+      "total": 51712,
+      "atlas_w": 896,
+      "atlas_h": 768,
+      "bases": {
+        "!": 103,
+        "?": 77,
+        "E": 204,
+        "a": 3,
+        "e": 7,
+        "i": 453,
+        "n": 13,
+        "o": 42,
+        "u": 542
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 925,
+          "cell": 624,
+          "base": "!",
+          "base_cell": 103,
+          "from_ref": false,
+          "metric": 2055
+        },
+        {
+          "char": "¿",
+          "code": 926,
+          "cell": 625,
+          "base": "?",
+          "base_cell": 77,
+          "from_ref": false,
+          "metric": 3847
+        },
+        {
+          "char": "É",
+          "code": 927,
+          "cell": 626,
+          "base": "E",
+          "base_cell": 204,
+          "from_ref": false,
+          "metric": 3850
+        },
+        {
+          "char": "á",
+          "code": 928,
+          "cell": 627,
+          "base": "a",
+          "base_cell": 3,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "é",
+          "code": 929,
+          "cell": 628,
+          "base": "e",
+          "base_cell": 7,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "í",
+          "code": 930,
+          "cell": 629,
+          "base": "i",
+          "base_cell": 453,
+          "from_ref": false,
+          "metric": 1546
+        },
+        {
+          "char": "ñ",
+          "code": 931,
+          "cell": 630,
+          "base": "n",
+          "base_cell": 13,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ó",
+          "code": 932,
+          "cell": 631,
+          "base": "o",
+          "base_cell": 42,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "ú",
+          "code": 933,
+          "cell": 632,
+          "base": "u",
+          "base_cell": 542,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ü",
+          "code": 934,
+          "cell": 633,
+          "base": "u",
+          "base_cell": 542,
+          "from_ref": false,
+          "metric": 3594
+        }
+      ]
+    },
+    {
+      "stem": "d1_ud2_4F0A3000_037",
+      "aif_len": 266240,
+      "aif_fnv": "4f74386a1b3f9013",
+      "atlas": [
+        512,
+        448
+      ],
+      "format": 82,
+      "ident": 1162228017,
+      "tiled_width": 128,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 198,
+      "new_count": 198,
+      "total": 6528,
+      "atlas_w": 512,
+      "atlas_h": 448,
+      "bases": {
+        "!": 76,
+        "?": 62,
+        "a": 21,
+        "e": 6,
+        "i": 23,
+        "n": 22,
+        "o": 26,
+        "u": 55
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 499,
+          "cell": 198,
+          "base": "!",
+          "base_cell": 76,
+          "from_ref": false,
+          "metric": 2055
+        },
+        {
+          "char": "¿",
+          "code": 500,
+          "cell": 199,
+          "base": "?",
+          "base_cell": 62,
+          "from_ref": false,
+          "metric": 3847
+        },
+        {
+          "char": "á",
+          "code": 501,
+          "cell": 200,
+          "base": "a",
+          "base_cell": 21,
+          "from_ref": false,
+          "metric": 3082
+        },
+        {
+          "char": "é",
+          "code": 502,
+          "cell": 201,
+          "base": "e",
+          "base_cell": 6,
+          "from_ref": false,
+          "metric": 3082
+        },
+        {
+          "char": "í",
+          "code": 503,
+          "cell": 202,
+          "base": "i",
+          "base_cell": 23,
+          "from_ref": false,
+          "metric": 1802
+        },
+        {
+          "char": "ñ",
+          "code": 504,
+          "cell": 203,
+          "base": "n",
+          "base_cell": 22,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ó",
+          "code": 505,
+          "cell": 204,
+          "base": "o",
+          "base_cell": 26,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "ú",
+          "code": 506,
+          "cell": 205,
+          "base": "u",
+          "base_cell": 55,
+          "from_ref": false,
+          "metric": 3594
+        }
+      ]
+    },
+    {
+      "stem": "d1_ud2_510DD000_025",
+      "aif_len": 495616,
+      "aif_fnv": "5f59d37cb171cc5d",
+      "atlas": [
+        768,
+        576
+      ],
+      "format": 82,
+      "ident": 1162227767,
+      "tiled_width": 192,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 431,
+      "new_count": 431,
+      "total": 22528,
+      "atlas_w": 768,
+      "atlas_h": 576,
+      "bases": {
+        "!": 183,
+        "?": 99,
+        "U": 174,
+        "a": 303,
+        "e": 5,
+        "i": 307,
+        "n": 379,
+        "o": 8,
+        "u": 51
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 732,
+          "cell": 431,
+          "base": "!",
+          "base_cell": 183,
+          "from_ref": false,
+          "metric": 2055
+        },
+        {
+          "char": "¿",
+          "code": 322,
+          "cell": 21,
+          "base": "?",
+          "base_cell": 99,
+          "from_ref": false,
+          "metric": 3847
+        },
+        {
+          "char": "Ú",
+          "code": 323,
+          "cell": 22,
+          "base": "U",
+          "base_cell": 174,
+          "from_ref": false,
+          "metric": 4618
+        },
+        {
+          "char": "á",
+          "code": 324,
+          "cell": 23,
+          "base": "a",
+          "base_cell": 303,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "é",
+          "code": 325,
+          "cell": 24,
+          "base": "e",
+          "base_cell": 5,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "í",
+          "code": 326,
+          "cell": 25,
+          "base": "i",
+          "base_cell": 307,
+          "from_ref": false,
+          "metric": 1546
+        },
+        {
+          "char": "ñ",
+          "code": 327,
+          "cell": 26,
+          "base": "n",
+          "base_cell": 379,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ó",
+          "code": 328,
+          "cell": 27,
+          "base": "o",
+          "base_cell": 8,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ú",
+          "code": 329,
+          "cell": 28,
+          "base": "u",
+          "base_cell": 51,
+          "from_ref": false,
+          "metric": 3594
+        }
+      ]
+    },
+    {
+      "stem": "d1_ud2_5503E000_026",
+      "aif_len": 413696,
+      "aif_fnv": "899875dc73f5b036",
+      "atlas": [
+        640,
+        576
+      ],
+      "format": 82,
+      "ident": 1162227767,
+      "tiled_width": 160,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 323,
+      "new_count": 323,
+      "total": 14464,
+      "atlas_w": 640,
+      "atlas_h": 576,
+      "bases": {
+        "!": 142,
+        "?": 143,
+        "E": 270,
+        "U": 228,
+        "a": 36,
+        "e": 38,
+        "i": 49,
+        "n": 40,
+        "o": 44,
+        "u": 57
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 624,
+          "cell": 323,
+          "base": "!",
+          "base_cell": 142,
+          "from_ref": false,
+          "metric": 2055
+        },
+        {
+          "char": "¿",
+          "code": 625,
+          "cell": 324,
+          "base": "?",
+          "base_cell": 143,
+          "from_ref": false,
+          "metric": 3847
+        },
+        {
+          "char": "É",
+          "code": 626,
+          "cell": 325,
+          "base": "E",
+          "base_cell": 270,
+          "from_ref": false,
+          "metric": 3850
+        },
+        {
+          "char": "Ú",
+          "code": 627,
+          "cell": 326,
+          "base": "U",
+          "base_cell": 228,
+          "from_ref": false,
+          "metric": 4618
+        },
+        {
+          "char": "á",
+          "code": 628,
+          "cell": 327,
+          "base": "a",
+          "base_cell": 36,
+          "from_ref": false,
+          "metric": 3082
+        },
+        {
+          "char": "é",
+          "code": 629,
+          "cell": 328,
+          "base": "e",
+          "base_cell": 38,
+          "from_ref": false,
+          "metric": 3082
+        },
+        {
+          "char": "í",
+          "code": 630,
+          "cell": 329,
+          "base": "i",
+          "base_cell": 49,
+          "from_ref": false,
+          "metric": 1802
+        },
+        {
+          "char": "ñ",
+          "code": 631,
+          "cell": 330,
+          "base": "n",
+          "base_cell": 40,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ó",
+          "code": 632,
+          "cell": 331,
+          "base": "o",
+          "base_cell": 44,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "ú",
+          "code": 633,
+          "cell": 332,
+          "base": "u",
+          "base_cell": 57,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ü",
+          "code": 634,
+          "cell": 333,
+          "base": "u",
+          "base_cell": 57,
+          "from_ref": false,
+          "metric": 3594
+        }
+      ]
+    },
+    {
+      "stem": "d1_ud2_59DEA800_017",
+      "aif_len": 1331200,
+      "aif_fnv": "2d86554e1a41684a",
+      "atlas": [
+        1152,
+        1152
+      ],
+      "format": 82,
+      "ident": 1969512816,
+      "tiled_width": 288,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 1247,
+      "new_count": 1247,
+      "total": 191488,
+      "atlas_w": 1152,
+      "atlas_h": 1152,
+      "bases": {
+        "!": 104,
+        "?": 132,
+        "N": 233,
+        "U": 397,
+        "a": 7,
+        "e": 15,
+        "i": 455,
+        "n": 3,
+        "o": 12,
+        "u": 13
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 1548,
+          "cell": 1247,
+          "base": "!",
+          "base_cell": 104,
+          "from_ref": false,
+          "metric": 2055
+        },
+        {
+          "char": "¿",
+          "code": 1549,
+          "cell": 1248,
+          "base": "?",
+          "base_cell": 132,
+          "from_ref": false,
+          "metric": 3847
+        },
+        {
+          "char": "Ñ",
+          "code": 1550,
+          "cell": 1249,
+          "base": "N",
+          "base_cell": 233,
+          "from_ref": false,
+          "metric": 4618
+        },
+        {
+          "char": "Ú",
+          "code": 1551,
+          "cell": 1250,
+          "base": "U",
+          "base_cell": 397,
+          "from_ref": false,
+          "metric": 4618
+        },
+        {
+          "char": "á",
+          "code": 1552,
+          "cell": 1251,
+          "base": "a",
+          "base_cell": 7,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "é",
+          "code": 1553,
+          "cell": 1252,
+          "base": "e",
+          "base_cell": 15,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "í",
+          "code": 1554,
+          "cell": 1253,
+          "base": "i",
+          "base_cell": 455,
+          "from_ref": false,
+          "metric": 1546
+        },
+        {
+          "char": "ñ",
+          "code": 1555,
+          "cell": 1254,
+          "base": "n",
+          "base_cell": 3,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ó",
+          "code": 1556,
+          "cell": 1255,
+          "base": "o",
+          "base_cell": 12,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ú",
+          "code": 1557,
+          "cell": 1256,
+          "base": "u",
+          "base_cell": 13,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ü",
+          "code": 1558,
+          "cell": 1257,
+          "base": "u",
+          "base_cell": 13,
+          "from_ref": false,
+          "metric": 3594
+        }
+      ]
+    },
+    {
+      "stem": "d1_ud2_603B9000_033",
+      "aif_len": 200704,
+      "aif_fnv": "25de57c9f48c834d",
+      "atlas": [
+        512,
+        384
+      ],
+      "format": 82,
+      "ident": 1162227767,
+      "tiled_width": 128,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 164,
+      "new_count": 164,
+      "total": 4096,
+      "atlas_w": 512,
+      "atlas_h": 384,
+      "bases": {
+        "!": 101,
+        "?": 90,
+        "a": 46,
+        "e": 34,
+        "i": 47,
+        "o": 37
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 465,
+          "cell": 164,
+          "base": "!",
+          "base_cell": 101,
+          "from_ref": false,
+          "metric": 2055
+        },
+        {
+          "char": "¿",
+          "code": 466,
+          "cell": 165,
+          "base": "?",
+          "base_cell": 90,
+          "from_ref": false,
+          "metric": 3847
+        },
+        {
+          "char": "á",
+          "code": 467,
+          "cell": 166,
+          "base": "a",
+          "base_cell": 46,
+          "from_ref": false,
+          "metric": 3082
+        },
+        {
+          "char": "é",
+          "code": 468,
+          "cell": 167,
+          "base": "e",
+          "base_cell": 34,
+          "from_ref": false,
+          "metric": 3082
+        },
+        {
+          "char": "í",
+          "code": 469,
+          "cell": 168,
+          "base": "i",
+          "base_cell": 47,
+          "from_ref": false,
+          "metric": 1802
+        },
+        {
+          "char": "ó",
+          "code": 470,
+          "cell": 169,
+          "base": "o",
+          "base_cell": 37,
+          "from_ref": false,
+          "metric": 3338
+        }
+      ]
+    },
+    {
+      "stem": "d1_ud2_62CF4800_014",
+      "aif_len": 69632,
+      "aif_fnv": "c42d97ed6610709a",
+      "atlas": [
+        256,
+        192
+      ],
+      "format": 82,
+      "ident": 1128804658,
+      "tiled_width": 64,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 42,
+      "new_count": 42,
+      "total": 640,
+      "atlas_w": 256,
+      "atlas_h": 192,
+      "bases": {
+        "?": 31,
+        "i": 16
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¿",
+          "code": 343,
+          "cell": 42,
+          "base": "?",
+          "base_cell": 31,
+          "from_ref": false,
+          "metric": 3847
+        },
+        {
+          "char": "í",
+          "code": 344,
+          "cell": 43,
+          "base": "i",
+          "base_cell": 16,
+          "from_ref": false,
+          "metric": 1802
+        }
+      ]
+    },
+    {
+      "stem": "d1_ud2_644C2000_017",
+      "aif_len": 495616,
+      "aif_fnv": "7d763862f8280f7b",
+      "atlas": [
+        768,
+        640
+      ],
+      "format": 82,
+      "ident": 1128804658,
+      "tiled_width": 192,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 438,
+      "new_count": 438,
+      "total": 23296,
+      "atlas_w": 768,
+      "atlas_h": 640,
+      "bases": {
+        "!": 30,
+        "?": 70,
+        "a": 29,
+        "e": 11,
+        "i": 21,
+        "n": 46,
+        "o": 5,
+        "u": 48
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 739,
+          "cell": 438,
+          "base": "!",
+          "base_cell": 30,
+          "from_ref": false,
+          "metric": 2055
+        },
+        {
+          "char": "¿",
+          "code": 740,
+          "cell": 439,
+          "base": "?",
+          "base_cell": 70,
+          "from_ref": false,
+          "metric": 3847
+        },
+        {
+          "char": "á",
+          "code": 741,
+          "cell": 440,
+          "base": "a",
+          "base_cell": 29,
+          "from_ref": false,
+          "metric": 3082
+        },
+        {
+          "char": "é",
+          "code": 742,
+          "cell": 441,
+          "base": "e",
+          "base_cell": 11,
+          "from_ref": false,
+          "metric": 3082
+        },
+        {
+          "char": "í",
+          "code": 743,
+          "cell": 442,
+          "base": "i",
+          "base_cell": 21,
+          "from_ref": false,
+          "metric": 1802
+        },
+        {
+          "char": "ñ",
+          "code": 744,
+          "cell": 443,
+          "base": "n",
+          "base_cell": 46,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ó",
+          "code": 745,
+          "cell": 444,
+          "base": "o",
+          "base_cell": 5,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "ú",
+          "code": 746,
+          "cell": 445,
+          "base": "u",
+          "base_cell": 48,
+          "from_ref": false,
+          "metric": 3594
+        }
+      ]
+    },
+    {
+      "stem": "d1_ud2_69AB6000_009",
+      "aif_len": 1642496,
+      "aif_fnv": "48858c90d268467d",
+      "atlas": [
+        1280,
+        1216
+      ],
+      "format": 82,
+      "ident": 1128804658,
+      "tiled_width": 320,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 1490,
+      "new_count": 1490,
+      "total": 325632,
+      "atlas_w": 1280,
+      "atlas_h": 1216,
+      "bases": {
+        "!": 111,
+        "?": 67,
+        "A": 1088,
+        "E": 1483,
+        "I": 106,
+        "U": 131,
+        "a": 718,
+        "e": 6,
+        "i": 739,
+        "n": 722,
+        "o": 3,
+        "u": 4
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 1791,
+          "cell": 1490,
+          "base": "!",
+          "base_cell": 111,
+          "from_ref": false,
+          "metric": 2055
+        },
+        {
+          "char": "¿",
+          "code": 1792,
+          "cell": 1491,
+          "base": "?",
+          "base_cell": 67,
+          "from_ref": false,
+          "metric": 3847
+        },
+        {
+          "char": "Á",
+          "code": 1793,
+          "cell": 1492,
+          "base": "A",
+          "base_cell": 1088,
+          "from_ref": false,
+          "metric": 3850
+        },
+        {
+          "char": "É",
+          "code": 1794,
+          "cell": 1493,
+          "base": "E",
+          "base_cell": 1483,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "Í",
+          "code": 1795,
+          "cell": 1494,
+          "base": "I",
+          "base_cell": 106,
+          "from_ref": false,
+          "metric": 2314
+        },
+        {
+          "char": "Ú",
+          "code": 1796,
+          "cell": 1495,
+          "base": "U",
+          "base_cell": 131,
+          "from_ref": false,
+          "metric": 4618
+        },
+        {
+          "char": "á",
+          "code": 1797,
+          "cell": 1496,
+          "base": "a",
+          "base_cell": 718,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "é",
+          "code": 1798,
+          "cell": 1497,
+          "base": "e",
+          "base_cell": 6,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "í",
+          "code": 1799,
+          "cell": 1498,
+          "base": "i",
+          "base_cell": 739,
+          "from_ref": false,
+          "metric": 1546
+        },
+        {
+          "char": "ñ",
+          "code": 1800,
+          "cell": 1499,
+          "base": "n",
+          "base_cell": 722,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ó",
+          "code": 1801,
+          "cell": 1500,
+          "base": "o",
+          "base_cell": 3,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ú",
+          "code": 1802,
+          "cell": 1501,
+          "base": "u",
+          "base_cell": 4,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ü",
+          "code": 1803,
+          "cell": 1502,
+          "base": "u",
+          "base_cell": 4,
+          "from_ref": false,
+          "metric": 3594
+        }
+      ]
+    },
+    {
+      "stem": "d1_ud2_778A1000_030",
+      "aif_len": 331776,
+      "aif_fnv": "45e807e2dc9fb0e9",
+      "atlas": [
+        640,
+        512
+      ],
+      "format": 82,
+      "ident": 1969512816,
+      "tiled_width": 160,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 282,
+      "new_count": 282,
+      "total": 10752,
+      "atlas_w": 640,
+      "atlas_h": 512,
+      "bases": {
+        "!": 127,
+        "?": 121,
+        "a": 22,
+        "e": 18,
+        "i": 31,
+        "n": 36,
+        "o": 25,
+        "u": 35
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 583,
+          "cell": 282,
+          "base": "!",
+          "base_cell": 127,
+          "from_ref": false,
+          "metric": 2055
+        },
+        {
+          "char": "¿",
+          "code": 584,
+          "cell": 283,
+          "base": "?",
+          "base_cell": 121,
+          "from_ref": false,
+          "metric": 3847
+        },
+        {
+          "char": "á",
+          "code": 585,
+          "cell": 284,
+          "base": "a",
+          "base_cell": 22,
+          "from_ref": false,
+          "metric": 3082
+        },
+        {
+          "char": "é",
+          "code": 586,
+          "cell": 285,
+          "base": "e",
+          "base_cell": 18,
+          "from_ref": false,
+          "metric": 3082
+        },
+        {
+          "char": "í",
+          "code": 587,
+          "cell": 286,
+          "base": "i",
+          "base_cell": 31,
+          "from_ref": false,
+          "metric": 1802
+        },
+        {
+          "char": "ñ",
+          "code": 588,
+          "cell": 287,
+          "base": "n",
+          "base_cell": 36,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ó",
+          "code": 589,
+          "cell": 288,
+          "base": "o",
+          "base_cell": 25,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "ú",
+          "code": 590,
+          "cell": 289,
+          "base": "u",
+          "base_cell": 35,
+          "from_ref": false,
+          "metric": 3594
+        }
+      ]
+    },
+    {
+      "stem": "d1_ud2_7B2EA000_042",
+      "aif_len": 200704,
+      "aif_fnv": "bc9231288f8a4ed2",
+      "atlas": [
+        512,
+        320
+      ],
+      "format": 82,
+      "ident": 1969513010,
+      "tiled_width": 128,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 159,
+      "new_count": 159,
+      "total": 3072,
+      "atlas_w": 512,
+      "atlas_h": 320,
+      "bases": {
+        "!": 15,
+        "?": 108,
+        "a": 14,
+        "e": 23,
+        "i": 35,
+        "o": 13,
+        "u": 64
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 460,
+          "cell": 159,
+          "base": "!",
+          "base_cell": 15,
+          "from_ref": false,
+          "metric": 2055
+        },
+        {
+          "char": "¿",
+          "code": 307,
+          "cell": 6,
+          "base": "?",
+          "base_cell": 108,
+          "from_ref": false,
+          "metric": 3847
+        },
+        {
+          "char": "á",
+          "code": 308,
+          "cell": 7,
+          "base": "a",
+          "base_cell": 14,
+          "from_ref": false,
+          "metric": 3082
+        },
+        {
+          "char": "é",
+          "code": 309,
+          "cell": 8,
+          "base": "e",
+          "base_cell": 23,
+          "from_ref": false,
+          "metric": 3082
+        },
+        {
+          "char": "í",
+          "code": 310,
+          "cell": 9,
+          "base": "i",
+          "base_cell": 35,
+          "from_ref": false,
+          "metric": 1802
+        },
+        {
+          "char": "ó",
+          "code": 325,
+          "cell": 24,
+          "base": "o",
+          "base_cell": 13,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "ú",
+          "code": 326,
+          "cell": 25,
+          "base": "u",
+          "base_cell": 64,
+          "from_ref": false,
+          "metric": 3594
+        }
+      ]
+    },
+    {
+      "stem": "d1_ud2_7EC08000_011",
+      "aif_len": 1478656,
+      "aif_fnv": "8286c6dbb84defd8",
+      "atlas": [
+        1280,
+        1152
+      ],
+      "format": 82,
+      "ident": 1969513010,
+      "tiled_width": 320,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 1432,
+      "new_count": 1432,
+      "total": 273408,
+      "atlas_w": 1280,
+      "atlas_h": 1152,
+      "bases": {
+        "!": 114,
+        "?": 127,
+        "E": 21,
+        "I": 173,
+        "U": 168,
+        "a": 6,
+        "e": 3,
+        "i": 23,
+        "n": 4,
+        "o": 11,
+        "u": 16
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 1733,
+          "cell": 1432,
+          "base": "!",
+          "base_cell": 114,
+          "from_ref": false,
+          "metric": 2055
+        },
+        {
+          "char": "¿",
+          "code": 1734,
+          "cell": 1433,
+          "base": "?",
+          "base_cell": 127,
+          "from_ref": false,
+          "metric": 3847
+        },
+        {
+          "char": "É",
+          "code": 1735,
+          "cell": 1434,
+          "base": "E",
+          "base_cell": 21,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "Í",
+          "code": 1736,
+          "cell": 1435,
+          "base": "I",
+          "base_cell": 173,
+          "from_ref": false,
+          "metric": 2314
+        },
+        {
+          "char": "Ú",
+          "code": 1737,
+          "cell": 1436,
+          "base": "U",
+          "base_cell": 168,
+          "from_ref": false,
+          "metric": 4618
+        },
+        {
+          "char": "á",
+          "code": 1738,
+          "cell": 1437,
+          "base": "a",
+          "base_cell": 6,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "é",
+          "code": 1739,
+          "cell": 1438,
+          "base": "e",
+          "base_cell": 3,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "í",
+          "code": 1740,
+          "cell": 1439,
+          "base": "i",
+          "base_cell": 23,
+          "from_ref": false,
+          "metric": 1546
+        },
+        {
+          "char": "ñ",
+          "code": 315,
+          "cell": 14,
+          "base": "n",
+          "base_cell": 4,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ó",
+          "code": 319,
+          "cell": 18,
+          "base": "o",
+          "base_cell": 11,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ú",
+          "code": 320,
+          "cell": 19,
+          "base": "u",
+          "base_cell": 16,
+          "from_ref": false,
+          "metric": 3594
+        }
+      ]
+    },
+    {
+      "stem": "d1_ud2_8E200800_046",
+      "aif_len": 266240,
+      "aif_fnv": "07998d4045017157",
+      "atlas": [
+        512,
+        512
+      ],
+      "format": 82,
+      "ident": 1162227767,
+      "tiled_width": 128,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 238,
+      "new_count": 238,
+      "total": 6400,
+      "atlas_w": 512,
+      "atlas_h": 512,
+      "bases": {
+        "!": 33,
+        "?": 55,
+        "a": 216,
+        "e": 219,
+        "i": 222,
+        "n": 217,
+        "o": 15,
+        "u": 58
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 539,
+          "cell": 238,
+          "base": "!",
+          "base_cell": 33,
+          "from_ref": false,
+          "metric": 2055
+        },
+        {
+          "char": "¿",
+          "code": 540,
+          "cell": 239,
+          "base": "?",
+          "base_cell": 55,
+          "from_ref": false,
+          "metric": 3847
+        },
+        {
+          "char": "á",
+          "code": 541,
+          "cell": 240,
+          "base": "a",
+          "base_cell": 216,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "é",
+          "code": 542,
+          "cell": 241,
+          "base": "e",
+          "base_cell": 219,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "í",
+          "code": 543,
+          "cell": 242,
+          "base": "i",
+          "base_cell": 222,
+          "from_ref": false,
+          "metric": 1546
+        },
+        {
+          "char": "ñ",
+          "code": 544,
+          "cell": 243,
+          "base": "n",
+          "base_cell": 217,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ó",
+          "code": 545,
+          "cell": 244,
+          "base": "o",
+          "base_cell": 15,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "ú",
+          "code": 546,
+          "cell": 245,
+          "base": "u",
+          "base_cell": 58,
+          "from_ref": false,
+          "metric": 3594
+        }
+      ]
+    },
+    {
+      "stem": "d1_ud2_916D8000_026",
+      "aif_len": 495616,
+      "aif_fnv": "51a2d187abedc5da",
+      "atlas": [
+        768,
+        640
+      ],
+      "format": 82,
+      "ident": 1162228017,
+      "tiled_width": 192,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 449,
+      "new_count": 449,
+      "total": 30208,
+      "atlas_w": 768,
+      "atlas_h": 640,
+      "bases": {
+        "!": 161,
+        "?": 129,
+        "a": 13,
+        "e": 10,
+        "i": 40,
+        "n": 14,
+        "o": 18,
+        "u": 21
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 750,
+          "cell": 449,
+          "base": "!",
+          "base_cell": 161,
+          "from_ref": false,
+          "metric": 2055
+        },
+        {
+          "char": "¿",
+          "code": 751,
+          "cell": 450,
+          "base": "?",
+          "base_cell": 129,
+          "from_ref": false,
+          "metric": 3847
+        },
+        {
+          "char": "á",
+          "code": 752,
+          "cell": 451,
+          "base": "a",
+          "base_cell": 13,
+          "from_ref": false,
+          "metric": 3082
+        },
+        {
+          "char": "é",
+          "code": 753,
+          "cell": 452,
+          "base": "e",
+          "base_cell": 10,
+          "from_ref": false,
+          "metric": 3082
+        },
+        {
+          "char": "í",
+          "code": 754,
+          "cell": 453,
+          "base": "i",
+          "base_cell": 40,
+          "from_ref": false,
+          "metric": 1802
+        },
+        {
+          "char": "ñ",
+          "code": 755,
+          "cell": 454,
+          "base": "n",
+          "base_cell": 14,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ó",
+          "code": 756,
+          "cell": 455,
+          "base": "o",
+          "base_cell": 18,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "ú",
+          "code": 757,
+          "cell": 456,
+          "base": "u",
+          "base_cell": 21,
+          "from_ref": false,
+          "metric": 3594
+        }
+      ]
+    },
+    {
+      "stem": "d1_ud2_96119800_017",
+      "aif_len": 495616,
+      "aif_fnv": "e651fcde119a8aef",
+      "atlas": [
+        768,
+        640
+      ],
+      "format": 82,
+      "ident": 1969512816,
+      "tiled_width": 192,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 470,
+      "new_count": 470,
+      "total": 26496,
+      "atlas_w": 768,
+      "atlas_h": 640,
+      "bases": {
+        "!": 90,
+        "?": 135,
+        "A": 86,
+        "E": 399,
+        "O": 100,
+        "a": 50,
+        "e": 15,
+        "i": 17,
+        "n": 36,
+        "o": 35,
+        "u": 68
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 771,
+          "cell": 470,
+          "base": "!",
+          "base_cell": 90,
+          "from_ref": false,
+          "metric": 2055
+        },
+        {
+          "char": "¿",
+          "code": 772,
+          "cell": 471,
+          "base": "?",
+          "base_cell": 135,
+          "from_ref": false,
+          "metric": 3847
+        },
+        {
+          "char": "Á",
+          "code": 773,
+          "cell": 472,
+          "base": "A",
+          "base_cell": 86,
+          "from_ref": false,
+          "metric": 4362
+        },
+        {
+          "char": "É",
+          "code": 774,
+          "cell": 473,
+          "base": "E",
+          "base_cell": 399,
+          "from_ref": false,
+          "metric": 3850
+        },
+        {
+          "char": "Ó",
+          "code": 775,
+          "cell": 474,
+          "base": "O",
+          "base_cell": 100,
+          "from_ref": false,
+          "metric": 4874
+        },
+        {
+          "char": "á",
+          "code": 776,
+          "cell": 475,
+          "base": "a",
+          "base_cell": 50,
+          "from_ref": false,
+          "metric": 3082
+        },
+        {
+          "char": "é",
+          "code": 777,
+          "cell": 476,
+          "base": "e",
+          "base_cell": 15,
+          "from_ref": false,
+          "metric": 3082
+        },
+        {
+          "char": "í",
+          "code": 778,
+          "cell": 477,
+          "base": "i",
+          "base_cell": 17,
+          "from_ref": false,
+          "metric": 1802
+        },
+        {
+          "char": "ñ",
+          "code": 779,
+          "cell": 478,
+          "base": "n",
+          "base_cell": 36,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ó",
+          "code": 780,
+          "cell": 479,
+          "base": "o",
+          "base_cell": 35,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "ú",
+          "code": 303,
+          "cell": 2,
+          "base": "u",
+          "base_cell": 68,
+          "from_ref": false,
+          "metric": 3594
+        }
+      ]
+    },
+    {
+      "stem": "d1_ud2_A014E800_005",
+      "aif_len": 692224,
+      "aif_fnv": "f87c4fd6a8db2a22",
+      "atlas": [
+        896,
+        704
+      ],
+      "format": 82,
+      "ident": 1128804658,
+      "tiled_width": 224,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 581,
+      "new_count": 581,
+      "total": 47488,
+      "atlas_w": 896,
+      "atlas_h": 704,
+      "bases": {
+        "!": 127,
+        "?": 12,
+        "O": 72,
+        "a": 7,
+        "e": 22,
+        "i": 50,
+        "n": 51,
+        "o": 19,
+        "u": 20
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 882,
+          "cell": 581,
+          "base": "!",
+          "base_cell": 127,
+          "from_ref": false,
+          "metric": 2055
+        },
+        {
+          "char": "¿",
+          "code": 883,
+          "cell": 582,
+          "base": "?",
+          "base_cell": 12,
+          "from_ref": false,
+          "metric": 3847
+        },
+        {
+          "char": "Ó",
+          "code": 884,
+          "cell": 583,
+          "base": "O",
+          "base_cell": 72,
+          "from_ref": false,
+          "metric": 4874
+        },
+        {
+          "char": "á",
+          "code": 885,
+          "cell": 584,
+          "base": "a",
+          "base_cell": 7,
+          "from_ref": false,
+          "metric": 3082
+        },
+        {
+          "char": "é",
+          "code": 886,
+          "cell": 585,
+          "base": "e",
+          "base_cell": 22,
+          "from_ref": false,
+          "metric": 3082
+        },
+        {
+          "char": "í",
+          "code": 887,
+          "cell": 586,
+          "base": "i",
+          "base_cell": 50,
+          "from_ref": false,
+          "metric": 1802
+        },
+        {
+          "char": "ñ",
+          "code": 888,
+          "cell": 587,
+          "base": "n",
+          "base_cell": 51,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ó",
+          "code": 889,
+          "cell": 588,
+          "base": "o",
+          "base_cell": 19,
+          "from_ref": false,
+          "metric": 3338
+        },
+        {
+          "char": "ú",
+          "code": 890,
+          "cell": 589,
+          "base": "u",
+          "base_cell": 20,
+          "from_ref": false,
+          "metric": 3594
+        },
+        {
+          "char": "ü",
+          "code": 891,
+          "cell": 590,
+          "base": "u",
+          "base_cell": 20,
+          "from_ref": false,
+          "metric": 3594
+        }
+      ]
+    },
+    {
+      "stem": "d1_ud2_A4DAA000_040",
+      "aif_len": 200704,
+      "aif_fnv": "84d9e3c7ecb2f8e3",
+      "atlas": [
+        512,
+        320
+      ],
+      "format": 82,
+      "ident": 1346842929,
+      "tiled_width": 128,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 150,
+      "new_count": 150,
+      "total": 2176,
+      "atlas_w": 512,
+      "atlas_h": 320,
+      "bases": {
+        "!": 119,
+        "a": 115,
+        "e": 105,
+        "o": 108
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 451,
+          "cell": 150,
+          "base": "!",
+          "base_cell": 119,
+          "from_ref": false,
+          "metric": 2055
+        },
+        {
+          "char": "á",
+          "code": 452,
+          "cell": 151,
+          "base": "a",
+          "base_cell": 115,
+          "from_ref": false,
+          "metric": 3082
+        },
+        {
+          "char": "é",
+          "code": 453,
+          "cell": 152,
+          "base": "e",
+          "base_cell": 105,
+          "from_ref": false,
+          "metric": 3082
+        },
+        {
+          "char": "ó",
+          "code": 454,
+          "cell": 153,
+          "base": "o",
+          "base_cell": 108,
+          "from_ref": false,
+          "metric": 3338
+        }
+      ]
+    },
+    {
+      "stem": "d2_ud1_5B259800_027",
+      "aif_len": 36864,
+      "aif_fnv": "2c966d724a69221b",
+      "atlas": [
+        256,
+        128
+      ],
+      "format": 82,
+      "ident": 1346842929,
+      "tiled_width": 64,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 28,
+      "new_count": 28,
+      "total": 512,
+      "atlas_w": 256,
+      "atlas_h": 128,
+      "bases": {
+        "!": 27
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 329,
+          "cell": 28,
+          "base": "!",
+          "base_cell": 27,
+          "from_ref": false,
+          "metric": 2055
+        }
+      ]
+    },
+    {
+      "stem": "d2_ud1_5E3DD000_031",
+      "aif_len": 36864,
+      "aif_fnv": "2411fb64cc32d4cf",
+      "atlas": [
+        256,
+        128
+      ],
+      "format": 82,
+      "ident": 1128804658,
+      "tiled_width": 64,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 24,
+      "new_count": 24,
+      "total": 512,
+      "atlas_w": 256,
+      "atlas_h": 128,
+      "bases": {
+        "!": 23
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 325,
+          "cell": 24,
+          "base": "!",
+          "base_cell": 23,
+          "from_ref": false,
+          "metric": 2055
+        }
+      ]
+    },
+    {
+      "stem": "d2_ud1_60F05800_035",
+      "aif_len": 69632,
+      "aif_fnv": "6c4779c69c02d121",
+      "atlas": [
+        256,
+        256
+      ],
+      "format": 82,
+      "ident": 1346842929,
+      "tiled_width": 64,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 51,
+      "new_count": 51,
+      "total": 640,
+      "atlas_w": 256,
+      "atlas_h": 256,
+      "bases": {
+        "!": 29,
+        "i": 13
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 352,
+          "cell": 51,
+          "base": "!",
+          "base_cell": 29,
+          "from_ref": false,
+          "metric": 2055
+        },
+        {
+          "char": "í",
+          "code": 353,
+          "cell": 52,
+          "base": "i",
+          "base_cell": 13,
+          "from_ref": false,
+          "metric": 1802
+        }
+      ]
+    },
+    {
+      "stem": "d2_ud1_6623B000_023",
+      "aif_len": 36864,
+      "aif_fnv": "bcba70aa968893b9",
+      "atlas": [
+        256,
+        128
+      ],
+      "format": 82,
+      "ident": 1128804658,
+      "tiled_width": 64,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 31,
+      "new_count": 31,
+      "total": 512,
+      "atlas_w": 256,
+      "atlas_h": 128,
+      "bases": {
+        "!": 30
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 332,
+          "cell": 31,
+          "base": "!",
+          "base_cell": 30,
+          "from_ref": false,
+          "metric": 2055
+        }
+      ]
+    },
+    {
+      "stem": "d2_ud1_68653000_037",
+      "aif_len": 36864,
+      "aif_fnv": "3cbc121c84ba0e4a",
+      "atlas": [
+        256,
+        128
+      ],
+      "format": 82,
+      "ident": 1346842929,
+      "tiled_width": 64,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 30,
+      "new_count": 30,
+      "total": 512,
+      "atlas_w": 256,
+      "atlas_h": 128,
+      "bases": {
+        "!": 29
+      },
+      "missing_bases": [
+        "o"
+      ],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 331,
+          "cell": 30,
+          "base": "!",
+          "base_cell": 29,
+          "from_ref": false,
+          "metric": 2055
+        },
+        {
+          "char": "ó",
+          "code": 332,
+          "cell": 31,
+          "base": "o",
+          "base_cell": 15,
+          "from_ref": true,
+          "metric": 4874
+        }
+      ]
+    },
+    {
+      "stem": "d2_ud1_6ABA3000_024",
+      "aif_len": 36864,
+      "aif_fnv": "a9ccd15631a15483",
+      "atlas": [
+        256,
+        128
+      ],
+      "format": 82,
+      "ident": 1162227767,
+      "tiled_width": 64,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 26,
+      "new_count": 26,
+      "total": 512,
+      "atlas_w": 256,
+      "atlas_h": 128,
+      "bases": {
+        "!": 25
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 327,
+          "cell": 26,
+          "base": "!",
+          "base_cell": 25,
+          "from_ref": false,
+          "metric": 2055
+        }
+      ]
+    },
+    {
+      "stem": "d2_ud1_6BCF7000_038",
+      "aif_len": 36864,
+      "aif_fnv": "170514bf13010767",
+      "atlas": [
+        256,
+        128
+      ],
+      "format": 82,
+      "ident": 1162228017,
+      "tiled_width": 64,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 25,
+      "new_count": 25,
+      "total": 512,
+      "atlas_w": 256,
+      "atlas_h": 128,
+      "bases": {
+        "!": 24,
+        "e": 18
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 326,
+          "cell": 25,
+          "base": "!",
+          "base_cell": 24,
+          "from_ref": false,
+          "metric": 2055
+        },
+        {
+          "char": "é",
+          "code": 327,
+          "cell": 26,
+          "base": "e",
+          "base_cell": 18,
+          "from_ref": false,
+          "metric": 3082
+        }
+      ]
+    },
+    {
+      "stem": "d2_ud1_6DFC5000_029",
+      "aif_len": 151552,
+      "aif_fnv": "cd11a0162617c58b",
+      "atlas": [
+        384,
+        320
+      ],
+      "format": 82,
+      "ident": 1346842929,
+      "tiled_width": 96,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 100,
+      "new_count": 100,
+      "total": 1664,
+      "atlas_w": 384,
+      "atlas_h": 320,
+      "bases": {
+        "?": 81,
+        "e": 3
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¿",
+          "code": 401,
+          "cell": 100,
+          "base": "?",
+          "base_cell": 81,
+          "from_ref": false,
+          "metric": 3847
+        },
+        {
+          "char": "é",
+          "code": 402,
+          "cell": 101,
+          "base": "e",
+          "base_cell": 3,
+          "from_ref": false,
+          "metric": 3338
+        }
+      ]
+    },
+    {
+      "stem": "d2_ud1_7281F800_035",
+      "aif_len": 36864,
+      "aif_fnv": "345640ad8b40b173",
+      "atlas": [
+        256,
+        128
+      ],
+      "format": 82,
+      "ident": 1162227767,
+      "tiled_width": 64,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 30,
+      "new_count": 30,
+      "total": 512,
+      "atlas_w": 256,
+      "atlas_h": 128,
+      "bases": {
+        "!": 29
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 331,
+          "cell": 30,
+          "base": "!",
+          "base_cell": 29,
+          "from_ref": false,
+          "metric": 2055
+        }
+      ]
+    },
+    {
+      "stem": "d2_ud1_78EA4000_017",
+      "aif_len": 151552,
+      "aif_fnv": "913e14e696d2d2e6",
+      "atlas": [
+        384,
+        384
+      ],
+      "format": 82,
+      "ident": 1128804658,
+      "tiled_width": 96,
+      "pixels_off": 4096,
+      "element_bytes": 16,
+      "count": 127,
+      "new_count": 127,
+      "total": 1664,
+      "atlas_w": 384,
+      "atlas_h": 384,
+      "bases": {
+        "!": 27,
+        "a": 17,
+        "i": 18
+      },
+      "missing_bases": [],
+      "glyphs": [
+        {
+          "char": "¡",
+          "code": 428,
+          "cell": 127,
+          "base": "!",
+          "base_cell": 27,
+          "from_ref": false,
+          "metric": 2055
+        },
+        {
+          "char": "á",
+          "code": 303,
+          "cell": 2,
+          "base": "a",
+          "base_cell": 17,
+          "from_ref": false,
+          "metric": 3082
+        },
+        {
+          "char": "í",
+          "code": 304,
+          "cell": 3,
+          "base": "i",
+          "base_cell": 18,
+          "from_ref": false,
+          "metric": 1802
+        }
+      ]
+    }
+  ]
+}

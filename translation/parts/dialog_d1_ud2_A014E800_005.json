@@ -1,0 +1,1666 @@
+{
+ "meta": {
+  "metodo": "mt-glosario"
+ },
+ "strings": [
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "2",
+   "en": "What's that?",
+   "es": "¿Qué es eso?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "6",
+   "en": "You're...",
+   "es": "Eres...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "8",
+   "en": "It is astounding that you have made it all this waywithout my blessing. You are worthy of my praise.",
+   "es": "Es asombroso que hayas llegado hasta aquí sin mi bendición. Eres digno de mi elogio.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "10",
+   "en": "I am deeply humbled, Crimson One.",
+   "es": "Estoy profundamente honrado, Carmesí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "12",
+   "en": "I shall bestow upon you the Crimson Sword,a mighty and noble blade.Though you are a child of an eclipse and unblessed,I shall grant you status and power as my emissary.",
+   "es": "Te otorgaré la Espada Carmesí, una hoja poderosa y noble. Aunque eres un hijo de un eclipse y un desdichado, te concederé estatus y poder como mi emisario.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "14",
+   "en": "Why do you hesitate? Remember all the injustices you faced.Do you not dream of a different world?Stand beside me and the power is yours-the power to shape the world as you see fit!",
+   "es": "¿Por qué dudas? Recuerda todas las injusticias que sufriste. ¿No sueñas con un mundo distinto? ¡Ponte a mi lado y el poder será tuyo: el poder de moldear el mundo a tu antojo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "16",
+   "en": "I trust you.",
+   "es": "Confío en ti.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "18",
+   "en": "Capell!",
+   "es": "¡Capell!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "20",
+   "en": "When you find what's important to you, fight for it with your life.",
+   "es": "Cuando encuentres lo que te importa, lucha por ello con tu vida.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "22",
+   "en": "I cannot.",
+   "es": "No puedo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "24",
+   "en": "As an omniscient god, you must understandthat I will not accept your blessing.",
+   "es": "Como dios omnisciente, debes entender que no aceptaré tu bendición.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "26",
+   "en": "If you grant me permission to defeat the Dreadknight and smashthe Onyx Chain, then I have no need for any sort of reward.",
+   "es": "Si me concedes permiso para derrotar al Caballero Temible y romper la Cadena de Ónice, no necesito ningún tipo de recompensa.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "28",
+   "en": "No.",
+   "es": "No.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "30",
+   "en": "But...",
+   "es": "Pero...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "32",
+   "en": "My loyal servant, Leonid, shall not come to any harm.",
+   "es": "Mi leal servidor, Leonid, no sufrirá ningún daño.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "34",
+   "en": "But... Why...",
+   "es": "Pero... ¿Por qué...?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "36",
+   "en": "The Onyx Chain is key to my plan and may not be severed.",
+   "es": "La Cadena de Ónice es clave para mi plan y no puede ser cortada.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "38",
+   "en": "If it isn't, then the moon will crash into the world!Everything will be destroyed!",
+   "es": "¡Si no lo es, la luna se estrellará contra el mundo! ¡Todo quedará destruido!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "40",
+   "en": "This moon, the land, and all living creatureswere forced upon me by Her.None of this filth will be needed in the new world.",
+   "es": "Esta luna, la tierra y todos los seres vivos me fueron impuestos por Ella. Nada de esta inmundicia hará falta en el mundo nuevo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "42",
+   "en": "Filth? We're all filth to you!?",
+   "es": "¿Inmundicia? ¿Somos todos inmundicia para ti?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "44",
+   "en": "Once I destroy the moon, the world andeverything on it, I shall create my utopia.",
+   "es": "Cuando destruya la luna, el mundo y todo lo que hay en él, crearé mi utopía.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "46",
+   "en": "This is the future of the human race.",
+   "es": "Este es el futuro de la raza humana.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "48",
+   "en": "I don't understand. Why are you doing this?",
+   "es": "No lo entiendo. ¿Por qué haces esto?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "50",
+   "en": "Understand? What is there to understand?All I seek is reverence and submission.Remember that you must serve your master.",
+   "es": "¿Entender? ¿Qué hay que entender? Solo busco reverencia y sumisión. Recuerda que debes servir a tu amo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "52",
+   "en": "I won't!",
+   "es": "¡No lo haré!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "54",
+   "en": "You certainly are a child of the eclipse.Only a defective person would oppose me.To deny me is to deny the lunaglyphs andto become an enemy of the entire world!",
+   "es": "Ciertamente eres un hijo del eclipse. Solo una persona defectuosa se opondría a mí. ¡Negarme es negar los lunaglifos y convertirte en enemigo del mundo entero!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "56",
+   "en": "Capell, we shall all fight at your side!",
+   "es": "¡Capell, todos lucharemos a tu lado!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "58",
+   "en": "I won't let anyone hurt Capell!",
+   "es": "¡No dejaré que nadie hiera a Capell!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "60",
+   "en": "You're no god.",
+   "es": "No eres un dios.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "62",
+   "en": "I have no loyalty to you. I serve Capell and no other!",
+   "es": "No te guardo lealtad. ¡Sirvo a Capell y a nadie más!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "64",
+   "en": "Meet your end!",
+   "es": "¡Encuentra tu final!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "66",
+   "en": "Meet your end!",
+   "es": "¡Encuentra tu final!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "68",
+   "en": "Looks like my days of being a priest are over!",
+   "es": "¡Parece que mis días de sacerdote han terminado!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "70",
+   "en": "I'm really going to enjoy tearing you into little, tiny pieces!",
+   "es": "¡Voy a disfrutar de lo lindo haciéndote pedacitos!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "74",
+   "en": "Gustav just said that he really hates you!",
+   "es": "¡Gustav acaba de decir que te odia de verdad!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "76",
+   "en": "I hate you, too!",
+   "es": "¡Yo también te odio!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "78",
+   "en": "You're horrible!",
+   "es": "¡Eres horrible!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "80",
+   "en": "Say your prayers! Cause you don't know who you're up against!",
+   "es": "¡Reza tus plegarias! ¡Porque no sabes con quién te enfrentas!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "82",
+   "en": "This is for my brother! Prepare to die!",
+   "es": "¡Esto es por mi hermano! ¡Prepárate para morir!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "84",
+   "en": "The target is confirmed.",
+   "es": "Objetivo confirmado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "86",
+   "en": "What my darling is trying to say isthat she won't forgive you!",
+   "es": "¡Lo que mi amor intenta decir es que no te perdonará!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "88",
+   "en": "I shall deny you as well.",
+   "es": "Yo también te niego.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "90",
+   "en": "Those with lunaglyphs dare disobey me?",
+   "es": "¿Quienes tienen lunaglifos osan desobedecerme?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "92",
+   "en": "We don't need lunaglyphs.",
+   "es": "No necesitamos lunaglifos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "94",
+   "en": "Right.",
+   "es": "Exacto.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "96",
+   "en": "We can live without glyphs. We're just fine without them!",
+   "es": "Podemos vivir sin glifos. ¡Estamos perfectamente sin ellos!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "98",
+   "en": "Veros... The future that you have prepared for us...We don't want anything to do with it!",
+   "es": "Veros... El futuro que nos has preparado... ¡No queremos saber nada de él!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "100",
+   "en": "Preposterous!",
+   "es": "¡Absurdo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "102",
+   "en": "We don't need you! We can create a new world on our own!",
+   "es": "¡No te necesitamos! ¡Podemos crear un mundo nuevo por nuestra cuenta!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "104",
+   "en": "I see the future. The world will be a terrifying place!Live in fear of freezing weather and scorching heat!House-crushing storms! Hunger and disease!",
+   "es": "Veo el futuro. ¡El mundo será un lugar aterrador! ¡Vivid con miedo al frío glacial y al calor abrasador! ¡Tormentas que aplastan casas! ¡Hambre y enfermedad!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "106",
+   "en": "But even then... I trust in our strength.",
+   "es": "Pero aun así... confío en nuestra fuerza.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "108",
+   "en": "Repent! Capell, you lead them into darkness!Enjoy the helplessness of being unable to save those you hold dear!",
+   "es": "¡Arrepiéntete! ¡Capell, los conduces a la oscuridad! ¡Disfruta de la impotencia de no poder salvar a quienes amas!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "110",
+   "en": "Buddy, look!",
+   "es": "¡Colega, mira!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "112",
+   "en": "We're in trouble. Everyone, let's use thischain to return to the surface at once!",
+   "es": "Estamos en apuros. ¡Todos, usemos esta cadena para volver a la superficie de inmediato!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "114",
+   "en": "Hey! What are you sayin'?We all came out here ready to die.",
+   "es": "¡Eh! ¿Qué dices? Todos vinimos aquí dispuestos a morir.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "116",
+   "en": "There's nothin' left to be afraid of after beating someone like Veros.",
+   "es": "No queda nada que temer después de vencer a alguien como Veros.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "118",
+   "en": "Vic's right. Let's destroy the Onyx Chain.As long as we work together, we'll be fine.",
+   "es": "Vic tiene razón. Destruyamos la Cadena de Ónice. Mientras trabajemos juntos, estaremos bien.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "120",
+   "en": "No. We don't know if smashing the chain will stop the moon from falling.",
+   "es": "No. No sabemos si romper la cadena impedirá que caiga la luna.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "122",
+   "en": "That's true, but...",
+   "es": "Es cierto, pero...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "124",
+   "en": "We need to go back and spread the word about the impending disaster.",
+   "es": "Tenemos que volver y avisar del inminente desastre.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "126",
+   "en": "But it's a huge world...",
+   "es": "Pero es un mundo enorme...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "128",
+   "en": "We're all needed. If we work together,nothing's impossible!",
+   "es": "Se nos necesita a todos. ¡Si trabajamos juntos, nada es imposible!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "130",
+   "en": "Got it.",
+   "es": "Entendido.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "132",
+   "en": "This chain has lost Veros's protection.We might be able to cut it from the surface.But we have to hurry! It's too dangerous!",
+   "es": "Esta cadena ha perdido la protección de Veros. Puede que podamos cortarla desde la superficie. ¡Pero debemos darnos prisa! ¡Es demasiado peligroso!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "134",
+   "en": "But Capell, there has to be a better way.",
+   "es": "Pero Capell, tiene que haber una forma mejor.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "136",
+   "en": "Of course there is. That's why we're going back.",
+   "es": "Claro que la hay. Por eso volvemos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "140",
+   "en": "Come on, everybody!I'm the leader now, so you all need tobecome good at running away, too!",
+   "es": "¡Vamos, todos! ¡Ahora soy el líder, así que también tenéis que volveros buenos huyendo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "142",
+   "en": "Is everyone ready? We're taking the chain back down.Now move! No time to waste!",
+   "es": "¿Todos listos? Bajamos por la cadena. ¡En marcha! ¡No hay tiempo que perder!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "144",
+   "en": "Okay.",
+   "es": "Vale.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "146",
+   "en": "Yes, my lord.",
+   "es": "Sí, mi señor.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "148",
+   "en": "All right.",
+   "es": "De acuerdo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "150",
+   "en": "Where Lord Capell leads, I shall follow.",
+   "es": "Donde guíe el lord Capell, yo le seguiré.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "152",
+   "en": "Yes.",
+   "es": "Sí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "154",
+   "en": "Well then, we'd better hurry!Come on, my darling!",
+   "es": "¡Pues entonces más vale darse prisa! ¡Vamos, mi amor!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "156",
+   "en": "I accept this command.",
+   "es": "Acepto esta orden.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "158",
+   "en": "Gustav, come on.",
+   "es": "Gustav, vamos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "162",
+   "en": "Wait for me!",
+   "es": "¡Espérame!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "164",
+   "en": "Me too!",
+   "es": "¡Yo también!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "166",
+   "en": "Capell, you need to leave now, too.",
+   "es": "Capell, tú también debes marcharte ya.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "168",
+   "en": "Leaders go into battle first, but they're always the last to leave.It's what Sigmund would have done.",
+   "es": "Los líderes entran primero en batalla, pero siempre son los últimos en marcharse. Es lo que habría hecho Sigmund.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "170",
+   "en": "Eugene...",
+   "es": "Eugene...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "172",
+   "en": "...All right. Then, I'll go on ahead as well.",
+   "es": "...De acuerdo. Entonces yo también iré por delante.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "174",
+   "en": "Thank you, Eugene.",
+   "es": "Gracias, Eugene.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "176",
+   "en": "I'll handle everything. Don't let us down.",
+   "es": "Yo me encargo de todo. No nos falles.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "178",
+   "en": "I'm sorry to give you this responsibility.",
+   "es": "Siento darte esta responsabilidad.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "180",
+   "en": "Well... I'm used to it by now.",
+   "es": "Bueno... ya estoy acostumbrado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "184",
+   "en": "Then... So long, my friend.",
+   "es": "Entonces... Adiós, amigo mío.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "186",
+   "en": "Take care, Ed.",
+   "es": "Cuídate, Ed.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "188",
+   "en": "What are you two talking about?",
+   "es": "¿De qué habláis vosotros dos?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "190",
+   "en": "I'm remaining here. I have a job to do.I still have to smash the Onyx Chain.",
+   "es": "Yo me quedo aquí. Tengo una tarea. Aún debo romper la Cadena de Ónice.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "192",
+   "en": "Huh? What do you mean?",
+   "es": "¿Eh? ¿Qué quieres decir?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "194",
+   "en": "We have to finish what we started.",
+   "es": "Tenemos que terminar lo que empezamos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "196",
+   "en": "You said that we would return together!",
+   "es": "¡Dijiste que volveríamos juntos!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "198",
+   "en": "I didn't say I'd join you.",
+   "es": "No dije que me uniría a vosotros.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "200",
+   "en": "You did!",
+   "es": "¡Sí lo dijiste!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "202",
+   "en": "No, I didn't.",
+   "es": "No, no lo dije.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "204",
+   "en": "That's ridiculous! I won't accept this!I'm not leaving you behind!",
+   "es": "¡Es ridículo! ¡No lo acepto! ¡No te dejo atrás!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "206",
+   "en": "Understand why he's doing this!",
+   "es": "¡Entiende por qué lo hace!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "208",
+   "en": "What am I supposed to understand!?I don't know why he's doing this!",
+   "es": "¡¿Qué se supone que debo entender?! ¡No sé por qué lo hace!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "210",
+   "en": "You said we would create a new world!What did it mean? Was it just a lie!?",
+   "es": "¡Dijiste que crearíamos un mundo nuevo! ¿Qué significaba? ¡¿Era solo una mentira?!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "212",
+   "en": "That's-",
+   "es": "Eso es...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "214",
+   "en": "It's all my fault! I forced you into a battleyou didn't want to have any part of.Lord Sigmund and Edward were against itfrom the start! But I forced you to! Me!",
+   "es": "¡Todo es culpa mía! Te obligué a una batalla en la que no querías participar. ¡El lord Sigmund y Edward se oponían desde el principio! ¡Pero yo te obligué! ¡Yo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "216",
+   "en": "Aya.",
+   "es": "Aya.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "218",
+   "en": "Why? How come you're the only onewho can smash the chains?I wish I didn't have a lunaglyph. Then I wouldn't have tolet you do this! I wouldn't have to watch you...I should be the one!",
+   "es": "¿Por qué? ¿Cómo es que solo tú puedes romper las cadenas? Ojalá no tuviera un lunaglifo. ¡Así no tendría que dejarte hacer esto! No tendría que verte... ¡Debería ser yo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "220",
+   "en": "Aya!",
+   "es": "¡Aya!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "222",
+   "en": "I don't care about saving the world anymore!",
+   "es": "¡Ya no me importa salvar el mundo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "226",
+   "en": "This doesn't sound like the Aya I love.",
+   "es": "Esto no suena como la Aya que quiero.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "228",
+   "en": "I'm so sorry. I'm sorry, but I have to...",
+   "es": "Lo siento mucho. Lo siento, pero tengo que...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "230",
+   "en": "...You lied.",
+   "es": "...Mentiste.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "232",
+   "en": "Sorry.",
+   "es": "Perdón.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "234",
+   "en": "You're a liar...a liar...a liar.",
+   "es": "Eres un mentiroso... mentiroso... mentiroso.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "236",
+   "en": "What... Edward! Let me go!",
+   "es": "¡¿Qué...?! ¡Edward! ¡Suéltame!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "238",
+   "en": "No! I have no choice.",
+   "es": "¡No! No tengo elección.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "240",
+   "en": "I'll hit you and kick you! I really will!",
+   "es": "¡Te pegaré y te daré patadas! ¡Lo haré!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "242",
+   "en": "Go ahead.",
+   "es": "Adelante.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "244",
+   "en": "No, Capell... Please don't...",
+   "es": "No, Capell... Por favor, no...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "246",
+   "en": "Capell... I'll never... I'll never forgive you! Capell!",
+   "es": "Capell... ¡Nunca... nunca te perdonaré! ¡Capell!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "248",
+   "en": "I am sorry... But I give you my word...I promise I will return to you.",
+   "es": "Lo siento... Pero te doy mi palabra... Prometo que volveré a tu lado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "250",
+   "en": "Sigmund... I found happiness.I have someone who needs me...who loves me.And I am blessed...blessed by more friendsthan I ever dreamed of having.",
+   "es": "Sigmund... He encontrado la felicidad. Tengo a alguien que me necesita... que me quiere. Y soy bendecido... bendecido con más amigos de los que jamás soñé tener.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "252",
+   "en": "I will protect the world!Please watch over me, Father.",
+   "es": "¡Protegeré el mundo! Cuídame, padre.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "254",
+   "en": "Hey! What happened? Where'd my buddy go!?",
+   "es": "¡Eh! ¿Qué ha pasado? ¡¿Adónde ha ido mi colega?!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "258",
+   "en": "This can't be good! The ground's closing in fast!",
+   "es": "¡Esto no puede ser bueno! ¡El suelo se cierra rápido!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "260",
+   "en": "Dammit! My buddy, Capell, stayed behind on the moonjust to save us! ...Can't we do something!?",
+   "es": "¡Maldita sea! ¡Mi colega Capell se quedó en la luna solo para salvarnos! ...¡¿No podemos hacer algo?!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "262",
+   "en": "Honorable Savio?",
+   "es": "¿Honorable Savio?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "264",
+   "en": "Ah... I believe that we are close enough to attempt one final spell.",
+   "es": "Ah... Creo que estamos lo bastante cerca para intentar un último hechizo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "266",
+   "en": "Now!",
+   "es": "¡Ahora!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "268",
+   "en": "Hey, I know this place!",
+   "es": "¡Eh, conozco este sitio!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "270",
+   "en": "Thank you, Honorable Savio.",
+   "es": "Gracias, honorable Savio.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "272",
+   "en": "We are safe now...and look over there.",
+   "es": "Estamos a salvo... y mira allí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "274",
+   "en": "The chain!",
+   "es": "¡La cadena!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "276",
+   "en": "Capell... You really did it.",
+   "es": "Capell... De verdad lo hiciste.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "278",
+   "en": "See?I told you that he wouldn't let us down.",
+   "es": "¿Ves? Te dije que no nos fallaría.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "280",
+   "en": "Brilliant.",
+   "es": "Brillante.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "282",
+   "en": "Now...it is time for us to sleep.",
+   "es": "Ahora... es hora de que durmamos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "284",
+   "en": "What?",
+   "es": "¿Qué?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "286",
+   "en": "Master...",
+   "es": "Amo...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "288",
+   "en": "I'll use the power of my lunaglyph to...to... What?Why isn't it working!?",
+   "es": "Usaré el poder de mi lunaglifo para... para... ¿Qué? ¡¿Por qué no funciona?!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "290",
+   "en": "The lunaglyph was a power given to us by Veros the Crimson.Without him, a lunaglyph lacks power to draw from.We aristos are given life through lunaglyphs.The logical result of this loss of power is thatwe shall fall asleep.",
+   "es": "El lunaglifo era un poder que nos dio Veros el Carmesí. Sin él, un lunaglifo carece de poder del que extraer. A los aristos nos da la vida el lunaglifo. El resultado lógico de esta pérdida de poder es que dormiremos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "292",
+   "en": "So then... You knew all along...",
+   "es": "Entonces... Lo sabías desde el principio...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "294",
+   "en": "My vision proved to be true.",
+   "es": "Mi visión resultó ser cierta.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "296",
+   "en": "Then...why didn't you tell us?",
+   "es": "Entonces... ¿por qué no nos lo dijiste?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "298",
+   "en": "Please be proud of yourself.Your...no, our choice was a sound one.We made the right decision.",
+   "es": "Siéntete orgulloso. Tu... no, nuestra elección fue acertada. Tomamos la decisión correcta.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "300",
+   "en": "Savio...",
+   "es": "Savio...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "302",
+   "en": "I have no regrets of having fought together.",
+   "es": "No me arrepiento de haber luchado juntos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "304",
+   "en": "You have made me very proud.",
+   "es": "Me has hecho sentir muy orgulloso.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "306",
+   "en": "No, my lord...Why? Why?",
+   "es": "No, mi señor... ¿Por qué? ¿Por qué?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "308",
+   "en": "Please! Don't fall asleep!If you do, I'll...!",
+   "es": "¡Por favor! ¡No te duermas! ¡Si lo haces, yo...!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "310",
+   "en": "Komachi, thank you for being with me throughout this long andarduous journey. I trust you to act in my place from now on.",
+   "es": "Komachi, gracias por acompañarme en este largo y arduo viaje. Confío en que actúes en mi lugar a partir de ahora.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "312",
+   "en": "No!",
+   "es": "¡No!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "314",
+   "en": "This is the first time that you have refused one of my orders.Rest assured, I won't die. I will only fall asleep...Perhaps for a very long time. Until I am awakened...I trust the world...to you.",
+   "es": "Es la primera vez que rechazas una de mis órdenes. Tranquila, no moriré. Solo dormiré... Quizá durante mucho tiempo. Hasta que me despierten... Te confío el mundo... a ti.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "316",
+   "en": "My lord...",
+   "es": "Mi señor...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "318",
+   "en": "Sleep soundly, my darling. I'll protect you.No one will ever lay a finger on you. ",
+   "es": "Duerme tranquilo, mi amor. Yo te protegeré. Nadie te pondrá nunca un dedo encima.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "320",
+   "en": "Don't cry.",
+   "es": "No llores.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "322",
+   "en": "Thank...you.",
+   "es": "Gra...cias.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "324",
+   "en": "It's over, my friend. You've lost the battle this time.Now stamp here.",
+   "es": "Se acabó, amigo mío. Esta vez has perdido la batalla. Ahora estampa aquí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "326",
+   "en": "I haven't lost yet.",
+   "es": "Aún no he perdido.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "328",
+   "en": "You miscalculated.Are you going to make a stupid excuse to the village and say,\"We ran out of funds and can't send you medicine\"?What a wonderful ruler.",
+   "es": "Has calculado mal. ¿Vas a dar una excusa estúpida a la aldea y decir: \"Nos hemos quedado sin fondos y no podemos enviaros medicina\"? Vaya gobernante maravilloso.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "330",
+   "en": "You knew all along that this would happen, didn't you?",
+   "es": "Sabías desde el principio que esto pasaría, ¿verdad?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "332",
+   "en": "That'll teach you for next time.",
+   "es": "Eso te enseñará para la próxima.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "334",
+   "en": "Dammit. You got what you wanted.Now get out of my room!",
+   "es": "Maldita sea. Has conseguido lo que querías. ¡Ahora sal de mi habitación!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "336",
+   "en": "I'm already leaving. I don't haveany more business with you.",
+   "es": "Ya me voy. No tengo más asuntos contigo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "338",
+   "en": "Damn you, Kiriya!",
+   "es": "¡Maldito seas, Kiriya!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "340",
+   "en": "What is Kiriya doing?Is he trying to bankrupt Burguss!?",
+   "es": "¿Qué está haciendo Kiriya? ¡¿Intenta arruinar Burguss?!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "342",
+   "en": "No, no. What are ya doing?Don't go scattering papers everywhere, Edward.It's not easy to clean this all up, ya know?",
+   "es": "No, no. ¿Qué haces? No vayas esparciendo papeles por todas partes, Edward. No es fácil recogerlo todo, ¿sabes?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "344",
+   "en": "Vic! I'm the ruler of Burguss now! Be respectful when you speak!First of all, address me as \"Your Majesty\" and not by my name!",
+   "es": "¡Vic! ¡Ahora soy el gobernante de Burguss! ¡Habla con respeto! ¡Y ante todo, llámame \"Su Majestad\", no por mi nombre!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "346",
+   "en": "You and your title. Aya's a queen and Eugene's a prime minister andI still call them by their first names. They don't mind.Seriously, didn't I warn ya? This is tough work.Ya should've let some snooty nobleman do the \"king job.\"Ya weren't thinking, were ya?",
+   "es": "Tú y tu título. Aya es reina y Eugene primer ministro, y yo les sigo llamando por su nombre. No les importa. En serio, ¿no te avisé? Este es un trabajo duro. Debiste dejar que algún noble estirado hiciera el \"trabajo de rey\". No lo pensaste bien, ¿eh?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "348",
+   "en": "Be quiet!",
+   "es": "¡Cállate!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "350",
+   "en": "All right. I've got some more petitions here for ya.I think His Majesty might need to work a little bit harder!",
+   "es": "Muy bien. Aquí tengo más peticiones para ti. ¡Creo que Su Majestad tendrá que trabajar un poquito más!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "354",
+   "en": "Lord Sigmund...I think it's going to take a while for me tobecome the dignified leader you were.",
+   "es": "Lord Sigmund... Creo que tardaré un tiempo en convertirme en el líder digno que tú eras.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "356",
+   "en": "Who is it?",
+   "es": "¿Quién es?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "358",
+   "en": "May I come in?",
+   "es": "¿Puedo pasar?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "360",
+   "en": "Hello, Eugene!",
+   "es": "¡Hola, Eugene!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "362",
+   "en": "Father, Eugene is here.You shouldn't sleep all day just because it's a holiday.",
+   "es": "Padre, Eugene está aquí. No deberías dormir todo el día solo porque es festivo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "364",
+   "en": "Be down in a moment.",
+   "es": "Bajo en un momento.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "366",
+   "en": "This is the best place to relax.",
+   "es": "Este es el mejor sitio para relajarse.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "368",
+   "en": "You're busy? I thought today was your day off?",
+   "es": "¿Estás ocupado? ¿No era hoy tu día libre?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "370",
+   "en": "It is, but when I'm home, messengers seem to arrive every other minute.",
+   "es": "Sí, pero cuando estoy en casa, los mensajeros parecen llegar cada dos por tres.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "372",
+   "en": "That shows you're trusted and depended upon.",
+   "es": "Eso demuestra que confían y dependen de ti.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "374",
+   "en": "If it were business, I wouldn't mind, but they're marriage proposals!They just keep coming in! I can't stand it anymore!",
+   "es": "Si fuera trabajo no me importaría, ¡pero son propuestas de matrimonio! ¡No paran de llegar! ¡No lo soporto más!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "376",
+   "en": "I think people see marriage with the bright and eligible prime ministerof Halgita as very appealing. Why don't you wed Komachi?",
+   "es": "Creo que la gente ve muy atractivo casarse con el brillante y codiciado primer ministro de Halgita. ¿Por qué no te casas con Komachi?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "378",
+   "en": "You can't be serious. Please spread the word that I don't plan to marry yet.",
+   "es": "No lo dirás en serio. Corre la voz de que aún no pienso casarme.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "380",
+   "en": "I'm just an old man.",
+   "es": "No soy más que un viejo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "382",
+   "en": "By the way, I received a letter from Michelle the other day.It looks like she's in Casandra now. Did you get one, too?",
+   "es": "Por cierto, el otro día recibí una carta de Michelle. Parece que ahora está en Casandra. ¿Tú también recibiste una?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "384",
+   "en": "Yes...but I've been too busy to read it.",
+   "es": "Sí... pero he estado demasiado ocupado para leerla.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "386",
+   "en": "That's not right. You should have. She'll be upset.",
+   "es": "Eso no está bien. Deberías haberlo hecho. Se enfadará.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "388",
+   "en": "Yeah, well, Michelle is not exactly my type of woman.",
+   "es": "Sí, bueno, Michelle no es exactamente mi tipo de mujer.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "390",
+   "en": "But if she's doing well, then I'm happy to hear that.",
+   "es": "Pero si le va bien, me alegra saberlo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "394",
+   "en": "You bandits! Hand over all the treasure you stole from Casandra! Right now!",
+   "es": "¡Bandidos! ¡Entregad todo el tesoro que robasteis de Casandra! ¡Ahora mismo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "396",
+   "en": "Yeah, now!",
+   "es": "¡Sí, ahora!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "398",
+   "en": "Hurry up!",
+   "es": "¡Daos prisa!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "400",
+   "en": "I won't let bandits take over Sigmund and Capell's homeland!No way, no how! Not today!",
+   "es": "¡No dejaré que unos bandidos se apoderen de la tierra natal de Sigmund y Capell! ¡Ni hablar! ¡Hoy no!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "402",
+   "en": "Please no... This is everything.",
+   "es": "Por favor, no... Esto es todo lo que tenemos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "404",
+   "en": "Wait just a minute! I heard you snatched a woman, too!A damned thing to do, you scoundrels.Where is she? Don't tell me you pulled a stupid trick like hurting her, did you?",
+   "es": "¡Esperad un momento! ¡Oí que también os llevasteis a una mujer! Vaya faena, malhechores. ¿Dónde está? No me digáis que hicisteis la estupidez de hacerle daño.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "406",
+   "en": "Yeah, did you?",
+   "es": "¿Sí, lo hicisteis?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "408",
+   "en": "Yeah, did you?",
+   "es": "¿Sí, lo hicisteis?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "410",
+   "en": "No, no... We didn't even touch a hair on her head!Wait! I'll bring her here now.",
+   "es": "No, no... ¡No le tocamos ni un pelo de la cabeza! ¡Esperad! La traigo ahora mismo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "412",
+   "en": "Come on! Get out of here now. You've gotta go.",
+   "es": "¡Vamos! Salid de aquí ahora. Tenéis que iros.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "414",
+   "en": "What? You're forcing me out...?",
+   "es": "¿Qué? ¿Me echas...?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "416",
+   "en": "That's not what I'm saying, but please...leave...",
+   "es": "No digo eso, pero por favor... vete...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "418",
+   "en": "Ohhh... I've been tossed out again.",
+   "es": "Ay... Otra vez me han echado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "420",
+   "en": "Look!",
+   "es": "¡Mira!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "422",
+   "en": "It's Michelle!",
+   "es": "¡Es Michelle!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "424",
+   "en": "Hey Michelle, what are you doing here?",
+   "es": "Eh, Michelle, ¿qué haces aquí?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "426",
+   "en": "Why are you here?",
+   "es": "¿Por qué estás aquí?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "428",
+   "en": "You see, I was doing volunteer work in Casandra,when I came across these bandits up to no good.",
+   "es": "Verás, estaba haciendo trabajo voluntario en Casandra cuando me topé con estos bandidos tramando algo malo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "430",
+   "en": "Really?",
+   "es": "¿De verdad?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "432",
+   "en": "So, they kidnapped you.",
+   "es": "Así que te secuestraron.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "434",
+   "en": "This woman is our friend. Speak up! What did you do to her?",
+   "es": "Esta mujer es nuestra amiga. ¡Hablad! ¿Qué le habéis hecho?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "436",
+   "en": "No, wait! We didn't kidnap her!This lady just overheard us saying that one ofthe guys messed up and twisted his ankle!",
+   "es": "¡No, esperad! ¡No la secuestramos! ¡La señora nos oyó decir que uno de los muchachos se torció el tobillo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "438",
+   "en": "And she followed us!She made us afternoon tea! She had us pray before meals!Now we got men who want to go home and help their parents!Please take this woman away from us!",
+   "es": "¡Y nos siguió! ¡Nos preparó el té de la tarde! ¡Nos hizo rezar antes de comer! ¡Ahora tenemos hombres que quieren volver a casa a ayudar a sus padres! ¡Por favor, lleváosla!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "440",
+   "en": "You're just embarrassed that I saw your softer side.",
+   "es": "Solo te da vergüenza que viera tu lado más tierno.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "442",
+   "en": "My darling, it's been two years since the day you fell asleep.",
+   "es": "Mi amor, han pasado dos años desde el día en que te dormiste.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "444",
+   "en": "Everyone we traveled with is doing just fine.I'm making it through somehow, too. It's my sincerest hope thatwhen you finally wake up again, you'll be happy to see me.",
+   "es": "Todos con los que viajamos están bien. Yo también salgo adelante como puedo. Mi más sincero deseo es que, cuando por fin despiertes, te alegre verme.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "448",
+   "en": "...The plans look perfect. Let's proceed with them immediately.",
+   "es": "...Los planes son perfectos. Procedamos con ellos de inmediato.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "450",
+   "en": "Yes, Your Majesty.",
+   "es": "Sí, Su Majestad.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "452",
+   "en": "You really need to rest a little bit. You didn't sleep much yesterday.",
+   "es": "De verdad que necesitas descansar un poco. Ayer no dormiste mucho.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "454",
+   "en": "No, I'm fine.",
+   "es": "No, estoy bien.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "456",
+   "en": "It's not just you.",
+   "es": "No eres solo tú.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "458",
+   "en": "Okay. After looking around one more time, we'll break for today.Will that be good enough for you, Gina?",
+   "es": "Vale. Después de echar un último vistazo, haremos un descanso por hoy. ¿Te vale así, Gina?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "460",
+   "en": "Um, well...I would have preferred to have the whole day off,but if you insist on working all the time, then-Oh no! Here I go again!",
+   "es": "Esto, bueno... Habría preferido tener el día libre entero, pero si insistes en trabajar siempre, entonces... ¡Ay, no! ¡Otra vez!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "464",
+   "en": "Right. Let's finish up for the day!",
+   "es": "Bien. ¡Terminemos por hoy!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "466",
+   "en": "Sorry. You two go ahead.",
+   "es": "Lo siento. Vosotras id por delante.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "468",
+   "en": "Um, would you like me to wait for you?",
+   "es": "Esto, ¿quieres que te espere?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "470",
+   "en": "Why don't we get going, Gina?",
+   "es": "¿Por qué no nos vamos, Gina?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "472",
+   "en": "You're doing great, Aya.",
+   "es": "Lo estás haciendo genial, Aya.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "474",
+   "en": "Hmmm, I wonder how everybody's doing.",
+   "es": "Mmm, me pregunto cómo estarán todos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "478",
+   "en": "Are you worried about me, too, Gustav?I'm fine. I promise.",
+   "es": "¿Tú también te preocupas por mí, Gustav? Estoy bien. Lo prometo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "480",
+   "en": "H-hey, where are you going!?",
+   "es": "¡E-eh, adónde vas?!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "482",
+   "en": "Hey! Hey! It's my turn to pick a song!I'm gonna think of a good one... Ummm...",
+   "es": "¡Eh! ¡Eh! ¡Me toca elegir canción a mí! Voy a pensar una buena... Mmm...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "484",
+   "en": "How about the Slovenly Serenade?",
+   "es": "¿Qué tal \"La serenata del holgazán\"?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "486",
+   "en": "What? That sounds stupid!",
+   "es": "¿Qué? ¡Eso suena tonto!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "488",
+   "en": "Capell!",
+   "es": "¡Capell!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "490",
+   "en": "Aya...",
+   "es": "Aya...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "492",
+   "en": "Will you save your current data?",
+   "es": "¿Guardar los datos actuales?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "494",
+   "en": "Yes",
+   "es": "Sí",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "496",
+   "en": "No",
+   "es": "No",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_A014E800_005",
+   "id": "497",
+   "en": "dummy",
+   "es": "vacío",
+   "ctx": "dialogo"
+  }
+ ]
+}

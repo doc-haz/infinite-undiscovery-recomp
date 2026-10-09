@@ -1,0 +1,21 @@
+{
+ "meta": {
+  "metodo": "mt-glosario"
+ },
+ "strings": [
+  {
+   "stem": "d2_ud1_60F05800_035",
+   "id": "5",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d2_ud1_60F05800_035",
+   "id": "7",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  }
+ ]
+}

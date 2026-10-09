@@ -1,0 +1,1030 @@
+{
+ "meta": {
+  "agente": "ws3",
+  "ctx": "menu"
+ },
+ "strings": [
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "2",
+   "en": "How many parties will you make?",
+   "es": "¿Cuántos grupos harás?",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "4",
+   "en": "One party.",
+   "es": "Un grupo.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "6",
+   "en": "Two parties.",
+   "es": "Dos grupos.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "8",
+   "en": "Three parties.",
+   "es": "Tres grupos.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "28",
+   "en": "Sapran Shop CHECK",
+   "es": "PRUEBA Sapran",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "30",
+   "en": "Trader 1",
+   "es": "Comerciante",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "32",
+   "en": "Trader 2",
+   "es": "Comerciante",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "34",
+   "en": "Trader 3",
+   "es": "Comerciante",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "116",
+   "en": "Trader 4",
+   "es": "Comerciante",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "118",
+   "en": "Select a shop to test.",
+   "es": "Elige una tienda.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "120",
+   "en": "Field jump",
+   "es": "Salto campo",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "896",
+   "en": "View all events",
+   "es": "Ver eventos",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_17325800_002",
+   "id": "898",
+   "en": "Staff Roll",
+   "es": "Créditos",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_1793D000_018",
+   "id": "2",
+   "en": "Manage the party.",
+   "es": "Organiza el grupo.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_19478000_028",
+   "id": "2",
+   "en": "How many parties will you make?",
+   "es": "¿Cuántos grupos harás?",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_19478000_028",
+   "id": "4",
+   "en": "One party.",
+   "es": "Un grupo.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_19478000_028",
+   "id": "6",
+   "en": "Two parties.",
+   "es": "Dos grupos.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_19478000_028",
+   "id": "8",
+   "en": "Three parties.",
+   "es": "Tres grupos.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_62CF4800_014",
+   "id": "2",
+   "en": "Will you save your current data?",
+   "es": "¿Guardar los datos actuales?",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_62CF4800_014",
+   "id": "4",
+   "en": "Yes",
+   "es": "Sí",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_62CF4800_014",
+   "id": "6",
+   "en": "No",
+   "es": "No",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_60F05800_035",
+   "id": "2",
+   "en": "Sigmund joined the party!",
+   "es": "¡Sigmund se une al grupo!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_60F05800_035",
+   "id": "4",
+   "en": "Manage the party.",
+   "es": "Organiza el grupo.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "2",
+   "en": "General Store",
+   "es": "Tienda",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "4",
+   "en": "House",
+   "es": "Casa",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "6",
+   "en": "House",
+   "es": "Casa",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "8",
+   "en": "House",
+   "es": "Casa",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_2E8D1800_003",
+   "id": "2",
+   "en": "House",
+   "es": "Casa",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_2E8D1800_003",
+   "id": "4",
+   "en": "Bar",
+   "es": "Bar",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_2E8D1800_003",
+   "id": "6",
+   "en": "lnn",
+   "es": "Posada",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_2E8D1800_003",
+   "id": "8",
+   "en": "General Shop",
+   "es": "Tienda",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_2E8D1800_003",
+   "id": "10",
+   "en": "Gate",
+   "es": "Puerta",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_40141800_004",
+   "id": "2",
+   "en": "Castle Gate",
+   "es": "Puerta",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_40141800_004",
+   "id": "4",
+   "en": "Bar",
+   "es": "Bar",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_40141800_004",
+   "id": "6",
+   "en": "lnn",
+   "es": "Posada",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_40141800_004",
+   "id": "8",
+   "en": "House",
+   "es": "Casa",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_40141800_004",
+   "id": "10",
+   "en": "House",
+   "es": "Casa",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_59DEA800_017",
+   "id": "2",
+   "en": "lnn",
+   "es": "Posada",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_59DEA800_017",
+   "id": "4",
+   "en": "Bar",
+   "es": "Bar",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_59DEA800_017",
+   "id": "6",
+   "en": "lnn",
+   "es": "Posada",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_59DEA800_017",
+   "id": "8",
+   "en": "House",
+   "es": "Casa",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_59DEA800_017",
+   "id": "10",
+   "en": "House",
+   "es": "Casa",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_59DEA800_017",
+   "id": "12",
+   "en": "House",
+   "es": "Casa",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_59DEA800_017",
+   "id": "14",
+   "en": "General Store",
+   "es": "Tienda",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_59DEA800_017",
+   "id": "16",
+   "en": "House",
+   "es": "Casa",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_69AB6000_009",
+   "id": "2",
+   "en": "House",
+   "es": "Casa",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_69AB6000_009",
+   "id": "4",
+   "en": "House",
+   "es": "Casa",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_7EC08000_011",
+   "id": "2",
+   "en": "General Shop",
+   "es": "Tienda",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_7EC08000_011",
+   "id": "4",
+   "en": "House",
+   "es": "Casa",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_7EC08000_011",
+   "id": "6",
+   "en": "House",
+   "es": "Casa",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_7EC08000_011",
+   "id": "8",
+   "en": "House",
+   "es": "Casa",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_7EC08000_011",
+   "id": "10",
+   "en": "The Emporium",
+   "es": "El Emporio",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_7EC08000_011",
+   "id": "12",
+   "en": "Bar",
+   "es": "Bar",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_7EC08000_011",
+   "id": "14",
+   "en": "Church",
+   "es": "Iglesia",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_7EC08000_011",
+   "id": "16",
+   "en": "lnn",
+   "es": "Posada",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_7EC08000_011",
+   "id": "18",
+   "en": "Gate",
+   "es": "Puerta",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_7EC08000_011",
+   "id": "20",
+   "en": "Choose your destination.",
+   "es": "Elige tu destino.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_7EC08000_011",
+   "id": "22",
+   "en": "Cobasna Timberlands",
+   "es": "Bosque de Cobasna",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_7EC08000_011",
+   "id": "24",
+   "en": "Pieria Marshlands",
+   "es": "Marismas Pieria",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_7EC08000_011",
+   "id": "26",
+   "en": "Cancel",
+   "es": "Cancelar",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_7EC08000_011",
+   "id": "28",
+   "en": "Choose your destination.",
+   "es": "Elige tu destino.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_7EC08000_011",
+   "id": "30",
+   "en": "Cobasna Timberlands",
+   "es": "Bosque de Cobasna",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_7EC08000_011",
+   "id": "32",
+   "en": "Castle Valette",
+   "es": "Cast. Valette",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_7EC08000_011",
+   "id": "34",
+   "en": "Cancel",
+   "es": "Cancelar",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "2",
+   "en": "Teleporter",
+   "es": "Teletransp.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "4",
+   "en": "Teleporter",
+   "es": "Teletransp.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "6",
+   "en": "Teleporter",
+   "es": "Teletransp.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "8",
+   "en": "Teleporter",
+   "es": "Teletransp.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "10",
+   "en": "Teleporter",
+   "es": "Teletransp.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "12",
+   "en": "Teleporter",
+   "es": "Teletransp.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "14",
+   "en": "Teleporter",
+   "es": "Teletransp.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "16",
+   "en": "Teleporter",
+   "es": "Teletransp.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "18",
+   "en": "Teleporter",
+   "es": "Teletransp.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "20",
+   "en": "Teleporter",
+   "es": "Teletransp.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "22",
+   "en": "Teleporter",
+   "es": "Teletransp.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "24",
+   "en": "Teleporter",
+   "es": "Teletransp.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "26",
+   "en": "Teleporter",
+   "es": "Teletransp.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "30",
+   "en": "Teleporter",
+   "es": "Teletransp.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "32",
+   "en": "Teleporter",
+   "es": "Teletransp.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "34",
+   "en": "It gets real dangerous from here on out.Maybe I can be of service.",
+   "es": "Esto se pone muy peligroso. Puede que pueda ayudar.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "36",
+   "en": "Just let me know how I can help.",
+   "es": "Dime cómo ayudar.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "38",
+   "en": "I want to rest.",
+   "es": "Descansar.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "40",
+   "en": "I need supplies.",
+   "es": "Provisiones.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "42",
+   "en": "Never mind.",
+   "es": "Déjalo.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "44",
+   "en": "I wish you luck.",
+   "es": "Buena suerte.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "46",
+   "en": "I wish you luck.",
+   "es": "Buena suerte.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_5861C800_058",
+   "id": "2",
+   "en": "Mine Cart",
+   "es": "Vagoneta",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_5861C800_058",
+   "id": "4",
+   "en": "Mine Cart",
+   "es": "Vagoneta",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_5861C800_058",
+   "id": "6",
+   "en": "Lever",
+   "es": "Palanca",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_5861C800_058",
+   "id": "8",
+   "en": "Lever",
+   "es": "Palanca",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_5861C800_058",
+   "id": "10",
+   "en": "Lever",
+   "es": "Palanca",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_5861C800_058",
+   "id": "12",
+   "en": "Lever",
+   "es": "Palanca",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_5861C800_058",
+   "id": "14",
+   "en": "Callpipe",
+   "es": "Tubo de voz",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_5861C800_058",
+   "id": "16",
+   "en": "Callpipe",
+   "es": "Tubo de voz",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_5861C800_058",
+   "id": "18",
+   "en": "Callpipe",
+   "es": "Tubo de voz",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_5861C800_058",
+   "id": "20",
+   "en": "Mine Cart",
+   "es": "Vagoneta",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_5861C800_058",
+   "id": "22",
+   "en": "Mine Cart",
+   "es": "Vagoneta",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_5861C800_058",
+   "id": "24",
+   "en": "Lever",
+   "es": "Palanca",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_5861C800_058",
+   "id": "26",
+   "en": "Lever",
+   "es": "Palanca",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_5861C800_058",
+   "id": "28",
+   "en": "Lever",
+   "es": "Palanca",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_5861C800_058",
+   "id": "30",
+   "en": "Lever",
+   "es": "Palanca",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_5861C800_058",
+   "id": "32",
+   "en": "Callpipe",
+   "es": "Tubo de voz",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d1_ud2_5861C800_058",
+   "id": "34",
+   "en": "Callpipe",
+   "es": "Tubo de voz",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_59425000_042",
+   "id": "2",
+   "en": "lnn",
+   "es": "Posada",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_59425000_042",
+   "id": "4",
+   "en": "Bar",
+   "es": "Bar",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_59425000_042",
+   "id": "6",
+   "en": "lnn",
+   "es": "Posada",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_59425000_042",
+   "id": "8",
+   "en": "House",
+   "es": "Casa",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_59425000_042",
+   "id": "10",
+   "en": "House",
+   "es": "Casa",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_59425000_042",
+   "id": "12",
+   "en": "House",
+   "es": "Casa",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_59425000_042",
+   "id": "14",
+   "en": "General Store",
+   "es": "Tienda",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_59425000_042",
+   "id": "16",
+   "en": "House",
+   "es": "Casa",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_63366800_048",
+   "id": "2",
+   "en": "Lever",
+   "es": "Palanca",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_63366800_048",
+   "id": "4",
+   "en": "Lever",
+   "es": "Palanca",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_63366800_048",
+   "id": "6",
+   "en": "Lever",
+   "es": "Palanca",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_63366800_048",
+   "id": "8",
+   "en": "Lever",
+   "es": "Palanca",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_63366800_048",
+   "id": "10",
+   "en": "Lever",
+   "es": "Palanca",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_63366800_048",
+   "id": "12",
+   "en": "Lever",
+   "es": "Palanca",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_63366800_048",
+   "id": "14",
+   "en": "Lever",
+   "es": "Palanca",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_63366800_048",
+   "id": "16",
+   "en": "Lever",
+   "es": "Palanca",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_6DFC5000_029",
+   "id": "2",
+   "en": "General Shop",
+   "es": "Tienda",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_6DFC5000_029",
+   "id": "4",
+   "en": "House",
+   "es": "Casa",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_6DFC5000_029",
+   "id": "6",
+   "en": "House",
+   "es": "Casa",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_6DFC5000_029",
+   "id": "8",
+   "en": "House",
+   "es": "Casa",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_6DFC5000_029",
+   "id": "10",
+   "en": "The Emporium",
+   "es": "El Emporio",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_6DFC5000_029",
+   "id": "12",
+   "en": "Bar",
+   "es": "Bar",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_6DFC5000_029",
+   "id": "14",
+   "en": "Church",
+   "es": "Iglesia",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_6DFC5000_029",
+   "id": "16",
+   "en": "lnn",
+   "es": "Posada",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_6DFC5000_029",
+   "id": "18",
+   "en": "Gate",
+   "es": "Puerta",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_6DFC5000_029",
+   "id": "20",
+   "en": "The path ahead is full of danger.Is there any way I can be of assistance?",
+   "es": "El camino es peligroso. ¿Ayuda?",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_6DFC5000_029",
+   "id": "22",
+   "en": "I will help in any way I can.",
+   "es": "Te ayudaré.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_6DFC5000_029",
+   "id": "24",
+   "en": "I'd like to rest.",
+   "es": "Descansar.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_6DFC5000_029",
+   "id": "26",
+   "en": "I want to do some shopping.",
+   "es": "Comprar.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_6DFC5000_029",
+   "id": "28",
+   "en": "I don't need anything.",
+   "es": "No necesito nada.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_6DFC5000_029",
+   "id": "30",
+   "en": "I wish you luck.",
+   "es": "Buena suerte.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_6DFC5000_029",
+   "id": "32",
+   "en": "I wish you luck.",
+   "es": "Buena suerte.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_5B259800_027",
+   "id": "2",
+   "en": "Obtained a moon blade!",
+   "es": "¡Obtienes Hoja lunar!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_5E3DD000_031",
+   "id": "2",
+   "en": "Obtained a hrotti!",
+   "es": "¡Obtienes Hrotti!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_6623B000_023",
+   "id": "2",
+   "en": "Obtained a pair of Sabris claws!",
+   "es": "¡Obtienes garras de Sabris!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_68653000_037",
+   "id": "2",
+   "en": "Obtained a discipline staff!",
+   "es": "¡Bastón de disciplina!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_6ABA3000_024",
+   "id": "2",
+   "en": "Obtained a Karathos suit!",
+   "es": "¡Traje de Karathos!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_6BCF7000_038",
+   "id": "2",
+   "en": "Obtained \"Genesis\"!",
+   "es": "¡Obtienes «Génesis»!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_7281F800_035",
+   "id": "2",
+   "en": "Obtained an executioner!",
+   "es": "¡Obtienes Verdugo!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_78EA4000_017",
+   "id": "2",
+   "en": "Obtained a tri-emblem!",
+   "es": "¡Obtienes triemblema!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_78EA4000_017",
+   "id": "4",
+   "en": "Congratulations.You have finished the Seraphic Gate.Try again at a higher difficulty level...if you dare!",
+   "es": "¡Enhorabuena! Has superado la Puerta Seráfica. Vuelve a intentarlo en dificultad mayor... ¡si te atreves!",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_78EA4000_017",
+   "id": "6",
+   "en": "Congratulations!You have completely dominated the Seraphic Gate,and have been awarded the eminent title ofSeraphic Gatekeeper.You rule.",
+   "es": "¡Enhorabuena! Has dominado la Puerta Seráfica y recibes el título de Guardián de la Puerta Seráfica. Eres el amo.",
+   "ctx": "menu"
+  },
+  {
+   "stem": "d2_ud1_78EA4000_017",
+   "id": "8",
+   "en": "Obtained a celestial sword!",
+   "es": "¡Obtienes espada celestial!",
+   "ctx": "menu"
+  }
+ ]
+}
