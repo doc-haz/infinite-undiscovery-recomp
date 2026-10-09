@@ -1,0 +1,973 @@
+{
+ "meta": {
+  "metodo": "mt-glosario"
+ },
+ "strings": [
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "2",
+   "en": "Hop, step-",
+   "es": "¡Hop, step...!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "4",
+   "en": "Hey, Vic.",
+   "es": "Eh, Vic.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "6",
+   "en": "Whoa!",
+   "es": "¡Vaya!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "8",
+   "en": "Don't surprise me like that!Least look at what I'm doin'.",
+   "es": "¡No me asustes así! Al menos mira lo que estoy haciendo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "10",
+   "en": "I didn't mean to.",
+   "es": "No era mi intención.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "12",
+   "en": "Why'd ya do that?Ya got somethin' ya wanna talk about?",
+   "es": "¿Por qué lo has hecho? ¿Tienes algo que quieras hablar?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "14",
+   "en": "Thanks for coming along and helping us.",
+   "es": "Gracias por venir a ayudarnos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "16",
+   "en": "I had a brother, ya know. He died from the same sicknessas Edward. But that was a long time ago.",
+   "es": "Yo tuve un hermano, ¿sabes? Murió de la misma enfermedad que Edward. Pero eso fue hace mucho.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "18",
+   "en": "He was a thief, so nobody helped him. That's rough, though,ain't it? It's just not right! That's why...",
+   "es": "Era ladrón, así que nadie le ayudó. Es duro, ¿verdad? ¡No es justo! Por eso...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "20",
+   "en": "...Thank you.",
+   "es": "...Gracias.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "22",
+   "en": "It's...nothin'. It's easy compared towhat ya guys are doin'.",
+   "es": "No es... nada. Es fácil comparado con lo que hacéis vosotros.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "24",
+   "en": "Plus!",
+   "es": "¡Además!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "26",
+   "en": "Y-yeah?",
+   "es": "¿S-sí?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "28",
+   "en": "I said I smelled profits.Yer gonna make me rich!",
+   "es": "Dije que olía beneficios. ¡Vas a hacerme rico!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "30",
+   "en": "I don't know about that.",
+   "es": "No sé yo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "32",
+   "en": "Hm?",
+   "es": "¿Hm?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "36",
+   "en": "Something's not right...",
+   "es": "Algo no va bien...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "40",
+   "en": "What did you do that for?",
+   "es": "¿Por qué has hecho eso?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "42",
+   "en": "You!",
+   "es": "¡Tú!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "44",
+   "en": "Me?",
+   "es": "¿Yo?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "46",
+   "en": "Hey! What'd ya do that for, ya stupid,stupid, stupid, stupid...fool!",
+   "es": "¡Eh! ¿Por qué has hecho eso, estúpido, estúpido, estúpido, estúpido... necio?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "48",
+   "en": "All I did was save you from falling into the river.So why did you push me in the water?",
+   "es": "Lo único que hice fue salvarte de caer al río. ¿Y por qué me empujas al agua?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "50",
+   "en": "Just drop it! Let's go!",
+   "es": "¡Déjalo ya! ¡Vamos!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "52",
+   "en": "I know I was going to ask you about something.What was it?",
+   "es": "Sé que te iba a preguntar algo. ¿El qué era?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "54",
+   "en": "Come on!",
+   "es": "¡Vamos!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "56",
+   "en": "Uh, never mind...",
+   "es": "Eh, da igual...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "58",
+   "en": "Something feels strange.",
+   "es": "Algo se siente raro.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "60",
+   "en": "Lord Touma has presented me with this momentous task!Protecting the Liberator! I will sacrifice my own life for his!Have no fear, my lord!",
+   "es": "¡El lord Touma me ha encomendado esta importantísima tarea! ¡Proteger al Libertador! ¡Sacrificaré mi propia vida por la suya! ¡No tema, mi señor!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "62",
+   "en": "Ah...",
+   "es": "Ah...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "64",
+   "en": "My body feels lighter.",
+   "es": "Siento el cuerpo más ligero.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "66",
+   "en": "How calming.",
+   "es": "Qué calmado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "68",
+   "en": "It's a blessing.",
+   "es": "Es una bendición.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "70",
+   "en": "This rain...makes them grow?",
+   "es": "¿Esta lluvia... los hace crecer?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "72",
+   "en": "What was that?",
+   "es": "¿Qué ha sido eso?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "74",
+   "en": "Why are you looking around like that?",
+   "es": "¿Por qué miras alrededor así?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "76",
+   "en": "Capell?",
+   "es": "¿Capell?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "78",
+   "en": "You're all looking good.",
+   "es": "Todos tenéis buen aspecto.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "80",
+   "en": "Well, Vic said that there should be someone here who can help us out.",
+   "es": "Bueno, Vic dijo que aquí debería haber alguien que pueda ayudarnos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "82",
+   "en": "Excuse me! Anybody home!",
+   "es": "¡Perdón! ¡¿Hay alguien en casa?!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "84",
+   "en": "Be quiet!",
+   "es": "¡Cállate!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "86",
+   "en": "He sounds really angry.",
+   "es": "Parece muy enfadado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "90",
+   "en": "I don't know about this...Um...we have something we need to discuss with you.Will you open the door for us?",
+   "es": "No sé yo... Esto... tenemos algo que hablar contigo. ¿Nos abres la puerta?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "92",
+   "en": "Something to discuss? Not with me!",
+   "es": "¿Algo que hablar? ¡Conmigo no!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "94",
+   "en": "What now...",
+   "es": "¿Y ahora qué...?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "96",
+   "en": "Hm?",
+   "es": "¿Hm?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "98",
+   "en": "Kiriya! Come out now!",
+   "es": "¡Kiriya! ¡Sal ahora mismo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "100",
+   "en": "Honorable Savio!",
+   "es": "¡Honorable Savio!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "102",
+   "en": "Kiriya, it's been a long time. ",
+   "es": "Kiriya, cuánto tiempo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "104",
+   "en": "What brings you out here!?",
+   "es": "¡¿Qué te trae por aquí?!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "106",
+   "en": "And who are these...vagabonds?",
+   "es": "¿Y quiénes son estos... vagabundos?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "108",
+   "en": "They are my friends.",
+   "es": "Son mis amigos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "110",
+   "en": "Friends? Not apprentices?",
+   "es": "¿Amigos? ¿No aprendices?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "112",
+   "en": "It's good to meet you. My name is Sigmund. I have come here today to ask a favor of you.",
+   "es": "Encantado de conocerte. Me llamo Sigmund. Hoy he venido a pedirte un favor.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "114",
+   "en": "Sigmund? That sounds familiar...Never mind. Come in.",
+   "es": "¿Sigmund? Me suena... Da igual. Pasad.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "116",
+   "en": "We're not gonna be experimented on, right?",
+   "es": "No vamos a ser conejillos de indias, ¿verdad?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "118",
+   "en": "Hope not...",
+   "es": "Eso espero...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "120",
+   "en": "That's enough crazy talk! Let's go inside!",
+   "es": "¡Basta de locuras! ¡Entremos!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "122",
+   "en": "Get in before I lock the door!",
+   "es": "¡Entrad antes de que cierre la puerta con llave!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "124",
+   "en": "Sorry!",
+   "es": "¡Lo siento!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "126",
+   "en": "See, Aya's scared, too.",
+   "es": "Ves, Aya también está asustada.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "128",
+   "en": "Get in here right now you two!",
+   "es": "¡Entrad aquí ahora mismo, vosotros dos!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "130",
+   "en": "Okay! Vic, come on.",
+   "es": "¡Vale! Vic, vamos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "132",
+   "en": "It's a glyph disease.",
+   "es": "Es una enfermedad de glifos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "134",
+   "en": "Can you treat it?",
+   "es": "¿Puedes tratarla?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "136",
+   "en": "This special elixir suppresses lunar power.",
+   "es": "Este elixir especial suprime el poder lunar.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "138",
+   "en": "Suppresses the power of the moon?",
+   "es": "¿Suprime el poder de la luna?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "140",
+   "en": "Hmmm. So it is connected to the lunar rain.",
+   "es": "Mmm. Así que está relacionado con la lluvia lunar.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "142",
+   "en": "I saw a tree in the timberlands growing like a monster. ",
+   "es": "Vi un árbol en los bosques crecer como un monstruo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "144",
+   "en": "What are you talking about?",
+   "es": "¿De qué hablas?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "146",
+   "en": "That doesn't make sense. Isn't lunar rain a gift from the moon god?",
+   "es": "Eso no tiene sentido. ¿No es la lluvia lunar un regalo del dios de la luna?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "148",
+   "en": "I don't know what's causing the rain, but this boy is right about the trees.",
+   "es": "No sé qué provoca la lluvia, pero el chico tiene razón respecto a los árboles.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "150",
+   "en": "I'll explain. Listen well.",
+   "es": "Lo explicaré. Escuchad bien.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "152",
+   "en": "Let's start with this damned thing.",
+   "es": "Empecemos por esta maldita cosa.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "154",
+   "en": "It all began about fifteen or sixteen years ago.A certain individual asked me to help developa way of erasing lunaglyphs.I was a passionate researcher-even as a child.",
+   "es": "Todo comenzó hace unos quince o dieciséis años. Cierta persona me pidió que ayudara a desarrollar una forma de borrar lunaglifos. Yo era un investigador apasionado, incluso de niño.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "156",
+   "en": "Erase lunaglyphs? For what purpose?",
+   "es": "¿Borrar lunaglifos? ¿Con qué fin?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "158",
+   "en": "I don't know.But after much experimenting...I discovered that the best way to erase a lunaglyphis to return its owner's body to a pure state.",
+   "es": "No lo sé. Pero tras mucho experimentar... descubrí que la mejor forma de borrar un lunaglifo es devolver el cuerpo de su dueño a un estado puro.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "160",
+   "en": "A pure state?",
+   "es": "¿Un estado puro?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "162",
+   "en": "Turn back time. To when the owner was an infant,before the rite took place.",
+   "es": "Retroceder el tiempo. A cuando el dueño era un bebé, antes de que se realizara el rito.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "164",
+   "en": "Suppose you have a lunaglyph on your right hand.What happens if you lose that hand in an accident?",
+   "es": "Supón que tienes un lunaglifo en la mano derecha. ¿Qué pasa si pierdes esa mano en un accidente?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "166",
+   "en": "The lunaglyph will reappear on the stump of the arm.It will not stay with the hand.",
+   "es": "El lunaglifo reaparecerá en el muñón del brazo. No se quedará con la mano.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "168",
+   "en": "A lunar rite is about transforming the body into somethingthat can control the lunar power inside it.",
+   "es": "Un rito lunar consiste en transformar el cuerpo en algo capaz de controlar el poder lunar que contiene.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "170",
+   "en": "Transform!?",
+   "es": "¡¿Transformar?!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "172",
+   "en": "This should come as no surprise.We have a living specimen right here.",
+   "es": "Esto no debería sorprenderte. Tenemos un espécimen vivo aquí mismo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "174",
+   "en": "Those who have been transformed to fully harness lunar power......are aristos.",
+   "es": "Quienes han sido transformados para aprovechar plenamente el poder lunar... ...son aristos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "176",
+   "en": "So what exactly does that have to do with Edward's illness?",
+   "es": "¿Y qué relación tiene eso exactamente con la enfermedad de Edward?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "178",
+   "en": "It's not an illness.It's a phenomenon that occurs when the bodycan't handle an excess of power.",
+   "es": "No es una enfermedad. Es un fenómeno que ocurre cuando el cuerpo no puede soportar un exceso de poder.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "180",
+   "en": "Excess power?",
+   "es": "¿Exceso de poder?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "182",
+   "en": "Too much power can be dangerous.",
+   "es": "Demasiado poder puede ser peligroso.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "184",
+   "en": "Lunar rain increases the power in one's body. Increased powerleads to the misconception that one is feeling better.",
+   "es": "La lluvia lunar aumenta el poder en el cuerpo. El aumento de poder lleva a la falsa impresión de sentirse mejor.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "186",
+   "en": "Although it's not much of a problem for an aristowho can handle limitless power...If too much power is absorbed...",
+   "es": "Aunque no es gran problema para un aristo capaz de soportar un poder ilimitado... Si se absorbe demasiado poder...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "188",
+   "en": "Humans break. Very easily.",
+   "es": "Los humanos se rompen. Muy fácilmente.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "190",
+   "en": "That's how my brother...",
+   "es": "Así fue como mi hermano...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "192",
+   "en": "Did he die?",
+   "es": "¿Murió?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "194",
+   "en": "How dare you!",
+   "es": "¡Cómo te atreves!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "196",
+   "en": "It's just a question.",
+   "es": "Es solo una pregunta.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "198",
+   "en": "Well...it could have been worse.",
+   "es": "Bueno... podría haber sido peor.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "200",
+   "en": "Hey!",
+   "es": "¡Eh!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "202",
+   "en": "Quiet, Aya.Just what do you mean by \"worse\"?",
+   "es": "Cállate, Aya. ¿Qué quieres decir con \"peor\"?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "204",
+   "en": "I said that humans break.Death is only one \"way\" of breaking.",
+   "es": "Dije que los humanos se rompen. La muerte es solo una \"forma\" de romperse.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "206",
+   "en": "What are you getting at?",
+   "es": "¿A qué te refieres?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "208",
+   "en": "Vermification.",
+   "es": "Vermificación.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "210",
+   "en": "Vermification?",
+   "es": "¿Vermificación?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "212",
+   "en": "A change.",
+   "es": "Un cambio.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "214",
+   "en": "What's that mean?",
+   "es": "¿Qué significa?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "216",
+   "en": "I've never heard of anything like that.",
+   "es": "Nunca he oído nada semejante.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "218",
+   "en": "Just get to the point!",
+   "es": "¡Ve al grano!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "220",
+   "en": "Vermification is a transformation into a living monster,an invisible vermiform.",
+   "es": "La vermificación es una transformación en un monstruo vivo, un vermiforme invisible.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "222",
+   "en": "Then what about Ed!?",
+   "es": "¡¿Y qué hay de Ed?!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "224",
+   "en": "If weak, he dies. If strong, he becomes a monster.Neither option is a good one.",
+   "es": "Si es débil, muere. Si es fuerte, se convierte en monstruo. Ninguna opción es buena.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "226",
+   "en": "No!",
+   "es": "¡No!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "228",
+   "en": "That is for helping him.The best thing you can do is to reach him quicklyand to suppress the lunar power.",
+   "es": "Eso es para ayudarle. Lo mejor que podéis hacer es llegar a él rápido y suprimir el poder lunar.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "230",
+   "en": "I doubt that your friend will die.He'll most likely become a vermiform.Once he's fully vermified though, it's too late.",
+   "es": "Dudo que tu amigo muera. Lo más probable es que se convierta en vermiforme. Pero una vez vermificado del todo, es demasiado tarde.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "232",
+   "en": "Okay! Then we need to leave-now!",
+   "es": "¡Vale! ¡Entonces tenemos que irnos ya!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "234",
+   "en": "Honorable Savio, have you seen Held since then?",
+   "es": "Honorable Savio, ¿ha visto a Held desde entonces?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "236",
+   "en": "Held? No, I haven't.",
+   "es": "¿Held? No.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "238",
+   "en": "Well, I heard that fool joined the Order of Chains.",
+   "es": "Bueno, oí que ese necio se unió a la Orden de las Cadenas.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "240",
+   "en": "Kiriya, come with us.",
+   "es": "Kiriya, ven con nosotros.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "242",
+   "en": "Me?",
+   "es": "¿Yo?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "244",
+   "en": "Her Majesty, Empress Svala, wishes you to join as well.",
+   "es": "Su Majestad, la emperatriz Svala, también desea que te unas.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "246",
+   "en": "...Fine, then.",
+   "es": "...Está bien.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "248",
+   "en": "Obtained some Lunytol!",
+   "es": "¡Obtienes Lunytol!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "250",
+   "en": "Kiriya joined the party!",
+   "es": "¡Kiriya se une al grupo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "252",
+   "en": "So first, we meet with Empress Svala, and thenwe need to ask about the chains.",
+   "es": "Así que primero nos reunimos con la emperatriz Svala, y luego debemos preguntar por las cadenas.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "254",
+   "en": "Vic, how about training with Genma's nightwhispers?",
+   "es": "Vic, ¿qué tal entrenar con los susurros nocturnos de Genma?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "256",
+   "en": "No way am I leaving. I'm gonna stay right hereand fight with my buddy!",
+   "es": "Ni loco me voy. ¡Me quedo aquí mismo a luchar con mi colega!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "258",
+   "en": "Buddy?",
+   "es": "¿Colega?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "260",
+   "en": "Who else? My buddy Capell, of course.",
+   "es": "¿Quién si no? Mi colega Capell, claro.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "262",
+   "en": "M-me?",
+   "es": "¿Y-yo?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "264",
+   "en": "For sure! Ya know, ya were really greatout there last time, buddy!",
+   "es": "¡Claro! ¡Vamos, estuviste genial ahí fuera la última vez, colega!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "266",
+   "en": "Somebody's made a new friend.",
+   "es": "Alguien ha hecho un nuevo amigo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "268",
+   "en": "Hm!?",
+   "es": "¡¿Hm?!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "270",
+   "en": "Hey guys, I think I smell-Look, over there!",
+   "es": "Eh, chicos, creo que huelo... ¡Mira, allí!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "272",
+   "en": "But that's...",
+   "es": "Pero eso es...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "274",
+   "en": "Come on!",
+   "es": "¡Vamos!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "280",
+   "en": "Obtained the blood-stained seal!",
+   "es": "¡Obtienes el sello manchado de sangre!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "282",
+   "en": "Manage the party.",
+   "es": "Gestionar el grupo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "284",
+   "en": "Manage the party.",
+   "es": "Gestionar el grupo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_644C2000_017",
+   "id": "285",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  }
+ ]
+}

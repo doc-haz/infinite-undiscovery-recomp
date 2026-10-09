@@ -1,0 +1,400 @@
+{
+ "meta": {
+  "agente": "ws4",
+  "ctx": "dialogo"
+ },
+ "strings": [
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "2",
+   "en": "We're almost there. This cave is the best shortcut to the chain.",
+   "es": "Ya casi estamos. Esta cueva es el mejor atajo hacia la cadena.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "4",
+   "en": "Look at this. It's a rachnuvus nest...",
+   "es": "Mira esto. Es un nido de rachnuvus...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "8",
+   "en": "Rachnuvae are a spider-like species with ant-like behavior that live in the Halgitian outback. They create colonies deep underground, with a queen at the top of the chain.",
+   "es": "Los rachnuvae son una especie arácnida con comportamiento de hormiga que vive en el interior de Halgita. Crean colonias en las profundidades, con una reina en la cúspide de la jerarquía.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "10",
+   "en": "Wow. It's amazing that bugs can make a hole this big. Nature's full of surprises.",
+   "es": "Vaya. Es asombroso que unos bichos hagan un agujero así. La naturaleza está llena de sorpresas.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "12",
+   "en": "They may be shaped liked spiders, but they are monstrous in size.",
+   "es": "Puede que tengan forma de araña, pero son de un tamaño monstruoso.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "14",
+   "en": "Huh?",
+   "es": "¿Eh?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "16",
+   "en": "Like them.",
+   "es": "Como ellos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "18",
+   "en": "What?",
+   "es": "¿Qué?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "20",
+   "en": "Bugs! Disgusting!",
+   "es": "¡Bichos! ¡Qué asco!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "22",
+   "en": "They're repulsive...",
+   "es": "Dan repelús...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "24",
+   "en": "I wonder if they taste good cooked.",
+   "es": "Me pregunto si estarán ricos cocinados.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "26",
+   "en": "Are you serious?",
+   "es": "¿Lo dices en serio?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "28",
+   "en": "Our mom is terrific at cooking those things!",
+   "es": "¡Nuestra madre es buenísima cocinando esas cosas!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "30",
+   "en": "They're yummy boiled.",
+   "es": "Están ricos hervidos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "32",
+   "en": "Your mother cooks these. I can't believe it.",
+   "es": "Tu madre cocina esto. No me lo puedo creer.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "34",
+   "en": "How do we get out?",
+   "es": "¿Cómo salimos?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "36",
+   "en": "Hm...",
+   "es": "Mmm...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "38",
+   "en": "Oh, that's easy.",
+   "es": "Oh, eso es fácil.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "40",
+   "en": "We just keep climbin' and we're outta here.",
+   "es": "Solo hay que seguir subiendo y salimos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "42",
+   "en": "It won't be as simple as that.These creatures are quite intelligent.",
+   "es": "No será tan sencillo. Estas criaturas son bastante inteligentes.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "44",
+   "en": "Really?",
+   "es": "¿De verdad?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "46",
+   "en": "Any other options?",
+   "es": "¿Alguna otra opción?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "48",
+   "en": "The queen is in here somewhere. If we defeat her...",
+   "es": "La reina está por aquí. Si la derrotamos...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "50",
+   "en": "Then what?",
+   "es": "¿Y luego?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "52",
+   "en": "Then they would begin fighting amongst themselves to decide the next queen. They wouldn't notice us.",
+   "es": "Entonces empezarían a pelearse entre ellos para decidir a la próxima reina. No nos harían caso.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "54",
+   "en": "Okay.",
+   "es": "Vale.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "56",
+   "en": "Right... Let's go find her.",
+   "es": "Bien... Vamos a buscarla.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "58",
+   "en": "This looks dangerous...",
+   "es": "Esto parece peligroso...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "60",
+   "en": "So that's her.",
+   "es": "Así que esa es ella.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "62",
+   "en": "Likely.",
+   "es": "Probable.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "64",
+   "en": "Yuck!",
+   "es": "¡Puaj!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "66",
+   "en": "That's the queen? She doesn't look at all like Svala.",
+   "es": "¿Esa es la reina? No se parece en nada a Svala.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "68",
+   "en": "Don't you dare compare the two.",
+   "es": "Ni se te ocurra compararlas.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "70",
+   "en": "There's more!",
+   "es": "¡Hay más!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "72",
+   "en": "Target the queen in the middle!",
+   "es": "¡Apunten a la reina del centro!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "74",
+   "en": "Well done escaping from the nest. Didn't think you would ever make it out.",
+   "es": "Bien hecho, escapasteis del nido. No creía que fuerais a salir.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "76",
+   "en": "It ends here. The chain...and your destiny.",
+   "es": "Termina aquí. La cadena... y vuestro destino.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "78",
+   "en": "My master, you're really quite amusing. What do you mean by my \"destiny\"?",
+   "es": "Mi maestro, es usted muy divertido. ¿A qué se refiere con mi \"destino\"?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "80",
+   "en": "You have always acted this way.You look down on me as though you knoweverything and I know nothing.",
+   "es": "Siempre ha actuado así. Me menosprecia como si usted lo supiera todo y yo nada.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "82",
+   "en": "Are you jealous? Absurd.",
+   "es": "¿Estás celoso? Absurdo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "84",
+   "en": "Quiet!",
+   "es": "¡Cállate!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "86",
+   "en": "For me to lose my temper like this...",
+   "es": "Que yo pierda así los estribos...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "88",
+   "en": "Held?",
+   "es": "¿Held?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "90",
+   "en": "Before I was inferior to you in power...but just look at me now!",
+   "es": "Antes era inferior a ti en poder... ¡pero mírame ahora!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "92",
+   "en": "Not anymore! Divine power is incredible...I no longer care about that mad Leonid.This power shall take me to a much higher place. Yes!It will carry me to the height of the shining moon!",
+   "es": "¡Ya no! El poder divino es increíble... Ya no me importa ese loco de Leonid. Este poder me llevará a un lugar mucho más alto. ¡Sí! ¡Me elevará hasta la luna resplandeciente!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "94",
+   "en": "Knowledge! Wisdom! They mean nothing before this power!Look at me, my master! No one shall ever mock me!No one will call me a fledgling! Because they knowthat I have unparalleled strength! I have power!",
+   "es": "¡Conocimiento! ¡Sabiduría! ¡No significan nada ante este poder! ¡Míreme, maestro! ¡Nadie volverá a burlarse de mí! ¡Nadie me llamará polluelo! ¡Porque saben que tengo una fuerza sin par! ¡Tengo poder!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "96",
+   "en": "You are merely Leonid's obedient dog.You are nothing compared to me.",
+   "es": "No eres más que el perro obediente de Leonid. No eres nada comparado conmigo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "98",
+   "en": "Shall we see?",
+   "es": "¿Lo veremos?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "100",
+   "en": "What is going on? No! I have full control!It can't be overtaking meee! Nooo!",
+   "es": "¿Qué está pasando? ¡No! ¡Tengo el control total! ¡No puede estar superándomeee! ¡Nooo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "102",
+   "en": "You must let go of that power!",
+   "es": "¡Debes renunciar a ese poder!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "104",
+   "en": "No! No! I finally have it! With this power under my control,I shall prove that I am the greatest! Now is my chance...!",
+   "es": "¡No! ¡No! ¡Por fin lo tengo! ¡Con este poder bajo mi control, demostraré que soy el más grande! ¡Esta es mi oportunidad...!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "106",
+   "en": "Held!",
+   "es": "¡Held!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "108",
+   "en": "No one can compare! I am...the...exalted one!",
+   "es": "¡Nadie puede compararse! ¡Soy... el... exaltado!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "110",
+   "en": "You look wonderful, Held. Now, go have fun.",
+   "es": "Te ves maravilloso, Held. Ahora, ve a divertirte.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "112",
+   "en": "Hey, can we run away, too?",
+   "es": "Eh, ¿nosotros también podemos huir?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_778A1000_030",
+   "id": "114",
+   "en": "What are you saying? Make him visible to us now!",
+   "es": "¿Qué dices? ¡Haz que se nos muestre ahora!",
+   "ctx": "dialogo"
+  }
+ ]
+}

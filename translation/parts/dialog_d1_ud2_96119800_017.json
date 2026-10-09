@@ -1,0 +1,1106 @@
+{
+ "meta": {
+  "metodo": "mt-glosario"
+ },
+ "strings": [
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "2",
+   "en": "It's terrible here.",
+   "es": "Aquí todo es terrible.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "4",
+   "en": "Soon, the entire world will be like this.",
+   "es": "Pronto todo el mundo será así.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "6",
+   "en": "The moon will fall before that happens.",
+   "es": "La luna caerá antes de que eso ocurra.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "8",
+   "en": "That is the Dreadknight's castle.",
+   "es": "Ese es el castillo del Caballero Temible.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "10",
+   "en": "It's a beautiful castle.",
+   "es": "Es un castillo hermoso.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "12",
+   "en": "What a waste in his hands.",
+   "es": "Qué desperdicio en sus manos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "14",
+   "en": "All right everyone, this should be the final chapter.Let's move out!",
+   "es": "Muy bien, todos, este debería ser el capítulo final. ¡En marcha!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "16",
+   "en": "At last...",
+   "es": "Por fin...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "18",
+   "en": "That armor... You're a knight of the Order!",
+   "es": "Esa armadura... ¡Eres un caballero de la Orden!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "20",
+   "en": "Step aside!",
+   "es": "¡Aparta!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "22",
+   "en": "You certainly resemble His Majestyin his younger days.",
+   "es": "La verdad es que te pareces a Su Majestad en su juventud.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "24",
+   "en": "I am Iskan du Bal. The last of Leonid's faithful servants,and a former knight of the kingdom of Casandra.",
+   "es": "Soy Iskan du Bal. El último servidor leal de Leonid y antiguo caballero del reino de Casandra.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "26",
+   "en": "A knight of Casandra?",
+   "es": "¿Un caballero de Casandra?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "28",
+   "en": "Yes. I was a knight of the land you destroyed.",
+   "es": "Sí. Fui caballero de la tierra que destruiste.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "30",
+   "en": "How did I destroy it?",
+   "es": "¿Cómo que la destruí?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "32",
+   "en": "You don't know? Well, it no longer matters.",
+   "es": "¿No lo sabes? Bueno, ya no importa.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "34",
+   "en": "Huh?",
+   "es": "¿Eh?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "36",
+   "en": "I thank fate for this chance to avengemy fallen brethren-here and now!",
+   "es": "¡Agradezco al destino esta ocasión de vengar a mis hermanos caídos, aquí y ahora!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "40",
+   "en": "What's going on?",
+   "es": "¿Qué está pasando?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "42",
+   "en": "The rite has commenced.",
+   "es": "El rito ha comenzado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "44",
+   "en": "What rite?",
+   "es": "¿Qué rito?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "46",
+   "en": "A rite which will turn my master into a god.He shall drain all life from this land and ascend to the moon!",
+   "es": "Un rito que convertirá a mi amo en un dios. ¡Absorberá la vida de esta tierra y ascenderá a la luna!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "48",
+   "en": "But first we shall battle!You cursed child!",
+   "es": "¡Pero primero lucharemos! ¡Niño maldito!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "50",
+   "en": "Victory is just beyond my grasp...",
+   "es": "La victoria se me escapa de las manos...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "52",
+   "en": "You said I was cursed...",
+   "es": "Me has llamado maldito...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "54",
+   "en": "I suppose you have the right to know...You are the prince of Casandra.",
+   "es": "Supongo que tienes derecho a saberlo... Eres el príncipe de Casandra.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "56",
+   "en": "A prince?",
+   "es": "¿Un príncipe?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "58",
+   "en": "You... Nay, Your Highness, is the son of Lord Sigmund,who was the great king of Casandra.",
+   "es": "Tú... No, Su Alteza, eres hijo del lord Sigmund, que fue el gran rey de Casandra.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "60",
+   "en": "What?",
+   "es": "¿Qué?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "62",
+   "en": "Capell is Lord Sigmund's son!?That's impossible!",
+   "es": "¡¿Capell es hijo del lord Sigmund?! ¡Imposible!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "64",
+   "en": "King Volsung, who ruled all of Casandra, wascalled \"Sigmund\" when he was a child.",
+   "es": "El rey Volsung, que gobernó toda Casandra, se llamaba \"Sigmund\" de niño.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "66",
+   "en": "The kingdom that flourished under His Majesty crumbled in a single night...On the evening of the prince's birth, there was a lunar eclipse...",
+   "es": "El reino que floreció bajo Su Majestad se desmoronó en una sola noche... La noche del nacimiento del príncipe hubo un eclipse lunar...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "68",
+   "en": "That I've heard.",
+   "es": "Eso ya lo he oído.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "70",
+   "en": "His Majesty agonized over the decision for a long time,but at last bid me to follow royal tradition.",
+   "es": "Su Majestad se debatió mucho tiempo, pero al final me ordenó seguir la tradición real.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "72",
+   "en": "This newborn prince... I was ordered to sendhim down a river!",
+   "es": "A este príncipe recién nacido... ¡me ordenaron abandonarlo en un río!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "74",
+   "en": "You...",
+   "es": "Tú...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "76",
+   "en": "I carried the prince downriver by ship. And then readied a small boat andplaced him on board... It was that very moment that I noticed something...There was a message embroidered on the cloth covering him.",
+   "es": "Llevé al príncipe río abajo en un barco. Luego preparé una barca y lo puse a bordo... Fue justo entonces cuando noté algo... Había un mensaje bordado en la tela que lo cubría.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "78",
+   "en": "Yes, a blessing to protect the child.",
+   "es": "Sí, una bendición para proteger al niño.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "80",
+   "en": "It read, \"This boy shall be courageous and kind.He will be called Capell.\"",
+   "es": "Decía: \"Este niño será valiente y bondadoso. Se llamará Capell.\"",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "82",
+   "en": "He will be...",
+   "es": "Se llamará...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "84",
+   "en": "...called...Capell.",
+   "es": "...Capell.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "86",
+   "en": "But!",
+   "es": "¡Pero!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "88",
+   "en": "Calm down! You're still the same Capell.",
+   "es": "¡Cálmate! Sigues siendo el mismo Capell.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "90",
+   "en": "I had a father... Sigmund...",
+   "es": "Tenía un padre... Sigmund...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "92",
+   "en": "I'll protect you.",
+   "es": "Yo te protegeré.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "94",
+   "en": "He said he remembered something during the rite...He must have realized who I was.",
+   "es": "Dijo que recordó algo durante el rito... Debía de haberse dado cuenta de quién era yo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "96",
+   "en": "You just have to be yourself.",
+   "es": "Solo tienes que ser tú mismo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "98",
+   "en": "Capell, protect this world.",
+   "es": "Capell, protege este mundo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "100",
+   "en": "And that's why he sacrificed himself for me.",
+   "es": "Y por eso se sacrificó por mí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "102",
+   "en": "Leonid appeared in this country when it was on the verge of collapse.He was able to oust foreign invaders with his overwhelming power.So, we chose to serve him.",
+   "es": "Leonid apareció en este país cuando estaba al borde del colapso. Pudo expulsar a los invasores extranjeros con su poder abrumador. Así que elegimos servirle.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "104",
+   "en": "But he's a horrible person!",
+   "es": "¡Pero es una persona horrible!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "106",
+   "en": "First and foremost, a knight serves his country.He must remain loyal, even if he is taken down an immoral path.",
+   "es": "Ante todo, un caballero sirve a su país. Debe permanecer leal, aunque lo lleven por un camino inmoral.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "108",
+   "en": "Your Majesty...",
+   "es": "Su Majestad...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "112",
+   "en": "Capell! The gate!",
+   "es": "¡Capell! ¡La puerta!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "114",
+   "en": "We can't get any closer.",
+   "es": "No podemos acercarnos más.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "116",
+   "en": "Lord Capell, allow me to perform this final task.",
+   "es": "Lord Capell, permítame cumplir esta última tarea.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "120",
+   "en": "The king has returned...Open for your rightful master!",
+   "es": "El rey ha vuelto... ¡Ábrete para tu legítimo amo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "122",
+   "en": "Father... I'll end this myself!",
+   "es": "Padre... ¡Acabaré con esto yo mismo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "124",
+   "en": "Destroy the Onyx Chain",
+   "es": "Destruye la Cadena de Ónice",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "126",
+   "en": "Destroy the Onyx Chain",
+   "es": "Destruye la Cadena de Ónice",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "128",
+   "en": "Destroy the Onyx Chain",
+   "es": "Destruye la Cadena de Ónice",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "130",
+   "en": "Did we make in time?",
+   "es": "¿Hemos llegado a tiempo?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "132",
+   "en": "It looks that way.",
+   "es": "Eso parece.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "134",
+   "en": "So glad you could make it.",
+   "es": "Qué alegría que hayas podido venir.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "136",
+   "en": "I didn't think you would be.",
+   "es": "No creía que lo hicieras.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "138",
+   "en": "This finest of stages would be a waste without a proper audience...Don't you agree, Liberator?",
+   "es": "Este magnífico escenario sería un desperdicio sin un público adecuado... ¿No crees, Libertador?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "140",
+   "en": "Thanks. I'm flattered.",
+   "es": "Gracias. Me halaga.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "142",
+   "en": "A barrier?",
+   "es": "¿Una barrera?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "144",
+   "en": "A line of separation. Beyond is the domain forgods which you have no right to enter.",
+   "es": "Una línea divisoria. Más allá está el dominio de los dioses, al que no tienes derecho a entrar.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "146",
+   "en": "I shall prepare some guests for your entertainment.",
+   "es": "Prepararé algunos invitados para tu entretenimiento.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "148",
+   "en": "I do hope you enjoy our play.By the final act, I shall be a god!",
+   "es": "Espero que disfrutes de nuestra obra. ¡Para el acto final, seré un dios!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "150",
+   "en": "Manage the party.",
+   "es": "Gestionar el grupo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "151",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "153",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "156",
+   "en": "It's not over!",
+   "es": "¡No ha terminado!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "158",
+   "en": "Stop!",
+   "es": "¡Alto!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "160",
+   "en": "...It can't be!",
+   "es": "...¡No puede ser!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "162",
+   "en": "So the curtain closes on your foolish ceremony!And you remain mortal.",
+   "es": "¡Así cae el telón sobre tu estúpida ceremonia! Y sigues siendo mortal.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "164",
+   "en": "Filthy lies!",
+   "es": "¡Mentiras asquerosas!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "166",
+   "en": "No! I am the chosen one! Me! It is my destiny tostand beside Him on the moon! Why... Why!?",
+   "es": "¡No! ¡Yo soy el elegido! ¡Yo! ¡Mi destino es estar junto a Él en la luna! ¿Por qué...? ¿Por qué?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "168",
+   "en": "You! This is your fault! You defy and impede me!",
+   "es": "¡Tú! ¡Esto es culpa tuya! ¡Me desafías y me estorbas!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "170",
+   "en": "This...this cannot be the end!",
+   "es": "¡Esto... esto no puede ser el final!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "172",
+   "en": "If it weren't for you... I love Him...What is so wrong about wanting to be near the one you love?",
+   "es": "Si no fuera por ti... Le amo... ¿Qué tiene de malo querer estar cerca de quien amas?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "174",
+   "en": "You!",
+   "es": "¡Tú!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "176",
+   "en": "Do you know how many...",
+   "es": "¿Sabes cuántas...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "178",
+   "en": "...innocent people have died for that reason!?",
+   "es": "...personas inocentes han muerto por esa razón?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "180",
+   "en": "Don't you dare...say the word \"love\"!",
+   "es": "¡No te atrevas... a decir la palabra \"amor\"!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "182",
+   "en": "Your worthless fantasy ends here and now.",
+   "es": "Tu inútil fantasía termina aquí y ahora.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "188",
+   "en": "What's going on?",
+   "es": "¿Qué está pasando?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "190",
+   "en": "Yes... My beloved god would never forsake me.",
+   "es": "Sí... Mi amado dios jamás me abandonaría.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "192",
+   "en": "Veros! Heed my call from your lunar throne on high!Your faithful servant Leonid is here! I devote my everything to you!",
+   "es": "¡Veros! ¡Escucha mi llamada desde tu trono lunar en lo alto! ¡Tu fiel servidor Leonid está aquí! ¡Te consagro todo mi ser!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "194",
+   "en": "Behold! Prepare to witness the birth of a new god!",
+   "es": "¡Contemplad! ¡Preparaos para presenciar el nacimiento de un nuevo dios!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "196",
+   "en": "What's happening?",
+   "es": "¿Qué está pasando?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "198",
+   "en": "No!",
+   "es": "¡No!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "200",
+   "en": "Veros!",
+   "es": "¡Veros!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "202",
+   "en": "At last! My beloved master!I'll be at your side! You are mine...mine!",
+   "es": "¡Por fin! ¡Mi amado amo! ¡Estaré a tu lado! ¡Eres mío... mío!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "204",
+   "en": "No!!!",
+   "es": "¡¡No!!!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "206",
+   "en": "What was that!?",
+   "es": "¡¿Qué ha sido eso?!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "208",
+   "en": "The time has come to destroy the final chain!",
+   "es": "¡Ha llegado el momento de destruir la cadena final!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "210",
+   "en": "The last chain.",
+   "es": "La última cadena.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "212",
+   "en": "Looks different from the other ones.",
+   "es": "Parece distinta de las demás.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "214",
+   "en": "That doesn't matter. I'll smash it and end everything.",
+   "es": "Eso da igual. La romperé y acabaré con todo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "216",
+   "en": "Capell.",
+   "es": "Capell.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "218",
+   "en": "I'll do it. After all, that's why we're here.Stand back, everyone!",
+   "es": "Lo haré. Después de todo, para eso estamos. ¡Atrás, todos!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "222",
+   "en": "I can't cut it...",
+   "es": "No puedo cortarla...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "224",
+   "en": "This time, it's the other way around.",
+   "es": "Esta vez es al revés.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "226",
+   "en": "What?",
+   "es": "¿Qué?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "228",
+   "en": "All of the chains in the past were fastened to the surface.",
+   "es": "Todas las cadenas del pasado estaban sujetas a la superficie.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "230",
+   "en": "So the other way around means...",
+   "es": "Así que al revés significa...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "232",
+   "en": "This is the first chain going up to the moon.It can only be destroyed from the moon itself.",
+   "es": "Esta es la primera cadena que sube a la luna. Solo puede destruirse desde la propia luna.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "234",
+   "en": "Capell! Just calm down!",
+   "es": "¡Capell! ¡Cálmate!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "236",
+   "en": "Capell...",
+   "es": "Capell...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "238",
+   "en": "If I can't destroy this, then everything we have done will be meaningless!",
+   "es": "¡Si no puedo destruirla, todo lo que hemos hecho no habrá servido de nada!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "240",
+   "en": "Capell!",
+   "es": "¡Capell!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "242",
+   "en": "I should have known it wouldn't work.But I wanted to try it at least once...",
+   "es": "Debería haber sabido que no funcionaría. Pero quería intentarlo al menos una vez...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "244",
+   "en": "Ed?",
+   "es": "¿Ed?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "246",
+   "en": "Have you cooled off yet?",
+   "es": "¿Ya se te ha pasado?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "248",
+   "en": "Sorry...",
+   "es": "Perdón...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "250",
+   "en": "It's okay.",
+   "es": "Está bien.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "252",
+   "en": "Relax, Capell.",
+   "es": "Tranquilo, Capell.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "254",
+   "en": "We have come this far. There will be a way.",
+   "es": "Hemos llegado hasta aquí. Habrá una forma.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "256",
+   "en": "Then let's start looking for one now.There's not much time left for us.",
+   "es": "Entonces empecemos a buscarla ya. No nos queda mucho tiempo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "258",
+   "en": "All right.",
+   "es": "De acuerdo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "260",
+   "en": "We all know that lunaglyphs are given to meages by aristos.",
+   "es": "Todos sabemos que los aristos dan lunaglifos a los meage.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "262",
+   "en": "What are you taking about?",
+   "es": "¿De qué hablas?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "264",
+   "en": "So, who do you think gave the first aristo his lunaglyph?",
+   "es": "Entonces, ¿quién crees que le dio su lunaglifo al primer aristo?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "266",
+   "en": "Are you familiar with the rite of the Lunar Passage?",
+   "es": "¿Conoces el rito del Pasaje Lunar?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "268",
+   "en": "Lunar Passage?",
+   "es": "¿Pasaje Lunar?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "270",
+   "en": "Legend has it that the man who became the first aristo createda passage to the moon. He used it to travel there and receivea lunaglyph from its god... But, I don't see the connection.",
+   "es": "Cuenta la leyenda que el hombre que se convirtió en el primer aristo creó un pasaje a la luna. Lo usó para viajar allí y recibir un lunaglifo de su dios... Pero no veo la relación.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "272",
+   "en": "Well, who is to say that Leonid did not use this passage?",
+   "es": "Bueno, ¿quién dice que Leonid no usó este pasaje?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "274",
+   "en": "Of course!",
+   "es": "¡Claro!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "276",
+   "en": "So we go up to the moon and smash the chain!",
+   "es": "¡Así que subimos a la luna y rompemos la cadena!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "278",
+   "en": "But, how do we get up there?",
+   "es": "Pero, ¿cómo subimos?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "280",
+   "en": "Although I know how to perform this rite, I cannotcomplete it alone. However, we are fortunate to have twoother powerful aristos here with us. And so...",
+   "es": "Aunque sé cómo realizar este rito, no puedo completarlo solo. Sin embargo, tenemos la suerte de contar con otros dos poderosos aristos. Y así...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "282",
+   "en": "If we use that chain, we may succeed.",
+   "es": "Si usamos esa cadena, puede que lo logremos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "284",
+   "en": "As the protector of the Azure Land, I beseech you!",
+   "es": "¡Como protector de la Tierra Azur, te lo suplico!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "286",
+   "en": "As the protector of the Amber Land, I beseech you!",
+   "es": "¡Como protector de la Tierra de Ámbar, te lo suplico!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "288",
+   "en": "As the protector of the Alabaster Land, I beseech you!",
+   "es": "¡Como protector de la Tierra de Alabastro, te lo suplico!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "290",
+   "en": "Moon of power!",
+   "es": "¡Luna de poder!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "292",
+   "en": "The master of all lunaglyphs!",
+   "es": "¡Amo de todos los lunaglifos!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "294",
+   "en": "We humbly ask you to accept our prayers!",
+   "es": "¡Te pedimos humildemente que aceptes nuestras plegarias!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "296",
+   "en": "Wooow!",
+   "es": "¡Woow!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "298",
+   "en": "Can we go to the moon?",
+   "es": "¿Podemos ir a la luna?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "300",
+   "en": "I hope so.",
+   "es": "Eso espero.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "302",
+   "en": "This rite is imperfect and time is precious.We cannot wait a moment longer. We must proceed at once.",
+   "es": "Este rito es imperfecto y el tiempo es precioso. No podemos esperar ni un momento más. Debemos proceder de inmediato.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "304",
+   "en": "I take it we're walking up...",
+   "es": "Supongo que subimos andando...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "306",
+   "en": "Huh! What the hell?",
+   "es": "¡Eh! ¿Qué demonios?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "308",
+   "en": "It's like walkin' up a wall!",
+   "es": "¡Es como caminar por una pared!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "310",
+   "en": "Feels strange...but I guess it's safe.",
+   "es": "Se siente raro... pero supongo que es seguro.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "318",
+   "en": "It gets real dangerous from here on out.Maybe I can be of service.",
+   "es": "Se vuelve muy peligroso a partir de aquí. Quizá pueda ser útil.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "320",
+   "en": "Just let me know how I can help.",
+   "es": "Dime en qué puedo ayudar.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "322",
+   "en": "I want to rest.",
+   "es": "Quiero descansar.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "324",
+   "en": "I need supplies.",
+   "es": "Necesito provisiones.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "326",
+   "en": "Never mind.",
+   "es": "Da igual.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "328",
+   "en": "I wish you luck.",
+   "es": "Buena suerte.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "330",
+   "en": "I wish you luck.",
+   "es": "Buena suerte.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_96119800_017",
+   "id": "332",
+   "en": "Obtained a Karathos helmet!",
+   "es": "¡Obtienes un yelmo Karathos!",
+   "ctx": "dialogo"
+  }
+ ]
+}

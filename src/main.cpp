@@ -6,6 +6,8 @@
 #include "fiber_lr.h"
 #include "vesplume_diag.h"
 #include "iu_trace_points.h"
+#include "translation_es.h"
+#include "translation_cvars.h"
 
 REXCVAR_DEFINE_BOOL(asset_setup, false, "Content",
                    "Show Asset Setup Wizard even when assets are configured")
@@ -19,5 +21,9 @@ REXCVAR_DEFINE_BOOL(community_debug, true, "Debug", "Enable Infinite Undiscovery
 
 REXCVAR_DEFINE_BOOL(pso_prewarm, true, "GPU", "Wait for in-flight PSO creations at startup before resuming guest");
 REXCVAR_DEFINE_BOOL(pso_telemetry, false, "Debug", "Log runtime PSO creation and frame miss telemetry");
+
+// Translation mod CVARs ("Translation" category): es_translation,
+// es_textures, es_catalog, es_textures_manifest, es_controller.
+IU_TRANSLATION_DEFINE_CVARS();
 
 REX_DEFINE_APP(infinite_undiscovery, InfiniteUndiscoveryApp::Create)

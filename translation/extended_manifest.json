@@ -1,0 +1,162 @@
+{
+  "bancos": [
+    {
+      "stem": "d1_ud2_224F6800_028",
+      "aif_len": 413696,
+      "count": 354,
+      "how": "reuse:19",
+      "glyphs": [
+        {
+          "char": "G",
+          "code": 655,
+          "cell": 354,
+          "kind": "glyph"
+        },
+        {
+          "char": "J",
+          "code": 656,
+          "cell": 355,
+          "kind": "glyph"
+        },
+        {
+          "char": "Q",
+          "code": 657,
+          "cell": 356,
+          "kind": "glyph"
+        },
+        {
+          "char": "U",
+          "code": 658,
+          "cell": 357,
+          "kind": "glyph"
+        },
+        {
+          "char": "V",
+          "code": 659,
+          "cell": 358,
+          "kind": "glyph"
+        },
+        {
+          "char": "j",
+          "code": 660,
+          "cell": 359,
+          "kind": "glyph"
+        },
+        {
+          "char": "q",
+          "code": 475,
+          "cell": 174,
+          "kind": "glyph"
+        },
+        {
+          "char": "x",
+          "code": 474,
+          "cell": 173,
+          "kind": "glyph"
+        },
+        {
+          "char": "z",
+          "code": 459,
+          "cell": 158,
+          "kind": "glyph"
+        },
+        {
+          "char": "á",
+          "code": 448,
+          "cell": 147,
+          "kind": "accent"
+        },
+        {
+          "char": "é",
+          "code": 447,
+          "cell": 146,
+          "kind": "accent"
+        },
+        {
+          "char": "í",
+          "code": 445,
+          "cell": 144,
+          "kind": "accent"
+        },
+        {
+          "char": "ó",
+          "code": 444,
+          "cell": 143,
+          "kind": "accent"
+        },
+        {
+          "char": "ú",
+          "code": 443,
+          "cell": 142,
+          "kind": "accent"
+        },
+        {
+          "char": "ü",
+          "code": 436,
+          "cell": 135,
+          "kind": "accent"
+        },
+        {
+          "char": "ñ",
+          "code": 435,
+          "cell": 134,
+          "kind": "accent"
+        },
+        {
+          "char": "Á",
+          "code": 434,
+          "cell": 133,
+          "kind": "accent"
+        },
+        {
+          "char": "É",
+          "code": 654,
+          "cell": 353,
+          "kind": "accent"
+        },
+        {
+          "char": "Í",
+          "code": 653,
+          "cell": 352,
+          "kind": "accent"
+        },
+        {
+          "char": "Ó",
+          "code": 649,
+          "cell": 348,
+          "kind": "accent"
+        },
+        {
+          "char": "Ú",
+          "code": 648,
+          "cell": 347,
+          "kind": "accent"
+        },
+        {
+          "char": "Ü",
+          "code": 646,
+          "cell": 345,
+          "kind": "accent"
+        },
+        {
+          "char": "Ñ",
+          "code": 645,
+          "cell": 344,
+          "kind": "accent"
+        },
+        {
+          "char": "¿",
+          "code": 644,
+          "cell": 343,
+          "kind": "accent"
+        },
+        {
+          "char": "¡",
+          "code": 643,
+          "cell": 342,
+          "kind": "accent"
+        }
+      ]
+    }
+  ]
+}

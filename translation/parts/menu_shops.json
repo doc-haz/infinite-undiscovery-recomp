@@ -1,0 +1,316 @@
+{
+ "meta": {
+  "agente": "ws3",
+  "ctx": "tienda"
+ },
+ "strings": [
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800001",
+   "en": "Trader",
+   "es": "Comerciante",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800002",
+   "en": "Trader",
+   "es": "Comerciante",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800003",
+   "en": "Trader",
+   "es": "Comerciante",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800004",
+   "en": "General Shop",
+   "es": "Tienda general",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800005",
+   "en": "General Shop",
+   "es": "Tienda general",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800006",
+   "en": "General Shop",
+   "es": "Tienda general",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800007",
+   "en": "General Shop",
+   "es": "Tienda general",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800008",
+   "en": "General Shop",
+   "es": "Tienda general",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800009",
+   "en": "General Shop",
+   "es": "Tienda general",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800010",
+   "en": "ltem Shop",
+   "es": "Tienda de objetos",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800011",
+   "en": "ltem Shop",
+   "es": "Tienda de objetos",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800012",
+   "en": "ltem Shop",
+   "es": "Tienda de objetos",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800013",
+   "en": "Weapons Shop",
+   "es": "Armería",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800014",
+   "en": "Armor Shop",
+   "es": "Tienda de armaduras",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800015",
+   "en": "ltem Shop",
+   "es": "Tienda de objetos",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800016",
+   "en": "Accessory Shop",
+   "es": "Tienda de accesorios",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800017",
+   "en": "Weapons Shop",
+   "es": "Armería",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800018",
+   "en": "Armor Shop",
+   "es": "Tienda de armaduras",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800019",
+   "en": "ltem Shop",
+   "es": "Tienda de objetos",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800020",
+   "en": "Accessory Shop",
+   "es": "Tienda de accesorios",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800021",
+   "en": "The Emporium",
+   "es": "El Emporio",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800022",
+   "en": "General Shop",
+   "es": "Tienda general",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800023",
+   "en": "The Emporium",
+   "es": "El Emporio",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800024",
+   "en": "General Shop",
+   "es": "Tienda general",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800025",
+   "en": "The Emporium",
+   "es": "El Emporio",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800026",
+   "en": "General Shop",
+   "es": "Tienda general",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800027",
+   "en": "The Emporium",
+   "es": "El Emporio",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800028",
+   "en": "General Shop",
+   "es": "Tienda general",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800029",
+   "en": "The Emporium",
+   "es": "El Emporio",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800030",
+   "en": "General Shop",
+   "es": "Tienda general",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800031",
+   "en": "Weapons Shop",
+   "es": "Armería",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800032",
+   "en": "Weapons Shop",
+   "es": "Armería",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800033",
+   "en": "Armor Shop",
+   "es": "Tienda de armaduras",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800034",
+   "en": "Accessory Shop",
+   "es": "Tienda de accesorios",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800035",
+   "en": "ltem Shop",
+   "es": "Tienda de objetos",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800036",
+   "en": "General Shop",
+   "es": "Tienda general",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800037",
+   "en": "Weapons Shop",
+   "es": "Armería",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800038",
+   "en": "Weapons Shop",
+   "es": "Armería",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800039",
+   "en": "Armor Shop",
+   "es": "Tienda de armaduras",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800040",
+   "en": "Accessory Shop",
+   "es": "Tienda de accesorios",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800041",
+   "en": "ltem Shop",
+   "es": "Tienda de objetos",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800042",
+   "en": "General Shop",
+   "es": "Tienda general",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800043",
+   "en": "Genma",
+   "es": "Genma",
+   "ctx": "tienda"
+  },
+  {
+   "stem": "d1_ud1_000A4000_005",
+   "id": "800044",
+   "en": "Genma",
+   "es": "Genma",
+   "ctx": "tienda"
+  }
+ ]
+}

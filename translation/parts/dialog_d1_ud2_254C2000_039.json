@@ -1,0 +1,211 @@
+{
+ "meta": {
+  "agente": "ws4b",
+  "ctx": "dialogo"
+ },
+ "strings": [
+  {
+   "stem": "d1_ud2_254C2000_039",
+   "id": "2",
+   "en": "...I didn't ask for this.",
+   "es": "...Esto no lo he pedido yo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_254C2000_039",
+   "id": "4",
+   "en": "Here we go again.",
+   "es": "Otra vez lo mismo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_254C2000_039",
+   "id": "6",
+   "en": "Maybe...he's a vegetarian.",
+   "es": "Quizá... sea vegetariano.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_254C2000_039",
+   "id": "8",
+   "en": "No turning back now.",
+   "es": "Ya no hay vuelta atrás.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_254C2000_039",
+   "id": "12",
+   "en": "The catapult team is here, sir!",
+   "es": "¡La cuadrilla de catapultas está aquí, señor!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_254C2000_039",
+   "id": "14",
+   "en": "A pigeon?",
+   "es": "¿Una paloma?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_254C2000_039",
+   "id": "16",
+   "en": "It must be carrying a message.",
+   "es": "Debe de llevar un mensaje.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_254C2000_039",
+   "id": "18",
+   "en": "A message?",
+   "es": "¿Un mensaje?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_254C2000_039",
+   "id": "20",
+   "en": "Yeah, in the Liberation Force, we communicate with each other over long distances via carrier pigeons.",
+   "es": "Sí, en la Fuerza de Liberación nos comunicamos a larga distancia con palomas mensajeras.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_254C2000_039",
+   "id": "22",
+   "en": "\"Capell, once Aya has recovered, please come to Castle Prevant without delay.",
+   "es": "\"Capell, cuando Aya se haya recuperado, ven al Castillo Prevant sin demora.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_254C2000_039",
+   "id": "24",
+   "en": "\"We slipped in through the back door. Please assist Burguss's main force at the front entrance. -Eugene\"",
+   "es": "\"Nos hemos colado por la puerta trasera. Ayuda a la fuerza principal de Burguss en la entrada principal. -Eugene\"",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_254C2000_039",
+   "id": "26",
+   "en": "Wow, it's like they're actually depending on me...",
+   "es": "Vaya, parece que de verdad cuentan conmigo...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_254C2000_039",
+   "id": "28",
+   "en": "Eugene",
+   "es": "Eugene",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_254C2000_039",
+   "id": "30",
+   "en": "Once Aya has recovered, please come to Castle Prevant without delay.",
+   "es": "Cuando Aya se haya recuperado, ven al Castillo Prevant sin demora.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_254C2000_039",
+   "id": "32",
+   "en": "Will you save your current data?",
+   "es": "¿Guardar los datos actuales?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_254C2000_039",
+   "id": "34",
+   "en": "Yes",
+   "es": "Sí",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_254C2000_039",
+   "id": "36",
+   "en": "No",
+   "es": "No",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_254C2000_039",
+   "id": "37",
+   "en": "dummy",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_254C2000_039",
+   "id": "40",
+   "en": "Sigmund joined the party!Eugene joined the party!Balbagan joined the party!Savio joined the party!Rico joined the party!Rucha joined the party!",
+   "es": "¡Sigmund se une al grupo! ¡Eugene se une al grupo! ¡Balbagan se une al grupo! ¡Savio se une al grupo! ¡Rico se une al grupo! ¡Rucha se une al grupo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_254C2000_039",
+   "id": "42",
+   "en": "The Party menu is now available!",
+   "es": "¡Se ha desbloqueado el menú de Grupo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_254C2000_039",
+   "id": "44",
+   "en": "Reorganize the party?",
+   "es": "¿Reorganizar el grupo?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_254C2000_039",
+   "id": "46",
+   "en": "Yes",
+   "es": "Sí",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_254C2000_039",
+   "id": "48",
+   "en": "No",
+   "es": "No",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_254C2000_039",
+   "id": "49",
+   "en": "dummy",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_254C2000_039",
+   "id": "52",
+   "en": "Manage the party.",
+   "es": "Gestionar el grupo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_254C2000_039",
+   "id": "53",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_254C2000_039",
+   "id": "55",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_254C2000_039",
+   "id": "58",
+   "en": "Obtained the toy sword.",
+   "es": "Obtienes la espada de juguete.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_254C2000_039",
+   "id": "60",
+   "en": "Castle Prevant Gate",
+   "es": "Puerta del Castillo Prevant",
+   "ctx": "dialogo"
+  }
+ ]
+}
