@@ -1,0 +1,22 @@
+{
+ "meta": {
+  "agente": "ws4b",
+  "ctx": "dialogo"
+ },
+ "strings": [
+  {
+   "stem": "d1_ud2_1793D000_018",
+   "id": "3",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1793D000_018",
+   "id": "5",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  }
+ ]
+}

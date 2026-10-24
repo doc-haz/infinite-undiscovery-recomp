@@ -1,0 +1,2289 @@
+{
+ "meta": {
+  "metodo": "mt-glosario"
+ },
+ "strings": [
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "2",
+   "en": "So many people...",
+   "es": "Cuánta gente...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "4",
+   "en": "Refugees, perhaps? Capell, would you go and speak with them?",
+   "es": "¿Refugiados? Capell, ¿hablarías con ellos?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "6",
+   "en": "What? Me?",
+   "es": "¿Qué? ¿Yo?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "8",
+   "en": "Problem?",
+   "es": "¿Pasa algo?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "10",
+   "en": "Well actually, I...",
+   "es": "Es que yo...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "12",
+   "en": "Go over there, Capell.",
+   "es": "Ve para allá, Capell.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "14",
+   "en": "Okay, okay, I'm going...",
+   "es": "Vale, vale, ya voy...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "16",
+   "en": "I'm tired. I can't walk anymore.",
+   "es": "Estoy cansado. No puedo seguir andando.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "18",
+   "en": "How can you start whining!?",
+   "es": "¡¿Cómo te atreves a quejarte?!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "20",
+   "en": "Well, we've been...",
+   "es": "Es que llevamos...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "22",
+   "en": "Excuse me, but...",
+   "es": "Perdone, pero...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "24",
+   "en": "What's wrong?",
+   "es": "¿Qué ocurre?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "26",
+   "en": "Well, I can't find my little brother anywhere.",
+   "es": "No encuentro a mi hermanito.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "28",
+   "en": "Your brother?",
+   "es": "¿Tu hermano?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "30",
+   "en": "He's such a typical eight-year-old. Always full of energyand running around. If I take my eyes off of himfor one moment, he's gone.I've looked everywhere, but...",
+   "es": "Es un niño de ocho años típico. Siempre corretea lleno de energía. Si le quito la vista un momento, desaparece. Lo he buscado por todas partes, pero...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "32",
+   "en": "So, it sounds like he got separated from the group.Then we'll need to find whoever saw him last.",
+   "es": "Se habrá separado del grupo. Busquemos a quien lo vio por última vez.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "34",
+   "en": "It sounds like Faina's brother went off to some rocky area south of here.",
+   "es": "Parece que el hermano de Faina se fue a una zona rocosa al sur.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "36",
+   "en": "There's not much daylight left.We need to hurry.",
+   "es": "Queda poca luz. Date prisa.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "38",
+   "en": "Do we know where this rocky area is?",
+   "es": "¿Sabemos dónde está esa zona rocosa?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "40",
+   "en": "Yeah. It's close by.",
+   "es": "Sí. Está cerca.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "42",
+   "en": "Okay! Aya, come with me. Rico and Rucha...",
+   "es": "¡Vale! Aya, ven conmigo. Rico y Rucha...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "44",
+   "en": "We can protect them.",
+   "es": "Podemos protegerlos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "46",
+   "en": "I'm a grown up, don't worry!",
+   "es": "¡Soy mayor, no te preocupes!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "48",
+   "en": "I'm not sure about \"grown up,\" but I'm counting on you.",
+   "es": "No sé yo lo de \"mayor\", pero cuento contigo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "50",
+   "en": "Hey, Capell!Please find my brother. And, um...",
+   "es": "¡Capell! Encuentra a mi hermano. Y, esto...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "52",
+   "en": "Come back safely.",
+   "es": "Vuelve a salvo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "54",
+   "en": "No problem. I'll be careful.",
+   "es": "Sin problema. Tendré cuidado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "56",
+   "en": "That girl. She's been staring at you, you know.",
+   "es": "Esa chica no te quita ojo, ¿sabes?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "58",
+   "en": "Uh, really?",
+   "es": "¿De veras?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "60",
+   "en": "Rico left the party!Rucha left the party!",
+   "es": "¡Rico deja el grupo! ¡Rucha deja el grupo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "62",
+   "en": "We press on.",
+   "es": "Sigamos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "64",
+   "en": "We're going to leave them?",
+   "es": "¿Vamos a dejarlos?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "66",
+   "en": "Yes, we are.",
+   "es": "Sí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "68",
+   "en": "He's so cold...",
+   "es": "Qué frío es...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "70",
+   "en": "My lord, if I may-",
+   "es": "Mi señor, si me permite...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "72",
+   "en": "We must leave them! What matters most right now is destroying the chains.The number of refugees will only keep increasing.You know this!",
+   "es": "¡Debemos dejarlos! Ahora lo importante es destruir las cadenas. El número de refugiados no hará más que crecer. ¡Lo sabes!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "74",
+   "en": "But!",
+   "es": "¡Pero!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "76",
+   "en": "Okay. Then I'll take them back to their village.",
+   "es": "Vale. Entonces los llevaré de vuelta a su aldea.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "78",
+   "en": "Capell?",
+   "es": "¿Capell?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "80",
+   "en": "What did you say?",
+   "es": "¿Qué has dicho?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "82",
+   "en": "It's not gonna be any fun, but I couldn't forgivemyself if I left them behind.Isn't that right, Aya?",
+   "es": "No será divertido, pero no me lo perdonaría si los dejara atrás. ¿Verdad, Aya?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "84",
+   "en": "You're forbidden.",
+   "es": "Te lo prohíbo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "86",
+   "en": "Then I guess it's goodbye.",
+   "es": "Pues entonces, adiós.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "88",
+   "en": "Capell!",
+   "es": "¡Capell!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "90",
+   "en": "But Capell, you can't...",
+   "es": "Pero Capell, no puedes...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "92",
+   "en": "Seven days.",
+   "es": "Siete días.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "94",
+   "en": "Seven days?",
+   "es": "¿Siete días?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "96",
+   "en": "We will go ahead to Fayel. Be back in seven days.",
+   "es": "Iremos por delante a Fayel. Vuelve en siete días.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "98",
+   "en": "Be back...",
+   "es": "Vuelve...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "100",
+   "en": "Aya, go with Capell...and make sure to bring him back.",
+   "es": "Aya, ve con Capell... y asegúrate de traerlo de vuelta.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "102",
+   "en": "Yes! Thank you, my lord!",
+   "es": "¡Sí! ¡Gracias, mi señor!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "104",
+   "en": "Everyone else heads for the city! Move!",
+   "es": "¡Los demás, a la ciudad! ¡En marcha!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "106",
+   "en": "Ah, I guess my escape plan failed.",
+   "es": "Ah, mi plan de fuga ha fallado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "108",
+   "en": "I don't want to hear that!",
+   "es": "¡No quiero oír eso!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "110",
+   "en": "Aren't you going with them?",
+   "es": "¿No vas con ellos?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "112",
+   "en": "No, Capell, we're coming with you!",
+   "es": "¡No, Capell, vamos contigo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "114",
+   "en": "That's right! Sigmund told us to \"keep an eye\" on you.",
+   "es": "¡Exacto! Sigmund nos dijo que te \"vigiláramos\".",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "116",
+   "en": "I should have known. He sees through everything.",
+   "es": "Debí imaginarlo. Lo ve todo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "118",
+   "en": "Come on, Capell. Hurry up!",
+   "es": "Vamos, Capell. ¡Date prisa!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "120",
+   "en": "It's almost night-time!",
+   "es": "¡Está a punto de anochecer!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "122",
+   "en": "See, that means you've got to take us with you!",
+   "es": "¡Ves? ¡Tienes que llevarnos contigo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "124",
+   "en": "You've got to!",
+   "es": "¡Tienes que hacerlo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "126",
+   "en": "Yeah, I do.",
+   "es": "Sí, la verdad.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "128",
+   "en": "Obtained 4 bottles of red berry potion!Obtained 2 bottles of black berry potion!Obtained 3 miraculous medicines!",
+   "es": "¡Obtienes 4 pociones de baya roja! ¡Obtienes 2 pociones de baya negra! ¡Obtienes 3 medicinas milagrosas!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "130",
+   "en": "Oh, is it true? Are you really going to escortus all back to Sapran?",
+   "es": "¿De verdad? ¿Nos escoltaréis a todos de vuelta a Sapran?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "132",
+   "en": "You can count on us!",
+   "es": "¡Puedes contar con nosotros!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "134",
+   "en": "We can't stay out here forever.Please help us.",
+   "es": "No podemos quedarnos aquí para siempre. Ayúdanos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "136",
+   "en": "Sigmund left the party.Eugene left the party.Balbagan left the party.Edward left the party.Savio left the party.Michelle left the party.",
+   "es": "Sigmund deja el grupo. Eugene deja el grupo. Balbagan deja el grupo. Edward deja el grupo. Savio deja el grupo. Michelle deja el grupo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "138",
+   "en": "Back to where we were defeated...",
+   "es": "De vuelta a donde fuimos derrotados...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "140",
+   "en": "You're way too gloomy.",
+   "es": "Eres un aguafiestas.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "142",
+   "en": "It's a fact.",
+   "es": "Es un hecho.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "144",
+   "en": "What? Everyone's talking about defeat.",
+   "es": "¿Qué? Todos hablan de derrota.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "146",
+   "en": "It's okay! You got me and Rucha here this time!",
+   "es": "¡Tranquilo! ¡Esta vez nos tienes a Rucha y a mí!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "148",
+   "en": "It's gonna be an easy win!",
+   "es": "¡Será una victoria fácil!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "150",
+   "en": "Gotcha! Easy win!",
+   "es": "¡Eso es! ¡Victoria fácil!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "156",
+   "en": "Let's move.",
+   "es": "En marcha.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "158",
+   "en": "Aya?",
+   "es": "¿Aya?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "160",
+   "en": "Huh?",
+   "es": "¿Eh?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "162",
+   "en": "You're not yourself.",
+   "es": "No pareces tú.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "164",
+   "en": "I just... I realized...I need to become stronger.",
+   "es": "Es que... me he dado cuenta... de que debo hacerme más fuerte.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "166",
+   "en": "Come on! Let's not get left behind.",
+   "es": "¡Vamos! No nos quedemos atrás.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "168",
+   "en": "Yeah.",
+   "es": "Sí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "170",
+   "en": "We can advance to the chain from here.",
+   "es": "Podemos avanzar hacia la cadena desde aquí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "172",
+   "en": "Sa...pran?It's so badly worn that I can't make it out.",
+   "es": "¿Sa...pran? Está tan desgastado que no lo distingo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "174",
+   "en": "Up ahead, there's a small village.",
+   "es": "Hay una aldea pequeña más adelante.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "176",
+   "en": "Hmmm... What should we do, Sigmund?",
+   "es": "Mmm... ¿Qué hacemos, Sigmund?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "178",
+   "en": "Lord.",
+   "es": "Señor.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "180",
+   "en": "I must know what lies ahead. Do you have any information?",
+   "es": "Debo saber qué nos espera. ¿Tienes información?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "182",
+   "en": "Certainly. According to my nightwhispers,the canyon beyond Sapran was enchained recently,and monsters began to gather.The village was-",
+   "es": "Por supuesto. Según mis susurros nocturnos, el cañón tras Sapran fue encadenado hace poco y empezaron a reunirse monstruos. La aldea fue...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "184",
+   "en": "What!? Tell me!",
+   "es": "¡¿Qué?! ¡Dímelo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "186",
+   "en": "Pardon me, Genma. You may proceed.",
+   "es": "Disculpa, Genma. Puedes continuar.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "188",
+   "en": "As I was saying... With the nearby canyon ensnaredby a chain, the village was attacked.However, the villagers had fled beforehandand there were only a few losses.",
+   "es": "Como decía... Con el cañón cercano atrapado por una cadena, la aldea fue atacada. Pero los aldeanos habían huido antes y hubo pocas pérdidas.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "190",
+   "en": "Did the army protect them?",
+   "es": "¿Los protegió el ejército?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "192",
+   "en": "The army hasn't been mobilized.No news of any mercenary groups entering the area either.",
+   "es": "El ejército no se ha movilizado. Tampoco hay noticias de mercenarios en la zona.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "194",
+   "en": "Then, how did the villagers...?",
+   "es": "Entonces, ¿cómo...?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "196",
+   "en": "Hmmm. I surmise that they fled ontheir own, as they are-",
+   "es": "Mmm. Supongo que huyeron solos, ya que son...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "198",
+   "en": "I've heard all that I need to.Thank you.",
+   "es": "Ya he oído lo que necesitaba. Gracias.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "200",
+   "en": "Lord.",
+   "es": "Señor.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "202",
+   "en": "We will destroy the chain.",
+   "es": "Destruiremos la cadena.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "204",
+   "en": "Thank you, Lord Sigmund!",
+   "es": "¡Gracias, lord Sigmund!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "206",
+   "en": "You're thanking him? But why?",
+   "es": "¿Le das las gracias? ¿Por qué?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "208",
+   "en": "Just be quiet!",
+   "es": "¡Cállate!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "210",
+   "en": "That's not very nice. Couldn't you be a little less mean?",
+   "es": "Qué poco amable. ¿No podrías ser menos borde?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "212",
+   "en": "Let's go.",
+   "es": "Vamos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "214",
+   "en": "Manage the party.",
+   "es": "Gestionar el grupo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "215",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "217",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "220",
+   "en": "Somebody! Help meee!",
+   "es": "¡Que alguien me ayude!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "222",
+   "en": "It looks like we're here just in time.",
+   "es": "Parece que llegamos justo a tiempo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "224",
+   "en": "Hey! We haven't rescued him yet.",
+   "es": "¡Eh! Aún no lo hemos rescatado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "226",
+   "en": "That was so scary!",
+   "es": "¡Qué miedo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "228",
+   "en": "Are you okay? You're Leif, right?You shouldn't be causing your sister trouble like this!",
+   "es": "¿Estás bien? Eres Leif, ¿verdad? ¡No deberías dar estos problemas a tu hermana!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "230",
+   "en": "Is...is Faina really angry at me?",
+   "es": "¿...Faina está enfadada conmigo?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "232",
+   "en": "Oh yeah, she's furious.",
+   "es": "Sí, furiosa.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "234",
+   "en": "No, don't be silly.Come on, let's go.",
+   "es": "No, no digas tonterías. Vamos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "236",
+   "en": "Let's stop here for today.",
+   "es": "Paremos aquí por hoy.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "238",
+   "en": "Yeah. That's a good idea.There's a nice hill up ahead. Come on.",
+   "es": "Sí, buena idea. Hay una colina agradable más adelante. Vamos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "240",
+   "en": "This is a great spot!",
+   "es": "¡Es un sitio genial!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "242",
+   "en": "Isn't it?Once it's dark, the stars will be sparkling.Oh, could you gather some wood for the fire?",
+   "es": "¿Verdad? Cuando oscurezca, las estrellas brillarán. Ah, ¿podrías recoger leña para el fuego?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "244",
+   "en": "Me?",
+   "es": "¿Yo?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "246",
+   "en": "There's no one else to.",
+   "es": "No hay nadie más.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "248",
+   "en": "...Off I go.",
+   "es": "...Voy.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "250",
+   "en": "So, where do we go now?",
+   "es": "¿Y ahora adónde vamos?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "252",
+   "en": "What do you think, Capell?",
+   "es": "¿Tú qué crees, Capell?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "254",
+   "en": "We could round up more members for the Force from this country.",
+   "es": "Podríamos reclutar más miembros para la Fuerza en este país.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "256",
+   "en": "That is an idea.",
+   "es": "Es una idea.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "258",
+   "en": "Why slow down now? The chain here has been destroyed. What we have to do is continue on our journey.",
+   "es": "¿Por qué parar ahora? La cadena de aquí ha sido destruida. Debemos continuar nuestro viaje.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "260",
+   "en": "Slow down!? We lost our leader! It makes sense to regroup!",
+   "es": "¡¿Parar?! ¡Hemos perdido a nuestro líder! ¡Tiene sentido reagruparse!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "262",
+   "en": "The Order has lost its leader as well. This might be an excellent chance for us to proceed.",
+   "es": "La Orden también ha perdido a su líder. Puede ser una oportunidad excelente para avanzar.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "264",
+   "en": "My thoughts exactly.",
+   "es": "Justo lo que pensaba.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "266",
+   "en": "Then, we'll head to Port Zala. ",
+   "es": "Entonces iremos a Puerto Zala.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "268",
+   "en": "Okay. Let's move out!",
+   "es": "Vale. ¡En marcha!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "270",
+   "en": "What was that about!? Ed thinks he's the leader now! He's getting on my nerves!",
+   "es": "¡¿A qué venía eso?! ¡Ed se cree el líder! ¡Me saca de quicio!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "272",
+   "en": "Well it's hard for him, too.",
+   "es": "También es duro para él.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "274",
+   "en": "Whatever.",
+   "es": "Lo que sea.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "278",
+   "en": "Gustav!?",
+   "es": "¡¿Gustav?!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "280",
+   "en": "Run, Gustav! Run!",
+   "es": "¡Corre, Gustav! ¡Corre!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "282",
+   "en": "Hey, you need help, kid?",
+   "es": "Eh, ¿necesitas ayuda, chico?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "284",
+   "en": "Huh?",
+   "es": "¿Eh?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "286",
+   "en": "Dominica. I'm a mercenary.",
+   "es": "Dominica. Soy mercenaria.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "288",
+   "en": "That's the spirit! Let's go!",
+   "es": "¡Ese es el ánimo! ¡Vamos!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "290",
+   "en": "That was incredible.",
+   "es": "Ha sido increíble.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "292",
+   "en": "Too easy.",
+   "es": "Pan comido.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "294",
+   "en": "You two know each other?",
+   "es": "¿Os conocéis?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "296",
+   "en": "Uh-huh. I ran into Gina in the city. She told me that youwere looking for Gustav, so I rushed over here to help out.",
+   "es": "Ajá. Me encontré con Gina en la ciudad. Me dijo que buscabais a Gustav, así que vine corriendo a ayudar.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "298",
+   "en": "Well, I can't thank you enough for all your help!I'm sure Gustav would say the same.",
+   "es": "¡No puedo agradecerte bastante tu ayuda! Seguro que Gustav diría lo mismo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "300",
+   "en": "Hmmm... Yeah, you do look just like the Liberator.",
+   "es": "Mmm... Sí, te pareces mucho al Libertador.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "302",
+   "en": "So I've heard.",
+   "es": "Eso me han dicho.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "304",
+   "en": "You look just like him, but it's obvious you're so different. And youbehave like a coward, yet you fight better than most. Aya was right.",
+   "es": "Te pareces a él, pero está claro que eres muy distinto. Te comportas como un cobarde, pero luchas mejor que la mayoría. Aya tenía razón.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "306",
+   "en": "What!? You know Aya?",
+   "es": "¡¿Qué?! ¿Conoces a Aya?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "308",
+   "en": "I know lots of people.",
+   "es": "Conozco a mucha gente.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "310",
+   "en": "And what else did she happen to say about me?",
+   "es": "¿Y qué más dijo de mí?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "312",
+   "en": "Wanna know?",
+   "es": "¿Quieres saberlo?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "314",
+   "en": "Definitely.",
+   "es": "Sin duda.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "316",
+   "en": "Oh, you're certainly a peculiar one. I like you.",
+   "es": "Eres de lo más peculiar. Me caes bien.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "318",
+   "en": "Uh, thanks...I guess. Hey!So you're not gonna tell me?",
+   "es": "Eh, gracias... supongo. ¡Eh! ¿No me lo vas a contar?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "320",
+   "en": "Say \"Hi\" to Aya for me.",
+   "es": "Saluda a Aya de mi parte.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "324",
+   "en": "Gustav wants to say \"Hi,\" too.",
+   "es": "Gustav también quiere saludarla.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "326",
+   "en": "That's nice and all, but what did Aya say?",
+   "es": "Muy bien, ¿pero qué dijo Aya?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "328",
+   "en": "All right. Let's start heading back. Gina must be worried by now.",
+   "es": "En fin. Volvamos. Gina debe de estar preocupada.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "330",
+   "en": "She must have said something bad...",
+   "es": "Habrá dicho algo malo...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "334",
+   "en": "Balbagan.",
+   "es": "Balbagan.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "336",
+   "en": "We had to make a quick exit from the castle.",
+   "es": "Tuvimos que salir del castillo a toda prisa.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "338",
+   "en": "I just got back, so I'll be workin' extra hard like a rookie.",
+   "es": "Acabo de volver, así que trabajaré el doble como un novato.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "340",
+   "en": "We'll explain everything later. We need to go.",
+   "es": "Te lo explicaremos todo luego. Tenemos que irnos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "342",
+   "en": "Go? Go where?",
+   "es": "¿Ir? ¿Adónde?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "344",
+   "en": "That's simple. To Casandra, the Order's stronghold.",
+   "es": "Fácil. A Casandra, el bastión de la Orden.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "346",
+   "en": "First, we head to Zala.",
+   "es": "Primero vamos a Zala.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "348",
+   "en": "Balbagan joined the party!",
+   "es": "¡Balbagan se une al grupo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "350",
+   "en": "Southi Sapran",
+   "es": "Sapran del Sur",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "352",
+   "en": "Sign",
+   "es": "Señal",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "354",
+   "en": "Firewood",
+   "es": "Leña",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "356",
+   "en": "Firewood",
+   "es": "Leña",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "358",
+   "en": "Firewood",
+   "es": "Leña",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "360",
+   "en": "Firewood",
+   "es": "Leña",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "362",
+   "en": "Firewood",
+   "es": "Leña",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "364",
+   "en": "Firewood",
+   "es": "Leña",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "366",
+   "en": "Firewood",
+   "es": "Leña",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "368",
+   "en": "Aya",
+   "es": "Aya",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "370",
+   "en": "Don't wander off too far!",
+   "es": "¡No te alejes demasiado!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "372",
+   "en": "I think it's time to rest. How about I cook something?",
+   "es": "Creo que es hora de descansar. ¿Preparo algo de comer?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "374",
+   "en": "It feels great out here! I wonder if you can seethe stars at night.",
+   "es": "¡Se está genial aquí fuera! ¿Se verán las estrellas de noche?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "376",
+   "en": "Wow, that was quick! And a lot better than I expected!",
+   "es": "¡Vaya, qué rápido! ¡Y mucho mejor de lo que esperaba!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "378",
+   "en": "It's good to see you helpful for a change. At least youfinished before it got dark.",
+   "es": "Me alegra verte útil por una vez. Al menos acabaste antes de que oscureciera.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "380",
+   "en": "Do you know how much time you spent gathering firewood?Last time I ask you to help...",
+   "es": "¿Sabes cuánto has tardado en recoger leña? Es la última vez que te pido ayuda...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "382",
+   "en": "Great song. What's it called?",
+   "es": "Bonita canción. ¿Cómo se llama?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "384",
+   "en": "I wrote it myself.It's entitled...\"The Slovenly Serenade.\"",
+   "es": "La compuse yo. Se titula... \"La serenata del holgazán\".",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "386",
+   "en": "I shouldn't have asked.",
+   "es": "No debería haber preguntado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "388",
+   "en": "Not tired?",
+   "es": "¿No tienes sueño?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "390",
+   "en": "No, I'm going to sit here and watch the fire a little longer.",
+   "es": "No, me quedaré un rato más mirando el fuego.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "392",
+   "en": "Leave the fire to me, Aya. You can go on to bed.",
+   "es": "El fuego lo cuido yo, Aya. Puedes irte a dormir.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "394",
+   "en": "Not yet. This is relaxing.",
+   "es": "Aún no. Esto relaja.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "396",
+   "en": "Why do fires relax you?",
+   "es": "¿Por qué te relaja el fuego?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "398",
+   "en": "Flames are sacred and familiar.Everyone in Fayel learns that growing up.",
+   "es": "Las llamas son sagradas y familiares. Todo el mundo en Fayel lo aprende de niño.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "400",
+   "en": "Oh?",
+   "es": "¿Ah?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "402",
+   "en": "Doesn't looking at it stir up memories?",
+   "es": "¿Mirarlo no te trae recuerdos?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "404",
+   "en": "Think we'll catch up to them by tomorrow?",
+   "es": "¿Crees que los alcanzaremos mañana?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "406",
+   "en": "It won't be long. The city is nearby, so we can meet them there.",
+   "es": "No tardaremos. La ciudad está cerca, podemos encontrarnos allí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "408",
+   "en": "Good.",
+   "es": "Bien.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "410",
+   "en": "You didn't want my help at Graad.So, why did you come with us?",
+   "es": "No querías mi ayuda en Graad. ¿Por qué has venido con nosotros?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "412",
+   "en": "You told me to escape for your sake.I thought that it was a funny thing to say.",
+   "es": "Me dijiste que escapara por tu bien. Me pareció una frase curiosa.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "414",
+   "en": "That's it?",
+   "es": "¿Ya está?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "416",
+   "en": "You were also blunt and self-centered...And even a bit-",
+   "es": "También eres directo y egocéntrico... y hasta un poco...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "418",
+   "en": "Gee, thanks.",
+   "es": "Vaya, gracias.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "422",
+   "en": "I'm just tired of things like lying...and running away all the time.",
+   "es": "Estoy harto de mentir... y de huir todo el tiempo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "424",
+   "en": "We've gotta keep fighting!",
+   "es": "¡Hay que seguir luchando!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "426",
+   "en": "I think you try too hard.",
+   "es": "Creo que te esfuerzas demasiado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "428",
+   "en": "You could try a little harder, you know!?",
+   "es": "¡Podrías esforzarte un poco más, eh!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "430",
+   "en": "Hey, I might not look it,but I'm doing my best, okay?",
+   "es": "Eh, tal vez no lo parezca, pero doy lo mejor de mí, ¿vale?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "432",
+   "en": "Really?",
+   "es": "¿De verdad?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "438",
+   "en": "But now I think we should rest up for tomorrow.",
+   "es": "Pero ahora deberíamos descansar para mañana.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "440",
+   "en": "Yeah, you're right. Goodnight, Capell.",
+   "es": "Sí, tienes razón. Buenas noches, Capell.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "442",
+   "en": "Goodnight, Aya.",
+   "es": "Buenas noches, Aya.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "444",
+   "en": "Obtained some training notations!",
+   "es": "¡Obtienes anotaciones de entrenamiento!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "446",
+   "en": "Reorganize the party?",
+   "es": "¿Reorganizar el grupo?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "448",
+   "en": "Yes",
+   "es": "Sí",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "450",
+   "en": "No",
+   "es": "No",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "451",
+   "en": "dummy",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "454",
+   "en": "We still don't have enough firewood.Can you find some more?",
+   "es": "Aún no tenemos suficiente leña. ¿Puedes buscar más?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "456",
+   "en": "Ten pieces of firewood will be enough. You should findsome nearby. Have fun!",
+   "es": "Diez troncos serán suficientes. Deberías encontrarlos cerca. ¡Diviértete!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "458",
+   "en": "lnnocent child",
+   "es": "Niño inocente",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "460",
+   "en": "Hooray! Yeah!",
+   "es": "¡Bien! ¡Sí!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "462",
+   "en": "Can we really go home?",
+   "es": "¿De verdad podemos volver a casa?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "464",
+   "en": "I want a lunaglyph. They're so cool.",
+   "es": "Quiero un lunaglifo. Son geniales.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "466",
+   "en": "You're not a bunch of bullies, are you?",
+   "es": "No seréis unos abusones, ¿verdad?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "468",
+   "en": "Knowledgeable old lady",
+   "es": "Anciana sabia",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "470",
+   "en": "Do you think that your help will really be enough?",
+   "es": "¿Crees que tu ayuda será suficiente?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "472",
+   "en": "If we don't have our village, we have nothing.",
+   "es": "Sin nuestra aldea, no tenemos nada.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "474",
+   "en": "Sapran is the only place that unblesseds likeme can live in peace.",
+   "es": "Sapran es el único lugar donde los desdichados como yo podemos vivir en paz.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "476",
+   "en": "You know, we didn't intend to build a village. We simplywanted to band together to protect ourselves, and itjust kind of happened.",
+   "es": "No pretendíamos fundar una aldea. Solo queríamos unirnos para protegernos, y simplemente ocurrió.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "478",
+   "en": "Grieving girl",
+   "es": "Chica afligida",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "480",
+   "en": "If I had a lunaglyph, I wouldn't be stuck out here likethis, that's for sure...",
+   "es": "Si tuviera un lunaglifo, no estaría aquí tirada, desde luego...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "482",
+   "en": "If only I was born with a lunaglyph...",
+   "es": "Si al menos hubiera nacido con un lunaglifo...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "484",
+   "en": "I can't take it anymore.",
+   "es": "No puedo más.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "486",
+   "en": "Why does trouble always seem to follow us unblesseds?",
+   "es": "¿Por qué la desgracia siempre persigue a los desdichados?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "488",
+   "en": "Servile man",
+   "es": "Hombre servil",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "490",
+   "en": "A kid? Yeah, I saw one.He was heading south.",
+   "es": "¿Un niño? Sí, vi a uno. Iba hacia el sur.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "492",
+   "en": "Are you really going to save us?",
+   "es": "¿De verdad vais a salvarnos?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "494",
+   "en": "Unblesseds can't have lunaglyphs like you do...",
+   "es": "Los desdichados no podemos tener lunaglifos como tú...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "496",
+   "en": "As unblesseds, we have neither country nor ruler to callour own. It's such a sad position to be in.",
+   "es": "Los desdichados no tenemos patria ni señor. Es una situación muy triste.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "498",
+   "en": "Is there anywhere to rest?",
+   "es": "¿Hay algún sitio para descansar?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "500",
+   "en": "I hate it out here!",
+   "es": "¡Odio estar aquí fuera!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "502",
+   "en": "Levan. refugee leader",
+   "es": "Levan, líder de refugiados",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "504",
+   "en": "Exhausted man",
+   "es": "Hombre agotado",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "506",
+   "en": "We shouldn't give up hope just yet.",
+   "es": "No deberíamos perder la esperanza todavía.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "508",
+   "en": "You really mean that you'll escort us back to our shabbylittle village? Doesn't it bother you that we're unblesseds?",
+   "es": "¿De verdad nos escoltaréis a nuestra humilde aldea? ¿No te molesta que seamos desdichados?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "510",
+   "en": "Are you really going to help us?Thank you very much!",
+   "es": "¿De verdad vais a ayudarnos? ¡Muchas gracias!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "512",
+   "en": "Don't mind us... We'd rather not get our hopes upfor somethin' which probably won't happen.",
+   "es": "No nos hagas caso... Preferimos no ilusionarnos con algo que seguramente no pase.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "514",
+   "en": "Help my son. Please!",
+   "es": "¡Ayudad a mi hijo, por favor!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "516",
+   "en": "Resilient girl",
+   "es": "Chica resistente",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "518",
+   "en": "Hm, where's Leif hiding?",
+   "es": "Mmm, ¿dónde se esconde Leif?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "520",
+   "en": "If I can go home, I'll walk there without help, no problem!",
+   "es": "Si puedo volver a casa, ¡iré andando sin ayuda, sin problema!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "522",
+   "en": "I can't find my friend.He should be around here somewhere.",
+   "es": "No encuentro a mi amigo. Debería estar por aquí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "524",
+   "en": "I'm not tired at all. I don't need any help walking!",
+   "es": "¡No estoy cansada! ¡No necesito ayuda para caminar!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "526",
+   "en": "Despairing old woman",
+   "es": "Anciana desesperada",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "528",
+   "en": "In all my life, I never imagined that this would happen,and I thank you from the bottom of my heart.",
+   "es": "Jamás imaginé que pasaría esto, y os lo agradezco de corazón.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "530",
+   "en": "I didn't think that such nice people existed in this world.",
+   "es": "No creía que existiera gente tan buena en este mundo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "532",
+   "en": "...But is there any place that we can go for the time being?",
+   "es": "...¿Pero hay algún sitio al que podamos ir de momento?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "534",
+   "en": "We just want to live quiet and peaceful lives withoutfear of violence.",
+   "es": "Solo queremos vivir tranquilos y en paz, sin miedo a la violencia.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "536",
+   "en": "Disheartened woman",
+   "es": "Mujer desanimada",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "538",
+   "en": "I saw a kid wander off towards some rocks.I hope he's okay.",
+   "es": "Vi a un niño ir hacia unas rocas. Espero que esté bien.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "540",
+   "en": "We've got nothing to lose anyway, so I guess we'll follow you.",
+   "es": "Total, no tenemos nada que perder. Supongo que te seguiremos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "542",
+   "en": "We had to get used to livin' this way...",
+   "es": "Tuvimos que acostumbrarnos a vivir así...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "544",
+   "en": "Aya",
+   "es": "Aya",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "546",
+   "en": "Hey! Don't go too far!",
+   "es": "¡Eh! ¡No te alejes!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "548",
+   "en": "They appear to be refugees.You should have a talk with them.",
+   "es": "Parecen refugiados. Deberías hablar con ellos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "550",
+   "en": "What can I do to help?",
+   "es": "¿Qué puedo hacer para ayudar?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "552",
+   "en": "Everyone looks exhausted. We need to do something,but...what can we do?",
+   "es": "Todos parecen agotados. Hay que hacer algo, pero... ¿qué podemos hacer?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "554",
+   "en": "Stop wasting time!Get over there!",
+   "es": "¡Deja de perder el tiempo! ¡Ve para allá!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "556",
+   "en": "Capell, you can't let them down!",
+   "es": "¡Capell, no puedes fallarles!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "558",
+   "en": "Come on, let's help them go back home.",
+   "es": "Vamos, ayudémosles a volver a casa.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "560",
+   "en": "What's so different about them and me?",
+   "es": "¿En qué se diferencian de mí?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "562",
+   "en": "I'm always stopping you from doing silly things!",
+   "es": "¡Siempre te estoy frenando cuando haces tonterías!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "564",
+   "en": "They've got us now. We can fix everything!",
+   "es": "Ahora nos tienen a nosotros. ¡Podemos arreglarlo todo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "566",
+   "en": "They don't have homes?",
+   "es": "¿No tienen hogar?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "568",
+   "en": "Refugees...",
+   "es": "Refugiados...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "570",
+   "en": "Fleeing girl",
+   "es": "Chica que huye",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "572",
+   "en": "Ahhh, help me...",
+   "es": "Ay, ayudadme...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "574",
+   "en": "Panicking young man",
+   "es": "Joven presa del pánico",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "576",
+   "en": "Oh no!",
+   "es": "¡Ay, no!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "578",
+   "en": "Rattled man",
+   "es": "Hombre alterado",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "580",
+   "en": "Please! Please save my son!",
+   "es": "¡Por favor! ¡Salvad a mi hijo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "582",
+   "en": "Gravely wounded man",
+   "es": "Hombre gravemente herido",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "584",
+   "en": "No, no more! Help me, please...",
+   "es": "¡No, no más! Ayudadme, por favor...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "586",
+   "en": "Faina",
+   "es": "Faina",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "588",
+   "en": "Leif! Run...!",
+   "es": "¡Leif! ¡Corre...!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "590",
+   "en": "Leif",
+   "es": "Leif",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "592",
+   "en": "Faina, it hurts...",
+   "es": "Faina, duele...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "594",
+   "en": "Attacked old man",
+   "es": "Anciano atacado",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "596",
+   "en": "No, I'm gonna die...",
+   "es": "No, voy a morir...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "598",
+   "en": "Wounded young man",
+   "es": "Joven herido",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "600",
+   "en": "Damn, something slashed my leg...",
+   "es": "Maldita sea, algo me ha cortado la pierna...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "602",
+   "en": "Despairing girl",
+   "es": "Chica desesperada",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "604",
+   "en": "Nooo! Where can I hide!?",
+   "es": "¡Nooo! ¿Dónde puedo esconderme?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "606",
+   "en": "Refugees",
+   "es": "Refugiados",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "608",
+   "en": "Pleading girl",
+   "es": "Chica suplicante",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "610",
+   "en": "I can't lose everything I've worked so hard for again!",
+   "es": "¡No puedo perder otra vez todo por lo que he luchado!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "612",
+   "en": "Rattled man",
+   "es": "Hombre alterado",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "614",
+   "en": "Save my son...please...",
+   "es": "Salvad a mi hijo... por favor...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "616",
+   "en": "Gravely wounded man",
+   "es": "Hombre gravemente herido",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "618",
+   "en": "We don't deserve such punishment...",
+   "es": "No merecemos tal castigo...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "620",
+   "en": "Attacked old man",
+   "es": "Anciano atacado",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "622",
+   "en": "...I'm reaching the end of my pitiful life.",
+   "es": "...Llego al final de mi miserable vida.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "624",
+   "en": "Pleading girl",
+   "es": "Chica suplicante",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "626",
+   "en": "Please help...",
+   "es": "Por favor, ayuda...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "628",
+   "en": "Despairing girl",
+   "es": "Chica desesperada",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "630",
+   "en": "There's no...escape...",
+   "es": "No hay... escapatoria...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "632",
+   "en": "Panicking young man",
+   "es": "Joven presa del pánico",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "634",
+   "en": "No, arghhh...",
+   "es": "No, aaargh...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "636",
+   "en": "Wounded young man",
+   "es": "Joven herido",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "638",
+   "en": "Can't move...",
+   "es": "No puedo moverme...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "640",
+   "en": "Fleeing girl",
+   "es": "Chica que huye",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "642",
+   "en": "Why do bad things always happen to me...",
+   "es": "¿Por qué siempre me pasan cosas malas...?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "644",
+   "en": "Sapran is just down the road.",
+   "es": "Sapran está ahí al lado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "646",
+   "en": "Sapran is just down the road. Please help usget back to our village.",
+   "es": "Sapran está ahí al lado. Ayúdanos a volver a nuestra aldea.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "648",
+   "en": "Our village was attacked by the Order, but wemanaged to get away and ended up here.",
+   "es": "La Orden atacó nuestra aldea, pero logramos escapar y acabamos aquí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "650",
+   "en": "We're from Sapran, a nearby village.",
+   "es": "Somos de Sapran, una aldea cercana.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "651",
+   "en": "T|ME L|M|T",
+   "es": "TIEMPO LÍMITE",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "652",
+   "en": "Time Limit",
+   "es": "Tiempo límite",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "654",
+   "en": "I never imagined that we'd be able to return to our village.Please help us get there safely.",
+   "es": "Jamás imaginé que podríamos volver a nuestra aldea. Ayúdanos a llegar a salvo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "656",
+   "en": "Um, thank you so much.",
+   "es": "Esto... muchas gracias.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "658",
+   "en": "Oh? Where did he go?",
+   "es": "¿Ah? ¿Adónde ha ido?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "660",
+   "en": "I'm so sorry. I hope we're not causing you any trouble.",
+   "es": "Lo siento mucho. Espero no causaros problemas.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "662",
+   "en": "Manage the party.",
+   "es": "Gestionar el grupo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "664",
+   "en": "Manage the party.",
+   "es": "Gestionar el grupo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_339DF000_020",
+   "id": "665",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  }
+ ]
+}

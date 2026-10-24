@@ -1,0 +1,1449 @@
+{
+ "meta": {
+  "metodo": "mt-glosario"
+ },
+ "strings": [
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "4",
+   "en": "Dammit! He's a monster!",
+   "es": "¡Maldita sea! ¡Es un monstruo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "6",
+   "en": "Stay back!",
+   "es": "¡Atrás!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "8",
+   "en": "Balbagan!",
+   "es": "¡Balbagan!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "10",
+   "en": "I see you're alive and kickin'. It's good to have you back, Aya.",
+   "es": "Veo que sigues vivita y coleando. Me alegra tenerte de vuelta, Aya.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "12",
+   "en": "Thanks, Balbagan. Where is Lord Sigmund?",
+   "es": "Gracias, Balbagan. ¿Dónde está el lord Sigmund?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "14",
+   "en": "That way. I'm the rear-guard.",
+   "es": "Por ahí. Yo cubro la retaguardia.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "16",
+   "en": "I'll see you later!",
+   "es": "¡Hasta luego!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "18",
+   "en": "Gotcha!",
+   "es": "¡Entendido!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "20",
+   "en": "Eugene!",
+   "es": "¡Eugene!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "22",
+   "en": "You're looking better.",
+   "es": "Tienes mejor aspecto.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "24",
+   "en": "Welcome back. And who are these children?",
+   "es": "Bienvenida. ¿Y quiénes son estos niños?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "26",
+   "en": "Hi there! I'm Rico. This is my sister.",
+   "es": "¡Hola! Soy Rico. Esta es mi hermana.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "28",
+   "en": "I'm Rucha. Nice to meet you!",
+   "es": "Soy Rucha. ¡Encantada!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "30",
+   "en": "Yeah, they helped us out back in Nolaan.",
+   "es": "Sí, nos ayudaron en Nolaan.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "32",
+   "en": "I'll ask you about your tales later.I'm more worried about Sigmund up ahead.",
+   "es": "Ya me contaréis vuestras historias luego. Me preocupa más Sigmund, ahí delante.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "34",
+   "en": "Yes, we'll go and catch up with him!Eugene, please look after those two little kids for us.",
+   "es": "¡Sí, iremos a alcanzarlo! Eugene, cuida de esos dos niños, por favor.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "36",
+   "en": "That's a good idea.Aya and Capell, you two should go with Edward.",
+   "es": "Buena idea. Aya y Capell, vosotros id con Edward.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "38",
+   "en": "Capell, you stay here!",
+   "es": "¡Capell, tú quédate aquí!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "40",
+   "en": "No, he's going with you.",
+   "es": "No, él va contigo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "42",
+   "en": "I think that Sigmund could use all the help he can get.",
+   "es": "Creo que a Sigmund le vendrá bien toda la ayuda posible.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "44",
+   "en": "You two follow me!",
+   "es": "¡Vosotros dos, seguidme!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "46",
+   "en": "Hmph. Who made you leader?",
+   "es": "Hmpf. ¿Quién te ha nombrado líder?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "48",
+   "en": "Rico left the party!Rucha left the party!",
+   "es": "¡Rico deja el grupo! ¡Rucha deja el grupo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "50",
+   "en": "Edward joined the party!",
+   "es": "¡Edward se une al grupo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "52",
+   "en": "Hmmm. There's something different about him...",
+   "es": "Mmm. Hay algo distinto en él...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "54",
+   "en": "A Lienne? Why would one be here?",
+   "es": "¿Un Lienne? ¿Por qué habría uno aquí?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "56",
+   "en": "Lienne?",
+   "es": "¿Lienne?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "58",
+   "en": "You really don't know anything, do you? Every country in this world is ruledby aristos. Liennes are the aristos who watch over the Kingdom of Burguss.",
+   "es": "No sabes nada, ¿verdad? Todos los países de este mundo están gobernados por aristos. Los Lienne son los aristos que velan por el Reino de Burguss.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "60",
+   "en": "Hey, how should I know? It's not like I have any noble relatives.",
+   "es": "Eh, ¿cómo iba a saberlo? No es que tenga parientes nobles.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "62",
+   "en": "Well, then I guess you wouldn't know...",
+   "es": "Bueno, entonces supongo que no lo sabrías...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "64",
+   "en": "It has been ages, Lord Sigmund.",
+   "es": "Cuánto tiempo, lord Sigmund.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "66",
+   "en": "It is good to see you are safe, Honorable Savio.",
+   "es": "Me alegra verle a salvo, honorable Savio.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "68",
+   "en": "You know him?",
+   "es": "¿Le conoces?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "70",
+   "en": "His legend travels far and wide under the name \"Starseer.\"In Burguss, even a toddler would know this.",
+   "es": "Su leyenda recorre el mundo bajo el nombre de \"Vidente Estelar\". En Burguss hasta un niño lo sabría.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "72",
+   "en": "Starseer?",
+   "es": "¿Vidente Estelar?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "74",
+   "en": "He sees the future.",
+   "es": "Ve el futuro.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "76",
+   "en": "I am Savio.",
+   "es": "Soy Savio.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "78",
+   "en": "No...",
+   "es": "No...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "80",
+   "en": "Impossible...",
+   "es": "Imposible...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "82",
+   "en": "Unbelievable...",
+   "es": "Increíble...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "84",
+   "en": "What's happening?",
+   "es": "¿Qué está pasando?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "88",
+   "en": "Savio?",
+   "es": "¿Savio?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "90",
+   "en": "I have seen dreadful things...",
+   "es": "He visto cosas terribles...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "92",
+   "en": "What?",
+   "es": "¿Qué?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "94",
+   "en": "A future that must never be. I shall say nothing further now...",
+   "es": "Un futuro que jamás debe ser. No diré nada más por ahora...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "96",
+   "en": "The future...",
+   "es": "El futuro...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "98",
+   "en": "Capell, please escort Honorable Savio to Eugene.",
+   "es": "Capell, acompaña al honorable Savio junto a Eugene.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "100",
+   "en": "I don't have anything to light a fire with!",
+   "es": "¡No tengo con qué encender un fuego!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "102",
+   "en": "You are unable to see in the dark, Capell?",
+   "es": "¿No puedes ver en la oscuridad, Capell?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "104",
+   "en": "Huh? How could I do that?",
+   "es": "¿Eh? ¿Cómo iba a hacerlo?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "106",
+   "en": "I meant no offense.There are those with lunaglyphs for seeing in the dark.",
+   "es": "No pretendía ofender. Hay quienes tienen lunaglifos para ver en la oscuridad.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "108",
+   "en": "I see you don't rely on lunaglyphs.Is this a way to discipline yourself?",
+   "es": "Veo que no dependes de los lunaglifos. ¿Es una forma de disciplinarte?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "110",
+   "en": "No...it's not anything special like that.",
+   "es": "No... no es nada tan especial.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "112",
+   "en": "Lord Sigmund doesn't use them either.",
+   "es": "El lord Sigmund tampoco los usa.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "114",
+   "en": "Sigmund too...",
+   "es": "Sigmund también...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "116",
+   "en": "People like you two intrigue us immensely.",
+   "es": "La gente como vosotros dos nos intriga enormemente.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "120",
+   "en": "The unblessed.",
+   "es": "Los desdichados.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "122",
+   "en": "You are aware of this term?",
+   "es": "¿Conoces el término?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "124",
+   "en": "...Yes.",
+   "es": "...Sí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "126",
+   "en": "When a person is born, a rite is performed to bestow a lunaglyph, which contains an otherworldly power. The moon's phase that daydetermines the power of the glyph.",
+   "es": "Al nacer, se realiza un rito para otorgar un lunaglifo, que contiene un poder de otro mundo. La fase de la luna ese día determina el poder del glifo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "128",
+   "en": "Uh-huh...",
+   "es": "Ajá...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "130",
+   "en": "But those born during the new moon are less fortunate.They are unable to receive a lunaglyph.Hence, those without glyphs have been called the unblessed.",
+   "es": "Pero quienes nacen en luna nueva son menos afortunados. No pueden recibir un lunaglifo. Por eso, a los que no tienen glifo se les llama desdichados.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "132",
+   "en": "I wouldn't say they're \"less fortunate.\"",
+   "es": "Yo no diría que son \"menos afortunados\".",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "134",
+   "en": "Life without a lunaglyph is unnatural.",
+   "es": "Una vida sin lunaglifo es antinatural.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "136",
+   "en": "Savio...",
+   "es": "Savio...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "138",
+   "en": "Unblesseds possess neither the power nor the skill that a lunaglyph contains.Therefore they are looked down upon with disdain.",
+   "es": "Los desdichados no poseen el poder ni la destreza que contiene un lunaglifo. Por eso se les mira con desdén.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "140",
+   "en": "There is a distinction between you and Lord Sigmund, who don'tuse them, and those who simply cannot use them.",
+   "es": "Hay una diferencia entre vosotros dos, que no los usáis, y quienes simplemente no pueden usarlos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "142",
+   "en": "Perhaps I've said too much.",
+   "es": "Quizá he dicho demasiado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "144",
+   "en": "...No.",
+   "es": "...No.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "146",
+   "en": "Look out!",
+   "es": "¡Cuidado!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "148",
+   "en": "Impressive! Even for the mighty Sigmund.",
+   "es": "¡Impresionante! Incluso para el poderoso Sigmund.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "150",
+   "en": "After watching that display of power, I understand whythe Dreadknight himself chose to fight you.",
+   "es": "Tras ver esa demostración de poder, entiendo por qué el propio Caballero Temible eligió luchar contra usted.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "152",
+   "en": "Why don't we enjoy some conversation?Don't tell me the Liberator is bashful.",
+   "es": "¿Por qué no charlamos un rato? No me digas que el Libertador es tímido.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "154",
+   "en": "Move!",
+   "es": "¡Aparta!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "156",
+   "en": "Not bad.",
+   "es": "No está mal.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "158",
+   "en": "Damn you!",
+   "es": "¡Maldito seas!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "160",
+   "en": "Is this the best a knight of the Order can do? Dreadfully inadequate.If our master were present, he would surely be ashamed.",
+   "es": "¿Es lo mejor que sabe hacer un caballero de la Orden? Terriblemente insuficiente. Si nuestro amo estuviera presente, seguro que se avergonzaría.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "162",
+   "en": "Saranda? Lend me your strength!",
+   "es": "¿Saranda? ¡Préstame tu fuerza!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "164",
+   "en": "Well, if you insist... Take my power!",
+   "es": "Bueno, si insistes... ¡Toma mi poder!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "166",
+   "en": "Now!",
+   "es": "¡Ahora!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "168",
+   "en": "Edward! Aya!",
+   "es": "¡Edward! ¡Aya!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "170",
+   "en": "Sir!",
+   "es": "¡Señor!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "172",
+   "en": "Finish him.",
+   "es": "Acabad con él.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "174",
+   "en": "Yes!",
+   "es": "¡Sí!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "176",
+   "en": "Come on, Capell!",
+   "es": "¡Vamos, Capell!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "178",
+   "en": "Me too?",
+   "es": "¿Yo también?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "180",
+   "en": "This power!",
+   "es": "¡Este poder!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "182",
+   "en": "You won't be as powerful as our master, but I've given you enoughfor now. Hurry. Kill them all before it overtakes you.",
+   "es": "No serás tan poderoso como nuestro amo, pero por ahora te he dado bastante. Date prisa. Mátalos a todos antes de que te supere.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "184",
+   "en": "What did she just do? And then he... What? What is going on here?",
+   "es": "¿Qué acaba de hacer ella? Y luego él... ¿Qué? ¿Qué está pasando aquí?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "186",
+   "en": "Lord Sigmund!",
+   "es": "¡Lord Sigmund!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "190",
+   "en": "My lord?",
+   "es": "¿Mi señor?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "192",
+   "en": "I'll liberate this land from the chain. Stand guard.",
+   "es": "Liberaré esta tierra de la cadena. Montad guardia.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "194",
+   "en": "Yes!",
+   "es": "¡Sí!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "196",
+   "en": "He's gonna destroy that huge chain all by himself?",
+   "es": "¿Va a destruir esa enorme cadena él solo?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "198",
+   "en": "If we could cut it, we would be helping him.",
+   "es": "Si pudiéramos cortarla, le ayudaríamos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "200",
+   "en": "Why not try?",
+   "es": "¿Por qué no intentarlo?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "202",
+   "en": "We can't.",
+   "es": "No podemos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "204",
+   "en": "Really?",
+   "es": "¿De verdad?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "206",
+   "en": "No one can sever chains. Not anyone.",
+   "es": "Nadie puede cortar las cadenas. Nadie.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "208",
+   "en": "Yeah, but Sigmund is cutting it, right?",
+   "es": "Sí, pero Sigmund la está cortando, ¿no?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "210",
+   "en": "He's doing the impossible.",
+   "es": "Está haciendo lo imposible.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "212",
+   "en": "That's why he's a hero.",
+   "es": "Por eso es un héroe.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "214",
+   "en": "Begone!",
+   "es": "¡Lárgate!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "216",
+   "en": "He did it!",
+   "es": "¡Lo ha logrado!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "218",
+   "en": "The chain is...",
+   "es": "La cadena...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "220",
+   "en": "Amazing.",
+   "es": "Increíble.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "222",
+   "en": "Lord Sigmund!",
+   "es": "¡Lord Sigmund!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "226",
+   "en": "Oh no!",
+   "es": "¡Ay, no!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "228",
+   "en": "Lord Sigmund!",
+   "es": "¡Lord Sigmund!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "230",
+   "en": "You did well.",
+   "es": "Lo has hecho bien.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "232",
+   "en": "My lord, you mustn't move! I'll have Eugene here in no time!",
+   "es": "¡Mi señor, no debe moverse! ¡Traeré a Eugene enseguida!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "234",
+   "en": "Don't trouble yourself. I know that this body can't be healed.",
+   "es": "No te molestes. Sé que este cuerpo no puede sanar.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "236",
+   "en": "His body is a wreck. It's from constant fighting.He began this battle alone so...",
+   "es": "Su cuerpo está destrozado. Es por luchar sin descanso. Empezó esta batalla solo, así que...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "238",
+   "en": "Eugene even warned him that he could collapse at any moment,but Sigmund kept on insisting on destroying the chains.",
+   "es": "Eugene incluso le advirtió de que podía desplomarse en cualquier momento, pero Sigmund insistió en destruir las cadenas.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "240",
+   "en": "O-oh...",
+   "es": "A-ay...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "242",
+   "en": "Capell, I offer you my thanks.But this is a battlefield. You must-",
+   "es": "Capell, te doy las gracias. Pero esto es un campo de batalla. Debes...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "244",
+   "en": "Join us!",
+   "es": "¡Únete a nosotros!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "246",
+   "en": "What?",
+   "es": "¿Qué?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "248",
+   "en": "He just doesn't know himself well enough yet.I know he can help us! I'm certain of it!",
+   "es": "Aún no se conoce lo suficiente. ¡Sé que puede ayudarnos! ¡Estoy segura!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "250",
+   "en": "That's my decision...",
+   "es": "Esa decisión es mía...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "252",
+   "en": "You keep quiet!",
+   "es": "¡Tú cállate!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "254",
+   "en": "But...don't I have a say in this?",
+   "es": "Pero... ¿no tengo voz ni voto?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "256",
+   "en": "It's not merely fighting ability.I sense that he possesses a far more wondrous power.",
+   "es": "No es solo su habilidad de combate. Presiento que posee un poder mucho más asombroso.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "258",
+   "en": "What power?How can he possess power if he doesn't even want to wield a sword?",
+   "es": "¿Qué poder? ¿Cómo va a poseer poder si ni siquiera quiere empuñar una espada?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "260",
+   "en": "Wielding a sword isn't everything!",
+   "es": "¡Empuñar una espada no lo es todo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "262",
+   "en": "Aya, you're not making any sense!",
+   "es": "¡Aya, no dices más que tonterías!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "264",
+   "en": "Yeah! Yeah!",
+   "es": "¡Sí! ¡Sí!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "266",
+   "en": "Quiet, you!",
+   "es": "¡Cállate!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "270",
+   "en": "If he joins us, he won't receive any more special treatment.",
+   "es": "Si se une a nosotros, no recibirá más trato de favor.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "272",
+   "en": "Yes.",
+   "es": "Sí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "274",
+   "en": "But!",
+   "es": "¡Pero!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "280",
+   "en": "Thank you, my lord!Congratulations, Capell!",
+   "es": "¡Gracias, mi señor! ¡Enhorabuena, Capell!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "282",
+   "en": "Congratulations?",
+   "es": "¿Enhorabuena?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "284",
+   "en": "We shall return to Burgusstadt...victorious!",
+   "es": "¡Regresaremos a Burgusstadt... victoriosos!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "286",
+   "en": "Um, excuse me! This sword?",
+   "es": "¡Esto, perdón! ¿Esta espada?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "288",
+   "en": "Use it as you wish.",
+   "es": "Úsala como quieras.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "290",
+   "en": "Are you sure?",
+   "es": "¿Estás seguro?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "292",
+   "en": "Come on. Let's go!",
+   "es": "Vamos. ¡En marcha!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "294",
+   "en": "Who made you the leader?",
+   "es": "¿Quién te ha nombrado líder?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "296",
+   "en": "Lord Sigmund!",
+   "es": "¡Lord Sigmund!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "300",
+   "en": "My lord?",
+   "es": "¿Mi señor?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "302",
+   "en": "I'll liberate this land from the chain. Stand guard.",
+   "es": "Liberaré esta tierra de la cadena. Montad guardia.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "304",
+   "en": "Yes!",
+   "es": "¡Sí!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "306",
+   "en": "He's gonna destroy that huge chain all by himself?",
+   "es": "¿Va a destruir esa enorme cadena él solo?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "308",
+   "en": "If we could cut it, we would be helping him.",
+   "es": "Si pudiéramos cortarla, le ayudaríamos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "310",
+   "en": "Why not try?",
+   "es": "¿Por qué no intentarlo?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "312",
+   "en": "We can't.",
+   "es": "No podemos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "314",
+   "en": "Really?",
+   "es": "¿De verdad?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "316",
+   "en": "No one can sever chains. Not anyone.",
+   "es": "Nadie puede cortar las cadenas. Nadie.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "318",
+   "en": "Yeah, but Sigmund is cutting it, right?",
+   "es": "Sí, pero Sigmund la está cortando, ¿no?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "320",
+   "en": "He's doing the impossible.",
+   "es": "Está haciendo lo imposible.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "322",
+   "en": "That's why he's a hero.",
+   "es": "Por eso es un héroe.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "324",
+   "en": "Begone!",
+   "es": "¡Lárgate!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "326",
+   "en": "He did it!",
+   "es": "¡Lo ha logrado!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "328",
+   "en": "The chain is...",
+   "es": "La cadena...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "330",
+   "en": "Amazing.",
+   "es": "Increíble.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "332",
+   "en": "Lord Sigmund!",
+   "es": "¡Lord Sigmund!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "336",
+   "en": "Oh no!",
+   "es": "¡Ay, no!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "338",
+   "en": "Lord Sigmund!",
+   "es": "¡Lord Sigmund!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "340",
+   "en": "You did well.",
+   "es": "Lo has hecho bien.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "342",
+   "en": "My lord, you mustn't move! I'll have Eugene here in no time!",
+   "es": "¡Mi señor, no debe moverse! ¡Traeré a Eugene enseguida!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "344",
+   "en": "Don't trouble yourself. I know that this body can't be healed.",
+   "es": "No te molestes. Sé que este cuerpo no puede sanar.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "346",
+   "en": "His body is a wreck. It's from constant fighting.He began this battle alone so...",
+   "es": "Su cuerpo está destrozado. Es por luchar sin descanso. Empezó esta batalla solo, así que...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "348",
+   "en": "Eugene even warned him that he could collapse at any moment,but Sigmund kept on insisting on destroying the chains.",
+   "es": "Eugene incluso le advirtió de que podía desplomarse en cualquier momento, pero Sigmund insistió en destruir las cadenas.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "350",
+   "en": "O-oh...",
+   "es": "A-ay...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "352",
+   "en": "Capell, I offer you my thanks.But this is a battlefield. You must-",
+   "es": "Capell, te doy las gracias. Pero esto es un campo de batalla. Debes...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "354",
+   "en": "Join us!",
+   "es": "¡Únete a nosotros!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "356",
+   "en": "What?",
+   "es": "¿Qué?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "358",
+   "en": "He just doesn't know himself well enough yet.I know he can help us! I'm certain of it!",
+   "es": "Aún no se conoce lo suficiente. ¡Sé que puede ayudarnos! ¡Estoy segura!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "360",
+   "en": "That's my decision...",
+   "es": "Esa decisión es mía...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "362",
+   "en": "You keep quiet!",
+   "es": "¡Tú cállate!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "364",
+   "en": "But...don't I have a say in this?",
+   "es": "Pero... ¿no tengo voz ni voto?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "366",
+   "en": "It's not merely fighting ability.I sense that he possesses a far more wondrous power.",
+   "es": "No es solo su habilidad de combate. Presiento que posee un poder mucho más asombroso.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "368",
+   "en": "What power?How can he possess power if he doesn't even want to wield a sword?",
+   "es": "¿Qué poder? ¿Cómo va a poseer poder si ni siquiera quiere empuñar una espada?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "370",
+   "en": "Wielding a sword isn't everything!",
+   "es": "¡Empuñar una espada no lo es todo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "372",
+   "en": "Aya, you're not making any sense!",
+   "es": "¡Aya, no dices más que tonterías!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "374",
+   "en": "Yeah! Yeah!",
+   "es": "¡Sí! ¡Sí!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "376",
+   "en": "Quiet, you!",
+   "es": "¡Cállate!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "380",
+   "en": "If he joins us, he won't receive any more special treatment.",
+   "es": "Si se une a nosotros, no recibirá más trato de favor.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "382",
+   "en": "Yes.",
+   "es": "Sí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "384",
+   "en": "But!",
+   "es": "¡Pero!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "390",
+   "en": "Thank you, my lord!Congratulations, Capell!",
+   "es": "¡Gracias, mi señor! ¡Enhorabuena, Capell!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "392",
+   "en": "Congratulations?",
+   "es": "¿Enhorabuena?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "394",
+   "en": "We shall return to Burgusstadt...victorious!",
+   "es": "¡Regresaremos a Burgusstadt... victoriosos!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "396",
+   "en": "Um, excuse me! This sword?",
+   "es": "¡Esto, perdón! ¿Esta espada?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "398",
+   "en": "Use it as you wish.",
+   "es": "Úsala como quieras.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "400",
+   "en": "Are you sure?",
+   "es": "¿Estás seguro?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "402",
+   "en": "Come on. Let's go!",
+   "es": "Vamos. ¡En marcha!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "404",
+   "en": "Who made you the leader?",
+   "es": "¿Quién te ha nombrado líder?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "406",
+   "en": "Margaret",
+   "es": "Margaret",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "408",
+   "en": "Alessa",
+   "es": "Alessa",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "410",
+   "en": "jack",
+   "es": "Jack",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "412",
+   "en": "Ronald",
+   "es": "Ronald",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "414",
+   "en": "It gets real dangerous from here on out.Maybe I can be of service.",
+   "es": "Se vuelve muy peligroso a partir de aquí. Quizá pueda ser útil.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "416",
+   "en": "Just let me know how I can help.",
+   "es": "Dime en qué puedo ayudar.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "418",
+   "en": "I want to rest.",
+   "es": "Quiero descansar.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "420",
+   "en": "I need supplies.",
+   "es": "Necesito provisiones.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "422",
+   "en": "Never mind.",
+   "es": "Da igual.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "424",
+   "en": "I wish you luck.",
+   "es": "Buena suerte.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "426",
+   "en": "I wish you luck.",
+   "es": "Buena suerte.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "428",
+   "en": "So you can understand my words? You must be a powerful beastmaster.",
+   "es": "¿Entiendes mis palabras? Debes de ser un poderoso maestro de bestias.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "430",
+   "en": "So you can understand my words? You must be a powerful beastmaster. Take this for your trouble.",
+   "es": "¿Entiendes mis palabras? Debes de ser un poderoso maestro de bestias. Toma esto por las molestias.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "432",
+   "en": "Obtained some iron metal!",
+   "es": "¡Obtienes algo de hierro!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "434",
+   "en": "So you can understand my words? You must be a powerful beastmaster.",
+   "es": "¿Entiendes mis palabras? Debes de ser un poderoso maestro de bestias.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "436",
+   "en": "So you can understand my words? You must be a powerful beastmaster. Take this for your trouble.",
+   "es": "¿Entiendes mis palabras? Debes de ser un poderoso maestro de bestias. Toma esto por las molestias.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_28E68000_023",
+   "id": "438",
+   "en": "Obtained the cell key!",
+   "es": "¡Obtienes la llave de la celda!",
+   "ctx": "dialogo"
+  }
+ ]
+}

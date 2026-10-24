@@ -1,0 +1,1554 @@
+{
+ "meta": {
+  "metodo": "mt-glosario"
+ },
+ "strings": [
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "2",
+   "en": "You no escape! Me crush bones!",
+   "es": "¡Tú no escapar! ¡Yo romper huesos!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "6",
+   "en": "Hi, Capell.",
+   "es": "Hola, Capell.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "8",
+   "en": "You look terrible.Shouldn't you try and get some rest?",
+   "es": "Tienes mal aspecto. ¿No deberías descansar?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "10",
+   "en": "I can't.I feel really tired, but...",
+   "es": "No puedo. Estoy muy cansado, pero...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "14",
+   "en": "Are you sure you don't want to fight with us?",
+   "es": "¿Seguro que no quieres luchar con nosotros?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "16",
+   "en": "You really dislike fighting?",
+   "es": "¿De verdad te disgusta luchar?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "18",
+   "en": "Yeah. It's dangerous.I'd rather just be playing tunes on my flute.",
+   "es": "Sí. Es peligroso. Prefiero tocar melodías con mi flauta.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "20",
+   "en": "But... But you fought to protect me!",
+   "es": "¡Pero... pero luchaste para protegerme!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "22",
+   "en": "I don't like getting hurt.Don't you find it foolish?",
+   "es": "No me gusta que me hieran. ¿No te parece una tontería?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "24",
+   "en": "Are you saying we're foolish?",
+   "es": "¿Dices que somos unos necios?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "26",
+   "en": "That's not what I meant. I was just trying to say-",
+   "es": "No quería decir eso. Solo intentaba decir...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "28",
+   "en": "You just said that we're fools for getting hurt while fightingfor others, didn't you!?",
+   "es": "¡Acabas de decir que somos necios por hacernos daño luchando por los demás!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "30",
+   "en": "Sorry, I made a mistake.I don't think it's foolish to fight for others.",
+   "es": "Perdón, me he equivocado. No creo que sea una tontería luchar por los demás.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "32",
+   "en": "Your attitude's terrible, Capell!",
+   "es": "¡Tienes una actitud horrible, Capell!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "34",
+   "en": "I told you.A cowardly fool is of no use to us.",
+   "es": "Te lo dije. Un necio cobarde no nos sirve.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "36",
+   "en": "...And you are?",
+   "es": "...¿Y tú quién eres?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "38",
+   "en": "Edward.",
+   "es": "Edward.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "40",
+   "en": "You see? He isn't like us.He doesn't understand why we fight.He's more concerned about himself than with honor.",
+   "es": "¿Lo ves? No es como nosotros. No entiende por qué luchamos. Le importa más él que el honor.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "44",
+   "en": "I'll thank you for saving Aya. But that's all.She got into trouble for helping you. So, that means we're even now.",
+   "es": "Te agradezco que salvaras a Aya. Pero ya está. Se metió en líos por ayudarte. Así que estamos en paz.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "46",
+   "en": "Sorry.",
+   "es": "Perdón.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "48",
+   "en": "Just go away, Capell.",
+   "es": "Vete, Capell.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "50",
+   "en": "Hey...",
+   "es": "Oye...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "52",
+   "en": "Aya.",
+   "es": "Aya.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "54",
+   "en": "Aya!",
+   "es": "¡Aya!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "56",
+   "en": "Don't touch me!",
+   "es": "¡No me toques!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "58",
+   "en": "This is nothing. I can handle it. I'm not going to...",
+   "es": "No es nada. Puedo con ello. No voy a...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "60",
+   "en": "Aya!",
+   "es": "¡Aya!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "62",
+   "en": "You're still suffering from that wound?",
+   "es": "¿Aún te duele esa herida?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "66",
+   "en": "It's...it's just an old one.",
+   "es": "Es... es una vieja.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "68",
+   "en": "Then why?",
+   "es": "¿Entonces por qué?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "70",
+   "en": "We protect our lord with our life.No more reason is needed.",
+   "es": "Protegemos a nuestro señor con la vida. No hace falta más.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "72",
+   "en": "Why now...",
+   "es": "¿Por qué ahora...?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "74",
+   "en": "There's nothing to worry about. I will protect Lord Sigmund.",
+   "es": "No hay de qué preocuparse. Protegeré al lord Sigmund.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "76",
+   "en": "I'll go and find Sigmund.",
+   "es": "Iré a buscar a Sigmund.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "78",
+   "en": "No, you fool!",
+   "es": "¡No, necia!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "80",
+   "en": "She's...",
+   "es": "Ella está...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "82",
+   "en": "Hey, how is she?",
+   "es": "Eh, ¿cómo está?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "84",
+   "en": "I dressed and cleaned her wound.But...it's not healed.",
+   "es": "Le he curado y limpiado la herida. Pero... no ha sanado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "86",
+   "en": "Not healed? But the bleeding's stopped!",
+   "es": "¿No ha sanado? ¡Pero si ha dejado de sangrar!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "88",
+   "en": "How is this possible?",
+   "es": "¿Cómo es posible?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "90",
+   "en": "This isn't a normal wound.",
+   "es": "Esta herida no es normal.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "92",
+   "en": "It's unrealistic for us to keep treating her. Her body can't take it anymore.It's a wonder she could still walk today.",
+   "es": "Es inútil que sigamos tratándola. Su cuerpo no aguanta más. Es un milagro que hoy pudiera andar.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "94",
+   "en": "What then?",
+   "es": "¿Y entonces?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "96",
+   "en": "The problem is this is a lunaglyph curse.There's nothing we can do for her here.",
+   "es": "El problema es que es una maldición de lunaglifo. Aquí no podemos hacer nada por ella.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "98",
+   "en": "Then we bring her somewhere else!",
+   "es": "¡Pues la llevamos a otro sitio!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "102",
+   "en": "What's wrong with that?",
+   "es": "¿Qué tiene de malo?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "104",
+   "en": "Our mission is to break the Azure Chain.",
+   "es": "Nuestra misión es romper la Cadena Azur.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "106",
+   "en": "And?",
+   "es": "¿Y?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "108",
+   "en": "The people can't go on like this.We cannot delay destroying the chain any longer.",
+   "es": "La gente no puede seguir así. No podemos retrasar más la destrucción de la cadena.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "110",
+   "en": "So you're just going to let her die?",
+   "es": "¿Vas a dejarla morir?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "112",
+   "en": "She's one of us! That's why we have to leave her. Aya will regret it if she becomes a burden.That's why we have to go and destroy the chain! It's for her sake, too.",
+   "es": "¡Es uno de los nuestros! Por eso debemos dejarla. Aya se arrepentiría si fuera una carga. ¡Por eso debemos destruir la cadena! También es por ella.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "114",
+   "en": "Ed is right.This is the manner in which things must happen.",
+   "es": "Ed tiene razón. Así deben hacerse las cosas.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "116",
+   "en": "There is a village nearby. Nolaan.",
+   "es": "Hay una aldea cerca. Nolaan.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "118",
+   "en": "Yes... As I recall, the village has a deep tieto the Claridian of Burguss.",
+   "es": "Sí... Según recuerdo, la aldea tiene un vínculo profundo con el Claridiano de Burguss.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "120",
+   "en": "Good. Aya will be taken there for proper treatment.",
+   "es": "Bien. Llevarán a Aya allí para tratarla como es debido.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "122",
+   "en": "But we can't put off destroying that chain any longer.",
+   "es": "Pero no podemos retrasar más la destrucción de esa cadena.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "124",
+   "en": "Capell.",
+   "es": "Capell.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "126",
+   "en": "I want you to carry out this task.",
+   "es": "Quiero que te encargues de esta tarea.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "128",
+   "en": "What?",
+   "es": "¿Qué?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "130",
+   "en": "Sigmund!",
+   "es": "¡Sigmund!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "132",
+   "en": "M-me?",
+   "es": "¿Y-yo?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "134",
+   "en": "Wait, my lord! We cannot trust this boy.",
+   "es": "¡Espere, mi señor! No podemos fiarnos de este chico.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "136",
+   "en": "Ed.",
+   "es": "Ed.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "138",
+   "en": "I'll do it, my lord!I'll drop Aya off at Nolaan and return to your side immediately.",
+   "es": "¡Lo haré, mi señor! Dejaré a Aya en Nolaan y volveré a su lado de inmediato.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "140",
+   "en": "And what about the chain?",
+   "es": "¿Y la cadena?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "144",
+   "en": "I trust you, Capell, and leave Aya in your care.",
+   "es": "Confío en ti, Capell, y te dejo a Aya a tu cuidado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "146",
+   "en": "This coward will never do it! We can't trust him!",
+   "es": "¡Este cobarde nunca lo hará! ¡No podemos fiarnos de él!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "148",
+   "en": "You won't let me down, will you?",
+   "es": "No me fallarás, ¿verdad?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "150",
+   "en": "No...I'll go.I'll take her to Nolaan.",
+   "es": "No... iré. La llevaré a Nolaan.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "152",
+   "en": "What!",
+   "es": "¡¿Qué?!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "154",
+   "en": "I'm sorry, our leader is like this all the time.Please help her.",
+   "es": "Lo siento, nuestro líder es así siempre. Ayúdala, por favor.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "156",
+   "en": "Yes.",
+   "es": "Sí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "158",
+   "en": "Take this sword with you.",
+   "es": "Llévate esta espada.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "160",
+   "en": "Oh, I don't need a sword.",
+   "es": "Oh, no necesito espada.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "162",
+   "en": "It was given to me by the king of Burguss.It bears the royal emblem on its hilt and will grant you safe passage.",
+   "es": "Me la dio el rey de Burguss. Lleva el emblema real en la empuñadura y te dará paso franco.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "164",
+   "en": "But...",
+   "es": "Pero...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "166",
+   "en": "I will entrust you with it.Whether you unsheathe it or not is up to you.",
+   "es": "Te la confío. Que la desenvaines o no, es cosa tuya.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "168",
+   "en": "Well, if you insist...",
+   "es": "Bueno, si insistes...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "170",
+   "en": "Take care of Aya.",
+   "es": "Cuida de Aya.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "172",
+   "en": "I will.",
+   "es": "Lo haré.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "176",
+   "en": "You okay?",
+   "es": "¿Estás bien?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "178",
+   "en": "You look awful. Wanna rest?",
+   "es": "Tienes mal aspecto. ¿Quieres descansar?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "180",
+   "en": "Just leave me alone.",
+   "es": "Déjame en paz.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "182",
+   "en": "Aya!",
+   "es": "¡Aya!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "184",
+   "en": "Why am I so...tired?",
+   "es": "¿Por qué estoy tan... cansada?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "186",
+   "en": "You've been through a lot. You need to rest.",
+   "es": "Has pasado mucho. Necesitas descansar.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "188",
+   "en": "All of this is your fault!",
+   "es": "¡Todo esto es culpa tuya!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "190",
+   "en": "My fault?",
+   "es": "¿Culpa mía?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "192",
+   "en": "Yes! I fell down. I had to crawl into a dark place. I toucheda cockroach. Everything! This whole mess. It's all your fault!",
+   "es": "¡Sí! Me caí. Tuve que arrastrarme a un sitio oscuro. Toqué una cucaracha. ¡Todo! Todo este lío. ¡Es culpa tuya!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "194",
+   "en": "Ah, man. She must have bumped her head, too.",
+   "es": "Ay, madre. También se habrá golpeado la cabeza.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "196",
+   "en": "We'd better go. They may be nearby. We don't have any time to waste.",
+   "es": "Mejor vámonos. Puede que estén cerca. No tenemos tiempo que perder.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "198",
+   "en": "You're overdoing it.",
+   "es": "Te estás pasando.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "200",
+   "en": "Hey! What...what are you doing?",
+   "es": "¡Eh! ¿Qué... qué haces?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "202",
+   "en": "You know, you're a little tougher than you look.",
+   "es": "Sabes, eres más dura de lo que pareces.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "204",
+   "en": "Huh? Just relax, okay?",
+   "es": "¿Eh? Relájate, ¿vale?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "206",
+   "en": "Thank you.",
+   "es": "Gracias.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "208",
+   "en": "What...?",
+   "es": "¿Qué...?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "210",
+   "en": "If we make it out of here, why don't you join us?",
+   "es": "Si salimos de aquí, ¿por qué no te unes a nosotros?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "212",
+   "en": "Like I said, I hate danger.",
+   "es": "Como he dicho, odio el peligro.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "214",
+   "en": "But you have to join us.They'll catch you again if you're alone.",
+   "es": "Pero tienes que unirte. Te atraparán otra vez si estás solo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "216",
+   "en": "Why?",
+   "es": "¿Por qué?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "218",
+   "en": "Don't you get it? You look just like-",
+   "es": "¿No lo entiendes? Te pareces mucho a...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "220",
+   "en": "There! Found him!",
+   "es": "¡Ahí! ¡Lo he encontrado!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "222",
+   "en": "Whoa!",
+   "es": "¡Vaya!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "224",
+   "en": "That's him?",
+   "es": "¿Ese es él?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "226",
+   "en": "So they say.",
+   "es": "Eso dicen.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "228",
+   "en": "What? This kid is Sigmund?",
+   "es": "¿Qué? ¿Este chico es Sigmund?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "230",
+   "en": "No, not this again!",
+   "es": "¡No, otra vez no!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "232",
+   "en": "I can handle these soldiers...by myself.",
+   "es": "Puedo con estos soldados... yo solo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "234",
+   "en": "Hurry! Kill the girl!",
+   "es": "¡Rápido! ¡Matad a la chica!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "238",
+   "en": "Damn you!",
+   "es": "¡Maldito seas!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "240",
+   "en": "Kill them!",
+   "es": "¡Matadlos!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "244",
+   "en": "Wh-what the hell!?",
+   "es": "¡¿Qué demonios...?!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "246",
+   "en": "He does look like me.",
+   "es": "Sí que se parece a mí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "248",
+   "en": "Lord Sigmund!",
+   "es": "¡Lord Sigmund!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "250",
+   "en": "You!?",
+   "es": "¡¿Tú?!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "252",
+   "en": "You all right?",
+   "es": "¿Estás bien?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "254",
+   "en": "Dammit! Capture him!",
+   "es": "¡Maldita sea! ¡Capturadlo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "256",
+   "en": "Get down!",
+   "es": "¡Agáchate!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "264",
+   "en": "Wow...",
+   "es": "Vaya...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "268",
+   "en": "Lord Sigmund! Have you been hurt?",
+   "es": "¡Lord Sigmund! ¿Está herido?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "270",
+   "en": "No.",
+   "es": "No.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "272",
+   "en": "Are you all right there?",
+   "es": "¿Estás bien?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "274",
+   "en": "G-good evening.",
+   "es": "B-buenas noches.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "276",
+   "en": "You look like twins!",
+   "es": "¡Sois como gemelos!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "278",
+   "en": "Lord Sigmund?",
+   "es": "¿Lord Sigmund?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "280",
+   "en": "Never mind.",
+   "es": "Da igual.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "282",
+   "en": "Thank you.You've done us a great service.",
+   "es": "Gracias. Nos has hecho un gran servicio.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "284",
+   "en": "I am Sigmund.",
+   "es": "Soy Sigmund.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "286",
+   "en": "I'm Capell.",
+   "es": "Soy Capell.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "288",
+   "en": "It's still dangerous here. Come with us.Can you stand?",
+   "es": "Aún es peligroso. Ven con nosotros. ¿Puedes levantarte?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "290",
+   "en": "Thank you.",
+   "es": "Gracias.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "292",
+   "en": "No need for that now.Edward!",
+   "es": "No hace falta eso ahora. ¡Edward!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "294",
+   "en": "Yes!",
+   "es": "¡Sí!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "296",
+   "en": "We will return to camp. Lead the way.",
+   "es": "Volveremos al campamento. Guíanos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "300",
+   "en": "What's this...?He looks exactly like-",
+   "es": "¿Qué es esto...? Se parece exactamente a...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "302",
+   "en": "Lord Sigmund, right? Surprised me, too.",
+   "es": "Lord Sigmund, ¿verdad? A mí también me sorprendió.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "304",
+   "en": "It's more than a mere resemblance.",
+   "es": "Es más que un simple parecido.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "308",
+   "en": "Never mind. Follow me!",
+   "es": "Da igual. ¡Sígueme!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "310",
+   "en": "Sigmuuund!",
+   "es": "¡Sigmuuund!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "312",
+   "en": "Sigmund!",
+   "es": "¡Sigmund!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "314",
+   "en": "Balbagan! Pay proper respect to Lord Sigmund.I will not remind you again!",
+   "es": "¡Balbagan! Guarda el debido respeto al lord Sigmund. ¡No te lo repetiré!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "316",
+   "en": "Good, you're still in one piece.",
+   "es": "Bien, sigues de una pieza.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "318",
+   "en": "Did you hear what I just said!?",
+   "es": "¡¿Has oído lo que acabo de decir?!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "320",
+   "en": "I apologize for my long absence.",
+   "es": "Pido disculpas por mi larga ausencia.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "324",
+   "en": "Pleased to see you safe and well, my lord.",
+   "es": "Me alegra verle sano y salvo, mi señor.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "326",
+   "en": "I feel nothing but happiness upon my lord's return.",
+   "es": "No siento más que alegría por el regreso de mi señor.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "328",
+   "en": "Thank you for mobilizing everyone.",
+   "es": "Gracias por movilizar a todos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "330",
+   "en": "I wasn't too worried. On the other hand, Aya'sdisappearance was indeed a cause for concern.",
+   "es": "No estaba muy preocupado. En cambio, la desaparición de Aya sí era motivo de preocupación.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "332",
+   "en": "I'm sorry...",
+   "es": "Lo siento...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "334",
+   "en": "And tell me, who might this look-alike be?",
+   "es": "Y dime, ¿quién es este doble?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "338",
+   "en": "Uhhh! Who's this kid?",
+   "es": "¡Uf! ¿Quién es este chico?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "340",
+   "en": "I...um...it's nice to meet you.",
+   "es": "Yo... esto... encantado de conocerte.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "342",
+   "en": "This is Capell. He was being held at Graad Prison. It wouldn't have been right to leave him behind,so we brought him along.",
+   "es": "Este es Capell. Estaba preso en la Prisión de Graad. No habría estado bien dejarlo atrás, así que lo trajimos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "344",
+   "en": "Gotcha.",
+   "es": "Entendido.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "346",
+   "en": "Amazing.Their similarity is most uncanny...",
+   "es": "Increíble. Su parecido es asombroso...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "348",
+   "en": "This is quite startling.",
+   "es": "Es muy chocante.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "350",
+   "en": "Sure shocked me.",
+   "es": "A mí me dejó de piedra.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "352",
+   "en": "Even Sir Muscles agrees.",
+   "es": "Hasta el señor Músculos está de acuerdo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "354",
+   "en": "Wha'd ya say?",
+   "es": "¿Qué has dicho?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "356",
+   "en": "Come on, why don't we get cleaned up?",
+   "es": "Vamos, ¿por qué no nos aseamos?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "358",
+   "en": "Um...",
+   "es": "Esto...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "360",
+   "en": "Relax please. Follow me.",
+   "es": "Tranquilo. Sígueme.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "364",
+   "en": "We're finally out!",
+   "es": "¡Por fin fuera!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "366",
+   "en": "There's no time to relax.",
+   "es": "No hay tiempo para relajarse.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "368",
+   "en": "There will be guards out in the woods, too.",
+   "es": "También habrá guardias en el bosque.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "370",
+   "en": "See, look over there.",
+   "es": "Mira, allí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "372",
+   "en": "There's one guard. I don't think he's noticed us yet.",
+   "es": "Hay un guardia. Creo que aún no nos ha visto.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "374",
+   "en": "We should sneak up on him.",
+   "es": "Deberíamos acercarnos a hurtadillas.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "376",
+   "en": "Be sure to use the shadows to our advantage.",
+   "es": "Aprovechemos las sombras.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "386",
+   "en": "There are some apples up there!",
+   "es": "¡Hay unas manzanas ahí arriba!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "388",
+   "en": "The apples here are delicious but really smell.Some animals like the scent, but...",
+   "es": "Las manzanas de aquí están ricas pero huelen mucho. A algunos animales les atrae el olor, pero...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "390",
+   "en": "I should be able to hit them with my bow.They might make a bit of noise, though.",
+   "es": "Debería poder alcanzarlas con el arco. Aunque harán algo de ruido.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "392",
+   "en": "Don't let 'em escape!They couldn't have gone far!",
+   "es": "¡Que no escapen! ¡No pueden haber ido lejos!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "394",
+   "en": "Oh, no... As long as they have light,they have the advantage.",
+   "es": "Ay, no... Mientras tengan luz, llevan ventaja.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "396",
+   "en": "Try to avoid the light if you can.Then we can use the darkness to escape.",
+   "es": "Evitad la luz si podéis. Así podremos usar la oscuridad para escapar.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "398",
+   "en": "Tactics can now be selected!",
+   "es": "¡Ya puedes seleccionar tácticas!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "400",
+   "en": "Treasure Chest",
+   "es": "Cofre del tesoro",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "402",
+   "en": "Treasure Chest",
+   "es": "Cofre del tesoro",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "404",
+   "en": "Treasure Chest",
+   "es": "Cofre del tesoro",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "406",
+   "en": "Treasure Chest",
+   "es": "Cofre del tesoro",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "408",
+   "en": "Treasure Chest",
+   "es": "Cofre del tesoro",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "410",
+   "en": "Treasure Chest",
+   "es": "Cofre del tesoro",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "412",
+   "en": "Rotten Fruit",
+   "es": "Fruta podrida",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "414",
+   "en": "Rotten Fruit",
+   "es": "Fruta podrida",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "416",
+   "en": "Rotten Fruit",
+   "es": "Fruta podrida",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "418",
+   "en": "And so this is Capell and that's... Hold on, I can get this.Ah well, what's a name good for anyways!?Hahahaha!",
+   "es": "Así que este es Capell y esa es... Espera, ya caigo. ¡Bah, para qué sirve un nombre!? ¡Jajajaja!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "420",
+   "en": "Hey Sigmund! Why so down?Hm? Sigmund's over there?",
+   "es": "¡Eh, Sigmund! ¿Por qué tan serio? ¿Eh? ¿Sigmund está por allí?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "422",
+   "en": "Damn it, Aya!Hang in there!",
+   "es": "¡Maldita sea, Aya! ¡Aguanta!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "424",
+   "en": "It seems you have absolutely nothing in common with him.Clearly, you lack all that makes him so extraordinary.Quite pitiful really.",
+   "es": "Parece que no tienes nada en común con él. Está claro que careces de todo lo que lo hace extraordinario. Bastante lamentable, la verdad.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "426",
+   "en": "Your name is Capell?You really do look just like him...Even I mistook you at first.",
+   "es": "¿Te llamas Capell? De verdad que te pareces a él... Hasta yo me confundí al principio.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "428",
+   "en": "I must apologize for involving you, although it was doneby accident. Fate has decided our appearances, andnothing can be done about it.",
+   "es": "Debo disculparme por implicarte, aunque fue sin querer. El destino decidió nuestro aspecto, y no hay nada que hacer.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "430",
+   "en": "You must already be aware that we're the Liberation Force.We fight to destroy all chains binding the moon to this world.",
+   "es": "Ya sabrás que somos la Fuerza de Liberación. Luchamos para destruir todas las cadenas que atan la luna a este mundo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "432",
+   "en": "What did you say happened to Aya!?I'll go and help her immediately.",
+   "es": "¡¿Qué le ha pasado a Aya?! Iré a ayudarla de inmediato.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "434",
+   "en": "Capell, thank you for helping Aya.She's an extremely valuable member of our group.",
+   "es": "Capell, gracias por ayudar a Aya. Es un miembro muy valioso de nuestro grupo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "436",
+   "en": "I haven't introduced myself yet, have I?I'm Eugene.I've known Sigmund for quite some time.",
+   "es": "Aún no me he presentado, ¿verdad? Soy Eugene. Conozco a Sigmund desde hace bastante.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "438",
+   "en": "Obtained the emblazoned sword!",
+   "es": "¡Obtienes la espada emblasonada!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "440",
+   "en": "I'm all right... Really...You don't need to worry about me.",
+   "es": "Estoy bien... De verdad... No tienes que preocuparte por mí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "442",
+   "en": "Agh... I'm all...",
+   "es": "Agh... Estoy muy...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "444",
+   "en": "Don't leave the camp, Capell.There'll be trouble if you come across Order soldiers.",
+   "es": "No salgas del campamento, Capell. Habrá problemas si te topas con soldados de la Orden.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "446",
+   "en": "Have you talked with the others?Maybe you should get to know everyone.",
+   "es": "¿Has hablado con los demás? Quizá deberías conocer a todos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "448",
+   "en": "I am not accustomed to striking up conversation.Please accept my apology.",
+   "es": "No estoy acostumbrado a entablar conversación. Acepta mis disculpas.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "450",
+   "en": "I am Genma.",
+   "es": "Soy Genma.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "452",
+   "en": "Aya",
+   "es": "Aya",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "454",
+   "en": "Capell! I told you not to leave this camp!Order soldiers may still be lurking around!",
+   "es": "¡Capell! ¡Te dije que no salieras del campamento! ¡Puede que aún haya soldados de la Orden al acecho!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "456",
+   "en": "Order Hound",
+   "es": "Sabueso de la Orden",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "458",
+   "en": "Order Hound",
+   "es": "Sabueso de la Orden",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "460",
+   "en": "Order Hound",
+   "es": "Sabueso de la Orden",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "462",
+   "en": "Order Hound",
+   "es": "Sabueso de la Orden",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "464",
+   "en": "Edward",
+   "es": "Edward",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "466",
+   "en": "Hurry!They're almost here!",
+   "es": "¡Rápido! ¡Están casi aquí!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "468",
+   "en": "Edward",
+   "es": "Edward",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "470",
+   "en": "You have to hurry!",
+   "es": "¡Date prisa!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "472",
+   "en": "Edward",
+   "es": "Edward",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "474",
+   "en": "Stay close!They could be anywhere!",
+   "es": "¡No te alejes! ¡Pueden estar en cualquier parte!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "476",
+   "en": "Edward",
+   "es": "Edward",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "478",
+   "en": "We should keep moving.",
+   "es": "Deberíamos seguir.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "480",
+   "en": "Edward",
+   "es": "Edward",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "482",
+   "en": "You have to follow us! Stay close!",
+   "es": "¡Tienes que seguirnos! ¡No te alejes!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "484",
+   "en": "Edward",
+   "es": "Edward",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud1_34C6D000_019",
+   "id": "486",
+   "en": "Are you trying to get yourself killed?Fool!",
+   "es": "¿Es que quieres morir? ¡Necio!",
+   "ctx": "dialogo"
+  }
+ ]
+}

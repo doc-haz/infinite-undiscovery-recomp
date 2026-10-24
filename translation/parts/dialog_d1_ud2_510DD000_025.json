@@ -1,0 +1,1008 @@
+{
+ "meta": {
+  "metodo": "mt-glosario"
+ },
+ "strings": [
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "27",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "48",
+   "en": "It's too quiet.",
+   "es": "Está demasiado silencioso.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "50",
+   "en": "So that means they're waiting for us, huh?",
+   "es": "Entonces eso significa que nos están esperando, ¿eh?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "52",
+   "en": "We must be very careful.",
+   "es": "Debemos tener mucho cuidado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "54",
+   "en": "There are three entrances to this tower,but they must be opened together to enter any one of them.Once we are inside, then we need to locate andoperate a lever within each areain order to reach the top floor.",
+   "es": "Hay tres entradas a esta torre, pero deben abrirse juntas para ingresar a cualquiera de ellas. Una vez que estemos dentro, debemos ubicar y operar una palanca dentro de cada área para llegar al piso superior.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "56",
+   "en": "So we'll have to separate into three groups then?",
+   "es": "¿Entonces tendremos que separarnos en tres grupos?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "58",
+   "en": "Yes, that's right.",
+   "es": "Sí, eso es correcto.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "60",
+   "en": "But this isn't going to be easy.",
+   "es": "Pero esto no va a ser fácil.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "62",
+   "en": "Oh dear...",
+   "es": "Oh querido...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "64",
+   "en": "We split up. Capell, you come with me.",
+   "es": "Nos separamos. Capell, vienes conmigo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "66",
+   "en": "Yes, my lord.",
+   "es": "Sí, mi señor.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "68",
+   "en": "And, as for the others...",
+   "es": "Y en cuanto a los demás...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "70",
+   "en": "My group will move in through the central entrance. Everyone else will approach via the left and right sides, moving up. We'll reunite at the top floor. Understood?",
+   "es": "Mi grupo entrará por la entrada central. Todos los demás se acercarán por los lados izquierdo y derecho, moviéndose hacia arriba. Nos reuniremos en el último piso. ¿Comprendido?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "82",
+   "en": "Huh?",
+   "es": "¿Eh?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "84",
+   "en": "It appears this orb won't open the door.",
+   "es": "Parece que este orbe no abre la puerta.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "86",
+   "en": "Whoa!?",
+   "es": "¡¿¡Vaya!?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "88",
+   "en": "We got shut in. What are we gonna do?",
+   "es": "Nos encerraron. ¿Qué vamos a hacer?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "90",
+   "en": "Fear not.",
+   "es": "No temas.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "92",
+   "en": "I'm sure we will hear from the others soon. One of them may have found the orb.",
+   "es": "Estoy seguro de que pronto tendremos noticias de los demás. Es posible que uno de ellos haya encontrado el orbe.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "94",
+   "en": "You've been here before, right?",
+   "es": "Has estado aquí antes, ¿verdad?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "96",
+   "en": "Yes.",
+   "es": "Sí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "98",
+   "en": "Was it a difficult battle? It must have been since this is the Order's stronghold after all.",
+   "es": "¿Fue una batalla difícil? Debe haber sido así ya que, después de todo, este es el bastión de la Orden.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "100",
+   "en": "Well...yes...",
+   "es": "Bueno... si...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "102",
+   "en": "I was surprised to see how big the chain is here, too.",
+   "es": "También me sorprendió ver lo grande que es la cadena aquí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "104",
+   "en": "Yes... Very...big...",
+   "es": "Sí... Muy...grande...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "105",
+   "en": "--",
+   "es": "--",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "106",
+   "en": "...",
+   "es": "...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "108",
+   "en": "Lord Sigmund! Sorry to keep you waiting!",
+   "es": "¡Señor Sigmund! ¡Perdón por hacerte esperar!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "110",
+   "en": "Obtained the orb of patience!",
+   "es": "¡Obtuviste el orbe de la paciencia!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "112",
+   "en": "The orb of...rebirth?",
+   "es": "¿El orbe del... renacimiento?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "114",
+   "en": "Capell, is the orb of rebirth over there?I can't find it anywhere over here.",
+   "es": "Capell, ¿está el orbe del renacimiento allí? No puedo encontrarlo por ningún lado aquí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "116",
+   "en": "Actually... I did find some fragments.",
+   "es": "De hecho... encontré algunos fragmentos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "118",
+   "en": "What good will that do!? It's not like we can put them together!",
+   "es": "¿¡De qué servirá eso!? ¡No es que podamos juntarlos!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "120",
+   "en": "It's the orb of rebirth! Where did you get it?",
+   "es": "¡Es el orbe del renacimiento! ¿Dónde lo conseguiste?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "122",
+   "en": "I assembled some fragments I found.",
+   "es": "Reuní algunos fragmentos que encontré.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "124",
+   "en": "You're amazing, Lord Sigmund!",
+   "es": "¡Eres increíble, Señor Sigmund!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "126",
+   "en": "You might look like him, Capell, but you're about as useful as a bow without a string!",
+   "es": "Puede que te parezcas a él, Capell, ¡pero eres tan útil como un arco sin cuerda!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "127",
+   "en": "--",
+   "es": "--",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "128",
+   "en": "...",
+   "es": "...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "130",
+   "en": "Found them!",
+   "es": "¡Los encontré!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "134",
+   "en": "The orb of...rebirth?",
+   "es": "¿El orbe del... renacimiento?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "136",
+   "en": "Capell, is the orb of rebirth over there? I can't find it anywhere over here.",
+   "es": "Capell, ¿está ahí el orbe del renacimiento? No lo encuentro por ningún lado por aquí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "138",
+   "en": "Rebirth? Yeah, actually...",
+   "es": "¿Renacimiento? Sí, en realidad...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "140",
+   "en": "There's a small recession. It looks like I can place something here.",
+   "es": "Hay una pequeña recesión. Parece que puedo colocar algo aquí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "142",
+   "en": "Just like last time.",
+   "es": "Como la última vez.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "144",
+   "en": "To open some of the doors here, it will be necessary to place the proper orb on the dais.",
+   "es": "Para abrir algunas de las puertas aquí, será necesario colocar el orbe adecuado en el estrado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "146",
+   "en": "Orb?",
+   "es": "¿Orbe?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "148",
+   "en": "First we must find the right orb.",
+   "es": "Primero debemos encontrar el orbe correcto.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "150",
+   "en": "Will you save your current data?",
+   "es": "¿Guardarás tus datos actuales?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "152",
+   "en": "Yes",
+   "es": "Si",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "154",
+   "en": "No",
+   "es": "No",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "155",
+   "en": "dummy",
+   "es": "tonto",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "158",
+   "en": "Destroy the Crimson Chain",
+   "es": "Destruye la cadena Cadena Carmesí",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "160",
+   "en": "Destroy the Crimson Chain",
+   "es": "Destruye la cadena Cadena Carmesí",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "162",
+   "en": "Destroy the Crimson Chain",
+   "es": "Destruye la cadena Cadena Carmesí",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "164",
+   "en": "Capell",
+   "es": "Capell",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "166",
+   "en": "There's a small recession. It looks like I can place something here.",
+   "es": "Hay una pequeña recesión. Parece que puedo colocar algo aquí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "168",
+   "en": "Edward",
+   "es": "Edward",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "170",
+   "en": "Lord Sigmund, I found an orb.It doesn't seem to be of any use over here.I'll hand it over back where we last met.",
+   "es": "Señor Sigmund, encontré un orbe. No parece ser de ninguna utilidad aquí. Lo entregaré donde nos vimos por última vez.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "172",
+   "en": "Obtained the orb of chaos!",
+   "es": "¡Obtuviste el orbe del caos!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "174",
+   "en": "Edward",
+   "es": "Edward",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "176",
+   "en": "Dais of Chaos",
+   "es": "Estrado del Caos",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "178",
+   "en": "Edward",
+   "es": "Edward",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "180",
+   "en": "Sorry for the wait, Lord Sigmund!We've opened the door.",
+   "es": "¡Perdón por la espera, Señor Sigmund! Hemos abierto la puerta.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "182",
+   "en": "Edward",
+   "es": "Edward",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "184",
+   "en": "Lord Sigmund!We've found an orb for the dais! I'll hand it overback at the meeting point!",
+   "es": "¡Lord Sigmund! ¡Hemos encontrado un orbe para el estrado! ¡Te lo entregaré en el punto de encuentro!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "186",
+   "en": "Edward",
+   "es": "Edward",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "188",
+   "en": "Lord Sigmund! Leave this to me! Capell...Don't cause any trouble!",
+   "es": "¡Señor Sigmund! ¡Déjamelo a mí! Capell... ¡No provoques ningún problema!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "190",
+   "en": "Edward",
+   "es": "Edward",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "192",
+   "en": "Here, take this! We'll meet you at the top!",
+   "es": "¡Toma, toma esto! ¡Nos vemos en la cima!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "194",
+   "en": "Edward",
+   "es": "Edward",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "196",
+   "en": "Thank you for the help!",
+   "es": "¡Gracias por la ayuda!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "198",
+   "en": "Edward",
+   "es": "Edward",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "200",
+   "en": "I'm all right now!Hurry ahead!",
+   "es": "¡Estoy bien ahora! ¡Date prisa!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "202",
+   "en": "Edward",
+   "es": "Edward",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "204",
+   "en": "Now it's my turn! Leave this to me!",
+   "es": "¡Ahora es mi turno! ¡Déjamelo a mí!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "206",
+   "en": "Aya",
+   "es": "Aya",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "208",
+   "en": "What now...I'm sure there's an orb near Capell that will open this door...",
+   "es": "Ahora qué... Estoy seguro de que hay un orbe cerca de Capell que abrirá esta puerta...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "210",
+   "en": "Aya",
+   "es": "Aya",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "212",
+   "en": "Oh...Thank you, Lord Sigmund!",
+   "es": "Oh...\n¡Gracias, Señor Sigmund!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "214",
+   "en": "Edward",
+   "es": "Edward",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "216",
+   "en": "Dammit! We don't have time for this!",
+   "es": "¡Maldita sea!\n¡No tenemos tiempo para esto!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "218",
+   "en": "Edward",
+   "es": "Edward",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "220",
+   "en": "Thank you, Lord Sigmund!",
+   "es": "¡Gracias,\nSeñor Sigmund!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "222",
+   "en": "Aya",
+   "es": "Aya",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "224",
+   "en": "Capell! We're waiting, so hurry and find that orb!",
+   "es": "Capell! Estamos esperando, ¡así que date prisa y encuentra ese orbe!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "226",
+   "en": "Aya",
+   "es": "Aya",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "228",
+   "en": "This should open up the path.Yes!",
+   "es": "Esto debería abrir el camino.\n¡Sí!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "230",
+   "en": "Edward",
+   "es": "Edward",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "232",
+   "en": "Damn! The door can only be opened from here? Please wait, Lord Sigmund!",
+   "es": "¡Maldita sea! ¿La puerta sólo se puede abrir desde aquí? ¡Por favor espere, Señor Sigmund!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "234",
+   "en": "Edward",
+   "es": "Edward",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "236",
+   "en": "This should open the door!Sorry I'm late.",
+   "es": "¡Esto debería abrir la puerta! Lo siento, llego tarde.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "238",
+   "en": "Aya",
+   "es": "Aya",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "240",
+   "en": "Lord Sigmund,is there a dais to set the orb in to over there?",
+   "es": "Señor Sigmund, ¿hay algún estrado allí para colocar el orbe?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "242",
+   "en": "Aya",
+   "es": "Aya",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "244",
+   "en": "It opened! Thank you!",
+   "es": "¡Se abrió!\n¡Gracias!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "246",
+   "en": "Aya",
+   "es": "Aya",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "248",
+   "en": "No orbs over here. Capell, did you find anything,even a fragment?",
+   "es": "No hay orbes por aquí. Capell, ¿encontraste algo, aunque sea un fragmento?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "250",
+   "en": "Aya",
+   "es": "Aya",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "252",
+   "en": "Just a little longer!Lord Sigmund! We're heading your way!",
+   "es": "¡Solo un poco más! ¡Señor Sigmund! ¡Nos dirigimos hacia ti!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "254",
+   "en": "Aya",
+   "es": "Aya",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "256",
+   "en": "Darn...I'm sorry it took so long, Lord Sigmund.",
+   "es": "Maldita sea... Lamento que haya tomado tanto tiempo, Lord Sigmund.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "258",
+   "en": "Aya",
+   "es": "Aya",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "260",
+   "en": "You...It's all your fault, Capell!You took so much time!",
+   "es": "Tú... ¡Todo es tu culpa, Capell! ¡Te tomaste tanto tiempo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "262",
+   "en": "Edward",
+   "es": "Edward",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "264",
+   "en": "Are we too late!? I pray we still have time!",
+   "es": "¿¡Llegamos demasiado tarde!? ¡Rezo para que todavía tengamos tiempo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "266",
+   "en": "Edward",
+   "es": "Edward",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "268",
+   "en": "Apologies for the delay! Capell, you just stand back.Leave it to me!",
+   "es": "¡Disculpas por el retraso! Capell, tú simplemente retrocede. ¡Déjamelo a mí!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "270",
+   "en": "Edward",
+   "es": "Edward",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "272",
+   "en": "Damn. Didn't think it'd take so long.Capell, this is all your fault!",
+   "es": "Maldita sea. No pensé que tomaría tanto tiempo. Capell, ¡todo esto es culpa tuya!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "274",
+   "en": "Aya",
+   "es": "Aya",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "276",
+   "en": "Capell, you were great! We reached the top quicker than last time!",
+   "es": "Capell, estuviste genial! ¡Llegamos a la cima más rápido que la última vez!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "278",
+   "en": "Aya",
+   "es": "Aya",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "280",
+   "en": "Capell, wait.",
+   "es": "Capell, espera.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "282",
+   "en": "Aya",
+   "es": "Aya",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "284",
+   "en": "Capell, is the orb of order over there? We need it to open the door.",
+   "es": "Capell, ¿está ahí el orbe del orden? Lo necesitamos para abrir la puerta.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "286",
+   "en": "Yeah, I just found it!",
+   "es": "¡Sí, lo acabo de encontrar!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "288",
+   "en": "Handed over the orb of order.",
+   "es": "Entregado el orbe del orden.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "290",
+   "en": "Aya",
+   "es": "Aya",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "292",
+   "en": "The interior of the tower has changed since last time. Be careful, Lord Sigmund.",
+   "es": "El interior de la torre ha cambiado desde la última vez. Tenga cuidado, Señor Sigmund.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "294",
+   "en": "Dais of Patience",
+   "es": "Estrado de la paciencia",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "296",
+   "en": "Order Soldier",
+   "es": "Soldado de la orden",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "298",
+   "en": "Teach these rebels a lesson! Charge!!!",
+   "es": "¡Enséñales una lección a estos rebeldes! ¡¡¡Cargar!!!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "300",
+   "en": "Order Soldier",
+   "es": "Soldado de la orden",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "302",
+   "en": "You dare to defy the Order!?",
+   "es": "¿¡Te atreves a desafiar la Orden!?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "304",
+   "en": "Order Soldier",
+   "es": "Soldado de la orden",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "306",
+   "en": "Crush the Liberator!Bleed his bones dry!",
+   "es": "¡Aplasta al Libertador! ¡Desangra sus huesos!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "308",
+   "en": "Order Soldier",
+   "es": "Soldado de la orden",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "310",
+   "en": "You can't escape!",
+   "es": "¡No puedes escapar!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "312",
+   "en": "Order Soldier",
+   "es": "Soldado de la orden",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "314",
+   "en": "These fools won't give up!Send reinforcements!",
+   "es": "¡Estos tontos no se rendirán! ¡Envía refuerzos!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "316",
+   "en": "Order Soldier",
+   "es": "Soldado de la orden",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "318",
+   "en": "Don't give 'em a chance to counterattack!",
+   "es": "¡No les des la oportunidad de contraatacar!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "320",
+   "en": "Edward",
+   "es": "Edward",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "322",
+   "en": "Lord Sigmund, how do you fare?We have opened the door on our side andwill meet you at the top.",
+   "es": "Señor Sigmund, ¿cómo te va? Hemos abierto la puerta de nuestro lado y te encontraremos en la cima.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "324",
+   "en": "The Order is as vicious as ever. Take this. Use it if you get hurt.",
+   "es": "La Orden es tan cruel como siempre. Toma esto. Úsalo si te lastimas.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "326",
+   "en": "Obtained 3 red berry potions!Obtained 2 black berry potions!",
+   "es": "¡Obtuviste 3 pociones de frutos rojos! ¡Obtuviste 2 pociones de frutos negros!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "328",
+   "en": "Aya",
+   "es": "Aya",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "330",
+   "en": "Capell, are you ignoring me!?I won't forget it!",
+   "es": "Capell, ¿¡me estás ignorando!? ¡No lo olvidaré!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "332",
+   "en": "Capell",
+   "es": "Capell",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "334",
+   "en": "What are we going to do with this fragment?",
+   "es": "¿Qué vamos a hacer con este fragmento?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "336",
+   "en": "I wish I could do something with the fragments...",
+   "es": "Ojalá pudiera hacer algo con los fragmentos...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_510DD000_025",
+   "id": "338",
+   "en": "Aya",
+   "es": "Aya",
+   "ctx": "dialogo"
+  }
+ ]
+}

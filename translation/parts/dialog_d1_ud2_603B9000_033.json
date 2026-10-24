@@ -1,0 +1,168 @@
+{
+ "meta": {
+  "metodo": "mt-glosario"
+ },
+ "strings": [
+  {
+   "stem": "d1_ud2_603B9000_033",
+   "id": "2",
+   "en": "Welcome to my humble domain. I wasn'texpecting you all to come here...",
+   "es": "Bienvenidos a mi humilde dominio. No esperaba que vinierais todos aquí...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_603B9000_033",
+   "id": "6",
+   "en": "Didn't you die at Vesplume Tower?All right. I'll just kill you again.",
+   "es": "¿No moriste en la Torre Vesplume? Muy bien. Volveré a matarte.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_603B9000_033",
+   "id": "8",
+   "en": "I'll take care of the chain!Everyone, back me up, okay?",
+   "es": "¡Yo me encargo de la cadena! Todos, cubridme, ¿vale?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_603B9000_033",
+   "id": "10",
+   "en": "I got it!",
+   "es": "¡Entendido!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_603B9000_033",
+   "id": "12",
+   "en": "Ow!Hey, what are you doing?",
+   "es": "¡Ay! Eh, ¿qué haces?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_603B9000_033",
+   "id": "14",
+   "en": "Look...",
+   "es": "Mira...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_603B9000_033",
+   "id": "16",
+   "en": "So it wasn't just a tsunami.What devastated Zala was somethingmuch more terrible.",
+   "es": "Así que no fue solo un tsunami. Lo que devastó Zala fue algo mucho más terrible.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_603B9000_033",
+   "id": "18",
+   "en": "We've got to do something!",
+   "es": "¡Tenemos que hacer algo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_603B9000_033",
+   "id": "20",
+   "en": "Then what do we do?",
+   "es": "¿Entonces qué hacemos?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_603B9000_033",
+   "id": "22",
+   "en": "We...",
+   "es": "Nosotros...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_603B9000_033",
+   "id": "24",
+   "en": "What we have to do is take the safest route. First, we find a high place nearby and-",
+   "es": "Lo que debemos hacer es tomar la ruta más segura. Primero buscamos un sitio alto cerca y...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_603B9000_033",
+   "id": "26",
+   "en": "We run away!?",
+   "es": "¡¿Huir?!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_603B9000_033",
+   "id": "28",
+   "en": "Do we have any other option?",
+   "es": "¿Tenemos otra opción?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_603B9000_033",
+   "id": "30",
+   "en": "But...!",
+   "es": "¡Pero...!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_603B9000_033",
+   "id": "32",
+   "en": "I say we choose safety!",
+   "es": "¡Digo que elijamos la seguridad!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_603B9000_033",
+   "id": "34",
+   "en": "Capell!",
+   "es": "¡Capell!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_603B9000_033",
+   "id": "36",
+   "en": "Where are you going!?",
+   "es": "¡¿Adónde vas?!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_603B9000_033",
+   "id": "38",
+   "en": "We can't find a safe high place now! But if we stop those tornadoes by cutting the chain,we might be able to stop the whole thing!",
+   "es": "¡No podemos encontrar un sitio alto seguro ahora! Pero si detenemos esos tornados cortando la cadena, ¡quizá podamos detener todo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_603B9000_033",
+   "id": "40",
+   "en": "Capell!",
+   "es": "¡Capell!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_603B9000_033",
+   "id": "42",
+   "en": "We have to save the people of Zala as well!",
+   "es": "¡También tenemos que salvar a la gente de Zala!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_603B9000_033",
+   "id": "44",
+   "en": "Yes!",
+   "es": "¡Sí!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_603B9000_033",
+   "id": "46",
+   "en": "But not everyone wants to...",
+   "es": "Pero no todos quieren...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_603B9000_033",
+   "id": "48",
+   "en": "Damn!",
+   "es": "¡Maldita sea!",
+   "ctx": "dialogo"
+  }
+ ]
+}

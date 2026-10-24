@@ -1,0 +1,22 @@
+{
+ "meta": {
+  "agente": "ws4",
+  "ctx": "dialogo"
+ },
+ "strings": [
+  {
+   "stem": "d1_ud2_A4DAA000_040",
+   "id": "2",
+   "en": "Welcome to the Seraphic Gate!The creatures lurking within these halls are the foulest andfiercest you have ever known. Balls of steel are required....But titanium is recommended.To help match the power of your foes, item creation andenchantment has been enhanced. There is also powerfulequipment awaiting you on each floor. Take advantage ofit, and good luck reaching the bottom.You can return to the world above via the teleporter atthe entrance.",
+   "es": "¡Bienvenido a la Puerta Seráfica! Las criaturas que acechan en estos pasillos son las más repugnantes y feroces que hayas conocido. Hacen falta agallas de acero... aunque se recomienda titanio. Para igualar el poder de tus enemigos, se han mejorado la creación de objetos y el encantamiento. También te espera equipo poderoso en cada piso. Aprovéchalo y buena suerte para llegar al fondo. Puedes volver al mundo de arriba con el teletransportador de la entrada.",
+   "ctx": "bonus"
+  },
+  {
+   "stem": "d1_ud2_A4DAA000_040",
+   "id": "4",
+   "en": "Obtained a maestro's baton!",
+   "es": "¡Obtienes la batuta de un maestro!",
+   "ctx": "bonus"
+  }
+ ]
+}

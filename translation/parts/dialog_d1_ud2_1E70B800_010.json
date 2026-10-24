@@ -1,0 +1,3353 @@
+{
+ "meta": {
+  "metodo": "mt-glosario"
+ },
+ "strings": [
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "10",
+   "en": "It looks like we're...here.",
+   "es": "Parece que estamos... aquí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "12",
+   "en": "This place is a mess...",
+   "es": "Este lugar es un desastre...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "14",
+   "en": "Stop right there!",
+   "es": "¡Detente ahí mismo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "16",
+   "en": "Stick 'em up!",
+   "es": "¡Pégalos arriba!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "18",
+   "en": "I'm Rico!",
+   "es": "¡Soy Rico!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "20",
+   "en": "I'm Rucha!",
+   "es": "¡Soy Rucha!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "22",
+   "en": "I'm the top beastmaster here!",
+   "es": "¡Soy el mejor maestro de bestias aquí!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "24",
+   "en": "I'm a summoner!",
+   "es": "¡Soy un invocador!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "26",
+   "en": "No bandits allowed!",
+   "es": "¡No se permiten bandidos!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "28",
+   "en": "You better give up now!",
+   "es": "¡Será mejor que te rindas ahora!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "32",
+   "en": "Uh, yeah...Well, we're just looking for somewhere to rest.",
+   "es": "Uh, sí... Bueno, sólo estamos buscando un lugar para descansar.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "34",
+   "en": "Oh, right over-",
+   "es": "Oh, justo encima-",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "36",
+   "en": "Why did you do that!?",
+   "es": "¿¡Por qué hiciste eso!?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "38",
+   "en": "Rucha! He's a bandit!",
+   "es": "Rucha! ¡Es un bandido!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "40",
+   "en": "H-he is?",
+   "es": "¿E-él lo es?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "42",
+   "en": "Hey kids, I'm a little busy right now.She's sick, so I really need a place to take care of her.",
+   "es": "Hola niños, estoy un poco ocupado en este momento. Ella está enferma, así que realmente necesito un lugar para cuidarla.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "44",
+   "en": "She...she's sick?",
+   "es": "¿Ella... está enferma?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "46",
+   "en": "Yes, and she needs a place to rest.",
+   "es": "Sí, y necesita un lugar para descansar.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "48",
+   "en": "No, she doesn't.",
+   "es": "No, ella no lo hace.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "50",
+   "en": "How can I make them understand...",
+   "es": "¿Cómo puedo hacerles entender...?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "54",
+   "en": "Oh no! Rucha! He's Sigmund!",
+   "es": "¡Ay no! Rucha! ¡Él es Sigmund!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "56",
+   "en": "He's a real hero!",
+   "es": "¡Es un verdadero héroe!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "58",
+   "en": "So it's true!",
+   "es": "¡Así que es verdad!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "60",
+   "en": "Yeah!",
+   "es": "¡Sí!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "62",
+   "en": "I'm sorry, Lord Sigmund.",
+   "es": "Lo siento, Señor Sigmund.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "64",
+   "en": "I'm sorry, too.",
+   "es": "Yo también lo siento.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "66",
+   "en": "Ah, well actually... My name is Capell.",
+   "es": "Ah, bueno en realidad... Mi nombre es Capell.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "68",
+   "en": "Capell?",
+   "es": "¿Capell?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "70",
+   "en": "Don't you get it? It's an alias, stupid!So nobody can tell who he really is!",
+   "es": "¿No lo entiendes? ¡Es un alias, estúpido! ¡Así que nadie puede saber quién es realmente!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "72",
+   "en": "Oh, an alias.",
+   "es": "Ah, un alias.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "74",
+   "en": "Can you just tell me where she can lie down?",
+   "es": "¿Puedes decirme dónde puede acostarse?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "76",
+   "en": "Oh, sure!",
+   "es": "¡Ah, claro!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "78",
+   "en": "Whew! Thank you! I also need to meet withthe Claridian priest if possible.",
+   "es": "¡Uf! ¡Gracias! También necesito reunirme con el sacerdote claridiano si es posible.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "80",
+   "en": "He's gone.",
+   "es": "Se ha ido.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "82",
+   "en": "We haven't heard anything.",
+   "es": "No hemos oído nada.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "84",
+   "en": "What's wrong? Is he missing or something?",
+   "es": "¿Qué ocurre? ¿Está desaparecido o algo así?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "86",
+   "en": "Why don't you come to our house first...",
+   "es": "¿Por qué no vienes primero a nuestra casa?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "88",
+   "en": "You two can rest there.",
+   "es": "Ustedes dos pueden descansar allí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "90",
+   "en": "Thank you.",
+   "es": "Gracias.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "92",
+   "en": "Come on, Rucha!We gotta tell Mom that a real hero is here!",
+   "es": "¡Vamos, Rucha! ¡Tenemos que decirle a mamá que un verdadero héroe está aquí!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "94",
+   "en": "Yeah!",
+   "es": "¡Sí!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "96",
+   "en": "Hello?",
+   "es": "¿Hola?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "98",
+   "en": "Capell, over here.",
+   "es": "Capell, por aquí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "100",
+   "en": "Thank you. So, about meeting with the priest...",
+   "es": "Gracias. Entonces, sobre la reunión con el sacerdote...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "102",
+   "en": "Perhaps it would be best if I explain everything.",
+   "es": "Quizás sería mejor que te lo explique todo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "104",
+   "en": "If you wouldn't mind.",
+   "es": "Si no te importa.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "106",
+   "en": "If we, the meages, are watched over by the aristos,then it can be said the Claridians are their guardians.",
+   "es": "Si nosotros, los meages, somos vigilados por los aristos, entonces se puede decir que los clardianos son sus guardianes.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "108",
+   "en": "Saruleus protects the East and this village.Time means nothing to the Claridians.",
+   "es": "Saruleus protege el Este y este pueblo. El tiempo no significa nada para los Claridianos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "110",
+   "en": "Because when they grow old,they are reborn into new bodies.",
+   "es": "Porque cuando envejecen, renacen en cuerpos nuevos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "112",
+   "en": "Whoa... That's unbelievable.",
+   "es": "Vaya... Eso es increíble.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "114",
+   "en": "Saruleus completed his reincarnation quite recently.",
+   "es": "Saruleus completó su reencarnación hace poco.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "116",
+   "en": "Yeah! And our dad is his priest!",
+   "es": "¡Sí! ¡Y nuestro papá es su sacerdote!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "118",
+   "en": "He's the best!",
+   "es": "¡Él es el mejor!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "120",
+   "en": "Um, okay.",
+   "es": "Bueno, está bien.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "126",
+   "en": "Uh, sorry. Go on.",
+   "es": "Eh, lo siento. Seguir.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "128",
+   "en": "The Order took advantage of his rebirth.",
+   "es": "La Orden aprovechó su renacimiento.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "130",
+   "en": "The village was attacked. The shrine has also been taken over,and the Claridian's presence can no longer be felt.",
+   "es": "El pueblo fue atacado. El santuario también ha sido tomado y ya no se puede sentir la presencia del Claridiano.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "132",
+   "en": "So, he's dead?",
+   "es": "Entonces, ¿está muerto?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "134",
+   "en": "My husband has not returned from the shrine.And because of the chains, Burgusstadt cannot spareus any aid... I don't know what to do.",
+   "es": "Mi marido no ha regresado del santuario. Y debido a las cadenas, Burgusstadt no puede prestarnos ninguna ayuda... No sé qué hacer.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "136",
+   "en": "And what am I supposed to do?",
+   "es": "¿Y qué se supone que debo hacer?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "138",
+   "en": "Hey, Capell.",
+   "es": "Hola, Capell.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "140",
+   "en": "Go to the shrine and help our dad!You're a hero, right?",
+   "es": "¡Ve al santuario y ayuda a nuestro papá! Eres un héroe, ¿verdad?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "142",
+   "en": "Our dad told us that the hero with the sword of Burguss willdrive out the Order of Chains from this country.",
+   "es": "Nuestro papá nos dijo que el héroe con la espada de Burguss expulsará a la Orden de las Cadenas de este país.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "144",
+   "en": "So, you'll have no trouble at all at the shrine.",
+   "es": "Así que no tendrás ningún problema en el santuario.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "146",
+   "en": "Please Capell, help our dad.",
+   "es": "Por favor Capell, ayuda a nuestro papá.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "150",
+   "en": "Well...I'll...you know...",
+   "es": "Bueno... yo... ya sabes...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "152",
+   "en": "Great! You're going!",
+   "es": "¡Excelente! ¡Te vas!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "154",
+   "en": "And we're going with you!",
+   "es": "¡Y nosotros vamos contigo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "156",
+   "en": "No, it's too dangerous!",
+   "es": "¡No, es demasiado peligroso!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "158",
+   "en": "Don't worry.It's safe 'cause we're with a hero.",
+   "es": "No te preocupes. Es seguro porque estamos con un héroe.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "160",
+   "en": "Kids.",
+   "es": "Niños.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "162",
+   "en": "But we can guide you through the shrine, Capell.",
+   "es": "Pero podemos guiarte a través del santuario, Capell.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "164",
+   "en": "Please, take them with you.",
+   "es": "Por favor, llévalos contigo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "166",
+   "en": "Are you sure about this!?",
+   "es": "¿¡Estás seguro de esto!?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "168",
+   "en": "We need your help.",
+   "es": "Necesitamos tu ayuda.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "170",
+   "en": "Well...I guess I should start getting ready to go find him then.",
+   "es": "Bueno... supongo que entonces debería empezar a prepararme para ir a buscarlo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "172",
+   "en": "How did this happen to me? Ah, great...",
+   "es": "¿Cómo me pasó esto? Ah, genial...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "174",
+   "en": "Aya left the party!",
+   "es": "¡Aya abandonó el grupo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "176",
+   "en": "Rico joined the party!Rucha joined the party!",
+   "es": "¡Rico se unió al grupo! ¡Rucha se unió al grupo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "178",
+   "en": "So...my husband's...",
+   "es": "Entonces... mi marido...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "180",
+   "en": "...Yes.",
+   "es": "...Sí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "182",
+   "en": "I am proud of him, for he met his end asa priest protecting our guardian, Saruleus.",
+   "es": "Estoy orgulloso de él, porque encontró su fin como sacerdote que protegía a nuestro guardián, Saruleus.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "184",
+   "en": "Saruleus was grateful for his service.",
+   "es": "Saruleus agradeció su servicio.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "186",
+   "en": "You should help Aya now.",
+   "es": "Deberías ayudar a Aya ahora.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "188",
+   "en": "Yeah.",
+   "es": "Sí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "190",
+   "en": "Please, Aya... You've gotta get better!",
+   "es": "Por favor, Aya... ¡Tienes que mejorar!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "196",
+   "en": "It's gone.",
+   "es": "Se ha ido.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "200",
+   "en": "Aya!",
+   "es": "¡Aya!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "202",
+   "en": "These two kids here have been a huge help.",
+   "es": "Estos dos niños aquí han sido de gran ayuda.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "204",
+   "en": "I'm Rico.",
+   "es": "Soy Rico.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "206",
+   "en": "I'm Rucha.",
+   "es": "Soy Rucha.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "208",
+   "en": "Sorry for all the trouble I caused. Thank you.",
+   "es": "Perdón por todos los problemas que causé. Gracias.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "210",
+   "en": "And you, too...",
+   "es": "Y tú también...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "212",
+   "en": "Capell...",
+   "es": "Capell...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "216",
+   "en": "Now we'll fight the Order!",
+   "es": "¡Ahora lucharemos contra la Orden!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "218",
+   "en": "Yeah, for our dad!",
+   "es": "¡Sí, para nuestro papá!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "220",
+   "en": "Why don't you take us to meet Sigmund?",
+   "es": "¿Por qué no nos llevas a conocer a Sigmund?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "222",
+   "en": "E-excuse me?",
+   "es": "¿E-disculpe?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "224",
+   "en": "Me and Rucha are strong!",
+   "es": "¡Rucha y yo somos fuertes!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "226",
+   "en": "Yeah! We're way stronger than Capell!",
+   "es": "¡Sí! ¡Somos mucho más fuertes que Capell!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "228",
+   "en": "You need to put a stop to this!",
+   "es": "¡Tienes que poner fin a esto!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "230",
+   "en": "Do you understand why we go off to battle?",
+   "es": "¿Entiendes por qué vamos a la batalla?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "232",
+   "en": "Yeah, to help people in trouble!",
+   "es": "¡Sí, para ayudar a la gente en problemas!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "236",
+   "en": "Aya, I am asking you.Would you please let them join you on your mission?",
+   "es": "Aya, te lo pregunto. ¿Podrías dejar que se unan a ti en tu misión?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "238",
+   "en": "That's really not a good idea!",
+   "es": "¡Esa realmente no es una buena idea!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "240",
+   "en": "If they only wanted to go in order to avenge theirfather, I wouldn't allow them to, but-",
+   "es": "Si sólo quisieran ir para vengar a su padre, no se lo permitiría, pero...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "242",
+   "en": "Even so, you can't let them come!",
+   "es": "Aun así, ¡no puedes dejar que vengan!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "244",
+   "en": "My son and daughter want to serve just as their father would havewanted to. They have learned from your example, Capell.",
+   "es": "Mi hijo y mi hija quieren servir tal como lo hubiera querido su padre. Han aprendido de tu ejemplo, Capell.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "246",
+   "en": "I think you've got the wrong idea.",
+   "es": "Creo que tienes una idea equivocada.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "248",
+   "en": "Yes, I'd be happy to take care of the twins.",
+   "es": "Sí, estaría feliz de cuidar a los gemelos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "250",
+   "en": "Aya!",
+   "es": "¡Aya!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "252",
+   "en": "What will you do, Capell?",
+   "es": "¿Qué harás, Capell?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "254",
+   "en": "I'll...",
+   "es": "Yo...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "256",
+   "en": "So, can we go?",
+   "es": "Entonces, ¿podemos irnos?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "258",
+   "en": "We're friends, aren't we?",
+   "es": "Somos amigos, ¿no?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "260",
+   "en": "Okay. I need to return this sword to Sigmund anyway.",
+   "es": "Bueno. Necesito devolverle esta espada a Sigmund de todos modos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "262",
+   "en": "Thank you.",
+   "es": "Gracias.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "264",
+   "en": "Aya joined the party!",
+   "es": "¡Aya se unió al grupo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "266",
+   "en": "Capell!",
+   "es": "¡Capell!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "268",
+   "en": "What is it?",
+   "es": "¿Qué es?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "270",
+   "en": "Are you going to the shrine?I'll make a snack so we don't get hungry!",
+   "es": "¿Vas al santuario? ¡Haré una merienda para que no nos dé hambre!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "272",
+   "en": "You're going to cook?",
+   "es": "¿Vas a cocinar?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "274",
+   "en": "Yeah! I'm a really good cook!But you have to gather ingredients for me!",
+   "es": "¡Sí! ¡Soy muy buena cocinera! ¡Pero tienes que reunir los ingredientes para mí!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "276",
+   "en": "Now you can create items.",
+   "es": "Ahora puedes crear elementos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "278",
+   "en": "Is that a flute?Let me see.",
+   "es": "¿Eso es una flauta? Déjame ver.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "280",
+   "en": "Are you surprised?I studied a bit in my younger days.",
+   "es": "¿Te sorprende? Estudié un poco en mi juventud.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "282",
+   "en": "Here.Take good care of it.",
+   "es": "Toma, cuídalo bien.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "284",
+   "en": "Learned some concerto notations!",
+   "es": "¡Aprendí algunas notaciones de concierto!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "286",
+   "en": "Worried old woman",
+   "es": "Anciana preocupada",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "288",
+   "en": "Our village is very quiet now. Liberator, please look afterRico and Rucha.",
+   "es": "Nuestro pueblo está muy tranquilo ahora. Libertador, por favor cuida a Rico y Rucha.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "290",
+   "en": "Even if the Liberator is goin' along with 'em,I'm not sure if Rico and Rucha will be completelysafe from harm...",
+   "es": "Incluso si el Libertador los acompaña, no estoy seguro de si Rico y Rucha estarán completamente a salvo de cualquier daño...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "292",
+   "en": "I heard that ya droves away the Order.Thank ya. Thank ya.",
+   "es": "Escuché que ahuyentaste la Orden. Gracias. Gracias.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "294",
+   "en": "Oh no... Our priest has been...Poor Rico and Rucha.",
+   "es": "Ay no... Nuestro cura ha sido...Pobres Rico y Rucha.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "296",
+   "en": "The shrine...Saruleus...and our priest... Oh dear...",
+   "es": "El santuario...Saruleus...y nuestro sacerdote... Dios mío...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "298",
+   "en": "Nolaan is the home of Saruleus.It's heartbreakin' to have lived to see the daythat this whole place was desecrated.",
+   "es": "Nolaan es el hogar de Saruleus. Es desgarrador haber vivido para ver el día en que todo este lugar fue profanado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "300",
+   "en": "Oh, thank ya for bringin' back the back pain medicine.It was startin' to become really unbearable.This will help me for a while. It's not much to repay yafor yer trouble, but please take this.",
+   "es": "Oh, gracias por traerme la medicina para el dolor de espalda. Estaba empezando a volverse realmente insoportable. Esto me ayudará por un tiempo. No es mucho para pagarte por tus problemas, pero por favor toma esto.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "302",
+   "en": "Handed over the back pain medicine.Obtained a sacrificial doll!",
+   "es": "Le entregué el medicamento para el dolor de espalda. ¡Obtuve una muñeca de sacrificio!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "304",
+   "en": "If ya take this recipe to the item shop in Burgusstadt,the shopkeeper will make the back pain medicine.Hurry, will ya?",
+   "es": "Si llevas esta receta a la tienda de artículos en Burgusstadt, el comerciante preparará el medicamento para el dolor de espalda. Date prisa, ¿quieres?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "306",
+   "en": "Ow... No, I'm fine!I've run out of me medicine to get rid of this pain.I can't believe I forgot to order it.",
+   "es": "Ay... ¡No, estoy bien! Se me acabó el medicamento para deshacerme de este dolor. No puedo creer que me olvidé de pedirlo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "308",
+   "en": "Would ya please purchase some pain medicinein Burgusstadt and bring it back to me?",
+   "es": "¿Podrías comprar algún analgésico en Burgusstadt y traérmelo?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "310",
+   "en": "Sure.",
+   "es": "Seguro.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "312",
+   "en": "No.",
+   "es": "No.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "313",
+   "en": "dummy",
+   "es": "tonto",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "314",
+   "en": "dummy",
+   "es": "tonto",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "316",
+   "en": "Thank ya so much!Take this recipe to the item shop in Burgusstadt, andthe shopkeeper will make the back pain medicine.",
+   "es": "¡Muchas gracias! Lleve esta receta a la tienda de artículos en Burgusstadt y el comerciante preparará el medicamento para el dolor de espalda.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "318",
+   "en": "Received the prescription!",
+   "es": "¡Recibí la receta!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "320",
+   "en": "Oh well, I know ya must have many things to do...",
+   "es": "Bueno, sé que debes tener muchas cosas que hacer...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "322",
+   "en": "I'll be prayin' for everyone's safety.",
+   "es": "Estaré orando por la seguridad de todos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "324",
+   "en": "Are ya goin' to rescue our priest?Please take this to help ya.It's not much, but it's the best I can give ya.",
+   "es": "¿Vas a rescatar a nuestro sacerdote? Por favor, toma esto para ayudarte. No es mucho, pero es lo mejor que puedo darte.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "326",
+   "en": "Obtained a red berry potion!",
+   "es": "¡Obtuviste una poción de frutos rojos!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "328",
+   "en": "Mouse",
+   "es": "Ratón",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "330",
+   "en": "Are you Rico?I've taken over my father's favorite spot.My dad just sleeps in bed all day now.",
+   "es": "¿Eres Rico? Me he hecho cargo del lugar favorito de mi padre. Mi padre ahora duerme en la cama todo el día.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "332",
+   "en": "How are you doing? Did you have any trouble?",
+   "es": "¿Cómo estás? ¿Tuviste algún problema?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "334",
+   "en": "He's back safe!",
+   "es": "¡Ha vuelto sano y salvo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "336",
+   "en": "My friend went to the Dragonbone Shrine andhasn't come back yet. I think he got lost again.",
+   "es": "Mi amigo fue al Santuario Hueso de Dragón y aún no ha regresado. Creo que se perdió otra vez.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "338",
+   "en": "Did you find my friend's friend?",
+   "es": "¿Encontraste al amigo de mi amigo?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "340",
+   "en": "If you're looking for my friend's friend, I bet he's inthe shrine! Try looking around there!",
+   "es": "Si estás buscando al amigo de mi amigo, ¡apuesto a que está en el santuario! ¡Intenta mirar por ahí!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "342",
+   "en": "The twins, mother",
+   "es": "Los gemelos, madre.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "344",
+   "en": "Thanks for delivering the cut of cured meat.Be sure to say thank you for me.",
+   "es": "Gracias por entregar el corte de carne curada. Asegúrate de dar las gracias de mi parte.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "346",
+   "en": "You've brought this all the way here?I hope it wasn't too dangerous.The errand boy always arrives with some kind of wound.",
+   "es": "¿Has traído esto hasta aquí? Espero que no haya sido demasiado peligroso. El chico de los recados siempre llega con algún tipo de herida.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "348",
+   "en": "Handed over the cut of cured meat.",
+   "es": "Entregado el corte de embutido.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "350",
+   "en": "Would you like to take a rest?",
+   "es": "¿Quieres descansar?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "352",
+   "en": "Sounds good.",
+   "es": "Suena bien.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "354",
+   "en": "No, I'm fine.",
+   "es": "No, estoy bien.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "355",
+   "en": "dummy",
+   "es": "tonto",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "356",
+   "en": "dummy",
+   "es": "tonto",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "360",
+   "en": "Please relax and make yourself at home.",
+   "es": "Por favor, relájate y siéntete como en casa.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "362",
+   "en": "You're leaving us already? Feel free to come back anytime.",
+   "es": "¿Ya nos dejas? No dudes en volver cuando quieras.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "364",
+   "en": "You're welcome to take a rest here whenever you're tired.",
+   "es": "Puedes descansar aquí cuando estés cansado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "366",
+   "en": "Rico, you've got to keep an eye on your sister!I'm sure you'll grow to be a good man like yourfather.",
+   "es": "Rico, ¡tienes que vigilar a tu hermana! Estoy seguro de que llegarás a ser un buen hombre como tu padre.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "368",
+   "en": "Rucha, make sure that your brother doesn't cause anytrouble! I know you're a little shy, but you've got aheart of gold. Never forget that.",
+   "es": "¡Rucha, asegúrate de que tu hermano no cause ningún problema! Sé que eres un poco tímido, pero tienes un corazón de oro. Nunca olvides eso.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "370",
+   "en": "My kids have grown up so much since I last saw them.It was a hard decision for a mother to make,but I'm glad I put them in your care.",
+   "es": "Mis hijos han crecido mucho desde la última vez que los vi. Fue una decisión difícil de tomar para una madre, pero me alegro de haberlos puesto a tu cuidado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "372",
+   "en": "Rico, you've got to keep an eye on your sister!I'm sure you'll grow to be a good man like yourfather.",
+   "es": "Rico, ¡tienes que vigilar a tu hermana! Estoy seguro de que llegarás a ser un buen hombre como tu padre.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "374",
+   "en": "Rucha, make sure that your brother doesn't cause anytrouble! I know you're a little shy, but you've got aheart of gold. Never forget that.",
+   "es": "¡Rucha, asegúrate de que tu hermano no cause ningún problema! Sé que eres un poco tímido, pero tienes un corazón de oro. Nunca olvides eso.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "376",
+   "en": "I'm glad to see Aya well again.Please don't worry about me losing my husband.I knew that this day might come, so I was quite prepared.It was his wish for our children to grow up to be noble and honest.I'd be grateful if you looked after them and guided them.",
+   "es": "Me alegro de ver a Aya bien otra vez. Por favor, no se preocupen por perder a mi esposo. Sabía que este día podría llegar, así que estaba bastante preparada. Era su deseo que nuestros hijos crecieran para ser nobles y honestos. Le agradecería que los cuidara y los guiara.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "378",
+   "en": "Rico, you're a boy, so you must look after Rucha.I want you to become a well respected man,just like your dear father.",
+   "es": "Rico, eres un niño, así que debes cuidar de Rucha. Quiero que te conviertas en un hombre muy respetado, como tu querido padre.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "380",
+   "en": "Rucha, don't let Rico and the others worry about youtoo much. I know you will grow up to be even strongerand kinder than you already are.",
+   "es": "Rucha, no dejes que Rico y los demás se preocupen demasiado por ti. Sé que cuando crezcas serás aún más fuerte y más amable de lo que ya eres.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "382",
+   "en": "With my husband gone, I must look after everyone.It's not easy for me, and I have little time for grief...I apologize for you seeing me all glum like this.",
+   "es": "Sin mi marido, debo cuidar de todos. No es fácil para mí y tengo poco tiempo para el dolor... Pido disculpas por verme así de triste.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "384",
+   "en": "Shopkeeper",
+   "es": "Comerciante",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "386",
+   "en": "Good day. Anythin' yer after?I hope I can help.",
+   "es": "Buen día. ¿Algo que buscas? Espero poder ayudar.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "388",
+   "en": "Hello, Liberator. I'll be doin' what I can to help othersjust like ya.So, what would ya like today, dear?Is there anythin' ya need?",
+   "es": "Hola Libertador. Haré lo que pueda para ayudar a otros como tú. Entonces, ¿qué te gustaría hoy, querida? ¿Hay algo que necesites?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "390",
+   "en": "It's so good ya made it back, dear!Such a shame what happened to the priest,but at least ya drove away the Order. Thank ya.",
+   "es": "¡Qué bueno que hayas regresado, querida! Es una pena lo que le pasó al sacerdote, pero al menos expulsaste a la Orden. Gracias.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "392",
+   "en": "I hear yer goin' to the shrine?I guess I should open the shop and get ready for business.So, do ya need anythin'?",
+   "es": "¿Te escuché yendo al santuario? Supongo que debería abrir la tienda y prepararme para el negocio. Entonces, ¿necesitas algo?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "394",
+   "en": "Ya can see what happened to the village.I'm sorry to say dear, but I'm gonna have to close the shop.Don't think I can keep it goin'.",
+   "es": "Puedes ver lo que pasó en el pueblo. Lamento decirte querida, pero tendré que cerrar la tienda. No creo que pueda seguir así.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "396",
+   "en": "Thank ya for shoppin' here! Please come again anytime!",
+   "es": "¡Gracias por comprar aquí! ¡Por favor, vuelve cuando quieras!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "398",
+   "en": "Do ya have everythin' ya need?Good lucks to ya!",
+   "es": "¿Tienes todo lo que necesitas? ¡Buena suerte!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "400",
+   "en": "Thank ya for deliverin' them.Sorry to have caused ya any trouble.Here's a little thank ya present.It would be great if ya could help me again, dear.",
+   "es": "Gracias por entregarlos. Lamento haberte causado algún problema. Aquí tienes un pequeño regalo de agradecimiento. Sería fantástico si pudieras ayudarme de nuevo, querida.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "402",
+   "en": "Obtained some miraculous medicine!",
+   "es": "¡Obtuve una medicina milagrosa!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "404",
+   "en": "Please deliver these iron arm weights for me.I'm afraid I've lost the note sayin' who placed the order,so yer gonna have to ask around. It's someone in this village.Do ya think ya can find the person?",
+   "es": "Por favor, entrégame estas pesas de hierro. Me temo que perdí la nota que dice quién hizo el pedido, así que tendrás que preguntar por ahí. Es alguien de este pueblo. ¿Crees que podrás encontrar a la persona?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "406",
+   "en": "Oh, back already? I appreciate it, dear.This is the last item I have at the moment,but I lost the note sayin' who it's for.These iron arm weights need to be deliveredto someone in the village.Can ya ask around to find the person?",
+   "es": "Ah, ¿ya volviste? Te lo agradezco, querida. Este es el último artículo que tengo en este momento, pero perdí la nota que dice para quién es. Estas pesas de hierro para brazos deben entregarse a alguien en el pueblo. ¿Puedes preguntar por ahí para encontrar a la persona?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "408",
+   "en": "Received the set of iron arm weights.",
+   "es": "Recibí el juego de pesas de hierro para brazos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "410",
+   "en": "Please deliver this hair clip to the girl at the entrance to the village. Come back when yer done and I'll give ya more work.",
+   "es": "Por favor, entregue esta pinza para el cabello a la chica en la entrada del pueblo. Vuelve cuando hayas terminado y te daré más trabajo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "412",
+   "en": "Well done dear, thanks for deliverin' it.Next, here's a hair clip for the lovely girlat the entrance to the village.",
+   "es": "Bien hecho querida, gracias por entregarlo. A continuación, aquí hay una pinza para el cabello para la encantadora niña en la entrada del pueblo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "414",
+   "en": "Received the hair clip.",
+   "es": "Recibí la pinza para el cabello.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "416",
+   "en": "Please deliver this potter's wheel to that cranky old man.Once yer done, I'll give ya the next item to deliver.",
+   "es": "Por favor, entrega este torno de alfarero a ese viejo malhumorado. Una vez que hayas terminado, te daré el siguiente artículo para entregar.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "418",
+   "en": "Would ya mind helpin' with me deliveries?With all this trouble that's been goin' on,I can't find enough people to help me.",
+   "es": "¿Te importaría ayudarme con las entregas? Con todos estos problemas que han estado sucediendo, no puedo encontrar suficientes personas que me ayuden.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "420",
+   "en": "Yes, I will.",
+   "es": "Sí, lo haré.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "422",
+   "en": "Sorry, I'm busy.",
+   "es": "Lo siento, estoy ocupado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "423",
+   "en": "dummy",
+   "es": "tonto",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "424",
+   "en": "dummy",
+   "es": "tonto",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "426",
+   "en": "Thank ya.First, please deliver this potter's wheel tothat cranky old man.",
+   "es": "Gracias. Primero, por favor entrega este torno de alfarero a ese viejo malhumorado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "428",
+   "en": "Received the potter's wheel.",
+   "es": "Recibió el torno de alfarero.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "430",
+   "en": "I see. Well, that's a shame, ain't it?If ya change yer mind, let me know.",
+   "es": "Veo. Bueno, es una pena, ¿no? Si cambias de opinión, dímelo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "432",
+   "en": "lndecisive young man",
+   "es": "joven indeciso",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "434",
+   "en": "It's so much fun thinkin' about things.I guess havin' time to mull things over showshow peaceful the world is at the moment.",
+   "es": "Es muy divertido pensar en cosas. Supongo que tener tiempo para reflexionar sobre lo pacífico que es el mundo en este momento.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "436",
+   "en": "Now that peace has returned,I don't have any reason to move.But I just can't get the thought of movin' awayout of me head.",
+   "es": "Ahora que la paz ha regresado, no tengo ninguna razón para mudarme. Pero no puedo sacar de mi cabeza la idea de mudarme.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "438",
+   "en": "But...then again, maybe I oughtta just stay here.Nolaan probably needs me!",
+   "es": "Pero... claro, tal vez debería quedarme aquí. ¡Nolaan probablemente me necesita!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "440",
+   "en": "Hearin' about all ya achieved, I figures I can do anythin'.I was thinkin' about givin' somethin' new a try and movin'to the city!",
+   "es": "Al escuchar todo lo que has logrado, me imagino que puedo hacer cualquier cosa. ¡Estaba pensando en probar algo nuevo y mudarme a la ciudad!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "442",
+   "en": "Now I don't have to move anymore!",
+   "es": "¡Ahora ya no tengo que moverme!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "444",
+   "en": "Hooray!I knew yer the one that everyone was talkin' about!Yep, as soon as I laid me eyes on ya!",
+   "es": "¡Hurra! ¡Sabía que eras de quien todos hablaban! ¡Sí, tan pronto como te vi!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "446",
+   "en": "Maybe I should be rethinkin' this whole movin' thing.",
+   "es": "Quizás debería repensar todo este asunto de la mudanza.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "448",
+   "en": "Yer that famous Liberator, aren't ya?I guess looks aren't every-I'm sorry, save this village, please!",
+   "es": "Eres ese famoso Libertador, ¿no? Supongo que las apariencias no lo son todo. Lo siento, ¡salva este pueblo, por favor!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "450",
+   "en": "Hmmm...I'm sure I puts me ball of strings for packin' somewhere.Now, where can they be?",
+   "es": "Hmmm... Estoy seguro de que tengo un ovillo de hilos para empacar en alguna parte. Ahora, ¿dónde pueden estar?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "452",
+   "en": "Be careful, the Order could come back at any timeto attack us...Ya should leaves here before gettin' caught up in it all.",
+   "es": "Ten cuidado, la Orden podría regresar en cualquier momento para atacarnos... Deberías irte de aquí antes de quedar atrapado en todo esto.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "454",
+   "en": "These arm weights sure are heavy.Is the person orderin' these tryin' to hurtthemselves by trainin' or somethin'?",
+   "es": "Estas pesas para los brazos seguramente son pesadas. ¿La persona que las ordena está tratando de lastimarse entrenando o algo así?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "456",
+   "en": "What? Iron arm weights?Why would I place an order like that?Does it look like I would wear these?",
+   "es": "¿Qué? ¿Pesas para brazos de hierro? ¿Por qué haría un pedido así? ¿Parece que usaría estas?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "458",
+   "en": "Forgetful dog",
+   "es": "Perro olvidadizo",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "460",
+   "en": "Hi, Rico! It's been a long time!",
+   "es": "Hola Rico! ¡Ha pasado mucho tiempo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "462",
+   "en": "Hello, Rico! It's good to see you well!",
+   "es": "Hola Rico! ¡Qué bueno verte bien!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "464",
+   "en": "You finished a big task? I knew you would, Rico.I'm proud of you!",
+   "es": "¿Terminaste una gran tarea? Sabía que lo harías, Rico. ¡Estoy orgulloso de ti!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "466",
+   "en": "Hey, Rico's friend!",
+   "es": "¡Hola, amigo de Rico!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "468",
+   "en": "Who's this? Rico's friend?",
+   "es": "¿Quién es este? ¿Amigo de Rico?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "470",
+   "en": "I remember now. I came back from the shrine.I was thirsty. I dropped what I dug up. I forgot where.",
+   "es": "Lo recuerdo ahora. Regresé del santuario. Tenía sed. Dejé lo que desenterré. Olvidé dónde.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "472",
+   "en": "Me? Pick something up at the shrine?Let's see... I dug something up...I'll tell you when I remember. <ruff>",
+   "es": "¿A mí? ¿Recoger algo en el santuario? Veamos... Desenterré algo... Te lo diré cuando lo recuerde. <fallar>",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "474",
+   "en": "Me? Pick something up at the shrine?Let's see... I dug something up...I'll tell you when I remember. <ruff>",
+   "es": "¿Yo? ¿Recoger algo en el santuario? Veamos... Desenterré algo... Te lo diré cuando lo recuerde. <fallar>",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "476",
+   "en": "Hello, Rico! I went to the shrine. I saw some strange creatures.First time I saw creatures. If you go to the shrine, be safe!",
+   "es": "Hola Rico! Fui al santuario. Vi algunas criaturas extrañas. La primera vez que vi criaturas. Si vas al santuario, ¡cuídate!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "478",
+   "en": "Cranky old man",
+   "es": "Viejo malhumorado",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "480",
+   "en": "I'm a bit bored of this quiet life.Sometimes it makes me want a bit o' that uncertainty back,like we hads before ya came along.",
+   "es": "Estoy un poco aburrido de esta vida tranquila. A veces me hace querer recuperar un poco de esa incertidumbre, como la que teníamos antes de que tú llegaras.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "482",
+   "en": "Good day to ya, Liberator.Peace sure is bliss, isn't it?",
+   "es": "Buenos días, Libertador. La paz es felicidad, ¿no?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "484",
+   "en": "I'll admit it. I was pretty damn scared of 'em.As ya got rid of 'em, I guess there's nothin'to be worried about anymore!",
+   "es": "Lo admito. Les tenía mucho miedo. Como te deshiciste de ellos, ¡supongo que ya no hay nada de qué preocuparse!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "486",
+   "en": "Ya drove the Order away!?What terrific work!All them rumors of the Liberator must be true!",
+   "es": "¿¡Expulsaste a la Orden!? ¡Qué trabajo tan fantástico! ¡Todos esos rumores sobre el Libertador deben ser ciertos!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "488",
+   "en": "Me wife's been feelin' a bit low these days.I told her I'd do me best to get rids of the Order,but she's still worried.",
+   "es": "Mi esposa se ha sentido un poco deprimida estos días. Le dije que haría lo mejor que pudiera para deshacerme de la Orden, pero todavía está preocupada.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "490",
+   "en": "Why don't ya head back to the item shop and let the ladyknow that I've already gots yer delivery?",
+   "es": "¿Por qué no regresas a la tienda de artículos y le avisas a la señora que ya recibí tu entrega?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "492",
+   "en": "Delivery? Ah yes, the potter's wheel I ordered.Terrific!Thanks for doin' that for me.",
+   "es": "¿Entrega? Ah, sí, el torno de alfarero que pedí. ¡Fantástico! Gracias por hacer eso por mí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "494",
+   "en": "Handed over the potter's wheel.",
+   "es": "Le entregó el torno de alfarero.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "496",
+   "en": "If ya don't mind, I have a little bitty favor to ask of ya.Do ya mind, by any chance, gettin' some clay for me?Collectin' pottery is a bit of a hobby for me.I've even started makin' it meself now, too.Hm. If ya get some clay for me pottery,I'll gives ya somethin' in exchange.",
+   "es": "Si no te importa, tengo un pequeño favor que pedirte. ¿Te importaría, por casualidad, traerme un poco de arcilla? Coleccionar cerámica es como un pasatiempo para mí. Incluso he empezado a hacerla yo mismo ahora también. Hm. Si consigues un poco de arcilla para mi cerámica, te daré algo a cambio.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "498",
+   "en": "Sorry to be soundin' ungrateful, but I've alreadygots that clay.Would ya mind gettin' me somethin' a lil' different?",
+   "es": "Lamento parecer desagradecido, pero ya tengo esa arcilla. ¿Te importaría regalarme algo un poco diferente?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "500",
+   "en": "Ohhh! Ya gots some clay for me, have ya?...Th-this is the finest quality I've ever seen!With this, I wills create a life-definin' masterpiece!How ever can I thanks ya?",
+   "es": "¡Oh! Tienes un poco de arcilla para mí, ¿verdad?... ¡Esta es la mejor calidad que he visto! ¡Con esto, crearé una obra maestra que definirá mi vida! ¿Cómo puedo agradecerte?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "502",
+   "en": "Handed over the golden clay.Obtained some hearthstone!",
+   "es": "Entregué la arcilla dorada. ¡Obtuve algo de piedra de hogar!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "504",
+   "en": "Ah, wonderful! Ya brought me some clay.Hmm, seems like quite good quality, too.If ya find anythin' better, brings it my way!",
+   "es": "¡Ah, maravilloso! Me trajiste un poco de arcilla. Hmm, también parece de muy buena calidad. Si encuentras algo mejor, ¡tráelo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "506",
+   "en": "Handed over the soft clay.Obtained some ceramic!",
+   "es": "Entregué la arcilla blanda. ¡Obtuve algo de cerámica!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "508",
+   "en": "Ah, terrific! Ya gots me some clay. Not very good quality though.If ya come across anythin' better, make sure ya brings it me.",
+   "es": "¡Ah, genial! Ya me traes un poco de arcilla. Aunque no es de muy buena calidad. Si encuentras algo mejor, asegúrate de traérmelo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "510",
+   "en": "Handed over the poor clay.Obtained some sandstone!",
+   "es": "Entregué la arcilla pobre. ¡Obtuve un poco de arenisca!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "512",
+   "en": "Energetic old man",
+   "es": "Viejo enérgico",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "514",
+   "en": "Well, much gratitude for the delivery.Please tell the shopkeeper that I got 'em.",
+   "es": "Bueno, muchas gracias por la entrega. Dígale al comerciante que los tengo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "516",
+   "en": "Oh, those are them iron arm weights I ordered.Perfect!Their weight will help me stay as strong as an ox!",
+   "es": "Oh, esas son las pesas de hierro que pedí. ¡Perfecto! ¡Su peso me ayudará a mantenerme tan fuerte como un buey!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "518",
+   "en": "Handed over the set of iron arm weights.",
+   "es": "Le entregó el juego de pesas de hierro para los brazos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "520",
+   "en": "Left, right! Left, right!",
+   "es": "¡Izquierda, derecha! ¡Izquierda, derecha!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "522",
+   "en": "Since ya came and helped us out, this here villagehas been quiet an' safe.Don't worry, I'll keep trainin', only as a hobby now though.",
+   "es": "Desde que viniste y nos ayudaste, este pueblo ha estado tranquilo y seguro. No te preocupes, seguiré entrenando, aunque ahora solo como pasatiempo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "524",
+   "en": "Left, right! Left, right!",
+   "es": "¡Izquierda, derecha! ¡Izquierda, derecha!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "526",
+   "en": "It's hard to guess what's in store for us in the future,so I'm gonna keep meself prepared.",
+   "es": "Es difícil adivinar lo que nos espera en el futuro, así que me mantendré preparado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "528",
+   "en": "Left, right! Left, right!",
+   "es": "¡Izquierda, derecha! ¡Izquierda, derecha!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "530",
+   "en": "It's hard to guess what's in store for us in the future,so I'm gonna keep meself prepared.",
+   "es": "Es difícil adivinar lo que nos espera en el futuro, así que me mantendré preparado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "532",
+   "en": "Left, right! Left, right!",
+   "es": "¡Izquierda, derecha! ¡Izquierda, derecha!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "534",
+   "en": "You'll help me protect this village too, right?I don't have anythin' of much value to give ya,but please take this.",
+   "es": "Tú también me ayudarás a proteger esta aldea, ¿verdad? No tengo nada de mucho valor que darte, pero por favor toma esto.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "536",
+   "en": "Many young men and women have lost their livesin the fight against the Order.I should've been buried with 'em instead.I'd been thinkin' long and hard of a way to help others,and I decided to patrol this here village for safety.",
+   "es": "Muchos hombres y mujeres jóvenes han perdido la vida en la lucha contra la Orden. Debería haber sido enterrado con ellos. Había estado pensando mucho en una manera de ayudar a los demás, y decidí patrullar esta aldea en busca de seguridad.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "538",
+   "en": "Obtained a panacea!",
+   "es": "¡Obtuve una panacea!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "540",
+   "en": "Cat",
+   "es": "Gato",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "542",
+   "en": "I'm joking. <meow> Cats can't bark like a dog. <meow>",
+   "es": "Estoy bromeando. <miau> Los gatos no pueden ladrar como un perro. <maullido>",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "544",
+   "en": "I'm tired of saying \"meow.\" It's such a cliche!Maybe I should try saying...ruff ruff!",
+   "es": "Estoy cansado de decir \"miau\". ¡Es un cliché! Tal vez debería intentar decir... ¡ruff ruff!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "546",
+   "en": "It's warm here. <meow>",
+   "es": "Hace calor aquí. <maullido>",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "548",
+   "en": "I'm sleepy. <meow>",
+   "es": "Tengo sueño. <maullido>",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "550",
+   "en": "I'm hungry. <meow>",
+   "es": "Tengo hambre. <maullido>",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "552",
+   "en": "Spirited kid",
+   "es": "Niño enérgico",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "554",
+   "en": "Hey, I know exactly what to say at a time like this!Me daddy said that ya should always be nice to someoneya haven't seen in a while.",
+   "es": "¡Oye, sé exactamente qué decir en un momento como este! Mi papá dijo que siempre debes ser amable con alguien a quien no has visto en mucho tiempo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "556",
+   "en": "Rucha, I haven't seen ya for a while,but ya look pretty...erm...pretty good.Don't do anythin' stupid out there, promise?",
+   "es": "Rucha, hace tiempo que no te veo, pero te ves bastante... erm... bastante bien. No hagas nada estúpido por ahí, ¿lo prometes?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "558",
+   "en": "It's Capell! Haven't seen ya in a while!",
+   "es": "¡Es Capell! ¡Hace mucho que no te veo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "560",
+   "en": "Welcome back, Liberator!",
+   "es": "¡Bienvenido de nuevo, Libertador!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "562",
+   "en": "No, I wasn't worried about him one bit!I just didn't want to lose any of me precious nap timeby lookin' for him, that's all!",
+   "es": "¡No, no estaba preocupada por él en lo más mínimo! Simplemente no quería perder nada de mi precioso tiempo de siesta buscándolo, ¡eso es todo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "564",
+   "en": "I'm glad yer safe now. I hope ya didn't get up to any mischief!Don't try to go out like that again, okay?",
+   "es": "Me alegro que estés a salvo ahora. ¡Espero que no hayas hecho ninguna travesura! No intentes volver a salir así, ¿vale?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "566",
+   "en": "I don't usually trust grownups 'cause they're all nasty.But I trust ya, Liberator! Yer the greatest!",
+   "es": "Normalmente no confío en los adultos porque son todos desagradables. ¡Pero confío en ti, Libertador! ¡Eres el más grande!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "568",
+   "en": "Did ya really defeat the Order?Wow, ya really are the Liberator!",
+   "es": "¿Realmente derrotaste a la Orden? ¡Guau, realmente eres el Libertador!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "570",
+   "en": "It's just to cheer ya up! It's not like a big deal or nothin'.I just thought ya might like it, that's all!",
+   "es": "¡Es sólo para animarte! No es gran cosa ni nada. Sólo pensé que te gustaría, ¡eso es todo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "572",
+   "en": "Rucha, come on. Take this.",
+   "es": "Rucha, vamos. Toma esto.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "574",
+   "en": "Only Rico is smart enough to think like me.",
+   "es": "Sólo Rico es lo suficientemente inteligente como para pensar como yo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "576",
+   "en": "Are ya really goin' to the shrine? Yer lyin', right?All grownups are big fat liars!",
+   "es": "¿De verdad vas a ir al santuario? Estás mintiendo, ¿verdad? ¡Todos los adultos son grandes mentirosos!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "578",
+   "en": "Grownups are all scaredy cats!",
+   "es": "¡Los adultos son todos gatos asustadizos!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "580",
+   "en": "Obtained an antidote!",
+   "es": "¡Obtuve un antídoto!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "582",
+   "en": "I'm thinkin' that these kinds of things are definitelyfor someone who'd be up for a fight.Hmmm, some of the old men in this village weretalkin' about fightin' the Order...",
+   "es": "Estoy pensando que este tipo de cosas definitivamente son para alguien que estaría dispuesto a pelear. Hmmm, algunos de los ancianos de esta aldea estaban hablando de luchar contra la Orden...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "584",
+   "en": "Wow, great-lookin' arm weights! Who ordered them?Do ya know?...What? Ya don't know? That's silly. Grownups are stupid!",
+   "es": "¡Guau, pesas para brazos de gran apariencia! ¿Quién los ordenó? ¿Sabes?... ¿Qué? ¿No lo sabes? Eso es una tontería. ¡Los adultos son estúpidos!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "586",
+   "en": "It's not like I'm bothered if yer back or not,I just thought that I'd give ya these while yer here,that's all!",
+   "es": "No es que me moleste si has vuelto o no, sólo pensé en darte esto mientras estás aquí, ¡eso es todo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "588",
+   "en": "Rucha! Yer back, too! I collected these for ya.",
+   "es": "Rucha! ¡Tú también has vuelto! Los coleccioné para ti.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "590",
+   "en": "Obtained some fresh milk!",
+   "es": "¡Obtuve un poco de leche fresca!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "592",
+   "en": "Did ya enjoy yer little adventure, Snouty?Yer so sneaky!Don't go out on yer own like that again, okay?",
+   "es": "¿Disfrutaste tu pequeña aventura, Snouty? ¡Eres tan astuto! No vuelvas a salir solo así, ¿de acuerdo?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "594",
+   "en": "Oh, Snouty! I finally have ya!I'll never let ya outta me sight again.Thank ya, Rico! Here's a present for findin' him!",
+   "es": "¡Oh, Snouty! ¡Finalmente te tengo! Nunca más te perderé de vista. ¡Gracias, Rico! ¡Aquí tienes un regalo por encontrarlo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "596",
+   "en": "Obtained some red berry powder!",
+   "es": "¡Obtuve un poco de polvo de frutos rojos!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "598",
+   "en": "How did it go?Did ya find me lil' Snouty?Please, Rico! Help me find him!",
+   "es": "¿Cómo te fue? ¿Me encontraste al pequeño Snouty? ¡Por favor, Rico! ¡Ayúdame a encontrarlo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "600",
+   "en": "Rico! Ya can talk to animals, right?Help me find Snouty! He's me bestest friend!",
+   "es": "Rico! Puedes hablar con los animales, ¿verdad? ¡Ayúdame a encontrar Snouty! ¡Él es mi mejor amigo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "602",
+   "en": "Depressed young man",
+   "es": "Joven deprimido",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "604",
+   "en": "The only way to cure the heartache from a lost loveis to find a new one!I'll wait for when yer ready to return to marry me!",
+   "es": "¡La única manera de curar el dolor de un amor perdido es encontrar uno nuevo! ¡Esperaré a que estés listo para regresar y casarte conmigo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "606",
+   "en": "Just leave me...Oh!?What's this strange feelin' growin' insides of me?I haven't felt this way for so long!Please take this and accept me undyin' love!",
+   "es": "Sólo déjame... ¡Oh!? ¿Qué es este extraño sentimiento que está creciendo dentro de mí? ¡No me he sentido así en tanto tiempo! ¡Por favor, toma esto y acéptame amor eterno!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "608",
+   "en": "Just leave me alone.",
+   "es": "Déjame en paz.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "610",
+   "en": "Oh, ya come again, eh?This village is still peaceful.All thanks to ya, of course...",
+   "es": "Oh, has vuelto, ¿eh? Este pueblo todavía está en paz. Todo gracias a ti, por supuesto...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "612",
+   "en": "Just leave me alone.",
+   "es": "Déjame en paz.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "614",
+   "en": "Ya may have done somethin' great, but there'sno chance she's comin' back anyway...",
+   "es": "Puede que hayas hecho algo grandioso, pero no hay posibilidad de que ella regrese de todos modos...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "616",
+   "en": "What could ya possibly do by yerself?Leave me alone.",
+   "es": "¿Qué podrías hacer tú solo? Déjame en paz.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "618",
+   "en": "Yer goin' to the Dragonbone Shrine?Ha, what a waste o' time!",
+   "es": "¿Vas al Santuario Hueso de Dragón? ¡Ja, qué pérdida de tiempo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "620",
+   "en": "Oh, be quiet.I'm not in the mood to be talkin' to strangers at the moment.I wish people would just leave me be.",
+   "es": "Oh, cállate. No estoy de humor para hablar con extraños en este momento. Desearía que la gente me dejara en paz.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "624",
+   "en": "Obtained a granite necklace!",
+   "es": "¡Obtuviste un collar de granito!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "626",
+   "en": "I can't believe anyone would want to wear these.They must have bundles of energy to wear these things.",
+   "es": "No puedo creer que alguien quiera usar esto. Deben tener mucha energía para usar estas cosas.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "628",
+   "en": "...Iron arm weights? I know nothin' about them.I have me own problems to worry about withoutyou buggin' me all the time.",
+   "es": "...¿Pesas de hierro para brazos? No sé nada sobre ellos. Tengo mis propios problemas de los que preocuparme sin que me molestes todo el tiempo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "630",
+   "en": "Distracted man",
+   "es": "Hombre distraído",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "632",
+   "en": "Peace really is taken for granted.Ya only miss it when ya don't have it!I'm mighty thankful.",
+   "es": "La paz realmente se da por sentada. ¡Solo la extrañas cuando no la tienes! Estoy muy agradecido.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "634",
+   "en": "Many things have happened, but it's all in the past now.I don't know why I was worryin' so much about it in the end.",
+   "es": "Han pasado muchas cosas, pero ahora todo es cosa del pasado. No sé por qué al final me preocupaba tanto por eso.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "636",
+   "en": "Oh no...",
+   "es": "Ay no...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "638",
+   "en": "I knew it, it's gone...",
+   "es": "Lo sabía, se ha ido...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "640",
+   "en": "Thank ya! Thank ya!",
+   "es": "¡Gracias! ¡Gracias!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "642",
+   "en": "Huh? Ya defeated the Order in the shrine!?I gots to go there immediately.",
+   "es": "¿Eh? ¿¡Has derrotado a la Orden en el santuario!? Tengo que ir allí inmediatamente.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "644",
+   "en": "What? Who are ya!? Keep away from me!",
+   "es": "¿Qué? ¿Quién eres? ¡Aléjate de mí!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "646",
+   "en": "I can't stop worryin' about what I buried in the rubbleat the shrine entrance.If they hadn't come, I'd have nothin' to be worried about...",
+   "es": "No puedo dejar de preocuparme por lo que enterré entre los escombros en la entrada del santuario. Si no hubieran venido, no tendría nada de qué preocuparme...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "648",
+   "en": "What? Hidden somethin'? Me?I'm not worried about it gettin' taken. I'm not worried at all.There's no reason to be worried, is there?",
+   "es": "¿Qué? ¿Algo escondido? ¿Yo? No me preocupa que me lo quiten. No estoy preocupado en absoluto. No hay motivo para preocuparse, ¿verdad?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "650",
+   "en": "Oh no...",
+   "es": "Ay no...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "652",
+   "en": "Oh no...",
+   "es": "Ay no...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "654",
+   "en": "What!? A dog dug it up!?Things just go from bad to worse!",
+   "es": "¿¡Qué!? ¿¡Un perro lo desenterró!? ¡Las cosas van de mal en peor!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "656",
+   "en": "Oh...?Oh oh!? Oh my!I can't believe this!Where did ya find this?Oh, never mind, thank ya so much!Me wife used to be affectionate, but you've seenwhat she's like now. This is a memento of bettertimes! Here's a token of me thanks.",
+   "es": "¿¡Oh...?¡Oh, oh!? ¡Oh, no puedo creerlo! ¿Dónde encontraste esto? ¡Oh, no importa, muchas gracias! Mi esposa solía ser cariñosa, pero ya has visto cómo es ahora. ¡Este es un recuerdo de tiempos mejores! Aquí tenéis una muestra de mi agradecimiento.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "658",
+   "en": "Handed over the old ring.Obtained 500 Fol!",
+   "es": "Entregué el anillo viejo. ¡Obtuve 500 Fol!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "660",
+   "en": "I have to think of a new place to hide this.",
+   "es": "Tengo que pensar en un nuevo lugar para esconder esto.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "662",
+   "en": "Fretful woman",
+   "es": "Mujer inquieta",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "664",
+   "en": "I don't know how she can stay so strong what with her loss and all,but she's been doin' all her husband's services.",
+   "es": "No sé cómo puede mantenerse tan fuerte con su pérdida y todo eso, pero ha estado prestando todos los servicios a su marido.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "666",
+   "en": "The priest's wife is an exceptional woman. She's alreadytaken over her husband's services all by herself.",
+   "es": "La esposa del sacerdote es una mujer excepcional. Ella misma ya se ha hecho cargo de los servicios de su marido.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "668",
+   "en": "His death wasn't for nothin'.All because ya protected Saruleus. Thank ya.",
+   "es": "Su muerte no fue en vano. Todo porque protegiste a Saruleus. Gracias.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "670",
+   "en": "So our priest has been killed...I heard Saruleus thanked him for his service,so I guess that's somethin' to be grateful for.",
+   "es": "Entonces nuestro sacerdote fue asesinado... Escuché que Saruleus le agradeció por su servicio, así que supongo que es algo por lo que estar agradecido.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "672",
+   "en": "Don't do anythin' too risky. Keep safe!",
+   "es": "No hagas nada demasiado arriesgado. ¡Manténgase a salvo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "674",
+   "en": "Are ya really that famous Liberator?Oh dear, I worry about ya, ya know?Please come back safe.",
+   "es": "¿De verdad eres ese famoso Libertador? Dios mío, me preocupo por ti, ¿sabes? Por favor, vuelve sano y salvo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "676",
+   "en": "Ohhh, the Order has attacked us again.What do they want with our poor village?",
+   "es": "Ohhh, la Orden nos ha vuelto a atacar. ¿Qué quieren con nuestro pobre pueblo?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "678",
+   "en": "Obtained a red berry potion!",
+   "es": "¡Obtuviste una poción de frutos rojos!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "680",
+   "en": "Do I know someone who would? Let me see...Oh, I remember someone shoutin' that his arm weightshadn't been delivered.I didn't see who it was, but it was definitely a man's voice.",
+   "es": "¿Conozco a alguien que lo haría? Déjame ver... Oh, recuerdo que alguien gritó que no le habían entregado las pesas del brazo. No vi quién era, pero definitivamente era la voz de un hombre.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "682",
+   "en": "...Iron arm weights? No, I wouldn't order such things.",
+   "es": "...¿Pesas de hierro para brazos? No, yo no pediría esas cosas.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "684",
+   "en": "Nagging wife",
+   "es": "Esposa regañona",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "686",
+   "en": "I don't know what's gotten into him, but I hopehe hasn't got mixed up in somethin' bad.",
+   "es": "No sé qué le ha pasado, pero espero que no se haya metido en algo malo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "688",
+   "en": "Me husband's been actin' very odd recentlyand sayin' things like \"life is beautiful.\"",
+   "es": "Mi marido ha estado actuando muy raro últimamente y diciendo cosas como \"la vida es bella\".",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "690",
+   "en": "I have no idea why me husband has such a happy facethese days. He always used to be so grumpy.",
+   "es": "No tengo idea de por qué mi marido tiene una cara tan feliz estos días. Siempre solía ser tan gruñón.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "692",
+   "en": "The Liberator managed to bring peace back to our village,but why is me husband still lookin' so down?",
+   "es": "El Libertador logró devolver la paz a nuestra aldea, pero ¿por qué mi marido sigue luciendo tan deprimido?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "694",
+   "en": "Oh, I hope me husband will learn somethin' from the Liberator.",
+   "es": "Oh, espero que mi marido aprenda algo del Libertador.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "696",
+   "en": "Ohhh, ya really are somethin', aren't ya? Yer the Liberator,so I doubt ya need us singin' yer praises all day, but yer wonderful!",
+   "es": "Ohhh, realmente eres algo, ¿no? Eres el Libertador, así que dudo que necesites que cantemos tus alabanzas todo el día, ¡pero eres maravilloso!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "698",
+   "en": "Ya have to help Saruleus and our poor priest! Please!",
+   "es": "¡Tienes que ayudar a Saruleus y a nuestro pobre sacerdote! ¡Por favor!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "700",
+   "en": "I heard yer off to the shrine. Me husband would spend all histime there keepin' it clean. Such a good man he used to be.",
+   "es": "Te escuché dirigirte al santuario. Mi marido pasaba todo el tiempo allí manteniéndola limpia. Era un buen hombre.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "702",
+   "en": "Move, move! Comin' through! Cleanin' time!",
+   "es": "¡Muévete, muévete! ¡Ya estamos pasando! ¡Es hora de limpiar!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "704",
+   "en": "What's me husband hidin' away for anyways?I'm scared like everyone, but he just goes offwithout care or concern for me well-bein'!",
+   "es": "¿Para qué se esconde mi marido? Estoy asustada como todos, ¡pero él simplemente se va sin preocuparse ni preocuparse por mi bienestar!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "706",
+   "en": "To me, they looks too bulky for women to wear, so they'll befor a man. That's all I can guess from their looks.",
+   "es": "A mí me parecen demasiado voluminosos para que los usen las mujeres, por lo que serán para un hombre. Eso es todo lo que puedo adivinar por su apariencia.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "708",
+   "en": "Iron arm weights? I didn't order them.Ya don't know who they're for?",
+   "es": "¿Pesas para brazos de hierro? No los pedí. ¿No sabes para quién son?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "710",
+   "en": "Helpful young woman",
+   "es": "Mujer joven servicial",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "712",
+   "en": "This is Nolaan. It's a peaceful village protectedby Saruleus, a Claridian.Everyone's goin' to be thrilled that theLiberator's back!",
+   "es": "Este es Nolaan. Es un pueblo tranquilo protegido por Saruleus, un clardiano. ¡Todos estarán encantados de que el Libertador haya vuelto!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "714",
+   "en": "Did ya really defeat the Order? Oh, thank ya!",
+   "es": "¿Realmente derrotaste a la Orden? ¡Ah, gracias!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "716",
+   "en": "This is Nolaan. Until the Order invaded, it was a peacefulvillage protected by Saruleus, one of the Claridians.",
+   "es": "Este es Nolaan. Hasta que la Orden lo invadió, era un pueblo pacífico protegido por Saruleus, uno de los Claridianos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "718",
+   "en": "Thank ya for deliverin' it.Why don't ya head back to the item shopand see what else they have?",
+   "es": "Gracias por entregarlo. ¿Por qué no regresas a la tienda de artículos y ves qué más tienen?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "720",
+   "en": "For me? That's the hair clip I ordered!Thanks! I've been waitin' for this for so long. How do I look?",
+   "es": "¿Para mí? ¡Ésa es la pinza para el cabello que pedí! ¡Gracias! He estado esperando esto durante tanto tiempo. ¿Cómo me veo?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "722",
+   "en": "Handed over the hair clip.",
+   "es": "Le entregó la pinza para el cabello.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "724",
+   "en": "Sad old woman",
+   "es": "Anciana triste",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "726",
+   "en": "Me husband has become very mellow with age,and because he stays inside all day, he's gettin'a bit plump...",
+   "es": "Mi marido se ha vuelto muy apacible con la edad, y como se queda dentro todo el día, se está poniendo un poco gordo...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "728",
+   "en": "Me husband has become so lazy in his old age.He refuses to even go outside.I wish he would find somethin' to do...",
+   "es": "Mi marido se ha vuelto tan vago con la vejez. Se niega incluso a salir. Ojalá encontrara algo que hacer...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "730",
+   "en": "Oh dear, our priest has been...I suppose I should just be thankful enoughthat me husband is safe and well...",
+   "es": "Dios mío, nuestro sacerdote ha estado... Supongo que debería estar lo suficientemente agradecida de que mi marido esté sano y salvo...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "732",
+   "en": "Me husband is intent on takin' the Order on by himself.He's much too hot-headed for his age.And it's got me worried sick.",
+   "es": "Mi marido tiene la intención de hacerse cargo de la Orden él solo. Es demasiado impulsivo para su edad. Y eso me tiene muy preocupada.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "734",
+   "en": "Me husband is always orderin' pottery from the item shop.We love havin' items delivered to our door.Another old man may have ordered 'em.",
+   "es": "Mi marido siempre pide cerámica en la tienda de artículos. Nos encanta que nos entreguen los artículos en nuestra puerta. Es posible que otro anciano los haya encargado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "736",
+   "en": "A pair of iron arm weights?No, I don't remember placin' an order for anythin' like that...",
+   "es": "¿Un par de pesas de hierro para los brazos? No, no recuerdo haber hecho un pedido de algo así...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "738",
+   "en": "Doleful man",
+   "es": "Hombre triste",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "740",
+   "en": "I wonder if Denton read me letter.",
+   "es": "Me pregunto si Denton leyó mi carta.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "742",
+   "en": "When will the world ever be at peace?",
+   "es": "¿Cuándo el mundo estará alguna vez en paz?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "744",
+   "en": "Ya delivered me letter to Denton?That's a huge help!",
+   "es": "¿Me entregaste una carta a Denton? ¡Eso es de gran ayuda!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "746",
+   "en": "Me buddy's name is Denton.He should be livin' in Burguss now.Please deliver that letter for me.",
+   "es": "El nombre de mi amigo es Denton. Debería vivir en Burguss ahora. Por favor, entrégueme esa carta.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "748",
+   "en": "I'm just so tired from livin'. It really does take it out of ya.",
+   "es": "Estoy tan cansado de vivir. Realmente te saca de quicio.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "750",
+   "en": "What are ya doin' by goin' in the Dragonbone Shrine now?",
+   "es": "¿Qué estás haciendo yendo al Santuario Hueso de Dragón ahora?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "752",
+   "en": "I'm just so tired from livin'. It really does take it out of ya.",
+   "es": "Estoy tan cansado de vivir. Realmente te saca de quicio.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "754",
+   "en": "Those livin' in the big ol' cities don't seem to care too muchabout what happens to us lil' village folks.",
+   "es": "A quienes viven en las grandes ciudades no parece importarles demasiado lo que nos sucede a los pequeños del pueblo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "756",
+   "en": "They bring back some good ol' memories.I used to use them kind of things to work outwhen I was in me prime.",
+   "es": "Me traen buenos recuerdos. Solía  usarlos para hacer ejercicio cuando estaba en mi mejor momento.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "758",
+   "en": "Iron arm weights?No, surely wasn't me who ordered them...",
+   "es": "¿Pesas de hierro para brazos? No, seguramente no fui yo quien las ordenó...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "760",
+   "en": "Please take this letter and deliver it for me.It's for a buddy livin' in Burguss.",
+   "es": "Por favor, toma esta carta y entrégala por mí. Es para un amigo que vive en Burguss.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "762",
+   "en": "Okay.",
+   "es": "Bueno.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "764",
+   "en": "I'm a bit too busy at the moment.",
+   "es": "Estoy demasiado ocupado en este momento.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "765",
+   "en": "dummy",
+   "es": "tonto",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "766",
+   "en": "dummy",
+   "es": "tonto",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "768",
+   "en": "Oh, thank ya! Me buddy's name is Denton.Please deliver that letter for me.",
+   "es": "¡Ah, gracias! El nombre de mi amigo es Denton. Por favor, entregue esa carta por mí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "770",
+   "en": "Received the letter!",
+   "es": "¡Recibí la carta!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "772",
+   "en": "I see...",
+   "es": "Ya veo...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "774",
+   "en": "The village is peaceful again.I've got me hopes back!",
+   "es": "El pueblo vuelve a estar tranquilo. ¡He recuperado la esperanza!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "776",
+   "en": "Ya saved Saruleus!? Incredible!The world's still full of miracles!",
+   "es": "¿¡Ya salvaste a Saruleus!? ¡Increíble! ¡El mundo sigue lleno de milagros!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "778",
+   "en": "I've got a favor to ask ya.Would ya deliver this letter to me friend in Burgusstadt?",
+   "es": "Tengo que pedirte un favor. ¿Podrías entregarme esta carta a mi amigo en Burgusstadt?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "780",
+   "en": "Well, will ya help?",
+   "es": "Bueno, ¿me ayudarás?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "782",
+   "en": "Okay.",
+   "es": "Bueno.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "784",
+   "en": "I'm a bit too busy at the moment.",
+   "es": "Estoy demasiado ocupado en este momento.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "785",
+   "en": "dummy",
+   "es": "tonto",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "786",
+   "en": "dummy",
+   "es": "tonto",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "788",
+   "en": "Anxious old woman",
+   "es": "Anciana ansiosa",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "790",
+   "en": "I finally heard from me son.His wife suddenly went into labor, so they had to take their time.Isn't that just great news?",
+   "es": "Finalmente supe de mi hijo. Su esposa repentinamente se puso de parto, así que tuvieron que tomarse su tiempo. ¿No es una gran noticia?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "792",
+   "en": "I haven't heard from me son and his wife yet.I hope they're all right.",
+   "es": "Aún no he tenido noticias de mi hijo y su esposa. Espero que estén bien.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "794",
+   "en": "If ya find me son and his wife,tell 'em that our village is safe for 'emto come back to.",
+   "es": "Si encuentras a mi hijo y a su esposa, diles que nuestro pueblo es seguro para que regresen.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "796",
+   "en": "I didn't know yer the great one.Thank ya for protectin' Saruleus.",
+   "es": "No te conocía, el grande. Gracias por proteger a Saruleus.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "798",
+   "en": "With all that's been goin' on,I wonder if they're safe or not.",
+   "es": "Con todo lo que ha estado pasando, me pregunto si están a salvo o no.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "800",
+   "en": "I hope they arrive safely...",
+   "es": "Espero que lleguen sanos y salvos...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "802",
+   "en": "I got a letter sayin' me son and his wife are returnin'to the village. I'm worried about 'em, so I climbed uphere to see if I could see 'em.",
+   "es": "Recibí una carta diciendo que mi hijo y su esposa regresarán al pueblo. Estoy preocupado por ellos, así que subí hasta aquí para ver si podía verlos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "804",
+   "en": "I'm worried about me son and his wife,but also about our priest.Please put this to good use.",
+   "es": "Estoy preocupado por mi hijo y su esposa, pero también por nuestro sacerdote. Por favor, aprovechen esto.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "806",
+   "en": "Obtained a black berry potion!",
+   "es": "¡Obtuviste una poción de moras negras!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "808",
+   "en": "Shouldn't we be leaving?There's nothing we can do here.",
+   "es": "¿No deberíamos irnos? No hay nada que podamos hacer aquí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "810",
+   "en": "I wouldn't want any women crying just because wetook our sweet time and were late to the rescue.",
+   "es": "No quisiera que ninguna mujer llorara sólo porque nos tomamos nuestro dulce momento y llegamos tarde al rescate.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "812",
+   "en": "What? She's Rico and Rucha's mother?It's a shame I have a strict policy of not getting involvedwith relatives of friends. She's quite the beauty.",
+   "es": "¿Qué? ¿Ella es la madre de Rico y Rucha? Es una pena que tenga una política estricta de no involucrarme con familiares de amigos. Ella es toda una belleza.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "814",
+   "en": "This village isn't half bad.Clean air, breathtaking scenery,and a certain vulnerable widow...",
+   "es": "Este pueblo no está nada mal. Aire limpio, paisajes impresionantes y cierta viuda vulnerable...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "816",
+   "en": "I hope you don't think I like spending time out herein this backwater village.",
+   "es": "Espero que no creas que me gusta pasar tiempo aquí en este pueblo apartado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "818",
+   "en": "I need more to keep myself motivated,quite unlike dullards such as yourself.",
+   "es": "Necesito más para mantenerme motivado, a diferencia de tontos como tú.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "820",
+   "en": "Can you leave me alone? Your inferior intellect isputting me to sleep.",
+   "es": "¿Puedes dejarme en paz? Tu intelecto inferior me está haciendo dormir.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "822",
+   "en": "This place reeks of simplicity.",
+   "es": "Este lugar huele a sencillez.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "824",
+   "en": "I'm ready to go when you are!Let's show the Dreadknight we mean business!",
+   "es": "¡Estoy listo para partir cuando tú lo estés! ¡Demostrémosle al Dread Knight que hablamos en serio!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "826",
+   "en": "It's almost time to finish this fight!",
+   "es": "¡Ya casi es hora de terminar esta pelea!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "828",
+   "en": "I'm not sure about this place. It's way too hardto do any proper pickpocketin'.",
+   "es": "No estoy seguro acerca de este lugar. Es demasiado difícil robar carteras como es debido.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "830",
+   "en": "It's so quiet that the smallest bit of commotion wouldget everybody's attention! Not sure if I'm up for thechallenge.",
+   "es": "¡Es tan silencioso que la más mínima conmoción llamaría la atención de todos! No estoy seguro de estar preparado para el desafío.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "832",
+   "en": "Capell, take a good look around you.Quiet places like this are far too rare.",
+   "es": "Capell, mira bien a tu alrededor. Los lugares tranquilos como este son demasiado raros.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "834",
+   "en": "Part of why we're fighting is to protect villageslike this one.",
+   "es": "Parte del motivo por el que luchamos es para proteger pueblos como éste.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "836",
+   "en": "But we also have to stay focused.",
+   "es": "Pero también tenemos que mantenernos concentrados.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "838",
+   "en": "I can really unwind here.It helps me loosen up after a good battle.",
+   "es": "Realmente puedo relajarme aquí. Me ayuda a relajarme después de una buena batalla.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "840",
+   "en": "But it doesn't change how I feel about Fayel.My homeland will always be dear to me.",
+   "es": "Pero eso no cambia lo que siento por Fayel. Mi patria siempre será querida para mí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "842",
+   "en": "Though I have to admit the scenery here is nice.",
+   "es": "Aunque tengo que admitir que el paisaje aquí es bonito.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "844",
+   "en": "(I hate bad smells!)",
+   "es": "(¡Odio los malos olores!)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "846",
+   "en": "(I'm ready when you are!)",
+   "es": "(¡Estoy listo cuando tú lo estés!)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "848",
+   "en": "Grrr. Grar.",
+   "es": "Grrr. Graduado.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "850",
+   "en": "(I need a little nap.)",
+   "es": "(Necesito una pequeña siesta).",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "852",
+   "en": "(Mind if I take a break?)",
+   "es": "(¿Te importa si me tomo un descanso?)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "854",
+   "en": "Grrr. Grrr.",
+   "es": "Grrr. Grrr.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "856",
+   "en": "(I'm sleeping. Leave me be.)",
+   "es": "(Estoy durmiendo. Déjame en paz.)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "858",
+   "en": "(I like this place.)",
+   "es": "(Me gusta este lugar.)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "860",
+   "en": "Graaar.",
+   "es": "Graar.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "862",
+   "en": "Nightwhispers are always prepared for battle.I await your orders.",
+   "es": "Los Nightwhispers siempre están preparados para la batalla. Espero tus órdenes.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "864",
+   "en": "I do not sense any enemies nearby.",
+   "es": "No siento ningún enemigo cerca.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "866",
+   "en": "It is up to us to defend the people of this village.",
+   "es": "Depende de nosotros defender a la gente de este pueblo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "868",
+   "en": "I heard many stories about Burguss growing up.It is just as beautiful as I was told.",
+   "es": "Escuché muchas historias sobre el crecimiento de Burguss. Es tan hermoso como me dijeron.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "870",
+   "en": "We will act accordingly to any decisions that you make.So it is unnecessary to be agitated.",
+   "es": "Actuaremos en consecuencia con cualquier decisión que tomen. Por lo tanto, no es necesario agitarse.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "872",
+   "en": "Are you unable to make a decision, Capell?The Order will not wait for us to proceed.",
+   "es": "¿No puede tomar una decisión, Capell? La Orden no esperará a que procedamos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "874",
+   "en": "This is an extremely pleasant location.",
+   "es": "Este es un lugar extremadamente agradable.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "876",
+   "en": "I do not detect any danger in the vicinity.Relaxation is suggested.",
+   "es": "No detecto ningún peligro en las inmediaciones. Se sugiere relajación.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "878",
+   "en": "Still, such a pleasant day has the ability to sendeven the most wary warrior to sleep.<yawn>",
+   "es": "Aun así, un día tan agradable tiene la capacidad de hacer dormir incluso al guerrero más cauteloso.<bostezo>",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "880",
+   "en": "A moment of peace can easily be broken by a surprise attack!We must stay alert.",
+   "es": "¡Un momento de paz puede fácilmente romperse con un ataque sorpresa! Debemos permanecer alerta.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "882",
+   "en": "You know, in a peaceful place like this,one can really forget about fighting and brutality.",
+   "es": "Sabes, en un lugar pacífico como este, uno realmente puede olvidarse de las peleas y la brutalidad.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "884",
+   "en": "Saruleus... I hope I get to see him one day.",
+   "es": "Saruleus... Espero poder verlo algún día.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "886",
+   "en": "I wonder how long Lord Sigmund plans to stayin such a simple village as this.",
+   "es": "Me pregunto cuánto tiempo planea quedarse Lord Sigmund en una aldea tan sencilla como ésta.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "888",
+   "en": "Saruleus... I hope I get to see him one day.",
+   "es": "Saruleus... Espero poder verlo algún día.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "890",
+   "en": "Is it that unusual to have a lunaglyph for healing?",
+   "es": "¿Es tan inusual tener un lunaglifo para curar?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "892",
+   "en": "The villagers here keep staring at me...",
+   "es": "Los aldeanos aquí siguen mirándome...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "894",
+   "en": "If there are some worthwhile enemies tolay my hands on, well, enough said! Hahaha!",
+   "es": "Si hay algunos enemigos que valen la pena atrapar, bueno, ¡ya he dicho suficiente! ¡Jajaja!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "896",
+   "en": "A fine village here! Good food surely helps!",
+   "es": "¡Un buen pueblo aquí! ¡La buena comida seguramente ayuda!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "898",
+   "en": "I wonder how they are faring...I hope that they are carrying out good deeds.",
+   "es": "Me pregunto cómo les irá... Espero que estén realizando buenas obras.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "900",
+   "en": "A long time ago, I had the good fortune to take onapprentices in a village similar to this one.",
+   "es": "Hace mucho tiempo tuve la suerte de contratar aprendices en un pueblo similar a este.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "904",
+   "en": "Rest when you have a chance.",
+   "es": "Descansa cuando tengas la oportunidad.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "906",
+   "en": "I heard about your success at the shrine.How fortunate that you managed to win.",
+   "es": "Escuché sobre tu éxito en el santuario. Qué suerte que hayas logrado ganar.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "908",
+   "en": "You've received something from the Claridian?Show it to me.",
+   "es": "¿Recibiste algo del Claridian? Enséñamelo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "910",
+   "en": "Okay, just a quick peek.",
+   "es": "Bien, sólo un vistazo rápido.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "912",
+   "en": "No, not right now.",
+   "es": "No, no ahora mismo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "913",
+   "en": "dummy",
+   "es": "tonto",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "914",
+   "en": "dummy",
+   "es": "tonto",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "916",
+   "en": "I see. Carry on.",
+   "es": "Ya veo. Continuar.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "918",
+   "en": "I wonder if there are any hot springs nearby.It would feel so good to relax and get clean.",
+   "es": "Me pregunto si hay aguas termales cerca. Sería tan bueno relajarse y limpiarse.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "920",
+   "en": "It's great to be able to take some time out just to relax.It reminds me of when Sigmund and I were youngerand we used to just play around.",
+   "es": "Es fantástico poder tomarse un tiempo para relajarse. Me recuerda cuando Sigmund y yo éramos más jóvenes y solíamos simplemente jugar.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "922",
+   "en": "I shall avenge my fallen comrades with this blade!",
+   "es": "¡Vengaré a mis camaradas caídos con esta espada!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "924",
+   "en": "The Dreadknight must fall, even if only to preservethe peace and tranquility of villages like this one.",
+   "es": "El Caballero Terrorífico debe caer, aunque sólo sea para preservar la paz y la tranquilidad de pueblos como este.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "926",
+   "en": "Sometimes it is necessary to rest.",
+   "es": "A veces es necesario descansar.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "928",
+   "en": "This is a good place.A powerful force watches over it.",
+   "es": "Éste es un buen lugar. Una fuerza poderosa lo vigila.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "930",
+   "en": "Don't tell Rico I told you, because I don'twant him getting embarrassed.",
+   "es": "No le digas a Rico que te lo dije, porque no quiero que se avergüence.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "932",
+   "en": "Rico hides it, but he loves being with Mom.He tries to be so grown-up.",
+   "es": "Rico lo oculta, pero le encanta estar con mamá. Intenta ser muy adulto.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "934",
+   "en": "I haven't eaten any of my mom's foodin a really long time.Anyway, it tastes just as good when I make it!",
+   "es": "No he comido nada de la comida de mi mamá en mucho tiempo. De todos modos, ¡sabe igual de bueno cuando la preparo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "936",
+   "en": "I miss Dad, but I can't give up!And I have to watch over Rico!",
+   "es": "Extraño a papá, ¡pero no puedo rendirme! ¡Y tengo que cuidar a Rico!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "938",
+   "en": "It's great that Aya's feeling better!",
+   "es": "¡Qué bueno que Aya se sienta mejor!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "940",
+   "en": "Come on! Let's go!",
+   "es": "¡Vamos! ¡Vamos!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "942",
+   "en": "My dad studied lots about everything.He taught Rico about animals in the forestand me about herbs and minerals.If Rico becomes a priest like our dad,I'm gonna be a doctor.There's an old woman in the village, and she'salways in pain, so I wanna help her get better.",
+   "es": "Mi papá estudió mucho sobre todo. Le enseñó a Rico sobre los animales del bosque y a mí sobre las hierbas y los minerales. Si Rico se convierte en sacerdote como nuestro papá, seré médico. Hay una anciana en el pueblo y siempre tiene dolor, así que quiero ayudarla a mejorar.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "944",
+   "en": "The sandwiches I made are very, very sweet and very, very delicious!",
+   "es": "¡Los sándwiches que hice son muy, muy dulces y muy, muy deliciosos!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "946",
+   "en": "I'm going to make you some yummy sandwiches!So, let's go and help Dad!",
+   "es": "¡Voy a prepararte unos sándwiches deliciosos! Entonces, ¡vamos a ayudar a papá!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "948",
+   "en": "I'm a grownup now, so I can't be wasting my timewith my mother. Just go away!",
+   "es": "Ahora soy un adulto, así que no puedo perder el tiempo con mi madre. ¡Solo vete!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "950",
+   "en": "Why are you looking at me like that, Capell?I'm not going to see my mom, you know!",
+   "es": "¿Por qué me miras así, Capell? ¡No voy a ver a mi mamá, sabes!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "952",
+   "en": "Rucha spends too much time doing silly things with Mom.",
+   "es": "Rucha pasa demasiado tiempo haciendo tonterías con mamá.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "954",
+   "en": "Dad died, but I'm not gonna cry!Not until I teach the Order a lesson!",
+   "es": "¡Papá murió, pero no voy a llorar! ¡No hasta que le dé una lección a la Orden!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "956",
+   "en": "Come on! Let's go!",
+   "es": "¡Vamos! ¡Vamos!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "958",
+   "en": "You can count on me!I'll chase away the Order from here, no sweat!",
+   "es": "¡Puedes contar conmigo! Ahuyentaré a la Orden desde aquí, ¡no te preocupes!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "960",
+   "en": "My father is really relaxed, but when he's workingin the shrine, or has a service, he's dead serious.I wanna leave this village and explore the world.I should make my dad happy though,so I think I'll be the priest when he retires.There are sooo many things I want to do,so I don't know where to start!",
+   "es": "Mi padre está muy relajado, pero cuando trabaja en el santuario o tiene un servicio, habla muy en serio. Quiero dejar este pueblo y explorar el mundo. Sin embargo, debería hacer feliz a mi papá, así que creo que seré el sacerdote cuando se jubile. ¡Hay tantas cosas que quiero hacer, así que no sé por dónde empezar!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "962",
+   "en": "I really hope you can help us.",
+   "es": "Realmente espero que puedas ayudarnos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "964",
+   "en": "I hope Dad is all right... You'll help us, right?",
+   "es": "Espero que papá esté bien... Nos ayudarás, ¿verdad?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "966",
+   "en": "I remember so many things when I come here...I'm sorry that you had to help me so much.",
+   "es": "Recuerdo tantas cosas cuando vengo aquí... Lamento que hayas tenido que ayudarme tanto.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "968",
+   "en": "I want to meet Saruleus, too.",
+   "es": "Yo también quiero conocer a Saruleus.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "970",
+   "en": "Thanks, Capell.You're not so bad.",
+   "es": "Gracias, Capell. No eres tan malo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "972",
+   "en": "Ughhh...",
+   "es": "Ughh...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "974",
+   "en": "Lord Sigmund...I can still fight...I'll protect...you and this world...with my life so...Don't leave me...",
+   "es": "Señor Sigmund...todavía puedo luchar...te protegeré...a ti y a este mundo...con mi vida así que...No me dejes...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "976",
+   "en": "Dragonbone Shrineー",
+   "es": "Santuario de Dragón",
+   "ctx": "cartel"
+  },
+  {
+   "stem": "d1_ud2_1E70B800_010",
+   "id": "978",
+   "en": "Sign",
+   "es": "Firmar",
+   "ctx": "dialogo"
+  }
+ ]
+}

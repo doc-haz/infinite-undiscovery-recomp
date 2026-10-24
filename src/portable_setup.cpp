@@ -43,6 +43,108 @@ void NoLinks(const fs::path& path) {
 
 static bool g_undub_subtitle_warning_dismissed = false;
 
+// ---------------------------------------------------------------------------
+// Registro de mods (extensible)
+// ---------------------------------------------------------------------------
+// Un "mod" agrupa uno o varios ajustes booleanos que se persisten en
+// setup.json / <perfil>/config.json y que el hook de runtime lee al arrancar
+// (via EsTranslation()/EsTextures(), etc.).
+//
+// Para anadir un mod nuevo:
+//   1) declara aqui su(s) flag(s) persistente(s) (o reutiliza un CVAR);
+//   2) anade una entrada a `k_mods` con su nombre, descripcion y opciones;
+//   3) el asistente y el gestor lo listan automaticamente (sin tocar la UI).
+// Los CVARs reales (es_translation, es_textures, ...) se definen en
+// translation_cvars.h y son los que llegan al runtime.
+static bool g_es_translation = true;
+static bool g_es_textures = true;
+static bool g_es_selftest = false;
+
+constexpr int kModEs = 0;  // indice del mod de traduccion en k_mods
+
+struct ModOption {
+  const char* cvar;      // nombre del CVAR que controla esta opcion
+  const wchar_t* label;  // etiqueta visible (pasa por Text())
+  bool* value;           // flag persistente asociado
+};
+
+struct ModDef {
+  const char* id;             // identificador estable usado en el JSON ("es")
+  const wchar_t* name;        // nombre visible (pasa por Text())
+  const wchar_t* description; // descripcion (pasa por Text())
+  bool installed_default;
+  bool enabled_default;
+  const ModOption* options;   // opciones del mod (puede ser nullptr)
+  int option_count;
+};
+
+static const ModOption k_es_options[] = {
+  {"es_translation", L"Texto en castellano", &g_es_translation},
+  {"es_textures",    L"Texturas en castellano", &g_es_textures},
+};
+
+static const ModDef k_mods[] = {
+  {"es", L"Traduccion al Castellano",
+   L"Traduce al castellano los textos y rotulos (HUD, menus, titulo) del juego.",
+   true, true, k_es_options, 2},
+};
+
+struct ModState { bool installed = true; bool enabled = true; };
+static std::vector<ModState> g_mod_state;
+
+int ModCount() { return int(sizeof(k_mods) / sizeof(k_mods[0])); }
+
+int ModOptionCount() {
+  int n = 0;
+  for (int i = 0; i < ModCount(); ++i) n += k_mods[i].option_count;
+  return n;
+}
+
+// Traduce un indice global de opcion a (mod, opcion).
+bool FindOption(int global, int& mod_index, int& option_index) {
+  for (int i = 0; i < ModCount(); ++i) {
+    if (global < k_mods[i].option_count) { mod_index = i; option_index = global; return true; }
+    global -= k_mods[i].option_count;
+  }
+  return false;
+}
+
+bool ModInstalled(int i) { return i >= 0 && i < int(g_mod_state.size()) && g_mod_state[i].installed; }
+bool ModEnabled(int i)   { return i >= 0 && i < int(g_mod_state.size()) && g_mod_state[i].enabled; }
+void SetModInstalled(int i, bool v) { if (i >= 0 && i < int(g_mod_state.size())) g_mod_state[i].installed = v; }
+void SetModEnabled(int i, bool v)   { if (i >= 0 && i < int(g_mod_state.size())) g_mod_state[i].enabled = v; }
+bool ModOptionValue(int global) {
+  int m, o;
+  return FindOption(global, m, o) ? *k_mods[m].options[o].value : false;
+}
+void SetModOptionValue(int global, bool v) {
+  int m, o;
+  if (FindOption(global, m, o)) *k_mods[m].options[o].value = v;
+}
+int ModIndexOfOption(int global) { int m, o; return FindOption(global, m, o) ? m : -1; }
+
+// Bases de IDs de los controles (rango propio para el asistente y el gestor).
+enum { kWizModBase = 1200, kWizOptBase = 1250, kMgrModBase = 2200, kMgrOptBase = 2250 };
+int ModToggleIndex(int id, int base) {
+  int i = id - base;
+  return (i >= 0 && i < ModCount()) ? i : -1;
+}
+int ModOptionToggleIndex(int id, int base) {
+  int i = id - base;
+  return (i >= 0 && i < ModOptionCount()) ? i : -1;
+}
+
+std::wstring OnOffLabel(bool on) { return on ? Text(L"Activado") : Text(L"Desactivado"); }
+
+// Casilla con marca (checkbox dibujado en un boton owner-draw).
+std::wstring CheckLabel(bool on) {
+  return std::wstring(on ? L"☑  " : L"☐  ") + OnOffLabel(on);
+}
+
+std::wstring TrLabel(const wchar_t* name, bool on) {
+  return Text(name) + (on ? Text(L": Activado") : Text(L": Desactivado"));
+}
+
 void WriteConfig(const fs::path& file) {
   NoLinks(file); fs::create_directories(file.parent_path());
   auto temp = file; temp += L".tmp"; NoLinks(temp);
@@ -52,6 +154,20 @@ void WriteConfig(const fs::path& file) {
     out << "  \"active_profile\": \"" << g_active_profile << "\",\n";
   }
   out << "  \"language\": \"" << (es ? "es" : "en") << "\",\n";
+  out << "  \"es_translation\": " << (g_es_translation ? "true" : "false") << ",\n";
+  out << "  \"es_textures\": " << (g_es_textures ? "true" : "false") << ",\n";
+  out << "  \"es_selftest\": " << (g_es_selftest ? "true" : "false") << ",\n";
+  // Estado de los mods (formato extensible).  Se mantienen ademas las claves
+  // planas de arriba por compatibilidad con scripts/hooks antiguos.
+  out << "  \"mods\": {\n";
+  for (int i = 0; i < ModCount(); ++i) {
+    out << "    \"" << k_mods[i].id << "\": {\"installed\": "
+        << (ModInstalled(i) ? "true" : "false") << ", \"enabled\": "
+        << (ModEnabled(i) ? "true" : "false") << "}";
+    if (i + 1 < ModCount()) out << ",";
+    out << "\n";
+  }
+  out << "  },\n";
   if (g_undub_subtitle_warning_dismissed) {
     out << "  \"undub_subtitle_warning_dismissed\": true,\n";
   }
@@ -390,9 +506,14 @@ void DrawCard3(HDC dc, RECT r) {
   DrawBorder(dc, r, RGB(55, 80, 115));
 }
 
-// Step Progress Track (1) Disc 1 — (2) Disc 2 — (3) DLC
+// Step Progress Track (1) Disc 1 — (2) Disc 2 — (3) DLC — (4) Mods
 void DrawStepTrack(HDC dc, HFONT font, int cx, int y, int current_step, bool spanish) {
-  int x1 = cx - 180, x2 = cx, x3 = cx + 180;
+  const int kSteps = 4;
+  const int spacing = 132;
+  int first_x = cx - spacing * (kSteps - 1) / 2;
+  int coords[kSteps];
+  for (int i = 0; i < kSteps; ++i) coords[i] = first_x + i * spacing;
+
   COLORREF cyan_glow = RGB(70, 185, 245);
   COLORREF dark_cyan = RGB(22, 65, 105);
   COLORREF muted_line = RGB(45, 65, 95);
@@ -400,29 +521,31 @@ void DrawStepTrack(HDC dc, HFONT font, int cx, int y, int current_step, bool spa
   COLORREF muted_text = RGB(140, 165, 195);
   COLORREF bright_text = RGB(240, 245, 255);
 
-  // Connecting track line
+  // Connecting track line (muted)
   auto line_pen = CreatePen(PS_SOLID, 2, muted_line);
   auto old_p = SelectObject(dc, line_pen);
-  MoveToEx(dc, x1 + 18, y, nullptr); LineTo(dc, x2 - 18, y);
-  MoveToEx(dc, x2 + 18, y, nullptr); LineTo(dc, x3 - 18, y);
+  for (int i = 0; i < kSteps - 1; ++i) {
+    MoveToEx(dc, coords[i] + 18, y, nullptr); LineTo(dc, coords[i + 1] - 18, y);
+  }
   SelectObject(dc, old_p);
   DeleteObject(line_pen);
 
+  // Active segments up to the current step
   if (current_step >= 2) {
     auto active_pen = CreatePen(PS_SOLID, 2, cyan_glow);
     old_p = SelectObject(dc, active_pen);
-    MoveToEx(dc, x1 + 18, y, nullptr); LineTo(dc, x2 - 18, y);
-    if (current_step >= 3) { MoveToEx(dc, x2 + 18, y, nullptr); LineTo(dc, x3 - 18, y); }
+    for (int i = 0; i < kSteps - 1 && current_step >= i + 2; ++i) {
+      MoveToEx(dc, coords[i] + 18, y, nullptr); LineTo(dc, coords[i + 1] - 18, y);
+    }
     SelectObject(dc, old_p);
     DeleteObject(active_pen);
   }
 
-  const int coords[] = {x1, x2, x3};
-  const wchar_t* nums[] = {L"1", L"2", L"3"};
-  const wchar_t* labels_en[] = {L"Disc 1", L"Disc 2", L"DLC (Optional)"};
-  const wchar_t* labels_es[] = {L"Disc 1", L"Disc 2", L"DLC (Opcional)"};
+  const wchar_t* nums[] = {L"1", L"2", L"3", L"4"};
+  const wchar_t* labels_en[] = {L"Disc 1", L"Disc 2", L"DLC (Optional)", L"Mods"};
+  const wchar_t* labels_es[] = {L"Disc 1", L"Disc 2", L"DLC (Opcional)", L"Mods"};
 
-  for (int i = 0; i < 3; ++i) {
+  for (int i = 0; i < kSteps; ++i) {
     int px = coords[i];
     bool active = (i + 1 <= current_step);
     // Outer circle
@@ -479,6 +602,7 @@ struct WizardView {
   fs::path exe_dir;
   std::optional<std::string> target_edition;
   int current_step = 1;
+  int page = 1; // 1 = medios (discos + DLC), 2 = mods
 
   std::optional<iu::assets::Disc> first;
   std::optional<iu::assets::Disc> second;
@@ -513,6 +637,8 @@ struct WizardView {
   HWND btn_autodetect = nullptr;
   HWND btn_back = nullptr, btn_next = nullptr, btn_cancel = nullptr;
   HWND btn_en = nullptr, btn_es = nullptr;
+  std::vector<HWND> mod_toggles;        // un control por mod (checkbox)
+  std::vector<HWND> mod_option_toggles; // un control por opcion (indice global)
 
   HFONT font_title = nullptr;
   HFONT font_sub = nullptr;
@@ -535,6 +661,17 @@ struct WizardView {
     SetWindowTextW(btn_back, Text(L"Atras").c_str());
     SetWindowTextW(btn_next, Text(L"Siguiente >").c_str());
     SetWindowTextW(btn_cancel, Text(L"Cancelar").c_str());
+    for (int i = 0; i < int(mod_toggles.size()); ++i)
+      if (mod_toggles[i]) SetWindowTextW(mod_toggles[i], CheckLabel(ModEnabled(i)).c_str());
+    for (int j = 0; j < int(mod_option_toggles.size()); ++j) {
+      if (!mod_option_toggles[j]) continue;
+      int m, o;
+      if (FindOption(j, m, o)) {
+        const ModOption& op = k_mods[m].options[o];
+        SetWindowTextW(mod_option_toggles[j], TrLabel(op.label, *op.value).c_str());
+        EnableWindow(mod_option_toggles[j], ModEnabled(m));
+      }
+    }
 
     if (!first) {
       disc1_line1 = Text(L"Seleccione la ISO o carpeta extraida del Disc 1.");
@@ -552,7 +689,9 @@ struct WizardView {
       dlc_badge = 2;
     }
 
-    if (first && second) {
+    if (page == 2) {
+      current_step = 4;
+    } else if (first && second) {
       current_step = 3;
     } else if (first) {
       current_step = 2;
@@ -560,13 +699,38 @@ struct WizardView {
       current_step = 1;
     }
 
-    EnableWindow(btn_back, current_step > 1 && !installing);
+    SetWindowTextW(btn_next, page == 2 ? Text(L"Instalar e iniciar").c_str()
+                                       : Text(L"Siguiente >").c_str());
+    EnableWindow(btn_back, !installing && (page == 2 || current_step > 1));
     EnableWindow(btn_next, first.has_value());
+    InvalidateRect(hwnd, nullptr, FALSE);
+  }
+
+  // Muestra/oculta los controles segun la pagina activa del asistente.
+  void ApplyPageVisibility() {
+    bool media = (page == 1) && !installing;
+    int media_show = media ? SW_SHOW : SW_HIDE;
+    ShowWindow(edit1, media_show); ShowWindow(btn1, media_show);
+    ShowWindow(edit2, media_show); ShowWindow(btn2, media_show);
+    ShowWindow(edit3, media_show); ShowWindow(btn3, media_show);
+    if (btn_autodetect) ShowWindow(btn_autodetect, media_show);
+
+    int mods_show = (!media && page == 2 && !installing) ? SW_SHOW : SW_HIDE;
+    for (auto h : mod_toggles) if (h) ShowWindow(h, mods_show);
+    for (auto h : mod_option_toggles) if (h) ShowWindow(h, mods_show);
+  }
+
+  void GoToPage(int p) {
+    if (installing) return;
+    page = p;
+    UpdateTexts();
+    ApplyPageVisibility();
     InvalidateRect(hwnd, nullptr, FALSE);
   }
 
   void StepBack() {
     if (installing) return;
+    if (page == 2) { GoToPage(1); return; }
     if (current_step == 3) {
       second.reset();
       disc2_path_str.clear();
@@ -731,11 +895,8 @@ struct WizardView {
     install_percent = 0;
     install_status = Text(L"Copiando y verificando archivos del juego...");
 
-    // Hide input rows
-    ShowWindow(edit1, SW_HIDE); ShowWindow(btn1, SW_HIDE);
-    ShowWindow(edit2, SW_HIDE); ShowWindow(btn2, SW_HIDE);
-    ShowWindow(edit3, SW_HIDE); ShowWindow(btn3, SW_HIDE);
-    if (btn_autodetect) ShowWindow(btn_autodetect, SW_HIDE);
+    // Hide all input controls (media + mods)
+    ApplyPageVisibility();
     EnableWindow(btn_next, FALSE);
 
     install_future = std::async(std::launch::async, [&]() {
@@ -760,12 +921,9 @@ struct WizardView {
       try { install_future.get(); } catch (...) {}
       installing = false;
       KillTimer(hwnd, 201);
-      // Restore rows
-      ShowWindow(edit1, SW_SHOW); ShowWindow(btn1, SW_SHOW);
-      ShowWindow(edit2, SW_SHOW); ShowWindow(btn2, SW_SHOW);
-      ShowWindow(edit3, SW_SHOW); ShowWindow(btn3, SW_SHOW);
-      if (btn_autodetect) ShowWindow(btn_autodetect, SW_SHOW);
-      EnableWindow(btn_next, first.has_value());
+      // Restore the active page's controls
+      UpdateTexts();
+      ApplyPageVisibility();
       InvalidateRect(hwnd, nullptr, FALSE);
       return;
     }
@@ -811,10 +969,47 @@ void PaintWizard(WizardView& v, HDC dc) {
   DrawRoundRect(dc, card_rc, 12, RGB(45, 70, 105), RGB(14, 22, 36));
 
   // Step Progress Track
-  int current_step = v.installing ? 3 : (v.first ? (v.second ? 2 : 1) : 1);
+  int current_step = v.installing ? 4
+                     : (v.page == 2 ? 4 : (v.first ? (v.second ? 3 : 2) : 1));
   DrawStepTrack(dc, v.font_body, 642, 175, current_step, es);
 
-  if (!v.installing) {
+  if (v.installing) {
+    // Installation view
+    Label(dc, v.font_head, {320, 240, 970, 275}, v.install_status, RGB(240, 245, 255), DT_CENTER);
+
+    // Progress Bar
+    RECT bar_rc = {360, 340, 925, 368};
+    DrawRoundRect(dc, bar_rc, 6, RGB(45, 70, 105), RGB(10, 16, 26));
+
+    unsigned pct = std::min(100u, v.install_percent.load());
+    if (pct > 0) {
+      int fill_w = int((bar_rc.right - bar_rc.left - 4) * pct / 100);
+      RECT fill_rc = {bar_rc.left + 2, bar_rc.top + 2, bar_rc.left + 2 + fill_w, bar_rc.bottom - 2};
+      auto fill_b = CreateSolidBrush(RGB(50, 165, 235));
+      FillRect(dc, &fill_rc, fill_b);
+      DeleteObject(fill_b);
+    }
+    std::wstring pct_str = std::to_wstring(pct) + L"%";
+    Label(dc, v.font_bold, {360, 378, 925, 405}, pct_str, RGB(220, 235, 255), DT_CENTER);
+  } else if (v.page == 2) {
+    // --- Paso exclusivo: Mods (lista extensible del registro k_mods) ---
+    Label(dc, v.font_bold, {315, 224, 980, 248}, L"✦  " + Text(L"Mods instalables"), RGB(240, 245, 255));
+    Label(dc, v.font_body, {337, 248, 980, 272}, Text(L"Active o desactive los mods que se aplicaran al juego."), RGB(150, 175, 205));
+
+    int y = 296;
+    for (int i = 0; i < ModCount(); ++i) {
+      RECT row = {315, y, 970, y + 150};
+      bool on = ModEnabled(i);
+      DrawRoundRect(dc, row, 10, on ? RGB(70, 150, 235) : RGB(38, 56, 82),
+                    on ? RGB(18, 36, 60) : RGB(14, 20, 32));
+      Label(dc, v.font_bold, {335, y + 14, 720, y + 42}, Text(k_mods[i].name), RGB(240, 245, 255));
+      Label(dc, v.font_body, {335, y + 44, 720, y + 92}, Text(k_mods[i].description), RGB(150, 175, 205));
+      // Los botones de estado/opciones son controles Win32 (owner-draw).
+      Fill(dc, {335, y + 102, 945, y + 103}, RGB(38, 56, 82));
+      y += 158;
+    }
+  } else {
+    // --- Pagina de medios (discos + DLC) ---
     // Headline
     std::wstring headline = L"✦  " + Text(L"Listo para configurar los archivos del juego.");
     if (v.target_edition) {
@@ -839,24 +1034,10 @@ void PaintWizard(WizardView& v, HDC dc) {
     DrawStatusBadge(dc, v.font_bold, v.font_body, 360, 308, v.disc1_badge, v.disc1_line1, v.disc1_line2);
     DrawStatusBadge(dc, v.font_bold, v.font_body, 360, 383, v.disc2_badge, v.disc2_line1, v.disc2_line2);
     DrawStatusBadge(dc, v.font_bold, v.font_body, 360, 458, v.dlc_badge, v.dlc_line1, v.dlc_line2);
-  } else {
-    // Installation view
-    Label(dc, v.font_head, {320, 240, 970, 275}, v.install_status, RGB(240, 245, 255), DT_CENTER);
 
-    // Progress Bar
-    RECT bar_rc = {360, 340, 925, 368};
-    DrawRoundRect(dc, bar_rc, 6, RGB(45, 70, 105), RGB(10, 16, 26));
-
-    unsigned pct = std::min(100u, v.install_percent.load());
-    if (pct > 0) {
-      int fill_w = int((bar_rc.right - bar_rc.left - 4) * pct / 100);
-      RECT fill_rc = {bar_rc.left + 2, bar_rc.top + 2, bar_rc.left + 2 + fill_w, bar_rc.bottom - 2};
-      auto fill_b = CreateSolidBrush(RGB(50, 165, 235));
-      FillRect(dc, &fill_rc, fill_b);
-      DeleteObject(fill_b);
-    }
-    std::wstring pct_str = std::to_wstring(pct) + L"%";
-    Label(dc, v.font_bold, {360, 378, 925, 405}, pct_str, RGB(220, 235, 255), DT_CENTER);
+    // Nota: los mods se configuran en el paso siguiente (indicador "Mods").
+    Label(dc, v.font_body, {315, 538, 945, 562}, Text(L"Pulse Siguiente para elegir los mods instalables."), RGB(150, 175, 205),
+          DT_LEFT | DT_SINGLELINE);
   }
 }
 
@@ -901,16 +1082,25 @@ LRESULT CALLBACK WizardProc(HWND w, UINT msg, WPARAM wp, LPARAM lp) {
       bool is_lang = (d->CtlID == 901 || d->CtlID == 902);
       bool is_primary = (d->CtlID == 1011);
       bool is_browse = (d->CtlID == 1002 || d->CtlID == 1004 || d->CtlID == 1006 || d->CtlID == 1008);
+      int mod_i = ModToggleIndex(d->CtlID, kWizModBase);
+      int opt_i = ModOptionToggleIndex(d->CtlID, kWizOptBase);
+      bool is_mod = (mod_i >= 0);
+      bool is_opt = (opt_i >= 0);
+      bool is_toggle = is_lang || is_mod || is_opt;
 
       COLORREF bg = RGB(18, 28, 44);
       COLORREF border = RGB(45, 68, 98);
       COLORREF text = RGB(200, 215, 235);
 
-      if (is_lang) {
-        bool active = (d->CtlID == (es ? 902 : 901));
+      if (is_toggle) {
+        bool active = is_lang ? (d->CtlID == (es ? 902 : 901))
+                    : is_mod ? ModEnabled(mod_i)
+                             : ModOptionValue(opt_i);
+        bool usable = !is_opt || ModEnabled(ModIndexOfOption(opt_i));
         bg = active ? RGB(26, 68, 120) : RGB(14, 22, 36);
         border = active ? RGB(70, 150, 235) : RGB(35, 52, 78);
         text = active ? RGB(255, 255, 255) : RGB(150, 175, 205);
+        if (!usable) { bg = RGB(14, 18, 26); border = RGB(30, 40, 56); text = RGB(95, 110, 130); }
       } else if (is_primary) {
         bool enabled = IsWindowEnabled(d->hwndItem);
         bg = enabled ? RGB(22, 75, 138) : RGB(16, 24, 38);
@@ -949,8 +1139,14 @@ LRESULT CALLBACK WizardProc(HWND w, UINT msg, WPARAM wp, LPARAM lp) {
         v->PickAutoDetectFolder();
       } else if (id == 1010) { // Back
         v->StepBack();
-      } else if (id == 1011) { // Next / Install
-        v->StartInstall();
+      } else if (id == 1011) { // Next (medios) / Instalar (mods)
+        if (v->page == 1) v->GoToPage(2); else v->StartInstall();
+      } else if (ModToggleIndex(id, kWizModBase) >= 0) { // checkbox de mod
+        int mi = ModToggleIndex(id, kWizModBase);
+        SetModEnabled(mi, !ModEnabled(mi)); SaveLanguage(); v->UpdateTexts();
+      } else if (ModOptionToggleIndex(id, kWizOptBase) >= 0) { // opcion de mod
+        int oi = ModOptionToggleIndex(id, kWizOptBase);
+        SetModOptionValue(oi, !ModOptionValue(oi)); SaveLanguage(); v->UpdateTexts();
       } else if (id == IDCANCEL || id == 2) {
         v->CancelAction();
       }
@@ -969,12 +1165,9 @@ LRESULT CALLBACK WizardProc(HWND w, UINT msg, WPARAM wp, LPARAM lp) {
             DestroyWindow(w);
           } catch (const std::exception& e) {
             v->installing = false;
-            // Restore controls
-            ShowWindow(v->edit1, SW_SHOW); ShowWindow(v->btn1, SW_SHOW);
-            ShowWindow(v->edit2, SW_SHOW); ShowWindow(v->btn2, SW_SHOW);
-            ShowWindow(v->edit3, SW_SHOW); ShowWindow(v->btn3, SW_SHOW);
-            if (v->btn_autodetect) ShowWindow(v->btn_autodetect, SW_SHOW);
-            EnableWindow(v->btn_next, v->first.has_value());
+            // Restore active page controls
+            v->UpdateTexts();
+            v->ApplyPageVisibility();
             Error(e.what());
           }
         }
@@ -1110,6 +1303,15 @@ std::wstring Wide(const std::string& s) {
 bool Spanish() { return es; }
 void SetSpanish(bool value) { es = value; }
 
+// --- mods (leidos por el hook en runtime) ---
+// El estado "enabled" del mod condiciona el valor efectivo que llega al runtime.
+bool EsTranslation() { return ModEnabled(kModEs) && g_es_translation; }
+bool EsTextures() { return ModEnabled(kModEs) && g_es_textures; }
+bool EsSelftest() { return g_es_selftest; }
+void SetEsTranslation(bool value) { g_es_translation = value; }
+void SetEsTextures(bool value) { g_es_textures = value; }
+void SetEsSelftest(bool value) { g_es_selftest = value; }
+
 bool IsUndubSubtitleWarningDismissed() { return g_undub_subtitle_warning_dismissed; }
 void SetUndubSubtitleWarningDismissed(bool value) { g_undub_subtitle_warning_dismissed = value; }
 
@@ -1162,12 +1364,77 @@ void MigrateLegacyProfiles(const fs::path& exe) {
 
 void Initialize(const fs::path& exe) {
   home = fs::absolute(exe); es = false; g_active_profile.clear(); g_undub_subtitle_warning_dismissed = false;
+  g_es_translation = true; g_es_textures = true; g_es_selftest = false;
+  g_mod_state.assign(ModCount(), ModState{});
+  for (int i = 0; i < ModCount(); ++i) {
+    g_mod_state[i].installed = k_mods[i].installed_default;
+    g_mod_state[i].enabled = k_mods[i].enabled_default;
+  }
   MigrateLegacyProfiles(home);
   NoLinks(home / "setup.json");
   std::ifstream in(home / "setup.json");
   if (in) {
     std::string s((std::istreambuf_iterator<char>(in)), {});
-    es = s.find("\"es\"") != std::string::npos;
+    // El idioma se lee del valor de "language" (no de cualquier "es", que
+    // ahora tambien aparece como id de mod en el bloque "mods").
+    es = false;
+    {
+      auto lang_pos = s.find("\"language\"");
+      if (lang_pos != std::string::npos) {
+        auto colon = s.find(':', lang_pos);
+        auto q1 = (colon == std::string::npos) ? std::string::npos : s.find('"', colon);
+        auto q2 = (q1 == std::string::npos) ? std::string::npos : s.find('"', q1 + 1);
+        if (q1 != std::string::npos && q2 != std::string::npos)
+          es = (s.substr(q1 + 1, q2 - q1 - 1) == "es");
+      }
+    }
+    auto read_bool = [&](const char* key, bool def) {
+      std::string pat = std::string("\"") + key + "\"";
+      auto p = s.find(pat);
+      if (p == std::string::npos) return def;
+      auto colon = s.find(':', p);
+      if (colon == std::string::npos) return def;
+      auto end = s.find_first_of(",\r\n}", colon);
+      std::string val = s.substr(colon + 1,
+                                 (end == std::string::npos ? s.size() : end) - colon - 1);
+      return val.find("true") != std::string::npos;
+    };
+    g_es_translation = read_bool("es_translation", true);
+    g_es_textures = read_bool("es_textures", true);
+    g_es_selftest = read_bool("es_selftest", false);
+    // Estado de mods.  Si no existe el bloque "mods" (config antigua), el mod
+    // de traduccion queda activado si alguna de sus claves planas lo estaba.
+    bool have_mods = (s.find("\"mods\"") != std::string::npos);
+    auto read_mod_bool = [&](const char* id, const char* key, bool def) {
+      auto mods_pos = s.find("\"mods\"");
+      if (mods_pos == std::string::npos) return def;
+      std::string idpat = std::string("\"") + id + "\"";
+      auto id_pos = s.find(idpat, mods_pos);
+      if (id_pos == std::string::npos) return def;
+      auto obj_end = s.find('}', id_pos);
+      std::string keypat = std::string("\"") + key + "\"";
+      auto k_pos = s.find(keypat, id_pos);
+      if (k_pos == std::string::npos || (obj_end != std::string::npos && k_pos > obj_end)) return def;
+      auto colon = s.find(':', k_pos);
+      if (colon == std::string::npos) return def;
+      auto end = s.find_first_of(",\r\n}", colon);
+      std::string val = s.substr(colon + 1, (end == std::string::npos ? s.size() : end) - colon - 1);
+      return val.find("true") != std::string::npos;
+    };
+    for (int i = 0; i < ModCount(); ++i) {
+      bool inst = k_mods[i].installed_default;
+      bool en = k_mods[i].enabled_default;
+      if (have_mods) {
+        inst = read_mod_bool(k_mods[i].id, "installed", inst);
+        en = read_mod_bool(k_mods[i].id, "enabled", en);
+      } else {
+        en = false;
+        for (int o = 0; o < k_mods[i].option_count; ++o)
+          en = en || *k_mods[i].options[o].value;
+      }
+      g_mod_state[i].installed = inst;
+      g_mod_state[i].enabled = en;
+    }
     g_undub_subtitle_warning_dismissed =
         (s.find("\"undub_subtitle_warning_dismissed\": true") != std::string::npos ||
          s.find("\"undub_subtitle_warning_dismissed\":true") != std::string::npos);
@@ -1343,6 +1610,27 @@ std::optional<fs::path> RunWizard(const fs::path& exe,
   v.btn_autodetect = CreateWindowW(L"BUTTON", Text(L"Auto-detect media").c_str(), WS_CHILD | WS_VISIBLE | WS_TABSTOP | BS_OWNERDRAW,
                                    360, 495, 230, 32, w, (HMENU)1008, nullptr, nullptr);
 
+  // Mods (registro extensible): un checkbox por mod y un control por opcion.
+  // Las posiciones siguen el bucle de dibujo de PaintWizard (fila de 158 px).
+  for (int i = 0; i < ModCount(); ++i) {
+    int row_y = 296 + i * 158;
+    HWND h = CreateWindowW(L"BUTTON", L"", WS_CHILD | WS_VISIBLE | WS_TABSTOP | BS_OWNERDRAW,
+                           730, row_y + 22, 215, 32, w,
+                           (HMENU)(INT_PTR)(kWizModBase + i), nullptr, nullptr);
+    SendMessageW(h, WM_SETFONT, (WPARAM)v.font_body, TRUE);
+    v.mod_toggles.push_back(h);
+  }
+  for (int m = 0, g = 0; m < ModCount(); ++m) {
+    int row_y = 296 + m * 158;
+    for (int o = 0; o < k_mods[m].option_count; ++o, ++g) {
+      HWND h = CreateWindowW(L"BUTTON", L"", WS_CHILD | WS_VISIBLE | WS_TABSTOP | BS_OWNERDRAW,
+                             335 + o * 240, row_y + 112, 225, 30, w,
+                             (HMENU)(INT_PTR)(kWizOptBase + g), nullptr, nullptr);
+      SendMessageW(h, WM_SETFONT, (WPARAM)v.font_body, TRUE);
+      v.mod_option_toggles.push_back(h);
+    }
+  }
+
   SendMessageW(v.edit1, WM_SETFONT, (WPARAM)v.font_body, TRUE);
   SendMessageW(v.edit2, WM_SETFONT, (WPARAM)v.font_body, TRUE);
   SendMessageW(v.edit3, WM_SETFONT, (WPARAM)v.font_body, TRUE);
@@ -1364,6 +1652,7 @@ std::optional<fs::path> RunWizard(const fs::path& exe,
                                890, 570, 85, 34, w, (HMENU)IDCANCEL, nullptr, nullptr);
 
   v.UpdateTexts();
+  v.ApplyPageVisibility();
   ShowWindow(w, SW_SHOW);
   UpdateWindow(w);
 
@@ -1408,6 +1697,10 @@ struct ProfileManagerView {
 
   HWND hwnd = nullptr;
   HWND btn_en = nullptr, btn_es = nullptr;
+  HWND btn_tab_profiles = nullptr, btn_tab_mods = nullptr;
+  int tab = 0; // 0 = perfiles de contenido, 1 = mods
+  std::vector<HWND> mod_toggles;
+  std::vector<HWND> mod_option_toggles;
   HWND btn_launch = nullptr;
   HWND btn_set_active = nullptr;
   HWND btn_install = nullptr;
@@ -1467,9 +1760,47 @@ struct ProfileManagerView {
     SetWindowTextW(btn_install, Text(L"Instalar / Configurar").c_str());
     SetWindowTextW(btn_autodetect, Text(L"Detectar medios").c_str());
     SetWindowTextW(btn_exit, Text(L"Cerrar").c_str());
+    SetWindowTextW(btn_tab_profiles, Text(L"Perfiles").c_str());
+    SetWindowTextW(btn_tab_mods, Text(L"Mods").c_str());
+
+    for (int i = 0; i < int(mod_toggles.size()); ++i) {
+      if (!mod_toggles[i]) continue;
+      SetWindowTextW(mod_toggles[i], CheckLabel(ModEnabled(i)).c_str());
+      EnableWindow(mod_toggles[i], ModInstalled(i));
+    }
+    for (int j = 0; j < int(mod_option_toggles.size()); ++j) {
+      if (!mod_option_toggles[j]) continue;
+      int m, o;
+      if (FindOption(j, m, o)) {
+        const ModOption& op = k_mods[m].options[o];
+        SetWindowTextW(mod_option_toggles[j], TrLabel(op.label, *op.value).c_str());
+        EnableWindow(mod_option_toggles[j], ModEnabled(m) && ModInstalled(m));
+      }
+    }
 
     bool launch_ok = (selected >= 0 && selected < int(profiles.size()) && profiles[selected].d1_ready);
     EnableWindow(btn_launch, launch_ok);
+    ApplyTabVisibility();
+    InvalidateRect(hwnd, nullptr, FALSE);
+  }
+
+  // Muestra/oculta los controles segun la pestana activa (Perfiles / Mods).
+  void ApplyTabVisibility() {
+    bool mods = (tab == 1);
+    int profile_show = mods ? SW_HIDE : SW_SHOW;
+    if (btn_launch) ShowWindow(btn_launch, profile_show);
+    if (btn_set_active) ShowWindow(btn_set_active, profile_show);
+    if (btn_install) ShowWindow(btn_install, profile_show);
+    if (btn_autodetect) ShowWindow(btn_autodetect, profile_show);
+    int mod_show = mods ? SW_SHOW : SW_HIDE;
+    for (auto h : mod_toggles) if (h) ShowWindow(h, mod_show);
+    for (auto h : mod_option_toggles) if (h) ShowWindow(h, mod_show);
+  }
+
+  void SetTab(int t) {
+    if (tab == t) return;
+    tab = t;
+    UpdateTexts();
     InvalidateRect(hwnd, nullptr, FALSE);
   }
 
@@ -1591,7 +1922,8 @@ void PaintProfileManager(ProfileManagerView& v, HDC dc) {
   RECT card_rc = {285, 120, 1005, 630};
   DrawRoundRect(dc, card_rc, 12, RGB(45, 70, 105), RGB(14, 22, 36));
 
-  Label(dc, v.font_bold, {315, 132, 980, 155}, L"✦  " + Text(L"Seleccione un perfil de contenido para jugar o configurar."), RGB(240, 245, 255));
+  if (v.tab == 0) {
+  Label(dc, v.font_bold, {315, 132, 760, 155}, L"✦  " + Text(L"Seleccione un perfil de contenido para jugar o configurar."), RGB(240, 245, 255));
 
   for (size_t i = 0; i < v.profiles.size(); ++i) {
     RECT row_rc = {310, int(158 + i * 75), 980, int(158 + i * 75 + 68)};
@@ -1654,6 +1986,27 @@ void PaintProfileManager(ProfileManagerView& v, HDC dc) {
       Label(dc, v.font_bold, act_rc, es ? L"ACTIVO" : L"ACTIVE", RGB(110, 245, 170), DT_CENTER | DT_VCENTER | DT_SINGLELINE);
     }
   }
+  } else {
+    // --- Pestana Mods: lista de mods instalados (registro extensible) ---
+    Label(dc, v.font_bold, {315, 132, 760, 155}, L"✦  " + Text(L"Mods instalados"), RGB(240, 245, 255));
+    Label(dc, v.font_body, {317, 156, 980, 178}, Text(L"Active o desactive los mods instalados para futuras ejecuciones."), RGB(150, 175, 205));
+
+    int y = 190;
+    for (int i = 0; i < ModCount(); ++i) {
+      RECT row = {310, y, 980, y + 150};
+      bool on = ModEnabled(i);
+      bool inst = ModInstalled(i);
+      DrawRoundRect(dc, row, 10, on ? RGB(70, 150, 235) : RGB(38, 56, 82),
+                    on ? RGB(18, 36, 60) : RGB(16, 24, 38));
+      Label(dc, v.font_bold, {330, y + 14, 740, y + 42}, Text(k_mods[i].name), RGB(240, 245, 255));
+      Label(dc, v.font_body, {330, y + 44, 740, y + 92}, Text(k_mods[i].description), RGB(150, 175, 205));
+      if (!inst)
+        Label(dc, v.font_btn, {790, y + 58, 960, y + 82}, Text(L"No instalado"), RGB(210, 130, 130), DT_CENTER | DT_SINGLELINE);
+      // Los botones de estado/opciones son controles Win32 (owner-draw).
+      Fill(dc, {330, y + 100, 960, y + 101}, RGB(38, 56, 82));
+      y += 158;
+    }
+  }
 }
 
 LRESULT CALLBACK ProfileManagerProc(HWND w, UINT msg, WPARAM wp, LPARAM lp) {
@@ -1685,6 +2038,7 @@ LRESULT CALLBACK ProfileManagerProc(HWND w, UINT msg, WPARAM wp, LPARAM lp) {
     }
 
     case WM_LBUTTONDOWN: {
+      if (v->tab != 0) return 0;
       int mx = LOWORD(lp), my = HIWORD(lp);
       for (size_t i = 0; i < v->profiles.size(); ++i) {
         RECT row_rc = {310, int(158 + i * 75), 980, int(158 + i * 75 + 68)};
@@ -1698,6 +2052,7 @@ LRESULT CALLBACK ProfileManagerProc(HWND w, UINT msg, WPARAM wp, LPARAM lp) {
     }
 
     case WM_LBUTTONDBLCLK: {
+      if (v->tab != 0) return 0;
       int mx = LOWORD(lp), my = HIWORD(lp);
       for (size_t i = 0; i < v->profiles.size(); ++i) {
         RECT row_rc = {310, int(158 + i * 75), 980, int(158 + i * 75 + 68)};
@@ -1716,16 +2071,28 @@ LRESULT CALLBACK ProfileManagerProc(HWND w, UINT msg, WPARAM wp, LPARAM lp) {
       auto* d = reinterpret_cast<DRAWITEMSTRUCT*>(lp);
       bool is_lang = (d->CtlID == 901 || d->CtlID == 902);
       bool is_primary = (d->CtlID == 2001);
+      bool is_tab = (d->CtlID == 2100 || d->CtlID == 2101);
+      int mod_i = ModToggleIndex(d->CtlID, kMgrModBase);
+      int opt_i = ModOptionToggleIndex(d->CtlID, kMgrOptBase);
+      bool is_mod = (mod_i >= 0);
+      bool is_opt = (opt_i >= 0);
+      bool is_toggle = is_lang || is_tab || is_mod || is_opt;
 
       COLORREF bg = RGB(18, 28, 44);
       COLORREF border = RGB(45, 68, 98);
       COLORREF text = RGB(200, 215, 235);
 
-      if (is_lang) {
-        bool active = (d->CtlID == (es ? 902 : 901));
+      if (is_toggle) {
+        bool active;
+        if (is_lang) active = (d->CtlID == (es ? 902 : 901));
+        else if (is_tab) active = (d->CtlID == (v->tab == 0 ? 2100 : 2101));
+        else if (is_mod) active = ModEnabled(mod_i);
+        else active = ModOptionValue(opt_i);
+        bool usable = IsWindowEnabled(d->hwndItem);
         bg = active ? RGB(26, 68, 120) : RGB(14, 22, 36);
         border = active ? RGB(70, 150, 235) : RGB(35, 52, 78);
         text = active ? RGB(255, 255, 255) : RGB(150, 175, 205);
+        if (!usable) { bg = RGB(14, 18, 26); border = RGB(30, 40, 56); text = RGB(95, 110, 130); }
       } else if (is_primary) {
         bool enabled = IsWindowEnabled(d->hwndItem);
         bg = enabled ? RGB(22, 75, 138) : RGB(16, 24, 38);
@@ -1741,7 +2108,7 @@ LRESULT CALLBACK ProfileManagerProc(HWND w, UINT msg, WPARAM wp, LPARAM lp) {
 
       wchar_t label[160]{};
       GetWindowTextW(d->hwndItem, label, 160);
-      Label(d->hDC, (is_primary || is_lang) ? v->font_bold : v->font_btn, d->rcItem, label, text,
+      Label(d->hDC, (is_primary || is_lang || is_tab) ? v->font_bold : v->font_btn, d->rcItem, label, text,
             DT_CENTER | DT_VCENTER | DT_SINGLELINE);
 
       if (d->itemState & ODS_FOCUS) DrawFocusRect(d->hDC, &d->rcItem);
@@ -1762,6 +2129,16 @@ LRESULT CALLBACK ProfileManagerProc(HWND w, UINT msg, WPARAM wp, LPARAM lp) {
         v->InstallAction();
       } else if (id == 2004) { // Auto-detect
         v->AutoDetectAction();
+      } else if (id == 2100) { // Pestana Perfiles
+        v->SetTab(0);
+      } else if (id == 2101) { // Pestana Mods
+        v->SetTab(1);
+      } else if (ModToggleIndex(id, kMgrModBase) >= 0) { // toggle de mod
+        int mi = ModToggleIndex(id, kMgrModBase);
+        if (ModInstalled(mi)) { SetModEnabled(mi, !ModEnabled(mi)); SaveLanguage(); v->UpdateTexts(); }
+      } else if (ModOptionToggleIndex(id, kMgrOptBase) >= 0) { // opcion de mod
+        int oi = ModOptionToggleIndex(id, kMgrOptBase);
+        if (ModEnabled(ModIndexOfOption(oi))) { SetModOptionValue(oi, !ModOptionValue(oi)); SaveLanguage(); v->UpdateTexts(); }
       } else if (id == IDCANCEL || id == 2) {
         v->done = true;
         DestroyWindow(w);
@@ -1819,6 +2196,32 @@ std::optional<fs::path> RunProfileManager(const fs::path& exe) {
                            805, 26, 85, 26, w, (HMENU)901, nullptr, nullptr);
   v.btn_es = CreateWindowW(L"BUTTON", L"Español", WS_CHILD | WS_VISIBLE | WS_TABSTOP | BS_OWNERDRAW,
                            895, 26, 85, 26, w, (HMENU)902, nullptr, nullptr);
+
+  // Pestanas del gestor: Perfiles / Mods.
+  v.btn_tab_profiles = CreateWindowW(L"BUTTON", Text(L"Perfiles").c_str(), WS_CHILD | WS_VISIBLE | WS_TABSTOP | BS_OWNERDRAW,
+                                     800, 130, 96, 30, w, (HMENU)2100, nullptr, nullptr);
+  v.btn_tab_mods = CreateWindowW(L"BUTTON", Text(L"Mods").c_str(), WS_CHILD | WS_VISIBLE | WS_TABSTOP | BS_OWNERDRAW,
+                                 900, 130, 70, 30, w, (HMENU)2101, nullptr, nullptr);
+
+  // Mods (registro extensible): un toggle por mod y un control por opcion.
+  for (int i = 0; i < ModCount(); ++i) {
+    int row_y = 190 + i * 158;
+    HWND h = CreateWindowW(L"BUTTON", L"", WS_CHILD | WS_VISIBLE | WS_TABSTOP | BS_OWNERDRAW,
+                           790, row_y + 22, 170, 32, w,
+                           (HMENU)(INT_PTR)(kMgrModBase + i), nullptr, nullptr);
+    SendMessageW(h, WM_SETFONT, (WPARAM)v.font_body, TRUE);
+    v.mod_toggles.push_back(h);
+  }
+  for (int m = 0, g = 0; m < ModCount(); ++m) {
+    int row_y = 190 + m * 158;
+    for (int o = 0; o < k_mods[m].option_count; ++o, ++g) {
+      HWND h = CreateWindowW(L"BUTTON", L"", WS_CHILD | WS_VISIBLE | WS_TABSTOP | BS_OWNERDRAW,
+                             330 + o * 240, row_y + 112, 225, 30, w,
+                             (HMENU)(INT_PTR)(kMgrOptBase + g), nullptr, nullptr);
+      SendMessageW(h, WM_SETFONT, (WPARAM)v.font_body, TRUE);
+      v.mod_option_toggles.push_back(h);
+    }
+  }
 
   v.btn_launch = CreateWindowW(L"BUTTON", Text(L"Iniciar perfil").c_str(), WS_CHILD | WS_VISIBLE | WS_TABSTOP | BS_OWNERDRAW,
                                310, 560, 130, 38, w, (HMENU)2001, nullptr, nullptr);

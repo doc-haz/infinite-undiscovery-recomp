@@ -1,0 +1,295 @@
+{
+ "meta": {
+  "agente": "ws4",
+  "ctx": "dialogo"
+ },
+ "strings": [
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "2",
+   "en": "We rest here.",
+   "es": "Descansamos aquí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "4",
+   "en": "We can still go on. It's best if we...",
+   "es": "Aún podemos seguir. Lo mejor es que...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "6",
+   "en": "I'm sorry we're late.",
+   "es": "Siento llegar tarde.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "8",
+   "en": "It's all right. Take a rest.",
+   "es": "No pasa nada. Descansa.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "10",
+   "en": "Thank you, my lord.",
+   "es": "Gracias, mi señor.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "12",
+   "en": "We need to talk.",
+   "es": "Tenemos que hablar.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "14",
+   "en": "What is it?",
+   "es": "¿Qué es?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "16",
+   "en": "I am no longer able to destroy chains as I once could.",
+   "es": "Ya no soy capaz de destruir cadenas como antes.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "18",
+   "en": "Hmmm...Whaaat!?",
+   "es": "Mmm... ¡¿Quéee?!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "20",
+   "en": "But that's a huge problem! What happened!?",
+   "es": "¡Pero eso es un problema enorme! ¡¿Qué ha pasado?!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "22",
+   "en": "The reasons aren't important. Though I tried, I failed in my last attempt.",
+   "es": "Las razones no importan. Aunque lo intenté, fracasé en mi último intento.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "24",
+   "en": "My lord...",
+   "es": "Mi señor...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "26",
+   "en": "From here on, it is not I, but you,who will be key to our strategy.",
+   "es": "De ahora en adelante, la clave de nuestra estrategia no seré yo, sino tú.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "28",
+   "en": "I don't like the sound of that.",
+   "es": "No me gusta cómo suena eso.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "30",
+   "en": "It'll be all right. I'll protect you.",
+   "es": "Todo irá bien. Yo te protegeré.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "32",
+   "en": "Don't try too hard. You just have to be yourself.",
+   "es": "No te esfuerces demasiado. Solo tienes que ser tú mismo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "34",
+   "en": "Then I might run away.",
+   "es": "Entonces puede que huya.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "36",
+   "en": "That's fine.",
+   "es": "Está bien.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "38",
+   "en": "Really!?",
+   "es": "¡¿De verdad?!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "40",
+   "en": "Yes. But...",
+   "es": "Sí. Pero...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "42",
+   "en": "When you find what's important to you, fight for it with your life.",
+   "es": "Cuando encuentres lo que te importa, lucha por ello con tu vida.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "44",
+   "en": "With my life...",
+   "es": "Con mi vida...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "46",
+   "en": "The rite triggered many memories.Those best forgotten, as well as thosethat should never have been forgotten.",
+   "es": "El rito despertó muchos recuerdos. Los que mejor sería olvidar, y los que jamás debieron olvidarse.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "48",
+   "en": "Memories?",
+   "es": "¿Recuerdos?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "50",
+   "en": "I found what's important to me. No matter what happens, I'll protect you...Capell.",
+   "es": "He encontrado lo que me importa. Pase lo que pase, te protegeré... Capell.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "52",
+   "en": "Um... Thank you, my lord.",
+   "es": "Esto... Gracias, mi señor.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "54",
+   "en": "I trust you.",
+   "es": "Confío en ti.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "56",
+   "en": "Capell, what was Lord Sigmund saying to you just now?",
+   "es": "Capell, ¿qué te decía el lord Sigmund ahora mismo?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "58",
+   "en": "Ummm. We were just talking about what to prepare for dinner tonight...",
+   "es": "Estooo. Hablábamos de qué preparar para cenar esta noche...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "60",
+   "en": "Our lord wouldn't discuss such trivial matters.",
+   "es": "Nuestro señor no hablaría de asuntos tan triviales.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "62",
+   "en": "Don't get so big-headed. You were just lucky before.I am the one he relies on, so mind your place.",
+   "es": "No te creas tan importante. Antes solo tuviste suerte. En quien confía es en mí, así que conoce tu lugar.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "64",
+   "en": "Reach Vesplume Tower",
+   "es": "Llega a la Torre Vesplume",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "66",
+   "en": "Reach Vesplume Tower",
+   "es": "Llega a la Torre Vesplume",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "68",
+   "en": "Reach Vesplume Tower",
+   "es": "Llega a la Torre Vesplume",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "70",
+   "en": "It gets real dangerous from here on out.Maybe I can be of service.",
+   "es": "Se vuelve muy peligroso a partir de aquí. Quizá pueda ser útil.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "72",
+   "en": "Just let me know how I can help.",
+   "es": "Dime en qué puedo ayudar.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "74",
+   "en": "I want to rest.",
+   "es": "Quiero descansar.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "76",
+   "en": "I need supplies.",
+   "es": "Necesito provisiones.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "78",
+   "en": "Never mind.",
+   "es": "Da igual.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "80",
+   "en": "I wish you luck.",
+   "es": "Buena suerte.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_4F0A3000_037",
+   "id": "82",
+   "en": "I wish you luck.",
+   "es": "Buena suerte.",
+   "ctx": "dialogo"
+  }
+ ]
+}

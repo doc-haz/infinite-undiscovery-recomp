@@ -1,0 +1,57 @@
+{
+ "meta": {
+  "agente": "ws4b",
+  "ctx": "dialogo"
+ },
+ "strings": [
+  {
+   "stem": "d1_ud2_198FA800_008",
+   "id": "2",
+   "en": "Valan xl,2",
+   "es": "Valan x1,2",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_198FA800_008",
+   "id": "4",
+   "en": "Mr Fish x0,8",
+   "es": "Mr. Fish x0,8",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_198FA800_008",
+   "id": "6",
+   "en": "Lizard Man (l,3)",
+   "es": "Hombre lagarto (1,3)",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_198FA800_008",
+   "id": "8",
+   "en": "Mr Fish x2,0",
+   "es": "Mr. Fish x2,0",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_198FA800_008",
+   "id": "10",
+   "en": "Manage the party.",
+   "es": "Gestionar el grupo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_198FA800_008",
+   "id": "11",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_198FA800_008",
+   "id": "13",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  }
+ ]
+}

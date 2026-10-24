@@ -1,0 +1,259 @@
+{
+ "meta": {
+  "metodo": "mt-glosario"
+ },
+ "strings": [
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "2",
+   "en": "Welcome to Castle Valette.",
+   "es": "Bienvenido al Castillo Valette.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "4",
+   "en": "Saranda!",
+   "es": "¡Saranda!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "6",
+   "en": "Why so angry? Look at you.Your cute little face is all mangled.",
+   "es": "¿Por qué tanta rabia? Mírate. Tu linda carita está destrozada.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "8",
+   "en": "You killed my father.",
+   "es": "Mataste a mi padre.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "10",
+   "en": "No knight of the Order in tow today?",
+   "es": "¿Hoy sin ningún caballero de la Orden?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "12",
+   "en": "I'm the knight of the Order.Disappointed?",
+   "es": "Yo soy el caballero de la Orden. ¿Decepcionada?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "14",
+   "en": "Move!",
+   "es": "¡Aparta!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "16",
+   "en": "Stay calm.",
+   "es": "Cálmate.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "18",
+   "en": "But!",
+   "es": "¡Pero!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "20",
+   "en": "Stay calm and wipe her out.",
+   "es": "Cálmate y acaba con ella.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "22",
+   "en": "Dominica...",
+   "es": "Dominica...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "26",
+   "en": "All right. My back is to the wall...Ready to begin?",
+   "es": "Muy bien. Estoy contra las cuerdas... ¿Empezamos?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "28",
+   "en": "You're good...",
+   "es": "Eres buena...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "30",
+   "en": "But I won't let you pass!",
+   "es": "¡Pero no te dejaré pasar!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "32",
+   "en": "Get out of our way!",
+   "es": "¡Apártate de nuestro camino!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "34",
+   "en": "Everything...Every single thing I do is for Leonid...",
+   "es": "Todo... Absolutamente todo lo que hago es por Leonid...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "36",
+   "en": "If I can help him reach his goal...He said that he needed me...I did it for him...",
+   "es": "Si puedo ayudarle a alcanzar su meta... Dijo que me necesitaba... Lo hice por él...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "38",
+   "en": "All for Leonid...",
+   "es": "Todo por Leonid...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "40",
+   "en": "That's the Ashen Chain.",
+   "es": "Esa es la Cadena de Ceniza.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "42",
+   "en": "Second to last!",
+   "es": "¡La penúltima!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "44",
+   "en": "What's that?",
+   "es": "¿Qué es eso?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "46",
+   "en": "It was a trap!",
+   "es": "¡Era una trampa!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "48",
+   "en": "We're in trouble. We have to find a way out!",
+   "es": "Estamos en apuros. ¡Tenemos que encontrar una salida!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "52",
+   "en": "So this is Castle Valette?I never imagined most of it would be underground.",
+   "es": "¿Así que este es el Castillo Valette? Nunca imaginé que la mayor parte estuviera bajo tierra.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "54",
+   "en": "It's larger than I expected. I hope we can find the chain soon.",
+   "es": "Es más grande de lo que esperaba. Espero que encontremos pronto la cadena.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "56",
+   "en": "We have to split up.Our first priority is locating the chain.",
+   "es": "Tenemos que separarnos. Nuestra prioridad es localizar la cadena.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "58",
+   "en": "Destroy the Ashen Chain",
+   "es": "Destruye la Cadena de Ceniza",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "60",
+   "en": "Destroy the Ashen Chain",
+   "es": "Destruye la Cadena de Ceniza",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "62",
+   "en": "Destroy the Ashen Chain",
+   "es": "Destruye la Cadena de Ceniza",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "64",
+   "en": "The crimson flame engulfs the alabaster bird,Which ever-hungry feeds on azure skies,Clouds that cover amber lands, sealing in,Onyx seas whose waters quench wild fire.Repeat the cycle to weave the path together.",
+   "es": "La llama carmesí devora al ave de alabastro, que hambrienta se nutre de cielos azur; nubes que cubren tierras de ámbar, sellando; mares de ónice cuyas aguas apagan el fuego salvaje. Repite el ciclo para tejer el camino.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "66",
+   "en": "Strange Writing",
+   "es": "Escritura extraña",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "68",
+   "en": "The road lined in crimson spirals to demise.Feed your desire following the azure way.",
+   "es": "El camino ribeteado de carmesí en espiral hacia la perdición. Alimenta tu deseo siguiendo la senda azur.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "70",
+   "en": "Strange Writing",
+   "es": "Escritura extraña",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "72",
+   "en": "The road lined in crimson spirals to demise.Feed your desire following the azure way.The future is framed in emerald light.",
+   "es": "El camino ribeteado de carmesí en espiral hacia la perdición. Alimenta tu deseo siguiendo la senda azur. El futuro se enmarca en luz esmeralda.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "74",
+   "en": "Strange Writing",
+   "es": "Escritura extraña",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_8E200800_046",
+   "id": "76",
+   "en": "Door",
+   "es": "Puerta",
+   "ctx": "dialogo"
+  }
+ ]
+}

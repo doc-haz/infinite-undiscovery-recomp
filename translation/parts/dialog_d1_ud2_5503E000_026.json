@@ -1,0 +1,595 @@
+{
+ "meta": {
+  "metodo": "mt-glosario"
+ },
+ "strings": [
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "2",
+   "en": "It was seven years ago when the Dreadknight toppled the Kingdom ofCasandra and established the group known as the Order of Chains.",
+   "es": "Hace siete años, el Caballero Temible derrocó el Reino de Casandra y fundó el grupo conocido como la Orden de las Cadenas.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "4",
+   "en": "Since then, they've been tying chains down all over theworld in an effort to ensnare the moon.",
+   "es": "Desde entonces, han atado cadenas por todo el mundo para atrapar la luna.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "6",
+   "en": "Whenever there is a chain laid, devastation soon follows.The land is plagued by monsters and disease.",
+   "es": "Siempre que se coloca una cadena, pronto llega la devastación. La tierra se ve plagada de monstruos y enfermedades.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "8",
+   "en": "Hey, even I know that much.",
+   "es": "Eh, hasta yo sé eso.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "10",
+   "en": "Armies have their hands full just trying to maintain order.People are paralyzed by fear, unable to go on living their lives.",
+   "es": "Los ejércitos apenas pueden mantener el orden. La gente está paralizada por el miedo, incapaz de seguir con su vida.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "14",
+   "en": "But...",
+   "es": "Pero...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "16",
+   "en": "The Dreadknight... Leonid.",
+   "es": "El Caballero Temible... Leonid.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "18",
+   "en": "Him!?",
+   "es": "¡¿Él?!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "20",
+   "en": "What kept you, Liberator?",
+   "es": "¿Qué te ha retrasado, Libertador?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "22",
+   "en": "Was it too high for you? But this tower doesn't even come close to reaching...",
+   "es": "¿Te pareció demasiado alto? Pero esta torre ni se acerca a...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "24",
+   "en": "...the immaculate throne of the One. It is far out of reach for all men, be they aristo or not.",
+   "es": "...el trono inmaculado del Único. Está muy fuera del alcance de todos los hombres, sean aristos o no.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "26",
+   "en": "To kneel before the One requires extraordinary effortand time... To steal my time is to blaspheme Him.Do not keep me waiting!",
+   "es": "Arrodillarse ante el Único requiere un esfuerzo y un tiempo extraordinarios... Robarme el tiempo es blasfemar contra Él. ¡No me hagas esperar!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "28",
+   "en": "You are only the champion of men. I was chosen by the One.There is no comparison. I shall give you one final chance tosave yourself. Kneel before me here.",
+   "es": "No eres más que el campeón de los hombres. Yo fui elegido por el Único. No hay comparación. Te daré una última oportunidad de salvarte. Arrodíllate ante mí aquí.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "30",
+   "en": "You're nothing but a mad man raving.",
+   "es": "No eres más que un loco desvariando.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "32",
+   "en": "I am infallible.",
+   "es": "Soy infalible.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "34",
+   "en": "I will sacrifice you to the moon! It is as He desires.",
+   "es": "¡Te sacrificaré a la luna! Es lo que Él desea.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "36",
+   "en": "I shall strike you down for the sake of this world!",
+   "es": "¡Te abatiré por el bien de este mundo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "38",
+   "en": "Sorry, can't let you spoil all the fun!",
+   "es": "Lo siento, ¡no puedo dejar que me agües la fiesta!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "40",
+   "en": "It's you again.",
+   "es": "Tú otra vez.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "42",
+   "en": "Oh, don't be so dull. Why don't you loosen up a bit!",
+   "es": "Vamos, no seas tan soso. ¡Relájate un poco!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "44",
+   "en": "Men are absolutely useless.",
+   "es": "Los hombres son absolutamente inútiles.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "46",
+   "en": "Sigmund!",
+   "es": "¡Sigmund!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "50",
+   "en": "Hey!",
+   "es": "¡Eh!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "52",
+   "en": "Capell, destroy the chain!",
+   "es": "¡Capell, destruye la cadena!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "54",
+   "en": "Uh...I...I...",
+   "es": "Eh... yo... yo...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "56",
+   "en": "Capell!",
+   "es": "¡Capell!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "58",
+   "en": "Y-yes!",
+   "es": "¡S-sí!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "60",
+   "en": "This is the end, Leonid.",
+   "es": "Este es el final, Leonid.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "62",
+   "en": "If it is the end you seek, then I shall not deny you its embrace!",
+   "es": "Si buscas el final, ¡no te negaré su abrazo!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "68",
+   "en": "The power I have saved since that fated day... A shame I must waste it.",
+   "es": "El poder que he guardado desde aquel día fatídico... Lástima tener que desperdiciarlo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "70",
+   "en": "H-how did he...",
+   "es": "¿C-cómo ha...?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "72",
+   "en": "Hm?",
+   "es": "¿Hm?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "74",
+   "en": "The Liberator's shadow? Or perhaps...",
+   "es": "¿La sombra del Libertador? O quizá...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "76",
+   "en": "Stay away from him!",
+   "es": "¡Aléjate de él!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "78",
+   "en": "You regard him quite highly... Amusing.",
+   "es": "Lo valoras mucho... Divertido.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "80",
+   "en": "You are merely dregs. I have lost all interest in you...but I will still...",
+   "es": "No eres más que posos. He perdido todo interés en ti... pero aun así...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "82",
+   "en": "No...no...no!",
+   "es": "¡No... no... no!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "84",
+   "en": "Veros the Crimson! Grant me your power!",
+   "es": "¡Veros el Carmesí! ¡Concédeme tu poder!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "86",
+   "en": "Think again!",
+   "es": "¡Piénsalo bien!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "88",
+   "en": "I bid you farewell.",
+   "es": "Os digo adiós.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "90",
+   "en": "Out of my way!",
+   "es": "¡Aparta!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "94",
+   "en": "What!?",
+   "es": "¡¿Qué?!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "96",
+   "en": "I told you, Capell...I will always protect you.",
+   "es": "Te lo dije, Capell... siempre te protegeré.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "98",
+   "en": "Sigmund... Sigmund!",
+   "es": "¡Sigmund... Sigmund!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "100",
+   "en": "Don't rely on the power of the moon. You can become strong by being who you are.",
+   "es": "No dependas del poder de la luna. Puedes volverte fuerte siendo quien eres.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "102",
+   "en": "Being who I am? What do you mean?",
+   "es": "¿Siendo quien soy? ¿Qué quieres decir?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "104",
+   "en": "Capell, protect this world.",
+   "es": "Capell, protege este mundo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "106",
+   "en": "Siiigmuuund!",
+   "es": "¡Siiigmuuund!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "108",
+   "en": "Lord Sigmund!",
+   "es": "¡Lord Sigmund!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "110",
+   "en": "But...but... He can't...",
+   "es": "Pero... pero... No puede...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "114",
+   "en": "Sigmund!",
+   "es": "¡Sigmund!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "118",
+   "en": "Hey, where'd he go?",
+   "es": "Eh, ¿adónde ha ido?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "120",
+   "en": "I'm asking ya, where is Sigmund?",
+   "es": "Te lo pregunto, ¿dónde está Sigmund?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "124",
+   "en": "Enough! Be quiet!",
+   "es": "¡Basta! ¡Cállate!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "126",
+   "en": "What!?",
+   "es": "¡¿Qué?!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "128",
+   "en": "If only I were more powerful and strong enough to...",
+   "es": "Si al menos fuera más poderoso y fuerte para...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "130",
+   "en": "My dearest Sigmund...there was so much moreI wanted to...to do for you...",
+   "es": "Mi querido Sigmund... quería hacer tantas cosas más... por ti...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "132",
+   "en": "Michelle?",
+   "es": "¿Michelle?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "134",
+   "en": "Where did Sigmund go?",
+   "es": "¿Adónde ha ido Sigmund?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "136",
+   "en": "Hey, what's going on?",
+   "es": "Eh, ¿qué pasa?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "138",
+   "en": "So it was the kid you really wanted to protect.",
+   "es": "Así que el chico era a quien de verdad querías proteger.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "140",
+   "en": "Then, I will make sure...",
+   "es": "Entonces, me aseguraré...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "142",
+   "en": "And so it is carried on...",
+   "es": "Y así continúa...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "144",
+   "en": "Time to think long and hard about what you need to do now.",
+   "es": "Es hora de pensar muy bien qué debes hacer ahora.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "146",
+   "en": "What next...",
+   "es": "¿Y ahora qué...?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "148",
+   "en": "Listen.",
+   "es": "Escuchad.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "150",
+   "en": "The one who died today was merely the musician, Capell.Sigmund the Liberator is still here standing beside you!Our journey is far from over! There are still chains to be destroyed!Our lives have been spared, and we cannot waste this chance.We mustn't stop, even if it means deceiving the entire world!",
+   "es": "El que murió hoy era solo el músico, Capell. ¡Sigmund el Libertador sigue aquí, a vuestro lado! ¡Nuestro viaje no ha hecho más que empezar! ¡Aún queda destruir cadenas! Nos han perdonado la vida y no podemos desperdiciar esta ocasión. ¡No debemos parar, aunque signifique engañar al mundo entero!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "152",
+   "en": "Hey...",
+   "es": "Oye...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "154",
+   "en": "This isn't funny, Capell. Don't you see...",
+   "es": "No tiene gracia, Capell. ¿No lo ves...?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "156",
+   "en": "I'm not joking.",
+   "es": "No bromeo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "158",
+   "en": "Well, this world is still in need of a liberator.",
+   "es": "Bueno, este mundo aún necesita un libertador.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "160",
+   "en": "Eu-Eugene!",
+   "es": "¡Eu-Eugene!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "162",
+   "en": "Wait a minute!",
+   "es": "¡Espera un momento!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "164",
+   "en": "Are you sure?",
+   "es": "¿Estás seguro?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "166",
+   "en": "This means you can't run anymore.",
+   "es": "Esto significa que ya no puedes huir.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "168",
+   "en": "I know.",
+   "es": "Lo sé.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "170",
+   "en": "Good.",
+   "es": "Bien.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "172",
+   "en": "All right then. Let's leave here at once.",
+   "es": "Muy bien. Salgamos de aquí de inmediato.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "174",
+   "en": "But there's no way he can replace Sigmund.",
+   "es": "Pero no hay forma de que sustituya a Sigmund.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "176",
+   "en": "Obtained Sigmund's pendant!",
+   "es": "¡Obtienes el colgante de Sigmund!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "178",
+   "en": "Aya",
+   "es": "Aya",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "180",
+   "en": "I'll help you, Capell!",
+   "es": "¡Te ayudaré, Capell!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "182",
+   "en": "Edward",
+   "es": "Edward",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_5503E000_026",
+   "id": "184",
+   "en": "Stay out of Lord Sigmund's way!",
+   "es": "¡No estorbes al lord Sigmund!",
+   "ctx": "dialogo"
+  }
+ ]
+}

@@ -1,0 +1,162 @@
+{
+ "meta": {
+  "agente": "ws4b",
+  "ctx": "dialogo"
+ },
+ "strings": [
+  {
+   "stem": "d1_ud2_7B2EA000_042",
+   "id": "2",
+   "en": "Whoa! That was close!",
+   "es": "¡Vaya! ¡Eso ha estado cerca!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_7B2EA000_042",
+   "id": "4",
+   "en": "All of this for her silly obsession.",
+   "es": "Todo esto por su estúpida obsesión.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_7B2EA000_042",
+   "id": "6",
+   "en": "But to have someone that meant so much to her...I feel a little jealous.",
+   "es": "Pero tener a alguien que significara tanto para ella... me da un poco de envidia.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_7B2EA000_042",
+   "id": "8",
+   "en": "She's got bad taste tho'.",
+   "es": "Aunque tiene mal gusto.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_7B2EA000_042",
+   "id": "10",
+   "en": "We all have our own way of expressinglove to those we hold dear.",
+   "es": "Todos tenemos nuestra forma de expresar el amor a quienes apreciamos.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_7B2EA000_042",
+   "id": "12",
+   "en": "We need to hurry. The moon is getting closer.",
+   "es": "Tenemos que darnos prisa. La luna se acerca.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_7B2EA000_042",
+   "id": "18",
+   "en": "Now!",
+   "es": "¡Ahora!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_7B2EA000_042",
+   "id": "20",
+   "en": "Capell, are you okay?",
+   "es": "Capell, ¿estás bien?",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_7B2EA000_042",
+   "id": "22",
+   "en": "Yeah, don't worry.We have to hurry!",
+   "es": "Sí, no te preocupes. ¡Tenemos que darnos prisa!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_7B2EA000_042",
+   "id": "23",
+   "en": "-",
+   "es": "-",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_7B2EA000_042",
+   "id": "24",
+   "en": "...",
+   "es": "...",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_7B2EA000_042",
+   "id": "26",
+   "en": "The party is reunited!",
+   "es": "¡El grupo se ha reunido!",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_7B2EA000_042",
+   "id": "28",
+   "en": "Manage the party.",
+   "es": "Gestionar el grupo.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_7B2EA000_042",
+   "id": "29",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_7B2EA000_042",
+   "id": "31",
+   "en": "blank",
+   "es": "vacío",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_7B2EA000_042",
+   "id": "34",
+   "en": "It gets real dangerous from here on out.Maybe I can be of service.",
+   "es": "Se vuelve muy peligroso a partir de aquí. Quizá pueda ser útil.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_7B2EA000_042",
+   "id": "36",
+   "en": "Just let me know how I can help.",
+   "es": "Dime en qué puedo ayudar.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_7B2EA000_042",
+   "id": "38",
+   "en": "I want to rest.",
+   "es": "Quiero descansar.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_7B2EA000_042",
+   "id": "40",
+   "en": "I need supplies.",
+   "es": "Necesito provisiones.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_7B2EA000_042",
+   "id": "42",
+   "en": "Never mind.",
+   "es": "Da igual.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_7B2EA000_042",
+   "id": "44",
+   "en": "I wish you luck.",
+   "es": "Buena suerte.",
+   "ctx": "dialogo"
+  },
+  {
+   "stem": "d1_ud2_7B2EA000_042",
+   "id": "46",
+   "en": "I wish you luck.",
+   "es": "Buena suerte.",
+   "ctx": "dialogo"
+  }
+ ]
+}

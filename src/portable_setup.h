@@ -18,6 +18,14 @@ void Initialize(const fs::path& exe);
 void SaveLanguage();
 bool Spanish();
 void SetSpanish(bool value);
+// Mods (persistidos en setup.json; los lee el hook en runtime).  EsTranslation/
+// EsTextures devuelven el valor EFECTIVO (mod activado && opcion activada).
+bool EsTranslation();
+bool EsTextures();
+bool EsSelftest();
+void SetEsTranslation(bool value);
+void SetEsTextures(bool value);
+void SetEsSelftest(bool value);
 bool IsUndubSubtitleWarningDismissed();
 void SetUndubSubtitleWarningDismissed(bool value);
 std::string Text(const std::string& spanish);
